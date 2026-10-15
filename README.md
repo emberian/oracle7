@@ -17,13 +17,15 @@ code: the admitted fold chain up to head `oracle_release_runtime_w540` (317 fold
 research files and the release hashes. The stores stay on Hugging Face.
 
 ```bash
-pip install -U huggingface_hub
-huggingface-cli download psiloceyeben/oracle7 --local-dir oracle7 && cd oracle7
+pip install huggingface_hub
+hf download psiloceyeben/oracle7 --local-dir oracle7
+cd oracle7
 pip install -r requirements.txt
 python oracle7.py "Who wrote Leaves of Grass?"
-python oracle7.py --workbench          # the local Workbench in your browser
-python oracle7.py verify --chain       # check this install against its published hashes and their Solana anchor
+python oracle7.py --workbench
 ```
+
+One command per line, so it works the same in PowerShell, bash and zsh. For the slim release, download `psiloceyeben/oracle7-slim` instead. A virtual environment (`python -m venv oracle7-env`) keeps its packages apart from your other projects.
 
 **Measured on the release as shipped** (each sealed test written and hashed before the head was built, run once):
 
