@@ -1,0 +1,539 @@
+{
+ "summary": {
+  "runtime": "oracle_release_runtime_w536",
+  "turns": 49,
+  "handled": 33,
+  "handled_rate": 0.6735,
+  "right": 28,
+  "answered": 36,
+  "precision_on_answered": 0.7778,
+  "false_yes": 0,
+  "follow_rate": 0.7,
+  "totals": {
+   "right": 28,
+   "missed": 8,
+   "wrong": 8,
+   "handled": 3,
+   "kept": 2
+  },
+  "by_kind": {
+   "fact": {
+    "right": 10,
+    "missed": 1,
+    "wrong": 2
+   },
+   "follow": {
+    "right": 14,
+    "missed": 2,
+    "wrong": 4
+   },
+   "multi": {
+    "wrong": 1,
+    "right": 1
+   },
+   "number": {
+    "right": 3,
+    "wrong": 1,
+    "missed": 5
+   },
+   "social": {
+    "handled": 3
+   },
+   "decline": {
+    "kept": 2
+   }
+  }
+ },
+ "items": [
+  {
+   "d": 0,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed Throne of Blood?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND>VERIFY",
+   "reply": "Akira Kurosawa. Originally, this scene was longer, but Kurosawa cut several shots of trees from the film because he was unimpressed by them."
+  },
+  {
+   "d": 0,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-directors>directors",
+   "reply": "23 March 1910. From the Wikidata relation store: Akira Kurosawa (Q8006) - year of birth (P569) - 23 March 1910. [rel-directors]"
+  },
+  {
+   "d": 0,
+   "t": 2,
+   "kind": "follow",
+   "q": "When did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-directors>directors",
+   "reply": "6 September 1998. From the Wikidata relation store: Akira Kurosawa (Q8006) - year of death (P570) - 6 September 1998. [rel-directors]"
+  },
+  {
+   "d": 1,
+   "t": 0,
+   "kind": "fact",
+   "q": "What is the capital of Slovenia, the country?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "exact_router>LINK>ROUTE:capital|*>RELATE:P36>AGREE>READ",
+   "reply": "[ev:direct] Ljubljana. From the Wikidata relation store: Slovenia (Q215) - seat of government (P36) - Ljubljana (Q437)."
+  },
+  {
+   "d": 1,
+   "t": 1,
+   "kind": "follow",
+   "q": "And its currency?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:currency>READ>FRAME>LINK>RELATE:fwd:P38>CHECK:P38>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Euro. Slovenia, officially the Republic of Slovenia, is a country in Central Europe. [enwiki_c0522cb72900d5bcafa73245] (typed relations: wd:Q215 P38 wd:Q4916)"
+  },
+  {
+   "d": 1,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "Europe. Slovenia, officially the Republic of Slovenia, is a country in Central Europe."
+  },
+  {
+   "d": 2,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who composed the opera Mignon?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Ambroise Thomas. Mignon is an 1866 opéra comique (or opera in its second version) in three acts by Ambroise Thomas. [enwiki_daeaf7728888a8cb9b76f934] (typed relations: wd:Q657595 P86 wd:Q297717)"
+  },
+  {
+   "d": 2,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "family_precedence:low_credit|chat:resolved>deliberation:where",
+   "reply": "The route that answered this kind of question has been wrong too often when checked, and my relation records can't confirm it, so I won't give that answer."
+  },
+  {
+   "d": 2,
+   "t": 2,
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-composers>composers",
+   "reply": "1896. From the Wikidata relation store: Ambroise Thomas (Q297717) - year of death (P570) - 1896. [rel-composers]"
+  },
+  {
+   "d": 3,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet does the moon Titania orbit?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Uranus. From the Wikidata relation store: Titania (Q3322) - star (P397) - Uranus (Q324). [rel-moons]"
+  },
+  {
+   "d": 3,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who discovered Titania?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-asteroids>asteroids",
+   "reply": "August Kopff. From the Wikidata relation store: 593 Titania (Q155738) - inventor or discoverer (P61) - August Kopff (Q57432). [rel-asteroids]"
+  },
+  {
+   "d": 3,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Heidelberg. Kopff studied and worked in Heidelberg, getting his PhD there in 1906 and he then joined the Humboldt University of Berlin where he became the Director of the Institute for Astronomical Calculation. [enwiki_aecfa7b30380a921c1617e98] (typed relations: wd:Q57432 P19 wd:Q2966)"
+  },
+  {
+   "d": 4,
+   "t": 0,
+   "kind": "multi",
+   "q": "Who wrote Daniel Deronda, and who wrote Cranford?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-novels>novels",
+   "reply": "George Eliot. From the Wikidata relation store: Daniel Deronda (Q552238) - written by (P50) - George Eliot (Q131333). [rel-novels]"
+  },
+  {
+   "d": 5,
+   "t": 0,
+   "kind": "number",
+   "q": "What is the mass of 9 litres of sea water in kg?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 9.225 kg (m = ρ·V = 1025 kg/m³ × 0.009 m³ for seawater; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 5,
+   "t": 1,
+   "kind": "number",
+   "q": "What does that weigh in newtons?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 9.225 kg (m = ρ·V = 1025 kg/m³ × 0.009 m³ for seawater; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 6,
+   "t": 0,
+   "kind": "number",
+   "q": "A cylindrical tank 0.6 m across and 1.2 m tall is full of water. What is the mass of the water in kg?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:densities-r2>underspecified",
+   "reply": "I need an amount of water (a volume for its mass, or a mass for its volume); I won't assume one. [densities-r2]"
+  },
+  {
+   "d": 6,
+   "t": 1,
+   "kind": "number",
+   "q": "How much does that water weigh in newtons?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"that\" refer to? Nothing earlier in this conversation names it. Tell me the name."
+  },
+  {
+   "d": 7,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who founded Toyota Motor Corporation?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:fwd:P112>CHECK:P112>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Kiichirō Toyoda. It was founded by Kiichiro Toyoda and incorporated on August 28, 1937. [enwiki_ebab61377a7555aed71f6593] (typed relations: wd:Q53268 P112 wd:Q358556)"
+  },
+  {
+   "d": 7,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was it founded?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-brands>brands",
+   "reply": "28 August 1937. From the Wikidata relation store: Toyota (Q53268) - year written (P571) - 28 August 1937. [rel-brands]"
+  },
+  {
+   "d": 7,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where is it headquartered?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>deliberation:where",
+   "reply": "[ev:direct] Their North American headquarters are in Plano, Texas. [simplewiki_8f60a7d43d5cbf46f7e03d74]"
+  },
+  {
+   "d": 8,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who was the architect of the Woolworth Building?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-skyscrapers>skyscrapers",
+   "reply": "Cass Gilbert. From the Wikidata relation store: Woolworth Building (Q217652) - architecture firm (P84) - Cass Gilbert (Q464603). [rel-skyscrapers]"
+  },
+  {
+   "d": 8,
+   "t": 1,
+   "kind": "follow",
+   "q": "When did it open?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-skyscrapers>skyscrapers",
+   "reply": "24 April 1913. From the Wikidata relation store: Woolworth Building (Q217652) - opening date (P1619) - 24 April 1913. [rel-skyscrapers]"
+  },
+  {
+   "d": 8,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which country is it in?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>READ>FRAME>LINK>RELATE:fwd:P17>CHECK:P17>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] United States. The Woolworth Building is a residential building and early skyscraper at 233 Broadway in the Tribeca neighborhood of Lower Manhattan in New York City, United States. [enwiki_5b064515044234c427f20fbe] (typed relations: wd:Q217652 P17 wd:Q30)"
+  },
+  {
+   "d": 9,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which country did the biathlete Johannes Thingnes Bø represent?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-biathletes>unverified",
+   "reply": "I can't verify the sports nationality of Johannes Thingnes Bø from my records, so I won't guess. [rel-biathletes]"
+  },
+  {
+   "d": 9,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-biathletes>biathletes",
+   "reply": "16 May 1993. From the Wikidata relation store: Johannes Thingnes Bø (Q1334428) - year of birth (P569) - 16 May 1993. [rel-biathletes]"
+  },
+  {
+   "d": 10,
+   "t": 0,
+   "kind": "fact",
+   "q": "Where was the figure skater Evgeni Plushenko born?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "verified:cube>PLACE|factoid:page",
+   "reply": "Russia. Evgeni Plushenko (born 3 November 1982) is a figure skater from Russia. [simplewiki_bd4887761cfce23f740c9265]"
+  },
+  {
+   "d": 10,
+   "t": 1,
+   "kind": "follow",
+   "q": "Which country does he represent?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-skaters>skaters",
+   "reply": "Russia. From the Wikidata relation store: Evgeni Plushenko (Q992223) - sports nationality (P1532) - Russia (Q159). [rel-skaters]"
+  },
+  {
+   "d": 11,
+   "t": 0,
+   "kind": "fact",
+   "q": "Where was Grace Hopper born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_precedence>specialist:rel-engineers>engineers",
+   "reply": "New York City. From the Wikidata relation store: Grace Hopper (Q11641) - POB (P19) - New York City (Q60). [rel-engineers]"
+  },
+  {
+   "d": 11,
+   "t": 1,
+   "kind": "follow",
+   "q": "When did she die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-computerscientists>computerscientists",
+   "reply": "1992. From the Wikidata relation store: Grace Hopper (Q11641) - year of death (P570) - 1992. [rel-computerscientists]"
+  },
+  {
+   "d": 12,
+   "t": 0,
+   "kind": "social",
+   "q": "Good morning!",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "organ:dialogue>social:greet",
+   "reply": "Hello. I'm Oracle7. Ask me about facts, mathematics or code, or just talk; I'll show you where each answer comes from."
+  },
+  {
+   "d": 12,
+   "t": 1,
+   "kind": "decline",
+   "q": "What will I do this weekend?",
+   "verdict": "kept",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"this\" refer to? Nothing earlier in this conversation names it. Tell me the name."
+  },
+  {
+   "d": 12,
+   "t": 2,
+   "kind": "fact",
+   "q": "Which constellation is Rigel in?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "exact_router>LINK>ROUTE:constellation|*>RELATE:P59>AGREE>READ",
+   "reply": "[ev:direct] Orion. From the Wikidata relation store: Rigel (Q12126) - part of constellation (P59) - Orion (Q8860)."
+  },
+  {
+   "d": 12,
+   "t": 3,
+   "kind": "social",
+   "q": "Thanks, that's all.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "arb:act_acknowledge->act:acknowledge",
+   "reply": "[ev:unknown] Noted. The session state is kept; ask on."
+  },
+  {
+   "d": 13,
+   "t": 0,
+   "kind": "number",
+   "q": "A 2.6 kW heater runs 3 hours a day. How many kWh does it use in a week?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "precision_guard:Q2_period|specialist_call>specialist:energy-v3>energy",
+   "reply": "I can't verify an answer to that exact question, so I won't guess."
+  },
+  {
+   "d": 13,
+   "t": 1,
+   "kind": "number",
+   "q": "At $0.20 per kWh, what does that cost?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:energy-v3>underspecified",
+   "reply": "I need the device's wattage and how long it runs to work that out; I won't assume it. [energy-v3]"
+  },
+  {
+   "d": 14,
+   "t": 0,
+   "kind": "multi",
+   "q": "What is the capital of Ireland, and what is 35% of 840?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:and_parts>2 of 2",
+   "reply": "[ev:direct] Dublin. From the Wikidata relation store: Ireland (Q27) - seat of government (P36) - Dublin (Q1761). [ev:derived] 294. Read as percent of: 35% of 840. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives."
+  },
+  {
+   "d": 15,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who wrote The Three Sisters?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Giambattista Basile. From the Wikidata relation store: The Three Sisters (Q7769081) - written by (P50) - Giambattista Basile (Q555291). [rel-novels]"
+  },
+  {
+   "d": 15,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "family_precedence:low_credit|chat:resolved>deliberation:where",
+   "reply": "The route that answered this kind of question has been wrong too often when checked, and my relation records can't confirm it, so I won't give that answer."
+  },
+  {
+   "d": 15,
+   "t": 2,
+   "kind": "follow",
+   "q": "When did he die?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-poets>poets",
+   "reply": "23 February 1632. From the Wikidata relation store: Giambattista Basile (Q555291) - year of death (P570) - 23 February 1632. [rel-poets]"
+  },
+  {
+   "d": 16,
+   "t": 0,
+   "kind": "number",
+   "q": "How much of a 70 g sample of iodine-131 remains after 12 days?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:decay>remaining_amount",
+   "reply": "About 24.83 g remains after 12 days (N = N₀·(1/2)^(t/T) = 70 × 0.3547, iodine-131 (half-life 8.025 days)). [decay]"
+  },
+  {
+   "d": 16,
+   "t": 1,
+   "kind": "number",
+   "q": "And after 36 days?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:receipt",
+   "reply": "No provenance-admitted material on after 36 days is available to summarize. I have received \"And after 36 days?\" as an unnamed shape [vessel:v355184]; if it returns it gains weight, and when I can name it, I will."
+  },
+  {
+   "d": 17,
+   "t": 0,
+   "kind": "number",
+   "q": "What is the mass of 0.3 litres of mercury in kg?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 4.06 kg (m = ρ·V = 1.353e+04 kg/m³ × 0.0003 m³ for mercury; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 17,
+   "t": 1,
+   "kind": "decline",
+   "q": "And of -0.3 litres?",
+   "verdict": "kept",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:receipt",
+   "reply": "No provenance-admitted material on of -0.3 litres is available to summarize. I have received \"And of -0.3 litres?\" as an unnamed shape [vessel:v355186]; if it returns it gains weight, and when I can name it, I will."
+  },
+  {
+   "d": 18,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet is Callisto a moon of?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-moons>moons",
+   "reply": "Jupiter. From the Wikidata relation store: Callisto (Q3134) - star (P397) - Jupiter (Q319). [rel-moons]"
+  },
+  {
+   "d": 18,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who discovered Callisto?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Galileo Galilei. From the Wikidata relation store: Callisto (Q3134) - inventor or discoverer (P61) - Galileo Galilei (Q307). [rel-moons]"
+  },
+  {
+   "d": 18,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Pisa. He was born in Pisa, then part of the Duchy of Florence. [enwiki_369cc838045fa1d69dff1b65] (typed relations: wd:Q307 P19 wd:Q13375)"
+  },
+  {
+   "d": 19,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed Princess Mononoke?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Hayao Miyazaki. Hayao Miyazaki composed the preliminary ideas for what would become Princess Mononoke in 1980 after releasing his first film, The Castle of Cagliostro (1979), drawing sketches of a princess living in the woods with a beast. [enwiki_c761094b466efe37dc105e87] (typed relatio"
+  },
+  {
+   "d": 19,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-directors>directors",
+   "reply": "5 January 1941. From the Wikidata relation store: Hayao Miyazaki (Q55400) - year of birth (P569) - 5 January 1941. [rel-directors]"
+  },
+  {
+   "d": 19,
+   "t": 2,
+   "kind": "social",
+   "q": "Lovely, thank you.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "arb:act_acknowledge->act:acknowledge",
+   "reply": "[ev:unknown] Noted. The session state is kept; ask on."
+  }
+ ]
+}

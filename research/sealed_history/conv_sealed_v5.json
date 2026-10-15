@@ -1,0 +1,385 @@
+[
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed Yojimbo?",
+   "expect": [
+    "Kurosawa"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1910"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did he die?",
+   "expect": [
+    "1998"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "What is the capital of Latvia, the Baltic country?",
+   "expect": [
+    "Riga"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "And its currency?",
+   "expect": [
+    "euro"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "expect": [
+    "Europe"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who composed the opera Lohengrin?",
+   "expect": [
+    "Wagner"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Leipzig"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "expect": [
+    "1883"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet does the moon Oberon orbit?",
+   "expect": [
+    "Uranus"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Oberon?",
+   "expect": [
+    "Herschel"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Hanover",
+    "Hannover"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "Who wrote Persuasion, and who wrote Vanity Fair?",
+   "expect": [
+    [
+     "Austen"
+    ],
+    [
+     "Thackeray"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 12 litres of sea water in kg?",
+   "expect": 12.3,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "What does that weigh in newtons?",
+   "expect": 120.621795,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A cylindrical tank 0.5 m across and 1.4 m tall is full of water. What is the mass of the water in kg?",
+   "expect": 274.8893571891069,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "How much does that water weigh in newtons?",
+   "expect": 2695.7437146785546,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who founded Sony?",
+   "expect": [
+    "Ibuka",
+    "Morita"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was it founded?",
+   "expect": [
+    "1946"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where is it headquartered?",
+   "expect": [
+    "Tokyo",
+    "Minato"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who was the architect of the Empire State Building?",
+   "expect": [
+    "Shreve",
+    "Lamb"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did it open?",
+   "expect": [
+    "1931"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country is it in?",
+   "expect": [
+    "United States"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which country did the biathlete Emil Hegle Svendsen represent?",
+   "expect": [
+    "Norway"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1985"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Where was the figure skater Yuna Kim born?",
+   "expect": [
+    "Bucheon"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country does she represent?",
+   "expect": [
+    "South Korea",
+    "Korea"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Where was the engineer Tommy Flowers born?",
+   "expect": [
+    "London",
+    "Poplar"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did he die?",
+   "expect": [
+    "1998"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "social",
+   "q": "Hi there.",
+   "expect": "social"
+  },
+  {
+   "kind": "decline",
+   "q": "What will I cook tomorrow?",
+   "expect": "decline",
+   "why": "unknowable"
+  },
+  {
+   "kind": "fact",
+   "q": "Which constellation is Aldebaran in?",
+   "expect": [
+    "Taurus"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Thank you, bye.",
+   "expect": "social"
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A 2.2 kW heater runs 3.5 hours a day. How many kWh does it use in a week?",
+   "expect": 53.9,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "At $0.20 per kWh, what does that cost?",
+   "expect": 10.78,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "What is the capital of Portugal, and what is 45% of 620?",
+   "expect": [
+    [
+     "Lisbon"
+    ],
+    [
+     "279"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who wrote The Lady with the Dog?",
+   "expect": [
+    "Chekhov"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Taganrog"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did he die?",
+   "expect": [
+    "1904"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "How much of a 50 g sample of iodine-131 remains after 16 days?",
+   "expect": 12.554532543669616,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "And after 32 days?",
+   "expect": 3.1523257478011906,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 0.25 litres of mercury in kg?",
+   "expect": 3.383,
+   "tol": 0.01
+  },
+  {
+   "kind": "decline",
+   "q": "And of -0.25 litres?",
+   "expect": "decline",
+   "why": "negative volume"
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet is Io a moon of?",
+   "expect": [
+    "Jupiter"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Io?",
+   "expect": [
+    "Galileo"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where did he die?",
+   "expect": [
+    "Arcetri",
+    "Florence"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed Howl's Moving Castle?",
+   "expect": [
+    "Miyazaki"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1941"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Great, thanks.",
+   "expect": "social"
+  }
+ ]
+]

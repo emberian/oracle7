@@ -1,0 +1,385 @@
+[
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed Throne of Blood?",
+   "expect": [
+    "Kurosawa"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1910"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did he die?",
+   "expect": [
+    "1998"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "What is the capital of Slovenia, the country?",
+   "expect": [
+    "Ljubljana"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "And its currency?",
+   "expect": [
+    "euro"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "expect": [
+    "Europe"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who composed the opera Mignon?",
+   "expect": [
+    "Ambroise Thomas",
+    "Thomas"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Metz"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "expect": [
+    "1896"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet does the moon Titania orbit?",
+   "expect": [
+    "Uranus"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Titania?",
+   "expect": [
+    "Herschel"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Hanover",
+    "Hannover"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "Who wrote Daniel Deronda, and who wrote Cranford?",
+   "expect": [
+    [
+     "Eliot"
+    ],
+    [
+     "Gaskell"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 9 litres of sea water in kg?",
+   "expect": 9.225,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "What does that weigh in newtons?",
+   "expect": 90.46634624999999,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A cylindrical tank 0.6 m across and 1.2 m tall is full of water. What is the mass of the water in kg?",
+   "expect": 339.29200658769764,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "How much does that water weigh in newtons?",
+   "expect": 3327.317956403245,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who founded Toyota Motor Corporation?",
+   "expect": [
+    "Kiichiro Toyoda",
+    "Toyoda"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was it founded?",
+   "expect": [
+    "1937"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where is it headquartered?",
+   "expect": [
+    "Toyota"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who was the architect of the Woolworth Building?",
+   "expect": [
+    "Cass Gilbert",
+    "Gilbert"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did it open?",
+   "expect": [
+    "1913"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country is it in?",
+   "expect": [
+    "United States"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which country did the biathlete Johannes Thingnes Bø represent?",
+   "expect": [
+    "Norway"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1993"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Where was the figure skater Evgeni Plushenko born?",
+   "expect": [
+    "Solnechny",
+    "Solnechnyy"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country does he represent?",
+   "expect": [
+    "Russia"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Where was Grace Hopper born?",
+   "expect": [
+    "New York"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did she die?",
+   "expect": [
+    "1992"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "social",
+   "q": "Good morning!",
+   "expect": "social"
+  },
+  {
+   "kind": "decline",
+   "q": "What will I do this weekend?",
+   "expect": "decline",
+   "why": "unknowable"
+  },
+  {
+   "kind": "fact",
+   "q": "Which constellation is Rigel in?",
+   "expect": [
+    "Orion"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Thanks, that's all.",
+   "expect": "social"
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A 2.6 kW heater runs 3 hours a day. How many kWh does it use in a week?",
+   "expect": 54.6,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "At $0.20 per kWh, what does that cost?",
+   "expect": 10.92,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "What is the capital of Ireland, and what is 35% of 840?",
+   "expect": [
+    [
+     "Dublin"
+    ],
+    [
+     "294"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who wrote The Three Sisters?",
+   "expect": [
+    "Chekhov"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Taganrog"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did he die?",
+   "expect": [
+    "1904"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "How much of a 70 g sample of iodine-131 remains after 12 days?",
+   "expect": 24.82966995894078,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "And after 36 days?",
+   "expect": 3.1240412562368074,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 0.3 litres of mercury in kg?",
+   "expect": 4.06,
+   "tol": 0.01
+  },
+  {
+   "kind": "decline",
+   "q": "And of -0.3 litres?",
+   "expect": "decline",
+   "why": "negative volume"
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet is Callisto a moon of?",
+   "expect": [
+    "Jupiter"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Callisto?",
+   "expect": [
+    "Galileo",
+    "Marius"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Pisa",
+    "Gunzenhausen"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed Princess Mononoke?",
+   "expect": [
+    "Miyazaki"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1941"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Lovely, thank you.",
+   "expect": "social"
+  }
+ ]
+]

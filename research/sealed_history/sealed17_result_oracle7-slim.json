@@ -1,0 +1,1406 @@
+{
+ "variant": "slim",
+ "tip": "oracle_release_runtime_w538",
+ "sha256": "1a96d132de45b4253da4cf5817940267fac619faf62f9c1d9927d4e7bb1b702f",
+ "started": "2026-10-14T01:43:58Z",
+ "items": [
+  {
+   "q": "Who wrote Lord Jim?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Joseph Conrad. Lord Jim is a novel by Joseph Conrad.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Cannery Row?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "John Steinbeck. From the Wikidata relation store: Cannery Row (Q1216542) - written by (P50) - John Steinbeck (Q39212). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Love in the Time of Cholera?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Gabriel García Márquez. Love in the Time of Cholera is a book written by Nobel Prize-winning author Gabriel García Márquez.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Lolita?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Vladimir Nabokov. Lolita is a novel by Vladimir Nabokov.",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Stranger, the 1942 novel by a French author?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Albert Camus. From the Wikidata relation store: The Stranger (Q163297) - written by (P50) - Albert Camus (Q34670). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Oliver Twist?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-novels>novels",
+   "reply": "Charles Dickens. From the Wikidata relation store: Oliver Twist (Q164974) - written by (P50) - Charles Dickens (Q5686). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Castle, the 1926 novel?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-lawyers>lawyers",
+   "reply": "Franz Kafka. From the Wikidata relation store: Franz Kafka (Q905) - wrote (P800) - The Castle (Q682733). [rel-lawyers]",
+   "format": []
+  },
+  {
+   "q": "Who is the author of Twenty Years After?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Alexandre Dumas. From the Wikidata relation store: Twenty Years After (Q1639633) - written by (P50) - Alexandre Dumas (Q38337). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who is the author of The Hunchback of Notre-Dame?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Victor Hugo. From the Wikidata relation store: The Hunchback of Notre Dame (Q191380) - written by (P50) - Victor Hugo (Q535). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who is the author of The Wind in the Willows?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author_of>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Kenneth Grahame. The Wind in the Willows is a children's book by Scottish author Kenneth Grahame.",
+   "format": []
+  },
+  {
+   "q": "Who painted Lady with an Ermine?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:creator>READ>FRAME>LINK>RELATE:fwd:P170>CHECK:P170>BIND>EXPAND>VERIFY",
+   "reply": "Leonardo da Vinci. Lady with an Ermine (Portrait of Cecilia Gallerani) is a painting by Leonardo da Vinci.",
+   "format": []
+  },
+  {
+   "q": "Who painted Woman with a Parasol?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-painters>painters",
+   "reply": "Claude Monet. From the Wikidata relation store: Claude Monet (Q296) - wrote (P800) - Woman with a Parasol – Madame Monet and Her Son (Q2395218). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who painted The Descent from the Cross in Antwerp Cathedral?",
+   "group": "knowledge",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-painters>painters",
+   "reply": "Francesco Ruviali. From the Wikidata relation store: Francesco Ruviali (Q3081071) - wrote (P800) - Descent from the Cross (Q13365963). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who painted Impression, Sunrise?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-painters>painters",
+   "reply": "Claude Monet. From the Wikidata relation store: Claude Monet (Q296) - wrote (P800) - Impression, Sunrise (Q328523). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who painted The Sistine Madonna?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-painters>painters",
+   "reply": "Raphael. From the Wikidata relation store: Raphael (Q5597) - wrote (P800) - Sistine Madonna (Q328079). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who composed the opera Nabucco?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "Giuseppe Verdi. Nabucco is an opera by Giuseppe Verdi.",
+   "format": []
+  },
+  {
+   "q": "Who composed the opera Tannhäuser?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-composers>composers",
+   "reply": "Richard Wagner. From the Wikidata relation store: Richard Wagner (Q1511) - wrote (P800) - Tannhäuser (Q560619). [rel-composers]",
+   "format": []
+  },
+  {
+   "q": "Who composed the opera The Bartered Bride?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-composers>composers",
+   "reply": "Bedřich Smetana. From the Wikidata relation store: Bedřich Smetana (Q48173) - wrote (P800) - The Bartered Bride (Q907745). [rel-composers]",
+   "format": []
+  },
+  {
+   "q": "Who composed the ballet Romeo and Juliet?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-films-v2>unverified",
+   "reply": "I can't verify the written by of Romeo + Juliet from my records, so I won't guess. [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who composed The Lark Ascending?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-composers>composers",
+   "reply": "Ralph Vaughan Williams. From the Wikidata relation store: Ralph Vaughan Williams (Q207947) - wrote (P800) - The Lark Ascending (Q83875934). [rel-composers]",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Burundi?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Gitega. The capital of Burundi is Gitega.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Bahrain?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Manama. Manama is the capital city of Bahrain.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Qatar?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Doha. Doha (Arabic: الدوحة; Ad-Dawḥah or Ad-Dōḥah) is the capital city of Qatar.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Georgia, the country?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the capital of Georgia, the country?\" as an unnamed shape [vessel:v0021]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Albania?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Tirana. The capital is Tirana, and other important cities are Durrës, Elbasan and Vlora.",
+   "format": []
+  },
+  {
+   "q": "Which city is the capital of Ethiopia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Addis Ababa. From the Wikidata relation store: Ethiopia (Q115) - seat of government (P36) - Addis Ababa (Q3624). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "Which city is the capital of Lithuania?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Vilnius. Vilnius is the capital and largest city.",
+   "format": []
+  },
+  {
+   "q": "What is the currency of Tunisia?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-countries-v2>unverified",
+   "reply": "I can't verify the used money of Tunisia from my records, so I won't guess. [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the currency of Botswana?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-countries-v2>unverified",
+   "reply": "I can't verify the used money of Botswana from my records, so I won't guess. [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the currency of Egypt?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-countries-v2>unverified",
+   "reply": "I can't verify the used money of Egypt from my records, so I won't guess. [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Honduras?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Spanish. From the Wikidata relation store: Honduras (Q783) - spoken in (P37) - Spanish (Q1321). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Senegal?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-countries-v2>unverified",
+   "reply": "I can't verify the spoken in of Senegal from my records, so I won't guess. [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "On which continent is Nepal?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "Asia. Nepal, officially called the Federal Democratic Republic of Nepal, is a country in South Asia that doesn't border any ocean.",
+   "format": []
+  },
+  {
+   "q": "Which country is the city of Debrecen in?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>PLACE|compose:bridge",
+   "reply": "Hungary. Debrecen is a city in Hajdú-Bihar, Northern Great Plain, Hungary. [simplewiki_b2917fce6e319e328fb14ff6]",
+   "format": []
+  },
+  {
+   "q": "Which country is the city of Cork in?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Cork in\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "Who directed Lawrence of Arabia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-films-v2>films",
+   "reply": "David Lean. From the Wikidata relation store: Lawrence of Arabia (Q228186) - movie director (P57) - David Lean (Q55260). [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who directed Touch of Evil?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-films-v2>films",
+   "reply": "Orson Welles. From the Wikidata relation store: Touch of Evil (Q778161) - movie director (P57) - Orson Welles (Q24829). [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who directed The Third Man?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "exact_router>LINK>ROUTE:who|directed>RELATE:P57>AGREE>READ",
+   "reply": "[ev:direct] Carol Reed. From the Wikidata relation store: The Third Man (Q271830) - movie director (P57) - Carol Reed (Q95143).",
+   "format": []
+  },
+  {
+   "q": "Who directed Paths of Glory?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-films-v2>films",
+   "reply": "Stanley Kubrick. From the Wikidata relation store: Paths of Glory (Q747936) - movie director (P57) - Stanley Kubrick (Q2001). [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who invented the electric battery?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who inv",
+   "format": []
+  },
+  {
+   "q": "Who discovered the moon Tethys?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Giovanni Domenico Cassini. From the Wikidata relation store: Tethys (Q15047) - inventor or discoverer (P61) - Giovanni Domenico Cassini (Q14279). [rel-moons]",
+   "format": []
+  },
+  {
+   "q": "Who discovered the moon Dione?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"He also discovered the four of Saturn's moons, as well as the Cassini Division in Saturn's rings.\"",
+   "format": []
+  },
+  {
+   "q": "Which planet does Umbriel orbit?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Uranus. From the Wikidata relation store: Umbriel (Q3338) - star (P397) - Uranus (Q324). [rel-moons]",
+   "format": []
+  },
+  {
+   "q": "Which planet does Proteus orbit?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Neptune. From the Wikidata relation store: Proteus (Q16081) - star (P397) - Neptune (Q332). [rel-moons]",
+   "format": []
+  },
+  {
+   "q": "Who founded Hewlett-Packard?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-companies>unverified",
+   "reply": "I can't verify the starter of Hewlett-Packard from my records, so I won't guess. [rel-companies]",
+   "format": []
+  },
+  {
+   "q": "Who was the architect of the Pantheon in Paris?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who was",
+   "format": []
+  },
+  {
+   "q": "Where was Robert Schumann born?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "family_precedence:low_credit|deliberation:where",
+   "reply": "The route that answered this kind of question has been wrong too often when checked, and my relation records can't confirm it, so I won't give that answer.",
+   "format": []
+  },
+  {
+   "q": "Where was Georg Friedrich Händel born?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Where w",
+   "format": []
+  },
+  {
+   "q": "In what year was Giuseppe Verdi born?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-composers>composers",
+   "reply": "1813. From the Wikidata relation store: Giuseppe Verdi (Q7317) - year of birth (P569) - 1813. [rel-composers]",
+   "format": []
+  },
+  {
+   "q": "Who was the mother of Louis XIV?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:mother>READ>FRAME>LINK>RELATE:fwd:P25>CHECK:P25>BIND>EXPAND>VERIFY",
+   "reply": "Anne of Austria. Louis' parents were Louis XIII and Anne of Austria.",
+   "format": []
+  },
+  {
+   "q": "Who was the father of King Edward VII?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-monarchs>monarchs",
+   "reply": "Prince Albert of Saxe-Coburg and Gotha. From the Wikidata relation store: Edward VII (Q20875) - son of (P22) - Prince Albert of Saxe-Coburg and Gotha (Q152245). [rel-monarchs]",
+   "format": []
+  },
+  {
+   "q": "Which instrument did Yehudi Menuhin play?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-composers>composers",
+   "reply": "violin. From the Wikidata relation store: Yehudi Menuhin (Q156814) - uses this instrument (P1303) - violin (Q8355). [rel-composers]",
+   "format": []
+  },
+  {
+   "q": "Which band was Ozzy Osbourne a member of?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-musicians>unverified",
+   "reply": "I can't verify the of organization of Ozzy Osbourne from my records, so I won't guess. [rel-musicians]",
+   "format": []
+  },
+  {
+   "q": "Who won the 1982 FIFA World Cup?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-sportsevents>sportsevents",
+   "reply": "Italy men's national association football team. From the Wikidata relation store: 1982 FIFA World Cup (Q46934) - won by (P1346) - Italy men's national association football team (Q676899). [rel-sportsevents]",
+   "format": []
+  },
+  {
+   "q": "Which city hosted the 1988 Summer Olympics?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which c",
+   "format": []
+  },
+  {
+   "q": "In which constellation is the star Altair?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "exact_router>LINK>ROUTE:constellation|*>RELATE:P59>AGREE>READ",
+   "reply": "[ev:direct] Aquila. From the Wikidata relation store: Altair (Q12975) - part of constellation (P59) - Aquila (Q10586).",
+   "format": []
+  },
+  {
+   "q": "Who created the character Sam Spade?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-characters>characters",
+   "reply": "Dashiell Hammett. From the Wikidata relation store: Sam Spade (Q2533737) - visual artist (P170) - Dashiell Hammett (Q186335). [rel-characters]",
+   "format": []
+  },
+  {
+   "q": "Which company developed the video game Doom?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"He was one of the creators of id Software, a video game company, in 1991.\"",
+   "format": []
+  },
+  {
+   "q": "Name the author of Brave New World",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Name th",
+   "format": []
+  },
+  {
+   "q": "Tell me the capital of Finland",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compose:bridge",
+   "reply": "[ev:derived] Helsinki is the capital city of Finland. [simplewiki_9d84850bbdcf0f6550b00d63] Reached through Helsinki: The capital of Finland is Helsinki; the second largest city is Tampere. [simplewiki_528cce00d85f8a8abaa4c53a]",
+   "format": []
+  },
+  {
+   "q": "The currency of Austria",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:receipt",
+   "reply": "No provenance-admitted material on currency of Austria is available to summarize. I have received \"The currency of Austria\" as an unnamed shape [vessel:v0053]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "Name the composer of The Carnival of the Animals",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Name th",
+   "format": []
+  },
+  {
+   "q": "The first person to climb Mount Everest with Tenzing Norgay",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "arb:timeline->capability:timeline",
+   "reply": "[ev:direct] 1856: In 1856, the British people made a map of India and measured the height of Mount Everest. [simplewiki_775a7514ed1352aab437aecf] 1865: In 1865, a group of people in England, the Royal Geographical Society, made a decision to name the mountain Mount Everest. [simplewiki_435d4116529d1",
+   "format": []
+  },
+  {
+   "q": "Name the planet that the moon Rhea orbits",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"that\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "The director of the film Rome, Open City",
+   "group": "knowledge",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "arb:explain_simply->capability:explain_simply",
+   "reply": "[ev:direct] In simple terms: A director is someone who is in charge of something. [simplewiki_e8088f767d0360c0b351b78f] The dictionary sense: One who directs; the person in charge of managing a department or directorate (e.g., director of engineering), project, or production (as in a show or film, e",
+   "format": []
+  },
+  {
+   "q": "Name the painter of Rain, Steam and Speed",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Name th",
+   "format": []
+  },
+  {
+   "q": "Name the capital of the Czech Republic",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Prague. From the Wikidata relation store: Czech Republic (Q213) - seat of government (P36) - Prague (Q1085). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "The inventor of the gramophone",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"The inv",
+   "format": []
+  },
+  {
+   "q": "Name the author of The Odyssey",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G3s_qualifier_dropped|specialist_call>specialist:literature-v2>literature",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "The country in which the city of Valparaíso lies",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"The country in which the\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "What is 16% of 3,750?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 600. Read as percent of: 16% of 3750. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is 9/25 as a decimal?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G5_echo|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Solve for x: 8x - 15 = 81.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "algebra:solved",
+   "reply": "x = 12. read it as 8x - 15 = 81; then collect x on the left: 8x = 96; then divide both sides by 8: x = 12; then check by substitution: left gives 81, right gives 81, equal.",
+   "format": []
+  },
+  {
+   "q": "What is the square root of 6,889?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:integer_sqrt",
+   "reply": "The integer square root of 6889 is 83. estimate 3445. estimate 1723. estimate 863. estimate 435. 83 x 83 = 6889, and 7056 is not a square below it. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 4 to the power 5?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "arb:definitional->document_runtime|substitution_disclosed|math:out_of_fragment|vessel:receipt",
+   "reply": "That asks me to work out the to the power, and I compute exactly or not at all. It is outside the arithmetic I can carry out, so rather than answer it from a page about the words in your question, I am telling you I cannot do it yet.",
+   "format": []
+  },
+  {
+   "q": "How many seconds are there in 4.75 hours?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:convert",
+   "reply": "[ev:derived] 17100 seconds. Read as convert: 4.75 hour = 4.75 x 1 / 0.000277778 second. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "Convert 144 kilometres per hour to metres per second.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "144 kilometres per hour is 40 metres per second (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "Convert 95 degrees Fahrenheit to Celsius.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>temperature",
+   "reply": "95 °F is 35 °C. [units-v3]",
+   "format": []
+  },
+  {
+   "q": "How many millilitres are in 2.85 litres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "2.85 litres is 2850 millilitres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 88 pounds in kilograms?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P4_lookup_for_compute|arb:definitional->definitional_encyclopedic|wide_lead|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the derivative of 3x^2 at x = 7?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G5_echo|algebra:solved",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the area of a circle with radius 11 m?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P2_no_number|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the volume of a cube with side 13 cm?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P4_lookup_for_compute|factoid:page",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the mass of 11 litres of sea water in kg?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 11.27 kg (m = ρ·V = 1025 kg/m³ × 0.011 m³ for seawater; ρ is a typical value near 20 °C). [densities-r2]",
+   "format": []
+  },
+  {
+   "q": "What is the density of aluminium in kg/m3?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G6_units_not_variables|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the pressure 22 m deep in fresh water?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:fluids-r2>pressure_gauge",
+   "reply": "The gauge pressure is about 2.157e+05 Pa (215.7 kPa) at 22 m in fresh water (P = ρ·g·h = 1000·9.80665·22; add 101325 Pa for absolute). [fluids-r2]",
+   "format": []
+  },
+  {
+   "q": "How much energy in MJ does burning 6 kg of petrol release?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:fuels>energy",
+   "reply": "Burning 6 kg of petrol releases about 265.8 MJ (73.83 kWh; m × NCV = 6 kg × 44.3 MJ/kg, IPCC 2006 default). [fuels]",
+   "format": []
+  },
+  {
+   "q": "A spring with spring constant 420 N/m is stretched 0.05 m. What force does it exert?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:springs>force",
+   "reply": "The force is about 21 N (F = k·x = 420·0.05). [springs]",
+   "format": []
+  },
+  {
+   "q": "What is the weight in newtons of a 12 kg suitcase on Earth?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "weight:m_g>given",
+   "reply": "The weight is about 117.7 N (W = m·g = 12 kg × 9.80665 m/s², standard Earth gravity).",
+   "format": []
+  },
+  {
+   "q": "What is the kinetic energy of a 7 kg ball moving at 6 m/s?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P2_no_number|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "How long does a stone take to fall 65 m?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:physics-r2>fall_time",
+   "reply": "It takes about 3.641 s to fall 65 m (t = √(2h/g); no air resistance). [physics-r2]",
+   "format": []
+  },
+  {
+   "q": "What is 9 factorial divided by 6 factorial?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "arb:definitional->document_runtime|substitution_disclosed|math:out_of_fragment|vessel:receipt",
+   "reply": "That asks me to work out the factorial, and I compute exactly or not at all. It is outside the arithmetic I can carry out, so rather than answer it from a page about the words in your question, I am telling you I cannot do it yet.",
+   "format": []
+  },
+  {
+   "q": "What is the greatest common divisor of 252 and 378?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:gcd_lcm",
+   "reply": "The GCD of 252 and 378 is 126. 252 mod 378 = 252. 378 mod 252 = 126. 252 mod 126 = 0. no remainder left, so the divisor is 126. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "How many minutes are in 5.5 days?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "5.5 days is 7920 minutes. the factor from days to minutes is 1440. 5.5 x 1440 = 7920. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 85% of 740?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 629. Read as percent of: 85% of 740. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is the area of a triangle with base 18 m and height 11 m?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P2_no_number|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Convert 55 kilometres to miles.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "55 kilometres is 34.17541557 (exactly 78125/2286) miles (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is the perimeter of a rectangle 15 m by 9 m?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P2_no_number|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is 23 squared?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "arb:definitional->document_runtime|substitution_disclosed|math:out_of_fragment|vessel:receipt",
+   "reply": "That asks me to work out the squared, and I compute exactly or not at all. It is outside the arithmetic I can carry out, so rather than answer it from a page about the words in your question, I am telling you I cannot do it yet.",
+   "format": []
+  },
+  {
+   "q": "How many grams are in 5.06 kilograms?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:convert",
+   "reply": "[ev:derived] 5060 grams. Read as convert: 5.06 kilogram = 5.06 x 1000 / 1 gram. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "A 3.2 kW heater runs 4 hours a day for 25 days. At $0.17 per kWh, what does that cost?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is $54.40. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A car gets 26 mpg and drives 390 miles. How many kg of CO2 does it emit?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math carboncapture core_math",
+   "reply": "The answer is 133.305 kg. (path: core_math → carboncapture → core_math)",
+   "format": []
+  },
+  {
+   "q": "How many kWh does it take to heat 15 kg of water from 12 C to 72 C?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>thermo core_math",
+   "reply": "The answer is 1.04639 kwh. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 2.4 kW kettle runs 5 minutes a day for 36 days. How many kWh is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 7.2 kwh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A cylindrical tank 1.4 m across and 1.6 m tall is full of water. What is the mass of the water in kg?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:densities-r2>underspecified",
+   "reply": "I need an amount of water (a volume for its mass, or a mass for its volume); I won't assume one. [densities-r2]",
+   "format": []
+  },
+  {
+   "q": "How much energy in MJ is released by burning 35 litres of diesel?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network3>densities-r2 fuels core_math",
+   "reply": "The answer is 1252 mj. (path: densities-r2 → fuels → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 7 kg block of gold is fully submerged in water. What is the buoyant force on it?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network3>densities-r2 fluids-r2 core_math",
+   "reply": "The answer is 3.56 N. (path: densities-r2 → fluids-r2 → core_math)",
+   "format": []
+  },
+  {
+   "q": "A pickup averaging 16 miles per gallon covers 320 miles on gasoline. How many kg of CO2 is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math carboncapture core_math",
+   "reply": "The answer is 177.74 kg. (path: core_math → carboncapture → core_math)",
+   "format": []
+  },
+  {
+   "q": "How many kilojoules does it take to warm 8 kg of water from 15 C to 40 C?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>thermo core_math",
+   "reply": "The answer is 837.2 kilojoules. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "How many kWh does it take to melt 40 kg of ice?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>thermo core_math",
+   "reply": "The answer is 3.71111 kwh. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 7 W bulb is left on 14 hours a day for 365 days. How many kWh does it use?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 35.77 kwh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A heater draws 6 A at 230 V for 4 hours. How many kWh does it use?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 5.52 kwh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "How much would a 95 kg astronaut weigh on a planet with 1.5 Earth masses and 1.2 Earth radii?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>planetary core_math",
+   "reply": "The answer is 970.786 N. (path: planetary → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 1.6 kW heater runs 6.5 hours. At $0.21 per kWh, what does that cost?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is $2.18. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "Water flows at 22 litres per minute for 55 minutes. How many litres is that?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"that\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "A coach travels at 76 km/h for 3.25 hours. How far does it travel in km?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 247 km. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 2.1 kW oven runs 1.5 hours a day. How many kWh does it use in a 30-day month?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 94.5 kwh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A round drum 0.8 m across and 1.3 m tall is full of water. How heavy is the water, in kg?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:densities-r2>underspecified",
+   "reply": "I need an amount of water (a volume for its mass, or a mass for its volume); I won't assume one. [densities-r2]",
+   "format": []
+  },
+  {
+   "q": "A 1.3 kW toaster runs 6 minutes a day for 90 days. At $0.20 per kWh, what does that cost?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is $2.34. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "How many kWh does it take to heat 180 litres of water from 11 C to 51 C?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network3>densities-r2 thermo core_math",
+   "reply": "The answer is 8.37222 kwh. (path: densities-r2 → thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Uranus?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the capital of Uranus?\" as an unnamed shape [vessel:v0084]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "Who was the first emperor of Argentina?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "arb:timeline->capability:timeline|vessel:receipt",
+   "reply": "A timeline needs at least two dated statements; the admitted material on emperor contains 0. I have received \"Who was the first emperor of Argentina?\" as an unnamed shape [vessel:v0085]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What is my uncle's favourite food?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|factoid:page",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "What will copper cost per tonne next Wednesday?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wi",
+   "format": []
+  },
+  {
+   "q": "Who won the 2050 FIFA World Cup?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Brazil, officially the Federative Republic of Brazil, is a country in South America.\"",
+   "format": []
+  },
+  {
+   "q": "What is the population of Hogwarts?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the population of Hogwarts?\" as an unnamed shape [vessel:v0088]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What did I buy at the shop yesterday?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What di",
+   "format": []
+  },
+  {
+   "q": "A 40 W lamp runs 29 hours a day. How many kWh does it use daily?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: a duty of 29 hours a day is more than the whole day.",
+   "format": []
+  },
+  {
+   "q": "A swimmer covers -2 km in 40 minutes. What is her average speed?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P7_negative_given|arb:definitional->definitional_encyclopedic",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the mass of -9 litres of diesel?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G1_sign_kept|specialist_call>specialist:densities-r2>mass",
+   "reply": "The question gives a negative quantity and my calculation did not keep the sign, so I won't give that answer.",
+   "format": []
+  },
+  {
+   "q": "How long does a pebble take to fall -18 m?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: -18 m is not a physical amount.",
+   "format": []
+  },
+  {
+   "q": "What is the square root of curiosity?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q3_subject_missing|factoid:page",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which country did Charles Dickens rule as king?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which c",
+   "format": []
+  },
+  {
+   "q": "In what year did Ada Lovelace win the Nobel Prize in Chemistry?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "Who was the 85th Prime Minister of Mongolia?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who was",
+   "format": []
+  },
+  {
+   "q": "What is my bank sort code?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "What is the password for my laptop?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "answered",
+   "path": "arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "[ev:direct] I have no admitted entry for “password for my laptop”. The related term “laptop” is what the record defines — a laptop is a computer which is easy to carry around. [simplewiki_17e35ab7947156a466d65821]",
+   "format": []
+  },
+  {
+   "q": "How much will my pension be worth in 2070?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How muc",
+   "format": []
+  },
+  {
+   "q": "Who is the current Czar of Serbia?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who is ",
+   "format": []
+  },
+  {
+   "q": "What is the freezing point of an apology?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the freezing point of an apology?\" as an unnamed shape [vessel:v0097]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What is the capital city of the Mediterranean Sea?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|corpus_query:property_of|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which of Jupiter's two moons is the larger?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which o",
+   "format": []
+  },
+  {
+   "q": "What vegetable am I thinking of?",
+   "group": "decline",
+   "verdict": "false_yes",
+   "status": "answered",
+   "path": "factoid:page",
+   "reply": "[ev:direct] For example, an artichoke is thought to be a vegetable, while a melon has the features of a fruit. [simplewiki_b3f2ccda0eaf827c77b642b4]",
+   "format": []
+  },
+  {
+   "q": "Who composed The Four Seasons in 1990?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G3_date_premise|specialist_call>specialist:rel-composers>composers",
+   "reply": "My records date The Four Seasons to 1725, not 1990, so I can't answer as the question puts it.",
+   "format": []
+  },
+  {
+   "q": "What is the area of a square with side -7 m?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P7_negative_given|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A spring with spring constant -90 N/m is stretched 0.4 m. What force does it exert?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G1_sign_kept|specialist_call>specialist:springs>force",
+   "reply": "The question gives a negative quantity and my calculation did not keep the sign, so I won't give that answer.",
+   "format": []
+  },
+  {
+   "q": "What will the visibility be in Rome on 11 April 2036?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wi",
+   "format": []
+  },
+  {
+   "q": "Which streaming service did Mozart subscribe to?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which s",
+   "format": []
+  },
+  {
+   "q": "Who discovered the first moon of Venus?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-planets>unverified",
+   "reply": "I can't verify the inventor or discoverer of Venus from my records, so I won't guess. [rel-planets]",
+   "format": []
+  },
+  {
+   "q": "How much of a 140 g sample remains after 11 days?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How muc",
+   "format": []
+  }
+ ],
+ "format_defects": 0,
+ "verifier_up_at_end": true,
+ "paths": {
+  "organ:relation": 13,
+  "verified": 1,
+  "unverified": 3,
+  "precision_guard": 19,
+  "factoid": 1,
+  "compose": 1,
+  "corpus_query": 4
+ },
+ "totals": {
+  "right": 108,
+  "wrong": 3,
+  "declined": 39,
+  "false_yes": 1
+ },
+ "by_group": {
+  "knowledge": {
+   "right": 44,
+   "wrong": 2,
+   "declined": 24,
+   "false_yes": 0
+  },
+  "exact": {
+   "right": 18,
+   "wrong": 0,
+   "declined": 12,
+   "false_yes": 0
+  },
+  "multistep": {
+   "right": 17,
+   "wrong": 0,
+   "declined": 3,
+   "false_yes": 0
+  },
+  "decline": {
+   "right": 29,
+   "wrong": 0,
+   "declined": 0,
+   "false_yes": 1
+  }
+ },
+ "precision_on_answered": 0.9753,
+ "bars": {
+  "precision>=0.90": true,
+  "false_yes<=2": true
+ }
+}

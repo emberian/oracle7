@@ -1,0 +1,12 @@
+{
+ "id": "paint-coverage",
+ "name": "Paint coverage (example)",
+ "sources": [
+  {"name": "Typical spread rate of interior emulsion, about 10 square metres per litre per coat (manufacturers' data sheets; check your tin)", "licence": "fact", "url": ""},
+  {"name": "1 foot = 0.3048 m exactly (international yard and pound agreement, 1959)", "licence": "public domain", "url": ""}
+ ],
+ "organ": {"module": "organ_paint_coverage", "class": "Organ", "init": {}},
+ "accept": {"kinds": ["litres"], "declines_in_domain": ["underspecified"], "context_regex": "\\bpaint\\w*\\b"},
+ "panel": {"path": "panel.json", "scorer_module": "scorer", "scorer_fn": "ok"},
+ "budgets": {"latency_p50_ms": 200}
+}

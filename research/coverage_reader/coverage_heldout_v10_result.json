@@ -1,0 +1,904 @@
+[
+[
+"right",
+"In which city was Ludwig van Beethoven born?",
+"Bonn",
+[
+"BONN",
+"Castra Bonnensis"
+],
+"Ludwig van Beethoven (Q255) - place of birth (P19) - Bonn (Q586)",
+"noun"
+],
+[
+"right",
+"What is the capital city of Afghanistan?",
+"Kabul",
+[
+"Kabul",
+"Caubul"
+],
+"Afghanistan (Q889) - capital (P36) - Kabul (Q5838)",
+"rel"
+],
+[
+"right",
+"What is the official language of Mozambique?",
+"Portuguese",
+[
+"PORTUGUESE",
+"Portuguese"
+],
+"Mozambique (Q1029) - official language (P37) - Portuguese (Q5146)",
+"rel"
+],
+[
+"right",
+"What is the county town of Derbyshire?",
+"Matlock",
+[
+"MATLOCK",
+"Matlock"
+],
+"Derbyshire (Q23098) - capital (P36) - Matlock (Q1337703)",
+"rel"
+],
+[
+"right",
+"What is the county town of Shropshire?",
+"Shrewsbury",
+[
+"SHREWSBURY",
+"Shroesbury"
+],
+"Shropshire (Q23103) - capital (P36) - Shrewsbury (Q201970)",
+"rel"
+],
+[
+"right",
+"What is the capital of Dominica?",
+"Roseau",
+[
+"Roseau",
+"Roseau"
+],
+"Dominica (Q784) - capital (P36) - Roseau (Q36281)",
+"rel"
+],
+[
+"right",
+"What is the capital of Zimbabwe?",
+"Harare",
+[
+"HARARE",
+"Salisbury, Zimbabwe"
+],
+"Zimbabwe (Q954) - capital (P36) - Harare (Q3921)",
+"rel"
+],
+[
+"right",
+"What is the capital of Zambia?",
+"Lusaka",
+[
+"LUSAKA",
+"Luzaka, Zambia"
+],
+"Zambia (Q953) - capital (P36) - Lusaka (Q3881)",
+"rel"
+],
+[
+"right",
+"In which city are the headquarters of the European Central Bank?",
+"Frankfurt",
+[
+"FRANKFURT",
+"Frankfort-on-the-Main"
+],
+"European Central Bank (Q8901) - headquarters location (P159) - Frankfurt (Q1794)",
+"noun"
+],
+[
+"wrong",
+"Where was cartographer Gerardus Mercator born - the modern name of the country where he was born?",
+"Rupelmonde",
+[
+"Belgium",
+"Belguim"
+],
+"Gerardus Mercator (Q6353) - place of birth (P19) - Rupelmonde (Q1618770)",
+"place"
+],
+[
+"right",
+"Who created the detective Sam Spade?",
+"Dashiell Hammett",
+[
+"Dashiell Hammett",
+"Dashiel Hammet"
+],
+"Sam Spade (Q2533737) - creator (P170) - Dashiell Hammett (Q186335)",
+"human"
+],
+[
+"right",
+"Where are the headquarters of the Royal National Lifeboat Institution?",
+"Poole",
+[
+"POOLE",
+"Poole UA"
+],
+"Royal National Lifeboat Institution (Q2166873) - headquarters location (P159) - Poole (Q203349)",
+"place"
+],
+[
+"right",
+"What is the capital city of Puerto Rico?",
+"San Juan",
+[
+"San Juan",
+"San Juan"
+],
+"Puerto Rico (Q1183) - capital (P36) - San Juan (Q41211)",
+"rel"
+],
+[
+"right",
+"What is the capital city of Bermuda?",
+"Hamilton",
+[
+"Hamilton",
+"Hamilton (disambiguation)"
+],
+"Bermuda (Q23635) - capital (P36) - Hamilton (Q30985)",
+"rel"
+],
+[
+"right",
+"What is the state capital of Wyoming",
+"Cheyenne",
+[
+"Cheyenne",
+"Little red talker"
+],
+"Wyoming (Q1214) - capital (P36) - Cheyenne (Q39042)",
+"rel"
+],
+[
+"right",
+"Which city is the capital of Tanzania?",
+"Dodoma",
+[
+"Dodoma",
+"Dodoma"
+],
+"Tanzania (Q924) - capital (P36) - Dodoma (Q3866)",
+"noun"
+],
+[
+"right",
+"Which city is the capital of Nigeria?",
+"Abuja",
+[
+"Abuja",
+"Garki District, Abuja"
+],
+"Nigeria (Q1033) - capital (P36) - Abuja (Q3787)",
+"noun"
+],
+[
+"right",
+"Who created the private detective Philip Marlowe?",
+"Raymond Chandler",
+[
+"Raymond Chandler",
+"Chandler Before Marlowe: Raymond Chandler's Early Prose and Poetry 1908-1912"
+],
+"Philip Marlowe (Q623732) - creator (P170) - Raymond Chandler (Q180377)",
+"human"
+],
+[
+"right",
+"What is the official language of Nigeria",
+"English",
+[
+"English",
+"Egnlish"
+],
+"Nigeria (Q1033) - official language (P37) - English (Q1860)",
+"rel"
+],
+[
+"right",
+"What is the state capital of New Jersey",
+"Trenton",
+[
+"Trenton",
+"Trenton"
+],
+"New Jersey (Q1408) - capital (P36) - Trenton (Q25330)",
+"rel"
+],
+[
+"right",
+"What is the capital of Turkey",
+"Ankara",
+[
+"Ankara",
+"Ancyra"
+],
+"Turkey (Q43) - capital (P36) - Ankara (Q3640)",
+"rel"
+],
+[
+"right",
+"What is the capital of Jordan",
+"Amman",
+[
+"Amman",
+"Rabbah"
+],
+"Jordan (Q810) - capital (P36) - Amman (Q3805)",
+"rel"
+],
+[
+"right",
+"Author Candida Lycett Green died in August. Which poet was her father",
+"John Betjeman",
+[
+"John Betjeman",
+"Betjeman, John, Sir"
+],
+"Candida Lycett Green (Q5031723) - father (P22) - John Betjeman (Q962308)",
+"noun"
+],
+[
+"right",
+"What is the capital of Paraguay",
+"Asunci\u00f3n",
+[
+"Asuncion",
+"Asunci\u00f3n Capital District"
+],
+"Paraguay (Q733) - capital (P36) - Asunci\u00f3n (Q2933)",
+"rel"
+],
+[
+"wrong",
+"What is the currency of Bulgaria",
+"Euro",
+[
+"Lev",
+"Lev (disambiguation)"
+],
+"Bulgaria (Q219) - currency (P38) - Euro (Q4916)",
+"rel"
+],
+[
+"right",
+"What is the capital of Egypt",
+"Cairo",
+[
+"Cairo",
+"Al-Q\u0101hirah"
+],
+"Egypt (Q79) - capital (P36) - Cairo (Q85)",
+"rel"
+],
+[
+"right",
+"What is the capital of Cambodia",
+"Phnom Penh",
+[
+"Phnom Penh",
+"Pnumh Pen"
+],
+"Cambodia (Q424) - capital (P36) - Phnom Penh (Q1850)",
+"rel"
+],
+[
+"right",
+"Into which channel does the River Severn discharge",
+"Bristol Channel",
+[
+"Bristol Channel",
+"Welsh Channel"
+],
+"River Severn (Q19682) - mouth of the watercourse (P403) - Bristol Channel (Q188203)",
+"noun"
+],
+[
+"right",
+"What is the capital of El Salvador",
+"San Salvador",
+[
+"San Salvador",
+"San Salvador, EL Salvador"
+],
+"El Salvador (Q792) - capital (P36) - San Salvador (Q3110)",
+"rel"
+],
+[
+"right",
+"What is the currency of Switzerland",
+"Swiss franc",
+[
+"Swiss franc",
+"Swiss Franken"
+],
+"Switzerland (Q39) - currency (P38) - Swiss franc (Q25344)",
+"rel"
+],
+[
+"right",
+"Who wrote the words for Auld Lang Syne",
+"Robert Burns",
+[
+"Robert Burns",
+"Rabbie Burns"
+],
+"Auld Lang Syne (Q211939) - lyricist (P676) - Robert Burns (Q81960)",
+"human"
+],
+[
+"right",
+"Who is game show host Les Dennis married to",
+"Amanda Holden",
+[
+"Amanda Holden",
+"Amanda holden"
+],
+"Les Dennis (Q6529408) - spouse (P26) - Amanda Holden (Q237204)",
+"human"
+],
+[
+"right",
+"What is the capital of Mexico",
+"Mexico City",
+[
+"Mexico City",
+"Mexico City, Distrito Federal, Mexico"
+],
+"Mexico (Q96) - capital (P36) - Mexico City (Q1489)",
+"rel"
+],
+[
+"right",
+"What is the state capital of Tennessee",
+"Nashville",
+[
+"Nashville",
+"Cashville, Tennessee"
+],
+"Tennessee (Q1509) - capital (P36) - Nashville (Q23197)",
+"rel"
+],
+[
+"right",
+"What is the state capital of New Mexico",
+"Santa Fe",
+[
+"Sante Fe",
+"Santa Fe (disambiguation)"
+],
+"New Mexico (Q1522) - capital (P36) - Santa Fe (Q38555)",
+"rel"
+],
+[
+"right",
+"In which city did Expo 67 take place",
+"Montreal",
+[
+"Montreal",
+"Motnreal"
+],
+"Expo 67 (Q1344988) - location (P276) - Montreal (Q340)",
+"noun"
+],
+[
+"right",
+"What is the currency of Somalia",
+"Somali shilling",
+[
+"Shilling",
+"Shillings"
+],
+"Somalia (Q1045) - currency (P38) - Somali shilling (Q4603)",
+"rel"
+],
+[
+"right",
+"What is the capital of Malaysia",
+"Kuala Lumpur",
+[
+"Kuala Lumpur",
+"Quadalampur"
+],
+"Malaysia (Q833) - capital (P36) - Kuala Lumpur (Q1865)",
+"rel"
+],
+[
+"right",
+"Who created the character Rip Van Winkle",
+"Washington Irving",
+[
+"Washington",
+"Washington (Amtrak station)"
+],
+"Rip Van Winkle (Q1129589) - author (P50) - Washington Irving (Q181667)",
+"human"
+],
+[
+"right",
+"What is the state capital of South Carolina",
+"Columbia",
+[
+"Columbia",
+"Columbia"
+],
+"South Carolina (Q1456) - capital (P36) - Columbia (Q38453)",
+"rel"
+],
+[
+"right",
+"Which present state was once known officially as Indian Territory",
+"Oklahoma",
+[
+"Oklahoma",
+"Okla."
+],
+"Indian Territory (Q868245) - replaced by (P1366) - Oklahoma (Q1649)",
+"noun"
+],
+[
+"right",
+"What is the capital of Costa Rica",
+"San Jos\u00e9",
+[
+"San Jose",
+"San Jos\u00e9, Veraguas"
+],
+"Costa Rica (Q800) - capital (P36) - San Jos\u00e9 (Q3070)",
+"rel"
+],
+[
+"right",
+"What is the capital of Uzbekistan",
+"Tashkent",
+[
+"Tashkent",
+"Toshkent"
+],
+"Uzbekistan (Q265) - capital (P36) - Tashkent (Q269)",
+"rel"
+],
+[
+"right",
+"What is the capital of Ecuador",
+"Quito",
+[
+"Quito",
+"Quito, Ecuador"
+],
+"Ecuador (Q736) - capital (P36) - Quito (Q2900)",
+"rel"
+],
+[
+"right",
+"In which city are the headquarters of the European Central Bank",
+"Frankfurt",
+[
+"Frankfurt",
+"Frankfort-on-the-Main"
+],
+"European Central Bank (Q8901) - headquarters location (P159) - Frankfurt (Q1794)",
+"noun"
+],
+[
+"right",
+"Film-maker and screenwriter Jill Craigie was the wife of which politician?",
+"Michael Foot",
+[
+"Michael Foot",
+"Michael Mackintosh Foot"
+],
+"Jill Craigie (Q6192780) - spouse (P26) - Michael Foot (Q332419)",
+"noun"
+],
+[
+"right",
+"What is the state capital of Rhode Island",
+"Providence",
+[
+"Providence",
+"Providence"
+],
+"Rhode Island (Q1387) - capital (P36) - Providence (Q18383)",
+"rel"
+],
+[
+"right",
+"Who is Jennifer Saunders married to",
+"Adrian Edmondson",
+[
+"Adrian Edmondson",
+"Ade Edmundson"
+],
+"Jennifer Saunders (Q235415) - spouse (P26) - Adrian Edmondson (Q2160202)",
+"human"
+],
+[
+"right",
+"What is the capital of Cuba",
+"Havana",
+[
+"Havana",
+"Our Lady of Regla"
+],
+"Cuba (Q241) - capital (P36) - Havana (Q1563)",
+"rel"
+],
+[
+"right",
+"What is the capital of Austria",
+"Vienna",
+[
+"Vienna",
+"Capital of Austria"
+],
+"Austria (Q40) - capital (P36) - Vienna (Q1741)",
+"rel"
+],
+[
+"right",
+"What is the administrative centre of Suffolk",
+"Ipswich",
+[
+"Ipswich",
+"Ipswich, UK"
+],
+"Suffolk (Q23111) - capital (P36) - Ipswich (Q184775)",
+"rel"
+],
+[
+"right",
+"What is the capital of Portugal",
+"Lisbon",
+[
+"Lisbon",
+"Capital of Portugal"
+],
+"Portugal (Q45) - capital (P36) - Lisbon (Q597)",
+"rel"
+],
+[
+"right",
+"Who was Dawn French married to",
+"Lenny Henry",
+[
+"Lenny Henry",
+"Lenworth Henry"
+],
+"Dawn French (Q236309) - spouse (P26) - Lenny Henry (Q3175896)",
+"human"
+],
+[
+"right",
+"What is the official language of Brazil",
+"Portuguese",
+[
+"Portuguese",
+"Portuguese"
+],
+"Brazil (Q155) - official language (P37) - Portuguese (Q5146)",
+"rel"
+],
+[
+"right",
+"What is the capital of Sweden",
+"Stockholm",
+[
+"Stockholm",
+"Stockholm, Sweden"
+],
+"Sweden (Q34) - capital (P36) - Stockholm (Q1754)",
+"rel"
+],
+[
+"right",
+"What is the state capital of South Australia",
+"Adelaide",
+[
+"Adelaide",
+"Adelaide South Australia"
+],
+"South Australia (Q35715) - capital (P36) - Adelaide (Q5112)",
+"rel"
+],
+[
+"right",
+"What is the capital of Bulgaria",
+"Sofia",
+[
+"Sofia",
+"Europe/Sofia"
+],
+"Bulgaria (Q219) - capital (P36) - Sofia (Q472)",
+"rel"
+],
+[
+"right",
+"What is the state capital of Illinois",
+"Springfield",
+[
+"Springfield",
+"Springfield (disambiguation)"
+],
+"Illinois (Q1204) - capital (P36) - Springfield (Q28515)",
+"rel"
+],
+[
+"right",
+"What is the capital of Albania",
+"Tirana",
+[
+"Tirana",
+"Honorary citizenship of Tirana"
+],
+"Albania (Q222) - capital (P36) - Tirana (Q19689)",
+"rel"
+],
+[
+"right",
+"What is the capital of Iran",
+"Tehran",
+[
+"Tehran",
+"Teheran"
+],
+"Iran (Q794) - capital (P36) - Tehran (Q3616)",
+"rel"
+],
+[
+"right",
+"What is the capital of Jamaica",
+"Kingston",
+[
+"Kingston",
+"Town of Kingston"
+],
+"Jamaica (Q766) - capital (P36) - Kingston (Q34692)",
+"rel"
+],
+[
+"right",
+"What is the state capital of California",
+"Sacramento",
+[
+"Sacramento",
+"Sacrmento, CA"
+],
+"California (Q99) - capital (P36) - Sacramento (Q18013)",
+"rel"
+],
+[
+"right",
+"What is the capital of Thailand",
+"Bangkok",
+[
+"Bangkok",
+"Krung-devamahanagara amararatanakosindra mahindrayudhya mahatilakabhava navaratanarajadhani puriramasya utamarajanivesana mahasthana amaravimana avatarasthitya shakrasdattiya vishnukarmaprasiddhi"
+],
+"Thailand (Q869) - capital (P36) - Bangkok (Q1861)",
+"rel"
+],
+[
+"right",
+"What is the state capital of Idaho",
+"Boise",
+[
+"Boise",
+"Capital of Idaho"
+],
+"Idaho (Q1221) - capital (P36) - Boise (Q35775)",
+"rel"
+],
+[
+"right",
+"What is the capital of Greece",
+"Athens",
+[
+"Athens",
+"Athina"
+],
+"Greece (Q41) - capital (P36) - Athens (Q1524)",
+"rel"
+],
+[
+"right",
+"What is the capital of Nova Scotia?",
+"Halifax",
+[
+"Halifax",
+"Community of Halifax"
+],
+"Nova Scotia (Q1952) - capital (P36) - Halifax (Q2141)",
+"rel"
+],
+[
+"right",
+"What is the capital of Switzerland",
+"Bern",
+[
+"Berne",
+"Berne BE"
+],
+"Switzerland (Q39) - capital (P36) - Bern (Q70)",
+"rel"
+],
+[
+"right",
+"Who created the master detective Sherlock Holmes",
+"Arthur Conan Doyle",
+[
+"Sir Arthur Conan Doyle",
+"A Conan Doyle"
+],
+"Sherlock Holmes (Q4653) - creator (P170) - Arthur Conan Doyle (Q35610)",
+"human"
+],
+[
+"right",
+"Who was the architect of the Albert Memorial?",
+"George Gilbert Scott",
+[
+"GEORGE GILBERT SCOTT",
+"George Gilbert Scott"
+],
+"Albert Memorial (Q281465) - architect (P84) - George Gilbert Scott (Q681007)",
+"human"
+],
+[
+"right",
+"In computing, Douglas Engelbart invented what device for input?",
+"computer mouse",
+[
+"Mouse",
+"\ud83d\udc01"
+],
+"computer mouse (Q7987) - discoverer or inventor (P61) - Douglas Engelbart (Q92614)",
+"noun"
+],
+[
+"right",
+"What is the capital of Mongolia?",
+"Ulaanbaatar",
+[
+"Ulan Bator",
+"Ulaam Bataar"
+],
+"Mongolia (Q711) - capital (P36) - Ulaanbaatar (Q23430)",
+"rel"
+],
+[
+"right",
+"What is the capital city of Hawaii?",
+"Honolulu",
+[
+"Honolulu",
+"Honolulu, Hawaii, USA"
+],
+"Hawaii (Q782) - capital (P36) - Honolulu (Q18094)",
+"rel"
+],
+[
+"right",
+"The Clifton Suspension Bridge spans which river?",
+"River Avon",
+[
+"Avon",
+"Avon, England"
+],
+"Clifton Suspension Bridge (Q162170) - crosses (P177) - River Avon (Q19711)",
+"noun"
+],
+[
+"right",
+"What is the capital of Chechnya?",
+"Grozny",
+[
+"Grozny",
+"Groznyj"
+],
+"Chechnya (Q5187) - capital (P36) - Grozny (Q5196)",
+"rel"
+],
+[
+"right",
+"Wolfgang Amadeus Mozart was born in which city?",
+"Salzburg",
+[
+"Salzburg",
+"Iuvavum"
+],
+"Wolfgang Amadeus Mozart (Q254) - place of birth (P19) - Salzburg (Q34713)",
+"noun"
+],
+[
+"right",
+"Which playwright did Marilyn Monroe marry?",
+"Arthur Miller",
+[
+"Arthur Miller",
+"Agnes Barley"
+],
+"Marilyn Monroe (Q4616) - spouse (P26) - Arthur Miller (Q80596)",
+"noun"
+],
+[
+"right",
+"What city is the capital of Argentina?",
+"Buenos Aires",
+[
+"Buenos Aires",
+"Buenos Aires (Argentina)"
+],
+"Argentina (Q414) - capital (P36) - Buenos Aires (Q1486)",
+"noun"
+],
+[
+"right",
+"What is the capital city of Kenya?",
+"Nairobi",
+[
+"Nairobi",
+"Nairobi Province, Kenya"
+],
+"Kenya (Q114) - capital (P36) - Nairobi (Q3870)",
+"rel"
+],
+[
+"right",
+"Who wrote the music and lyrics to the musical `Anything Goes`?",
+"Cole Porter",
+[
+"Cole Porter",
+"Cole Porter"
+],
+"Anything Goes (Q656082) - lyricist (P676) - Cole Porter (Q215120)",
+"human"
+],
+[
+"right",
+"Who wrote the screenplay for the film 'The Exorcist'?",
+"William Peter Blatty",
+[
+"William Peter Blatty",
+"William Blatty"
+],
+"The Exorcist (Q274167) - screenwriter (P58) - William Peter Blatty (Q540784)",
+"human"
+],
+[
+"right",
+"What is the capital of Uruguay?",
+"Montevideo",
+[
+"Montevideo",
+"Montevideo, Uruguay"
+],
+"Uruguay (Q77) - capital (P36) - Montevideo (Q1335)",
+"rel"
+],
+[
+"right",
+"Name the author who created Hannibal Lecter?",
+"Thomas Harris",
+[
+"Thomas Harris",
+"Thomas Harris"
+],
+"Hannibal Lecter (Q211013) - creator (P170) - Thomas Harris (Q313377)",
+"human"
+]
+]

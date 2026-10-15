@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Oracle7 Workbench</title>
+<link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand"><button class="side-toggle" id="side-toggle" aria-controls="side" aria-expanded="false" title="Conversations (/history)"><i></i><i></i><i></i></button><b>ORACLE<span>7</span></b><small>WORKBENCH</small></div>
+  <div class="facts" aria-live="polite">
+    <span class="chip" id="f-head">core …</span>
+    <span class="chip" id="f-spec">267 specialists</span>
+    <span class="chip mine" id="f-yours">0 of yours</span>
+    <span class="chip" id="f-journal">gap journal off</span>
+    <span class="chip quiet">127.0.0.1 · nothing leaves this machine</span>
+  </div>
+</header>
+
+<main class="studio">
+  <!-- far left, collapsible: previous conversations (kept on this computer) -->
+  <aside class="pane side" id="side" aria-label="Conversations">
+    <div class="pane-h"><span>Conversations</span><button id="cv-new">+ New</button></div>
+    <div class="side-find"><input id="cv-find" type="search" placeholder="Search conversations" aria-label="Search conversations"></div>
+    <ol class="cv" id="cv-list"></ol>
+    <div class="side-f">
+      <label class="switch"><input type="checkbox" id="cv-keep" checked> keep on this computer</label>
+      <button id="cv-del-all">Delete all</button>
+      <p>Open one to carry on: the core picks up its context. "Make specialist" keeps a conversation as a temporary specialist that can recall it.</p>
+    </div>
+  </aside>
+  <!-- the conversation, over the diagram of everything it is -->
+  <section class="pane ask" aria-label="Ask">
+    <div class="pane-h"><span>Ask</span><div class="views"><button data-view="iso" class="on">Angle</button><button data-view="side">Side</button><button data-view="top">Top</button><button id="labels-all">All labels</button></div></div>
+    <div class="diagram" id="diagram"><div class="legend"><i class="l-lit"></i>this answer's path <i class="l-mine"></i>your specialists <i class="l-haz"></i>declined at a check</div></div>
+    <div class="thread" id="thread" aria-live="polite">
+      <div class="hello">
+        <p>Ask anything. Each answer lights the path it took through the diagram above. When Oracle7 cannot verify an answer it says so and says why, and the Gaps tab can turn those declines into the specialists your model is missing.</p>
+        <div class="tries"><button>Who wrote Leaves of Grass?</button><button>How fast does sound travel in air at 20 degrees C?</button><button>Who directed Jaws?</button><button>Convert 5 miles to kilometres</button><button>Write a Python function to check whether a string is a palindrome</button><button>What can you do?</button></div>
+      </div>
+    </div>
+    <form class="input" id="ask"><textarea id="q" rows="2" placeholder="Ask Oracle7…  (Enter to send, Shift+Enter for a new line)" aria-label="Your question"></textarea><button type="submit" class="go">Ask</button></form>
+  </section>
+
+  <!-- right top: the workspace (the shell pane of the studio) -->
+  <section class="pane work" aria-label="Workspace">
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="start" class="on">Start</button>
+      <button role="tab" data-tab="specialists">Specialists</button>
+      <button role="tab" data-tab="sensors">Sensors</button>
+      <button role="tab" data-tab="systems">Systems</button>
+      <button role="tab" data-tab="build">Build</button>
+      <button role="tab" data-tab="gaps">Gaps</button>
+      <button role="tab" data-tab="code">Code</button>
+      <button role="tab" data-tab="film">Film</button>
+      <button role="tab" data-tab="share">Share</button>
+    </nav>
+    <div class="tab on" id="t-start">
+      <p class="lede">Point Oracle7 at something of yours and it becomes a reader you can ask about it. Each answer names where it read the value. Everything stays on this computer. Type <code>/help</code> in the chat for every feature and command.</p>
+      <div class="start">
+        <h3><span>1</span>Scan this computer</h3>
+        <p>System, CPU, memory, disks, uptime and what is using the most memory. Figures and process names only, never your files.</p>
+        <div class="row"><button class="btn primary" id="st-scan">Scan this computer</button><button class="btn" id="st-scan-save" hidden>Make it a specialist</button><span class="progress" id="st-scan-prog"></span></div>
+        <div id="st-scan-out"></div>
+      </div>
+      <div class="start">
+        <h3><span>2</span>Connect a server</h3>
+        <p>Read a server over SSH with your own key: hostname, uptime, load, memory, disks, top processes, failed services. Read-only; no password is ever asked for.</p>
+        <form class="newform" id="st-srv"><input id="st-name" placeholder="a name, e.g. web server"><input id="st-host" placeholder="user@host" required><input id="st-port" placeholder="port 22" inputmode="numeric" style="max-width:90px"><input id="st-key" placeholder="key file (optional), e.g. ~/.ssh/id_ed25519"><button class="btn" type="submit">Test</button><button class="btn primary" type="button" id="st-srv-save" hidden>Add server</button></form>
+        <span class="progress" id="st-srv-prog"></span>
+        <div id="st-srv-out"></div>
+      </div>
+      <div class="start drop" id="st-drop">
+        <h3><span>3</span>Add files</h3>
+        <p>Drop tables (.csv, .tsv) or text (.txt, .md) here, or <label class="pick">choose files<input type="file" id="st-files" multiple accept=".csv,.tsv,.txt,.md" hidden></label>. Ask "what is the price of item 4?" or "what do my notes say about the boiler?".</p>
+        <div class="row"><input id="st-fname" placeholder="name these files, e.g. shop prices"><span class="progress" id="st-files-prog"></span></div>
+      </div>
+      <div class="start">
+        <h3><span>4</span>Connect an MCP server</h3>
+        <p>Give the command that starts it or its URL. Pick its tools and the Workbench builds a specialist that routes each question to the right tool, shows the exact call it made, and learns from your right / wrong marks. Questions routed to a server are sent to it.</p>
+        <form class="newform" id="mc-form"><input id="mc-name" placeholder="a name, e.g. notes" required><input id="mc-cmd" placeholder="command, e.g. npx -y @modelcontextprotocol/server-filesystem C:\Users\me\Documents" style="flex:3"><input id="mc-url" placeholder="or URL https://…"><input id="mc-token" type="password" placeholder="token (optional)"><button class="btn" type="submit">Connect</button></form>
+        <span class="progress" id="mc-prog"></span>
+        <div id="mc-tools"></div>
+      </div>
+      <div class="start">
+        <h3><span>5</span>Connect a sensor</h3>
+        <p>A device or hub that serves JSON or metrics over HTTP (ESP32, Shelly, Tasmota, Home Assistant, a weather station), an MQTT topic, a USB/serial device, or a log file. No hardware yet? Try the simulated garden node. Readings are kept for 24 hours on this computer; answers give the value, its age and its source.</p>
+        <div class="row"><button class="btn primary" id="st-sensor">Connect a sensor</button><button class="btn" id="st-sensor-sim">Try a simulated sensor</button></div>
+      </div>
+      <p class="muted">Or write a specialist by hand on the Build tab.</p>
+    </div>
+    <div class="tab" id="t-specialists">
+      <div class="row"><input id="s-find" type="search" placeholder="Find a specialist (moons, soil, git, composers…)" aria-label="Find a specialist"><button class="btn" id="v-run" title="Recompute every shipped hash and the Merkle root">Verify this install</button></div>
+      <div class="verify" id="v-out" hidden></div>
+      <div class="groups" id="s-groups"></div>
+      <div class="list" id="s-list"></div>
+      <div class="card" id="s-card" hidden></div>
+    </div>
+    <div class="tab" id="t-sensors">
+      <div class="sensors" id="sn-list"><p class="muted">No sensors yet.</p></div>
+      <div class="start" id="sn-add">
+        <h3><span>+</span>Connect a sensor</h3>
+        <form class="newform" id="sn-form">
+          <input id="sn-name" placeholder="a name, e.g. garden node" required>
+          <select id="sn-kind" aria-label="How it connects">
+            <option value="http">HTTP (JSON or metrics)</option><option value="mqtt">MQTT topic</option>
+            <option value="serial">USB / serial</option><option value="file">Log file</option><option value="simulated">Simulated (for trying)</option>
+          </select>
+          <input id="sn-addr" placeholder="http://192.168.1.40/data" style="flex:3">
+          <input id="sn-int" placeholder="every 30 s" inputmode="numeric" style="max-width:110px">
+          <input id="sn-user" placeholder="MQTT user (optional)" hidden><input id="sn-pass" type="password" placeholder="MQTT password (optional)" hidden>
+          <button class="btn" type="submit">Test</button>
+        </form>
+        <span class="progress" id="sn-prog"></span>
+        <div id="sn-fields"></div>
+      </div>
+    </div>
+    <div class="tab" id="t-systems"><p class="lede" id="sys-about"></p><div id="sys-list"></div></div>
+    <div class="tab" id="t-build">
+      <div class="row split"><p class="lede">A specialist is a small program that answers one kind of question and declines the rest. It joins your model only by passing its held-out exam; it can only add answers where the core declined.</p></div>
+      <div class="row"><button class="btn" id="b-example">Add the worked example (paint coverage)</button></div>
+      <form class="newform" id="b-new"><input id="b-id" placeholder="id, e.g. beekeeping" required pattern="[a-z][a-z0-9-]{1,40}"><input id="b-name" placeholder="name"><input id="b-words" placeholder="its words, e.g. hive bees honey"><button class="btn primary">New specialist</button></form>
+      <div class="list" id="b-list"></div>
+      <div class="editor" id="b-editor" hidden>
+        <div class="ed-h"><b id="b-title"></b><span class="state" id="b-state"></span></div>
+        <div class="ed-files" id="b-files"></div>
+        <textarea id="b-text" spellcheck="false" aria-label="File contents"></textarea>
+        <div class="ed-act"><button class="btn" id="b-save">Save (Ctrl+S)</button><button class="btn" id="b-dev">Dev exam</button><button class="btn primary" id="b-held">Held-out exam (once)</button><span class="progress" id="b-prog"></span></div>
+        <div class="verdict" id="b-verdict"></div>
+      </div>
+    </div>
+    <div class="tab" id="t-gaps">
+      <div class="row split"><p class="lede">With the journal on, each question you ask and whether it was answered is kept in <code>workbench/local/journal.jsonl</code> on this machine only. Nothing is sent or packaged. Declines are grouped into the specialists your model is missing.</p></div>
+      <div class="row"><label class="switch"><input type="checkbox" id="g-on"> Keep a gap journal</label><button class="btn" id="g-clear">Delete the journal</button></div>
+      <div id="g-list"></div>
+    </div>
+    <div class="tab" id="t-code">
+      <p class="lede">Ask for a function. The code organ hands over only programs it has run, so it writes what it can prove and declines the rest. It can write and prove: a small working website, palindrome check, factorial, vowel count, word count and word frequencies, HTTP routes, regular-expression extraction, memoised recursion, a bank-account class, matrix multiply, fizzbuzz, fibonacci, reverse a string, JSON round-trip, concurrent work, binary search, tower of hanoi, quicksort, sum a list, prime test, a number-guessing game, tic tac toe. The bench runs any code against tests of your own in a separate Python process with a time limit.</p>
+      <div class="row"><input id="c-what" placeholder="What it does, e.g. check whether a string is a palindrome"></div>
+      <div class="row"><input id="c-in" placeholder='input, e.g. "hello world"'><input id="c-out" placeholder='output, e.g. "Hello World"'><button class="btn primary" id="c-compose">Compose</button></div>
+      <textarea id="c-code" class="mono" spellcheck="false" placeholder="# the composed function appears here; you can also paste or write your own"></textarea>
+      <textarea id="c-tests" class="mono short" spellcheck="false" placeholder="# tests, e.g.  assert f('hello world') == 'Hello World'"></textarea>
+      <div class="row"><button class="btn primary" id="c-run">Run tests</button><span class="progress" id="c-res"></span></div>
+      <pre class="out" id="c-out-text" hidden></pre>
+    </div>
+    <div class="tab" id="t-film">
+      <p class="lede">Record answers as a film: the diagram tracing each path, the question, the answer and its receipt. Made in your browser as a .webm file; nothing is uploaded.</p>
+      <div class="list" id="f-list"><p class="muted">Ask something first; each answer can be filmed.</p></div>
+      <div class="start">
+        <h3><span>+</span>Narration, sound and images <small class="muted">optional · ElevenLabs</small></h3>
+        <p>Connect your own ElevenLabs account to narrate each answer, lay a sound you describe underneath and open each answer with an illustration (images need their Pro plan). This is the only feature that sends anything off this computer: the narration text, sound description and image prompts go to ElevenLabs with your key. Generated images are labelled as generated in the film.</p>
+        <div class="row"><input type="password" id="el-key" placeholder="ElevenLabs API key" autocomplete="off"><label class="switch"><input type="checkbox" id="el-remember"> remember on this computer</label><button class="btn" id="el-connect">Connect</button><button class="btn" id="el-forget" hidden>Disconnect</button></div>
+        <div id="el-opts" hidden>
+          <div class="row"><label class="switch"><input type="checkbox" id="el-narrate" checked> narrate each answer</label><select id="el-voice" aria-label="Voice"></select></div>
+          <div class="row"><input id="el-sound" placeholder="sound under the film (optional), e.g. quiet warm room tone, distant rain"></div>
+          <div class="row"><label class="switch"><input type="checkbox" id="el-img"> open each answer with an illustration</label><select id="el-img-model" aria-label="Image model"><option value="gemini-2.5-flash-image">Gemini 2.5 Flash Image</option><option value="gpt-image-1">GPT Image 1</option></select></div>
+          <div class="row"><input id="el-img-style" placeholder="image style (optional), e.g. engraved plate, warm parchment and orange"></div>
+        </div>
+      </div>
+      <div class="row"><button class="btn primary" id="f-rec">Record selected answers</button><span class="progress" id="f-prog"></span></div>
+      <video id="f-video" controls hidden></video>
+      <a class="btn" id="f-dl" hidden download="oracle7-answer.webm">Save the film</a>
+    </div>
+    <div class="tab" id="t-share">
+      <p class="lede">Package a specialist for the community registry: its folder, its exam verdict and the SHA-256 of every file. Your questions and journal are never included. Uploading is your choice, with your own Hugging Face account.</p>
+      <div class="list" id="sh-list"></div>
+      <pre class="out" id="sh-out" hidden></pre>
+      <h4>Use a shared specialist</h4>
+      <div class="row"><input id="sh-path" placeholder="path to a downloaded .zip"><button class="btn" id="sh-import">Import</button></div>
+      <p class="muted">An imported specialist takes its held-out exam on your machine before it joins your model.</p>
+    </div>
+  </section>
+
+  <!-- right bottom: live log -->
+  <section class="pane log" aria-label="Log">
+    <div class="pane-h"><span>Log</span><button id="log-clear">Clear</button></div>
+    <ol id="log"></ol>
+  </section>
+</main>
+
+<script src="/static/vendor/three.min.js"></script>
+<script src="/static/vendor/OrbitControls.js"></script>
+<script src="/static/o7-explorer.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>

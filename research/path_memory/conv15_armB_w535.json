@@ -1,0 +1,537 @@
+{
+ "summary": {
+  "runtime": "oracle_release_runtime_w535",
+  "turns": 49,
+  "handled": 31,
+  "handled_rate": 0.6327,
+  "right": 26,
+  "answered": 29,
+  "precision_on_answered": 0.8966,
+  "false_yes": 0,
+  "follow_rate": 0.6,
+  "totals": {
+   "right": 26,
+   "wrong": 3,
+   "missed": 15,
+   "handled": 3,
+   "kept": 2
+  },
+  "by_kind": {
+   "fact": {
+    "right": 9,
+    "missed": 4
+   },
+   "follow": {
+    "right": 12,
+    "wrong": 2,
+    "missed": 6
+   },
+   "multi": {
+    "right": 2
+   },
+   "number": {
+    "right": 3,
+    "wrong": 1,
+    "missed": 5
+   },
+   "social": {
+    "handled": 3
+   },
+   "decline": {
+    "kept": 2
+   }
+  }
+ },
+ "items": [
+  {
+   "d": 0,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed Ugetsu?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Kenji Mizoguchi. On 8 November 2005, the film became available for the first time on Region 1 DVD when the Criterion Collection released a two-disc edition of the film, which includes numerous special features such as a 150-minute documentary on Mizoguchi, Kenji Mizoguchi: The Life of a "
+  },
+  {
+   "d": 0,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-directors>directors",
+   "reply": "16 May 1898. From the Wikidata relation store: Kenji Mizoguchi (Q55401) - year of birth (P569) - 16 May 1898. [rel-directors]"
+  },
+  {
+   "d": 0,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>deliberation:where",
+   "reply": "[ev:direct] A recurring theme of his films was the oppression of women in historical and contemporary Japan. [enwiki_148b9f9d9b62287df4a2661a]"
+  },
+  {
+   "d": 1,
+   "t": 0,
+   "kind": "fact",
+   "q": "What is the capital of Slovakia's neighbour Hungary?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:reinforced",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. You have asked \"What is the capital of Slovakia's neighbour Hungary?\" before. I hold it as an unnamed shape [vessel:v354614], weight 8.0, asked 2 times; the routes that tried and failed: corpus_query:property_of. What I lack is a "
+  },
+  {
+   "d": 1,
+   "t": 1,
+   "kind": "follow",
+   "q": "And its currency?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"its\" refer to? Nothing earlier in this conversation names it. Tell me the name."
+  },
+  {
+   "d": 1,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>it",
+   "reply": "Who do you mean by \"it\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 2,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who composed the opera Werther?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Jules Massenet. Werther is an opera (drame lyrique) in four acts by Jules Massenet to a French libretto by Édouard Blau, Paul Milliet and Georges Hartmann (who used the pseudonym Henri Grémont). [enwiki_1e3e356d52b27c2778ca68c8] (typed relations: wd:Q926468 P86 wd:Q194436)"
+  },
+  {
+   "d": 2,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Montaud. Jules Massenet. [simplewiki_da2421bd73b020c2026ed4f6] (typed relations: wd:Q194436 P19 wd:Q3322455)"
+  },
+  {
+   "d": 2,
+   "t": 2,
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>exact_router>LINK>ROUTE:year|die>RELATE:P570>AGREE>READ",
+   "reply": "[ev:direct] 1912. From the Wikidata relation store: Jules Massenet (Q194436) - year of death (P570) - 1912."
+  },
+  {
+   "d": 3,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet does Umbriel orbit?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Uranus. From the Wikidata relation store: Umbriel (Q3338) - star (P397) - Uranus. [rel-moons]"
+  },
+  {
+   "d": 3,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who discovered Umbriel?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "William Lassell. From the Wikidata relation store: Umbriel (Q3338) - inventor or discoverer (P61) - William Lassell. [rel-moons]"
+  },
+  {
+   "d": 3,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 4,
+   "t": 0,
+   "kind": "multi",
+   "q": "Who wrote Emma, and who wrote Little Women?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:parts>2 of 2",
+   "reply": "Jane Austen. From the Wikidata relation store: Emma (Q223880) - written by (P50) - Jane Austen. [rel-novels] [ev:direct] Louisa May Alcott. Little Women is a coming-of-age novel written by American novelist Louisa May Alcott, originally published in two volumes, in 1868 and 1869. [enwiki_dce00c6a0d6"
+  },
+  {
+   "d": 5,
+   "t": 0,
+   "kind": "number",
+   "q": "What is the mass of 6 litres of sea water in kg?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 6.15 kg (m = ρ·V = 1025 kg/m³ × 0.006 m³ for seawater; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 5,
+   "t": 1,
+   "kind": "number",
+   "q": "What does that weigh in newtons?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 6.15 kg (m = ρ·V = 1025 kg/m³ × 0.006 m³ for seawater; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 6,
+   "t": 0,
+   "kind": "number",
+   "q": "A cylindrical tank 0.4 m across and 1.5 m tall is full of water. What is the mass of the water in kg?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:densities-r2>underspecified",
+   "reply": "I need an amount of water (a volume for its mass, or a mass for its volume); I won't assume one. [densities-r2]"
+  },
+  {
+   "d": 6,
+   "t": 1,
+   "kind": "number",
+   "q": "How much does that water weigh in newtons?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"that\" refer to? Nothing earlier in this conversation names it. Tell me the name."
+  },
+  {
+   "d": 7,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who founded Honda?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-companies>unverified",
+   "reply": "I can't verify the starter of Honda from my records, so I won't guess. [rel-companies]"
+  },
+  {
+   "d": 7,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was it founded?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-companies>companies",
+   "reply": "24 September 1948. From the Wikidata relation store: Honda (Q9584) - year written (P571) - 24 September 1948. [rel-companies]"
+  },
+  {
+   "d": 7,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where is it headquartered?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:where>READ>FRAME>LINK>RELATE:fwd:P17>CHECK:P17>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Japan. After attending engineering school without graduating, and visiting factories around Japan to better understand Toyota's quality control processes known as \"five whys\", by 1941, Honda was able to mass-produce piston rings acceptable to Toyota, using an automated process that could"
+  },
+  {
+   "d": 8,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who was the architect of the Flatiron Building?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify|vessel:reinforced",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. You have asked \"Who was "
+  },
+  {
+   "d": 8,
+   "t": 1,
+   "kind": "follow",
+   "q": "When did it open?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "chat:resolved>factoid:withheld|vessel:receipt",
+   "reply": "I have no admitted record that answers that about \"Flatiron Building\", so I will not guess. The reply I had was about \"Flatiron Building\" and did not cover open."
+  },
+  {
+   "d": 8,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which country is it in?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:resolved>act:clarify|vessel:reinforced",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. You have asked \"Which co"
+  },
+  {
+   "d": 9,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which country did the biathlete Martin Fourcade represent?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-biathletes>biathletes",
+   "reply": "France. From the Wikidata relation store: Martin Fourcade (Q359348) - sports nationality (P1532) - France. [rel-biathletes]"
+  },
+  {
+   "d": 9,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_precedence>specialist:rel-military>military",
+   "reply": "14 September 1988. From the Wikidata relation store: Martin Fourcade (Q359348) - year of birth (P569) - 14 September 1988. [rel-military]"
+  },
+  {
+   "d": 10,
+   "t": 0,
+   "kind": "fact",
+   "q": "Where was the figure skater Javier Fernández born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-skaters>skaters",
+   "reply": "Madrid. From the Wikidata relation store: Javier Fernández (Q933246) - POB (P19) - Madrid. [rel-skaters]"
+  },
+  {
+   "d": 10,
+   "t": 1,
+   "kind": "follow",
+   "q": "Which country does he represent?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-footballers>footballers",
+   "reply": "Spain. From the Wikidata relation store: Juan Carlos (Q117468508) - sports nationality (P1532) - Spain. [rel-footballers]"
+  },
+  {
+   "d": 11,
+   "t": 0,
+   "kind": "fact",
+   "q": "Where was Alan Turing born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_precedence>specialist:rel-mathematicians>mathematicians",
+   "reply": "Maida Vale. From the Wikidata relation store: Alan Turing (Q7251) - POB (P19) - Maida Vale. [rel-mathematicians]"
+  },
+  {
+   "d": 11,
+   "t": 1,
+   "kind": "follow",
+   "q": "When did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "path_memory>specialist_call>specialist:rel-computerscientists>computerscientists",
+   "reply": "7 June 1954. From the Wikidata relation store: Alan Turing (Q7251) - year of death (P570) - 7 June 1954. [rel-computerscientists]"
+  },
+  {
+   "d": 12,
+   "t": 0,
+   "kind": "social",
+   "q": "Hi!",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "organ:dialogue>social:greet",
+   "reply": "Hello. I'm Oracle7. Ask me about facts, mathematics or code, or just talk; I'll show you where each answer comes from."
+  },
+  {
+   "d": 12,
+   "t": 1,
+   "kind": "decline",
+   "q": "What will I eat for dinner tonight?",
+   "verdict": "kept",
+   "status": "clarification",
+   "path": "act:clarify|vessel:reinforced",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. You have asked \"What wil"
+  },
+  {
+   "d": 12,
+   "t": 2,
+   "kind": "fact",
+   "q": "Which constellation is Sirius in?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>INSTANCE|factoid:page",
+   "reply": "Canis Major. Sirius is the brightest star in the night sky, located in the southern constellation of Canis Major. [enwiki_b57f606f46cbf54cf64d2458]"
+  },
+  {
+   "d": 12,
+   "t": 3,
+   "kind": "social",
+   "q": "Thanks, bye.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "r472:acknowledged|arb:act_acknowledge->act:acknowledge",
+   "reply": "Glad that helps. We were on Sirius: I can go further into it, compare it with something, or move to a new topic."
+  },
+  {
+   "d": 13,
+   "t": 0,
+   "kind": "number",
+   "q": "A 1.6 kW heater runs 4 hours a day. How many kWh does it use in a week?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "precision_guard:Q2_period|specialist_call>specialist:energy-v3>energy",
+   "reply": "I can't verify an answer to that exact question, so I won't guess."
+  },
+  {
+   "d": 13,
+   "t": 1,
+   "kind": "number",
+   "q": "At $0.20 per kWh, what does that cost?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:energy-v3>underspecified",
+   "reply": "I need the device's wattage and how long it runs to work that out; I won't assume it. [energy-v3]"
+  },
+  {
+   "d": 14,
+   "t": 0,
+   "kind": "multi",
+   "q": "What is the capital of Finland, and what is 15% of 640?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:and_parts>2 of 2",
+   "reply": "Helsinki. The capital of Finland is Helsinki; the second largest city is Tampere. [ev:derived] 96. Read as percent of: 15% of 640. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives."
+  },
+  {
+   "d": 15,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who wrote The Seagull?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Anton Chekhov. The Seagull is a play by Russian dramatist Anton Chekhov, written in 1895 and first produced in 1896. [enwiki_8a160d0d93abf076bb76c7e4] (typed relations: wd:Q650063 P50 wd:Q5685)"
+  },
+  {
+   "d": 15,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Taganrog. Anton Chekhov was born in Taganrog, which is a city in Russia. [simplewiki_ce044da0d4a316c99dcaa82d] (typed relations: wd:Q5685 P19 wd:Q170513)"
+  },
+  {
+   "d": 15,
+   "t": 2,
+   "kind": "follow",
+   "q": "Who was he married to?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:spouse>READ>FRAME>LINK>RELATE:fwd:P26>CHECK:P26>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Olga Knipper. She was married to Anton Chekhov."
+  },
+  {
+   "d": 16,
+   "t": 0,
+   "kind": "number",
+   "q": "How much of a 60 g sample of iodine-131 remains after 20 days?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:decay>remaining_amount",
+   "reply": "About 10.66 g remains after 20 days (N = N₀·(1/2)^(t/T) = 60 × 0.1777, iodine-131 (half-life 8.025 days)). [decay]"
+  },
+  {
+   "d": 16,
+   "t": 1,
+   "kind": "number",
+   "q": "And after 40 days?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:reinforced",
+   "reply": "No provenance-admitted material on after 40 days is available to summarize. You have asked \"And after 40 days?\" before. I hold it as an unnamed shape [vessel:v354656], weight 8.0, asked 2 times; the routes that tried and failed: capability:summarize. What I lack is what \"And after 40 days?\" counts a"
+  },
+  {
+   "d": 17,
+   "t": 0,
+   "kind": "number",
+   "q": "What is the mass of 0.2 litres of mercury in kg?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 2.707 kg (m = ρ·V = 1.353e+04 kg/m³ × 0.0002 m³ for mercury; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 17,
+   "t": 1,
+   "kind": "decline",
+   "q": "And of -0.2 litres?",
+   "verdict": "kept",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:reinforced",
+   "reply": "No provenance-admitted material on of -0.2 litres is available to summarize. You have asked \"And of -0.2 litres?\" before. I hold it as an unnamed shape [vessel:v354658], weight 8.0, asked 2 times; the routes that tried and failed: capability:summarize. What I lack is what \"And of -0.2 litres?\" count"
+  },
+  {
+   "d": 18,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet is Ganymede a moon of?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Jupiter. From the Wikidata relation store: Ganymede (Q3169) - star (P397) - Jupiter. [rel-moons]"
+  },
+  {
+   "d": 18,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who discovered Ganymede?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Galileo Galilei. From the Wikidata relation store: Ganymede (Q3169) - inventor or discoverer (P61) - Galileo Galilei. [rel-moons]"
+  },
+  {
+   "d": 18,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where did he die?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 19,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed My Neighbor Totoro?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND>VERIF",
+   "reply": "That depends on something only you know; my records can't tell me."
+  },
+  {
+   "d": 19,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-directors>directors",
+   "reply": "5 January 1941. From the Wikidata relation store: Hayao Miyazaki (Q55400) - year of birth (P569) - 5 January 1941. [rel-directors]"
+  },
+  {
+   "d": 19,
+   "t": 2,
+   "kind": "social",
+   "q": "Great, thanks.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "r472:acknowledged|arb:act_acknowledge->act:acknowledge",
+   "reply": "Glad that helps. We were on My Neighbor Totoro: I can go further into it, compare it with something, or move to a new topic."
+  }
+ ]
+}

@@ -1,0 +1,6035 @@
+{
+"D": 1024,
+"entries": {
+"who|none|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 3,
+"wrong": 2
+},
+"which|none|0|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 7,
+"wrong": 3
+},
+"other|none|1|organ:converse": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:converse",
+"right": 0,
+"wrong": 7
+},
+"other|none|1|arb:timeline-": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "arb:timeline-",
+"right": 0,
+"wrong": 2
+},
+"which|17|0|cube:read": {
+"shape": {
+"wh": "which",
+"rel": "17",
+"num": "0"
+},
+"route": "cube:read",
+"right": 24,
+"wrong": 0
+},
+"the|none|0|cube:read": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "0"
+},
+"route": "cube:read",
+"right": 1,
+"wrong": 0
+},
+"which|none|1|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|organ:relation": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 9,
+"wrong": 0
+},
+"other|none|0|organ:converse": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:converse",
+"right": 1,
+"wrong": 11
+},
+"what|none|0|corpus_query:property_of": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "corpus_query:property_of",
+"right": 1,
+"wrong": 0
+},
+"other|36|0|compose:bridge": {
+"shape": {
+"wh": "other",
+"rel": "36",
+"num": "0"
+},
+"route": "compose:bridge",
+"right": 1,
+"wrong": 0
+},
+"where|none|0|organ:relation": {
+"shape": {
+"wh": "where",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 6,
+"wrong": 3
+},
+"which|none|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 5,
+"wrong": 0
+},
+"other|none|1|arb:why_different-": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "arb:why_different-",
+"right": 0,
+"wrong": 1
+},
+"other|none|0|cube:read": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "cube:read",
+"right": 5,
+"wrong": 4
+},
+"other|none|0|organ:self": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:self",
+"right": 0,
+"wrong": 2
+},
+"which|none|0|verified:weak": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 0,
+"wrong": 1
+},
+"which|none|0|cube:read": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "cube:read",
+"right": 1,
+"wrong": 0
+},
+"which|none|1|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 3,
+"wrong": 0
+},
+"what|none|0|specialist:literature": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:literature",
+"right": 1,
+"wrong": 1
+},
+"which|none|1|exact_router": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "exact_router",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|compose:bridge": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "compose:bridge",
+"right": 8,
+"wrong": 9
+},
+"who|none|0|specialist:mythology": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:mythology",
+"right": 3,
+"wrong": 0
+},
+"who|none|1|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|cube:read": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "cube:read",
+"right": 2,
+"wrong": 1
+},
+"what|none|0|factoid:page": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "factoid:page",
+"right": 0,
+"wrong": 1
+},
+"where|none|0|cube:read": {
+"shape": {
+"wh": "where",
+"rel": "none",
+"num": "0"
+},
+"route": "cube:read",
+"right": 0,
+"wrong": 1
+},
+"other|none|0|specialist:crafts": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:crafts",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|arb:explain_simply-": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "arb:explain_simply-",
+"right": 0,
+"wrong": 3
+},
+"the|none|1|organ:relation": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"who|170p|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "170p",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 2,
+"wrong": 1
+},
+"who|170p|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "170p",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 1
+},
+"other|none|1|specialist:rel": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 5,
+"wrong": 0
+},
+"what|585|0|organ:relation": {
+"shape": {
+"wh": "what",
+"rel": "585",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 0,
+"wrong": 1
+},
+"who|50|1|exact_router": {
+"shape": {
+"wh": "who",
+"rel": "50",
+"num": "1"
+},
+"route": "exact_router",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|factoid:fts": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "factoid:fts",
+"right": 2,
+"wrong": 0
+},
+"the|none|1|compose:bridge": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "compose:bridge",
+"right": 0,
+"wrong": 1
+},
+"other|none|0|specialist:medicine": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:medicine",
+"right": 3,
+"wrong": 0
+},
+"the|none|0|organ:relation": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|verified:cube": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 1
+},
+"which|26|0|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "26",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|specialist:rel": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 3,
+"wrong": 0
+},
+"who|50|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "50",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 25,
+"wrong": 0
+},
+"which|none|0|specialist:mythology": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:mythology",
+"right": 0,
+"wrong": 1
+},
+"other|none|1|organ:relation": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 2
+},
+"which|84|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "84",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"who|57|1|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "57",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 2,
+"wrong": 0
+},
+"who|57|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "57",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"what|17|0|organ:relation": {
+"shape": {
+"wh": "what",
+"rel": "17",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|compose:bridge": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "compose:bridge",
+"right": 1,
+"wrong": 0
+},
+"name|none|1|document_runtime": {
+"shape": {
+"wh": "name",
+"rel": "none",
+"num": "1"
+},
+"route": "document_runtime",
+"right": 0,
+"wrong": 1
+},
+"other|none|1|exact_router": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "exact_router",
+"right": 1,
+"wrong": 0
+},
+"who|50|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "50",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 42,
+"wrong": 2
+},
+"what|none|0|specialist:government": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:government",
+"right": 1,
+"wrong": 0
+},
+"who|1346|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "1346",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 6,
+"wrong": 2
+},
+"the|none|0|compose:bridge": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "0"
+},
+"route": "compose:bridge",
+"right": 4,
+"wrong": 0
+},
+"what|36|0|organ:relation": {
+"shape": {
+"wh": "what",
+"rel": "36",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 11,
+"wrong": 1
+},
+"what|36|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "36",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 9,
+"wrong": 1
+},
+"who|61|0|specialist:medicine": {
+"shape": {
+"wh": "who",
+"rel": "61",
+"num": "0"
+},
+"route": "specialist:medicine",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:ushistory": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:ushistory",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|0|verified:weak": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 3,
+"wrong": 2
+},
+"who|26|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "26",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 41,
+"wrong": 0
+},
+"who|26|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "26",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 174,
+"wrong": 0
+},
+"what|none|0|verified:weak": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 0,
+"wrong": 1
+},
+"the|none|0|arb:timeline-": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "0"
+},
+"route": "arb:timeline-",
+"right": 1,
+"wrong": 0
+},
+"who|none|1|specialist:ushistory": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:ushistory",
+"right": 0,
+"wrong": 1
+},
+"which|none|0|compose:comparison": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "compose:comparison",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|deliberation:where": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "deliberation:where",
+"right": 3,
+"wrong": 15
+},
+"who|none|0|cube:read": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "cube:read",
+"right": 1,
+"wrong": 4
+},
+"who|1346|1|verified:weak": {
+"shape": {
+"wh": "who",
+"rel": "1346",
+"num": "1"
+},
+"route": "verified:weak",
+"right": 0,
+"wrong": 1
+},
+"when|569|0|verified:cube": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 4,
+"wrong": 3
+},
+"what|none|0|arb:definitional-": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "arb:definitional-",
+"right": 3,
+"wrong": 2
+},
+"when|570|0|capability:when_did": {
+"shape": {
+"wh": "when",
+"rel": "570",
+"num": "0"
+},
+"route": "capability:when_did",
+"right": 5,
+"wrong": 1
+},
+"when|570|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "570",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 113,
+"wrong": 2
+},
+"howmany|none|0|slot:count": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "slot:count",
+"right": 4,
+"wrong": 0
+},
+"who|57|0|game:composed": {
+"shape": {
+"wh": "who",
+"rel": "57",
+"num": "0"
+},
+"route": "game:composed",
+"right": 0,
+"wrong": 1
+},
+"howmany|none|0|verified:cube": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 4
+},
+"howmany|none|0|factoid:fts": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "factoid:fts",
+"right": 0,
+"wrong": 1
+},
+"when|none|0|verified:weak": {
+"shape": {
+"wh": "when",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|0|cube:read": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "cube:read",
+"right": 0,
+"wrong": 1
+},
+"which|none|1|factoid:page": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "factoid:page",
+"right": 0,
+"wrong": 1
+},
+"other|none|0|wordnet_kind_excluded": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "wordnet_kind_excluded",
+"right": 1,
+"wrong": 2
+},
+"who|none|0|specialist:worldhistory": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:worldhistory",
+"right": 0,
+"wrong": 1
+},
+"what|none|1|specialist:acoustics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:acoustics",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:additive": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:additive",
+"right": 6,
+"wrong": 0
+},
+"other|none|1|specialist:additive": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:additive",
+"right": 7,
+"wrong": 0
+},
+"other|none|1|specialist:agriculture": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:agriculture",
+"right": 6,
+"wrong": 0
+},
+"howmany|none|1|specialist:agriculture": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:agriculture",
+"right": 6,
+"wrong": 0
+},
+"what|none|1|specialist:airquality": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:airquality",
+"right": 4,
+"wrong": 0
+},
+"other|none|1|specialist:algorithms": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:algorithms",
+"right": 4,
+"wrong": 2
+},
+"howmany|none|0|specialist:anatomy": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:anatomy",
+"right": 8,
+"wrong": 0
+},
+"what|none|1|specialist:architecture": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:architecture",
+"right": 7,
+"wrong": 0
+},
+"other|none|1|specialist:architecture": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:architecture",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:bodies": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:bodies",
+"right": 9,
+"wrong": 1
+},
+"other|none|0|specialist:astronomy": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:astronomy",
+"right": 15,
+"wrong": 0
+},
+"other|none|0|arb:definitional-": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "arb:definitional-",
+"right": 0,
+"wrong": 3
+},
+"howmany|none|0|specialist:astronomy": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:astronomy",
+"right": 5,
+"wrong": 0
+},
+"what|none|0|specialist:astronomy": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:astronomy",
+"right": 3,
+"wrong": 1
+},
+"other|none|0|specialist:biology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:biology",
+"right": 4,
+"wrong": 0
+},
+"what|none|0|specialist:biology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:biology",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:bodies": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:bodies",
+"right": 6,
+"wrong": 0
+},
+"where|none|0|specialist:botany": {
+"shape": {
+"wh": "where",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:botany",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:botany": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:botany",
+"right": 5,
+"wrong": 0
+},
+"what|none|1|organ:math": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:math",
+"right": 0,
+"wrong": 19
+},
+"howmuch|none|1|specialist:carboncapture": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:carboncapture",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:carboncapture": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:carboncapture",
+"right": 4,
+"wrong": 0
+},
+"howmany|none|1|specialist:carbonmat": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:carbonmat",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:carbonmat": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:carbonmat",
+"right": 4,
+"wrong": 0
+},
+"what|none|1|specialist:chemistry": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:chemistry",
+"right": 3,
+"wrong": 0
+},
+"howmany|none|1|specialist:chemistry": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:chemistry",
+"right": 10,
+"wrong": 0
+},
+"what|none|0|specialist:chemistry": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:chemistry",
+"right": 3,
+"wrong": 0
+},
+"who|none|0|verified:cube": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 1
+},
+"other|none|0|specialist:childdev": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:childdev",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|0|specialist:childdev": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:childdev",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:climate": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:climate",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:climate": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:climate",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:coldchain": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:coldchain",
+"right": 8,
+"wrong": 0
+},
+"other|none|0|specialist:coldchain": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:coldchain",
+"right": 4,
+"wrong": 0
+},
+"what|none|0|specialist:coldchain": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:coldchain",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:cooking": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:cooking",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:cooking": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:cooking",
+"right": 19,
+"wrong": 0
+},
+"howmuch|none|0|specialist:cooking": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:cooking",
+"right": 1,
+"wrong": 0
+},
+"howmuch|none|1|specialist:cooking": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:cooking",
+"right": 5,
+"wrong": 0
+},
+"other|none|1|arb:compare-": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "arb:compare-",
+"right": 0,
+"wrong": 2
+},
+"what|none|1|document_runtime": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "document_runtime",
+"right": 0,
+"wrong": 1
+},
+"other|none|1|specialist:crafts": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:crafts",
+"right": 2,
+"wrong": 0
+},
+"what|none|1|specialist:cyber": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:cyber",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:cyber": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:cyber",
+"right": 3,
+"wrong": 0
+},
+"howmany|none|1|slot:count": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "slot:count",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:dataformats": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:dataformats",
+"right": 0,
+"wrong": 1
+},
+"other|none|1|specialist:dataformats": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:dataformats",
+"right": 3,
+"wrong": 2
+},
+"howmany|none|1|specialist:decay": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:decay",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:decay": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:decay",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:geology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:geology",
+"right": 2,
+"wrong": 1
+},
+"what|none|1|specialist:densities": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:densities",
+"right": 7,
+"wrong": 0
+},
+"other|none|0|specialist:densities": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:densities",
+"right": 6,
+"wrong": 0
+},
+"what|none|0|specialist:densities": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:densities",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:ecology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:ecology",
+"right": 4,
+"wrong": 0
+},
+"the|none|1|specialist:economics": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:economics",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:economics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:economics",
+"right": 2,
+"wrong": 0
+},
+"what|none|1|specialist:economics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:economics",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:electrical": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:electrical",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|1|specialist:units": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:units",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:electronics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:electronics",
+"right": 2,
+"wrong": 0
+},
+"what|none|1|specialist:electronics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:electronics",
+"right": 12,
+"wrong": 0
+},
+"what|none|1|op:statistics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "op:statistics",
+"right": 2,
+"wrong": 4
+},
+"what|none|1|specialist:embedded": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:embedded",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|network": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "network",
+"right": 3,
+"wrong": 6
+},
+"other|none|1|specialist:energy": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:energy",
+"right": 11,
+"wrong": 0
+},
+"howmuch|none|1|specialist:energy": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:energy",
+"right": 4,
+"wrong": 0
+},
+"howmany|none|0|specialist:entomology": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:entomology",
+"right": 3,
+"wrong": 0
+},
+"other|none|0|specialist:entomology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:entomology",
+"right": 1,
+"wrong": 0
+},
+"where|none|0|specialist:entomology": {
+"shape": {
+"wh": "where",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:entomology",
+"right": 1,
+"wrong": 0
+},
+"where|none|0|specialist:etiquette": {
+"shape": {
+"wh": "where",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:etiquette",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|specialist:etiquette": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:etiquette",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:etiquette": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:etiquette",
+"right": 1,
+"wrong": 0
+},
+"howmuch|none|1|specialist:finance-v2": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:finance-v2",
+"right": 4,
+"wrong": 0
+},
+"other|none|1|specialist:finance-v2": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:finance-v2",
+"right": 11,
+"wrong": 0
+},
+"what|none|1|specialist:finance-v2": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:finance-v2",
+"right": 8,
+"wrong": 0
+},
+"howmany|none|0|specialist:firesafety": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:firesafety",
+"right": 2,
+"wrong": 0
+},
+"other|none|0|specialist:firesafety": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:firesafety",
+"right": 4,
+"wrong": 0
+},
+"what|none|0|specialist:firesafety": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:firesafety",
+"right": 3,
+"wrong": 0
+},
+"what|none|0|specialist:firstaid": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:firstaid",
+"right": 6,
+"wrong": 0
+},
+"other|none|0|specialist:firstaid": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:firstaid",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|1|network": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "network",
+"right": 7,
+"wrong": 0
+},
+"howmuch|none|1|specialist:fleet": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:fleet",
+"right": 2,
+"wrong": 0
+},
+"what|none|1|specialist:fluids": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:fluids",
+"right": 12,
+"wrong": 5
+},
+"what|none|1|specialist:forestry": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:forestry",
+"right": 4,
+"wrong": 0
+},
+"howmany|none|1|specialist:forestry": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:forestry",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:forestry": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:forestry",
+"right": 1,
+"wrong": 0
+},
+"howmuch|none|1|specialist:fuels": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:fuels",
+"right": 6,
+"wrong": 0
+},
+"other|none|1|specialist:games": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:games",
+"right": 6,
+"wrong": 0
+},
+"howmany|none|0|specialist:games": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:games",
+"right": 4,
+"wrong": 0
+},
+"what|none|1|specialist:games": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:games",
+"right": 6,
+"wrong": 0
+},
+"other|none|0|specialist:games": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:games",
+"right": 2,
+"wrong": 0
+},
+"what|none|0|specialist:games": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:games",
+"right": 4,
+"wrong": 0
+},
+"howmany|none|1|specialist:gardening": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:gardening",
+"right": 5,
+"wrong": 0
+},
+"other|none|1|specialist:genetics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:genetics",
+"right": 5,
+"wrong": 0
+},
+"other|none|0|specialist:genetics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:genetics",
+"right": 6,
+"wrong": 0
+},
+"what|none|0|specialist:genetics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:genetics",
+"right": 5,
+"wrong": 0
+},
+"what|none|1|specialist:geography": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:geography",
+"right": 3,
+"wrong": 0
+},
+"the|none|1|specialist:geology": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:geology",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:geometry": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:geometry",
+"right": 8,
+"wrong": 0
+},
+"other|none|1|specialist:geometry": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:geometry",
+"right": 13,
+"wrong": 0
+},
+"other|none|1|organ:self": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:self",
+"right": 0,
+"wrong": 1
+},
+"which|none|0|specialist:government": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:government",
+"right": 4,
+"wrong": 0
+},
+"what|none|1|specialist:government": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:government",
+"right": 2,
+"wrong": 0
+},
+"what|none|1|specialist:greenhouse": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:greenhouse",
+"right": 10,
+"wrong": 0
+},
+"howmany|none|1|specialist:greenhouse": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:greenhouse",
+"right": 4,
+"wrong": 0
+},
+"other|none|1|specialist:greenhouse": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:greenhouse",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|1|specialist:hvac": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:hvac",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:hvac": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:hvac",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:hydrology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:hydrology",
+"right": 4,
+"wrong": 0
+},
+"howmuch|none|1|specialist:iot": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:iot",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:iot": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:iot",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|organ:math": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:math",
+"right": 0,
+"wrong": 6
+},
+"what|none|0|specialist:javascript": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:javascript",
+"right": 3,
+"wrong": 0
+},
+"howmany|none|1|specialist:labsolutions": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:labsolutions",
+"right": 4,
+"wrong": 0
+},
+"what|none|1|specialist:labsolutions": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:labsolutions",
+"right": 6,
+"wrong": 0
+},
+"howmuch|none|1|specialist:labsolutions": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:labsolutions",
+"right": 4,
+"wrong": 0
+},
+"what|none|0|specialist:law": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:law",
+"right": 4,
+"wrong": 0
+},
+"what|none|0|specialist:library": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:library",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:linguistics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:linguistics",
+"right": 4,
+"wrong": 0
+},
+"other|none|1|specialist:linux": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:linux",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:linux": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:linux",
+"right": 4,
+"wrong": 0
+},
+"other|none|0|specialist:linux": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:linux",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:linux": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:linux",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|1|specialist:linux": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:linux",
+"right": 2,
+"wrong": 0
+},
+"other|none|0|specialist:logic": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:logic",
+"right": 10,
+"wrong": 0
+},
+"other|none|0|arb:summarize-": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "arb:summarize-",
+"right": 0,
+"wrong": 7
+},
+"what|none|0|specialist:logic": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:logic",
+"right": 3,
+"wrong": 0
+},
+"other|none|0|deduce:premises_held": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "deduce:premises_held",
+"right": 0,
+"wrong": 2
+},
+"what|none|0|specialist:marinebio": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:marinebio",
+"right": 2,
+"wrong": 0
+},
+"other|none|0|specialist:marinebio": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:marinebio",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|document_runtime": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "document_runtime",
+"right": 0,
+"wrong": 5
+},
+"what|none|0|specialist:materials": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:materials",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:materials": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:materials",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:mechanisms": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:mechanisms",
+"right": 12,
+"wrong": 0
+},
+"what|none|1|specialist:mechanisms": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:mechanisms",
+"right": 4,
+"wrong": 0
+},
+"what|none|1|specialist:meteorology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:meteorology",
+"right": 5,
+"wrong": 0
+},
+"other|none|1|specialist:microbiology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:microbiology",
+"right": 10,
+"wrong": 0
+},
+"howmany|none|0|specialist:music": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:music",
+"right": 6,
+"wrong": 0
+},
+"which|none|1|specialist:music": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:music",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:music": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:music",
+"right": 5,
+"wrong": 0
+},
+"other|none|0|specialist:music": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:music",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:music": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:music",
+"right": 3,
+"wrong": 0
+},
+"what|none|0|specialist:mycelial": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:mycelial",
+"right": 2,
+"wrong": 0
+},
+"what|none|0|deliberation:made_of": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "deliberation:made_of",
+"right": 0,
+"wrong": 1
+},
+"other|none|0|specialist:mycology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:mycology",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|conceptnet_isa_direct": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "conceptnet_isa_direct",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:networking": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:networking",
+"right": 3,
+"wrong": 0
+},
+"howmany|none|1|specialist:networking": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:networking",
+"right": 2,
+"wrong": 0
+},
+"what|none|1|specialist:nutrition-label": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:nutrition-label",
+"right": 4,
+"wrong": 0
+},
+"other|none|1|specialist:nutrition-label": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:nutrition-label",
+"right": 3,
+"wrong": 0
+},
+"howmany|none|1|unit:kcal-": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "unit:kcal-",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:ocean": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:ocean",
+"right": 6,
+"wrong": 0
+},
+"other|none|1|specialist:optics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:optics",
+"right": 41,
+"wrong": 0
+},
+"what|none|1|specialist:optics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:optics",
+"right": 5,
+"wrong": 0
+},
+"what|none|1|specialist:astronomy": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:astronomy",
+"right": 0,
+"wrong": 2
+},
+"other|none|0|specialist:ornithology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:ornithology",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|specialist:pets": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:pets",
+"right": 5,
+"wrong": 0
+},
+"other|none|1|specialist:physics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:physics",
+"right": 7,
+"wrong": 0
+},
+"what|none|1|specialist:planetary": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:planetary",
+"right": 7,
+"wrong": 0
+},
+"howmany|none|0|specialist:poetry": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:poetry",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:printing": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:printing",
+"right": 5,
+"wrong": 0
+},
+"howmuch|none|1|specialist:printing": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:printing",
+"right": 7,
+"wrong": 0
+},
+"who|112|0|specialist:psychology": {
+"shape": {
+"wh": "who",
+"rel": "112",
+"num": "0"
+},
+"route": "specialist:psychology",
+"right": 1,
+"wrong": 0
+},
+"who|61|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "61",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 9,
+"wrong": 0
+},
+"which|none|0|specialist:python": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:python",
+"right": 4,
+"wrong": 0
+},
+"what|none|0|specialist:python": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:python",
+"right": 9,
+"wrong": 1
+},
+"what|none|1|specialist:python": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:python",
+"right": 1,
+"wrong": 0
+},
+"when|569|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 107,
+"wrong": 4
+},
+"who|22|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "22",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 178,
+"wrong": 2
+},
+"where|19|0|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 80,
+"wrong": 8
+},
+"who|287|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "287",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 10,
+"wrong": 0
+},
+"who|112|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "112",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 30,
+"wrong": 2
+},
+"where|159|0|specialist:rel-airlines": {
+"shape": {
+"wh": "where",
+"rel": "159",
+"num": "0"
+},
+"route": "specialist:rel-airlines",
+"right": 2,
+"wrong": 0
+},
+"where|159|0|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "159",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 9,
+"wrong": 0
+},
+"when|571|0|organ:relation": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 24,
+"wrong": 11
+},
+"when|571|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 116,
+"wrong": 1
+},
+"which|17|0|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "17",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 38,
+"wrong": 0
+},
+"which|17|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "17",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 75,
+"wrong": 0
+},
+"which|264|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "264",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 3,
+"wrong": 0
+},
+"when|577|0|verified:cube": {
+"shape": {
+"wh": "when",
+"rel": "577",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 1
+},
+"when|577|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "577",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 8,
+"wrong": 2
+},
+"when|577|0|specialist:rel-albums": {
+"shape": {
+"wh": "when",
+"rel": "577",
+"num": "0"
+},
+"route": "specialist:rel-albums",
+"right": 1,
+"wrong": 0
+},
+"who|175|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "175",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 8,
+"wrong": 0
+},
+"what|27|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "27",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 164,
+"wrong": 2
+},
+"where|20|0|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 105,
+"wrong": 4
+},
+"who|170|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "170",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 21,
+"wrong": 0
+},
+"which|449|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "449",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 12,
+"wrong": 0
+},
+"which|449|1|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "449",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"who|25|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "25",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 135,
+"wrong": 0
+},
+"when|575|1|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "575",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 20,
+"wrong": 0
+},
+"who|61|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "61",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 19,
+"wrong": 0
+},
+"where|19|0|organ:relation": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 29,
+"wrong": 0
+},
+"who|1027|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "1027",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 15,
+"wrong": 0
+},
+"who|86|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "86",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 15,
+"wrong": 2
+},
+"who|86|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "86",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 4,
+"wrong": 0
+},
+"which|495|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "495",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 53,
+"wrong": 0
+},
+"what|413|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "413",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 16,
+"wrong": 0
+},
+"where|19|0|specialist:rel-basketball": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-basketball",
+"right": 1,
+"wrong": 0
+},
+"which|1532|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "1532",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 88,
+"wrong": 2
+},
+"where|20|0|deliberation:where": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "deliberation:where",
+"right": 5,
+"wrong": 10
+},
+"where|20|0|specialist:rel-biologists": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-biologists",
+"right": 7,
+"wrong": 0
+},
+"when|569|0|capability:when_did": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "capability:when_did",
+"right": 4,
+"wrong": 5
+},
+"who|287|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "287",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"which|749|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "749",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 18,
+"wrong": 0
+},
+"which|495|0|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "495",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 5,
+"wrong": 0
+},
+"who|84|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "84",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 55,
+"wrong": 0
+},
+"which|177|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "177",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 7,
+"wrong": 0
+},
+"when|1619|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "1619",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 48,
+"wrong": 0
+},
+"where|none|0|deliberation:where": {
+"shape": {
+"wh": "where",
+"rel": "none",
+"num": "0"
+},
+"route": "deliberation:where",
+"right": 2,
+"wrong": 0
+},
+"who|176|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "176",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 20,
+"wrong": 0
+},
+"when|570|0|specialist:rel-painters": {
+"shape": {
+"wh": "when",
+"rel": "570",
+"num": "0"
+},
+"route": "specialist:rel-painters",
+"right": 1,
+"wrong": 0
+},
+"when|571|1|organ:relation": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"when|571|1|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 3,
+"wrong": 0
+},
+"which|1080|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "1080",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 12,
+"wrong": 0
+},
+"where|20|0|specialist:rel-business": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-business",
+"right": 2,
+"wrong": 0
+},
+"when|569|0|specialist:rel-biologists": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-biologists",
+"right": 1,
+"wrong": 0
+},
+"where|20|0|specialist:rel-chess": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-chess",
+"right": 1,
+"wrong": 0
+},
+"who|123|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "123",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 14,
+"wrong": 0
+},
+"where|20|0|specialist:rel-composers": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-composers",
+"right": 2,
+"wrong": 0
+},
+"when|569|0|specialist:rel-composers": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-composers",
+"right": 1,
+"wrong": 0
+},
+"who|61|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "61",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 19,
+"wrong": 0
+},
+"when|575|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "575",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 8,
+"wrong": 0
+},
+"what|85|0|arb:definitional-": {
+"shape": {
+"wh": "what",
+"rel": "85",
+"num": "0"
+},
+"route": "arb:definitional-",
+"right": 0,
+"wrong": 1
+},
+"what|85|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "85",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"name|36|0|specialist:rel": {
+"shape": {
+"wh": "name",
+"rel": "36",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"what|610|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "610",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 6,
+"wrong": 0
+},
+"which|38|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "38",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 6,
+"wrong": 0
+},
+"who|25|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "25",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 6,
+"wrong": 0
+},
+"where|20|0|specialist:rel-criminals": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-criminals",
+"right": 1,
+"wrong": 0
+},
+"when|569|0|specialist:rel-cyclists": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-cyclists",
+"right": 1,
+"wrong": 0
+},
+"which|177|0|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "177",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"when|569|0|specialist:rel-actors": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-actors",
+"right": 4,
+"wrong": 0
+},
+"other|30|0|organ:relation": {
+"shape": {
+"wh": "other",
+"rel": "30",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 3,
+"wrong": 0
+},
+"what|828|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "828",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 14,
+"wrong": 0
+},
+"who|25|0|specialist:rel-business": {
+"shape": {
+"wh": "who",
+"rel": "25",
+"num": "0"
+},
+"route": "specialist:rel-business",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-biologists": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-biologists",
+"right": 0,
+"wrong": 1
+},
+"where|20|0|specialist:rel-historians": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-historians",
+"right": 3,
+"wrong": 0
+},
+"where|19|0|specialist:rel-lawyers": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-lawyers",
+"right": 1,
+"wrong": 0
+},
+"which|59|1|exact_router": {
+"shape": {
+"wh": "which",
+"rel": "59",
+"num": "1"
+},
+"route": "exact_router",
+"right": 11,
+"wrong": 0
+},
+"when|570|0|verified:weak": {
+"shape": {
+"wh": "when",
+"rel": "570",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 1,
+"wrong": 0
+},
+"what|156|0|arb:explain_simply-": {
+"shape": {
+"wh": "what",
+"rel": "156",
+"num": "0"
+},
+"route": "arb:explain_simply-",
+"right": 0,
+"wrong": 1
+},
+"what|156|1|arb:definitional-": {
+"shape": {
+"wh": "what",
+"rel": "156",
+"num": "1"
+},
+"route": "arb:definitional-",
+"right": 0,
+"wrong": 1
+},
+"what|156|1|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "156",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 3,
+"wrong": 0
+},
+"what|156|0|arb:definitional-": {
+"shape": {
+"wh": "what",
+"rel": "156",
+"num": "0"
+},
+"route": "arb:definitional-",
+"right": 0,
+"wrong": 2
+},
+"what|156|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "156",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 6,
+"wrong": 0
+},
+"who|86|0|exact_router": {
+"shape": {
+"wh": "who",
+"rel": "86",
+"num": "0"
+},
+"route": "exact_router",
+"right": 1,
+"wrong": 0
+},
+"what|115|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "115",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 10,
+"wrong": 0
+},
+"which|118|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "118",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 10,
+"wrong": 0
+},
+"when|575|1|cube:read": {
+"shape": {
+"wh": "when",
+"rel": "575",
+"num": "1"
+},
+"route": "cube:read",
+"right": 3,
+"wrong": 1
+},
+"who|61|1|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "61",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 3,
+"wrong": 0
+},
+"what|36|0|exact_router": {
+"shape": {
+"wh": "what",
+"rel": "36",
+"num": "0"
+},
+"route": "exact_router",
+"right": 6,
+"wrong": 0
+},
+"when|569|0|specialist:rel-historians": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-historians",
+"right": 2,
+"wrong": 0
+},
+"where|20|0|specialist:rel-actors": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-actors",
+"right": 6,
+"wrong": 0
+},
+"which|282|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "282",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 14,
+"wrong": 0
+},
+"where|20|0|organ:relation": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 2,
+"wrong": 0
+},
+"when|570|0|specialist:rel-astronomers": {
+"shape": {
+"wh": "when",
+"rel": "570",
+"num": "0"
+},
+"route": "specialist:rel-astronomers",
+"right": 2,
+"wrong": 0
+},
+"where|19|0|verified:cube": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 0,
+"wrong": 1
+},
+"where|20|0|specialist:rel-chemists": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-chemists",
+"right": 2,
+"wrong": 0
+},
+"where|20|0|specialist:rel-monarchs": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-monarchs",
+"right": 1,
+"wrong": 0
+},
+"which|397|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "397",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 6,
+"wrong": 0
+},
+"which|4552|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "4552",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 7,
+"wrong": 0
+},
+"which|463|0|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "463",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"which|463|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "463",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"who|112|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "112",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 7,
+"wrong": 0
+},
+"where|291|0|specialist:rel-newspapers": {
+"shape": {
+"wh": "where",
+"rel": "291",
+"num": "0"
+},
+"route": "specialist:rel-newspapers",
+"right": 1,
+"wrong": 0
+},
+"where|291|0|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "291",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"what|144|1|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "144",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"when|571|0|verified:weak": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 0,
+"wrong": 2
+},
+"when|571|0|capability:when_did": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "0"
+},
+"route": "capability:when_did",
+"right": 4,
+"wrong": 2
+},
+"where|159|0|specialist:rel-organisations": {
+"shape": {
+"wh": "where",
+"rel": "159",
+"num": "0"
+},
+"route": "specialist:rel-organisations",
+"right": 1,
+"wrong": 0
+},
+"where|159|0|organ:relation": {
+"shape": {
+"wh": "where",
+"rel": "159",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 1
+},
+"when|569|0|specialist:rel-directors": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-directors",
+"right": 1,
+"wrong": 0
+},
+"where|20|0|specialist:rel-architects": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-architects",
+"right": 1,
+"wrong": 0
+},
+"which|195|0|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "195",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 18,
+"wrong": 0
+},
+"when|569|0|specialist:rel-chemists": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-chemists",
+"right": 2,
+"wrong": 0
+},
+"where|840|0|deliberation:where": {
+"shape": {
+"wh": "where",
+"rel": "840",
+"num": "0"
+},
+"route": "deliberation:where",
+"right": 0,
+"wrong": 2
+},
+"where|20|1|organ:relation": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"where|20|1|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"where|403|0|organ:relation": {
+"shape": {
+"wh": "where",
+"rel": "403",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 0,
+"wrong": 1
+},
+"where|403|0|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "403",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 8,
+"wrong": 0
+},
+"where|403|0|specialist:rel-rivers": {
+"shape": {
+"wh": "where",
+"rel": "403",
+"num": "0"
+},
+"route": "specialist:rel-rivers",
+"right": 1,
+"wrong": 0
+},
+"where|885|0|specialist:rel-rivers": {
+"shape": {
+"wh": "where",
+"rel": "885",
+"num": "0"
+},
+"route": "specialist:rel-rivers",
+"right": 2,
+"wrong": 0
+},
+"where|885|0|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "885",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"who|170|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "170",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 2,
+"wrong": 0
+},
+"what|1303|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "1303",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"where|20|0|specialist:rel-footballers": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-footballers",
+"right": 1,
+"wrong": 0
+},
+"who|84|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "84",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"where|19|0|specialist:rel-politicians": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-politicians",
+"right": 1,
+"wrong": 0
+},
+"who|178|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "178",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 10,
+"wrong": 0
+},
+"who|287|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "287",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 4,
+"wrong": 0
+},
+"who|176|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "176",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 8,
+"wrong": 0
+},
+"where|19|0|specialist:rel-playwrights": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-playwrights",
+"right": 1,
+"wrong": 0
+},
+"where|276|1|specialist:rel-sportsevents": {
+"shape": {
+"wh": "where",
+"rel": "276",
+"num": "1"
+},
+"route": "specialist:rel-sportsevents",
+"right": 1,
+"wrong": 0
+},
+"where|276|1|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "276",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 4,
+"wrong": 0
+},
+"where|276|1|organ:relation": {
+"shape": {
+"wh": "where",
+"rel": "276",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 7,
+"wrong": 1
+},
+"which|59|0|exact_router": {
+"shape": {
+"wh": "which",
+"rel": "59",
+"num": "0"
+},
+"route": "exact_router",
+"right": 3,
+"wrong": 0
+},
+"who|22|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "22",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 6,
+"wrong": 0
+},
+"what|1082|0|verified:weak": {
+"shape": {
+"wh": "what",
+"rel": "1082",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 0,
+"wrong": 1
+},
+"what|36|0|verified:cube": {
+"shape": {
+"wh": "what",
+"rel": "36",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 0,
+"wrong": 1
+},
+"what|1082|0|cube:read": {
+"shape": {
+"wh": "what",
+"rel": "1082",
+"num": "0"
+},
+"route": "cube:read",
+"right": 0,
+"wrong": 1
+},
+"where|19|0|specialist:rel-swimmers": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-swimmers",
+"right": 2,
+"wrong": 0
+},
+"where|20|0|specialist:rel-baseball": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-baseball",
+"right": 0,
+"wrong": 1
+},
+"where|19|0|specialist:rel-photographers": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-photographers",
+"right": 0,
+"wrong": 1
+},
+"when|1619|0|verified:weak": {
+"shape": {
+"wh": "when",
+"rel": "1619",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 0,
+"wrong": 1
+},
+"when|1619|0|verified:cube": {
+"shape": {
+"wh": "when",
+"rel": "1619",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 1
+},
+"when|1619|0|cube:read": {
+"shape": {
+"wh": "when",
+"rel": "1619",
+"num": "0"
+},
+"route": "cube:read",
+"right": 1,
+"wrong": 2
+},
+"where|20|0|specialist:rel-philosophers": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-philosophers",
+"right": 1,
+"wrong": 0
+},
+"when|585|1|cube:read": {
+"shape": {
+"wh": "when",
+"rel": "585",
+"num": "1"
+},
+"route": "cube:read",
+"right": 0,
+"wrong": 1
+},
+"when|580|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "580",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 4,
+"wrong": 0
+},
+"who|170|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "170",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"when|582|0|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "582",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 17,
+"wrong": 0
+},
+"when|582|1|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "582",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"howmuch|none|1|specialist:renewables": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:renewables",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:renewables": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:renewables",
+"right": 5,
+"wrong": 0
+},
+"other|none|1|specialist:retail": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:retail",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:robotics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:robotics",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:robotics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:robotics",
+"right": 5,
+"wrong": 0
+},
+"the|none|1|specialist:robotics": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:robotics",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:safety": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:safety",
+"right": 8,
+"wrong": 0
+},
+"howmany|none|1|specialist:seismology": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:seismology",
+"right": 3,
+"wrong": 0
+},
+"who|none|0|specialist:sociology": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:sociology",
+"right": 3,
+"wrong": 0
+},
+"what|none|0|specialist:sociology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:sociology",
+"right": 2,
+"wrong": 0
+},
+"what|none|1|specialist:soil": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:soil",
+"right": 4,
+"wrong": 0
+},
+"other|none|1|specialist:soil": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:soil",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:spacecomms": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:spacecomms",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:sports": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:sports",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:geography": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:geography",
+"right": 0,
+"wrong": 2
+},
+"other|none|1|specialist:springs": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:springs",
+"right": 6,
+"wrong": 0
+},
+"other|none|1|specialist:sql": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:sql",
+"right": 8,
+"wrong": 0
+},
+"other|none|1|specialist:statistics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:statistics",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|op:statistics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "op:statistics",
+"right": 1,
+"wrong": 4
+},
+"howmany|none|1|op:combinations": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "op:combinations",
+"right": 8,
+"wrong": 0
+},
+"what|none|1|specialist:statistics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:statistics",
+"right": 4,
+"wrong": 0
+},
+"what|none|1|specialist:thermo": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:thermo",
+"right": 5,
+"wrong": 0
+},
+"howmuch|none|1|specialist:thermo": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:thermo",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:units": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:units",
+"right": 15,
+"wrong": 0
+},
+"howmuch|none|1|specialist:units": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:units",
+"right": 3,
+"wrong": 0
+},
+"what|none|0|specialist:ushistory": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:ushistory",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|specialist:ushistory": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:ushistory",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:warehouse": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:warehouse",
+"right": 7,
+"wrong": 0
+},
+"which|none|0|specialist:warehouse": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:warehouse",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|1|specialist:warehouse": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:warehouse",
+"right": 2,
+"wrong": 0
+},
+"other|none|0|specialist:warehouse": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:warehouse",
+"right": 3,
+"wrong": 0
+},
+"howmany|none|0|specialist:warehouse": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:warehouse",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|1|specialist:water": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:water",
+"right": 2,
+"wrong": 0
+},
+"howmuch|none|1|specialist:water": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:water",
+"right": 3,
+"wrong": 0
+},
+"other|none|1|specialist:wildlife": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:wildlife",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:wiring": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:wiring",
+"right": 6,
+"wrong": 0
+},
+"what|none|1|specialist:electrical": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:electrical",
+"right": 5,
+"wrong": 0
+},
+"howmany|none|1|specialist:woodworking": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:woodworking",
+"right": 6,
+"wrong": 0
+},
+"when|580|0|capability:when_did": {
+"shape": {
+"wh": "when",
+"rel": "580",
+"num": "0"
+},
+"route": "capability:when_did",
+"right": 1,
+"wrong": 1
+},
+"who|none|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"what|59|0|cube:read": {
+"shape": {
+"wh": "what",
+"rel": "59",
+"num": "0"
+},
+"route": "cube:read",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|organ:relation": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 2,
+"wrong": 1
+},
+"what|none|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|compose:bridge": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "compose:bridge",
+"right": 2,
+"wrong": 0
+},
+"where|none|0|verified:cube": {
+"shape": {
+"wh": "where",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 0,
+"wrong": 1
+},
+"who|none|0|specialist:literature": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:literature",
+"right": 0,
+"wrong": 1
+},
+"who|22|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "22",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|1|organ:relation": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 0,
+"wrong": 1
+},
+"what|585|0|verified:cube": {
+"shape": {
+"wh": "what",
+"rel": "585",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 0,
+"wrong": 1
+},
+"who|123|0|exact_router": {
+"shape": {
+"wh": "who",
+"rel": "123",
+"num": "0"
+},
+"route": "exact_router",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|organ:converse": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "organ:converse",
+"right": 0,
+"wrong": 1
+},
+"which|86|1|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "86",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"which|none|1|specialist:chemistry": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:chemistry",
+"right": 0,
+"wrong": 1
+},
+"other|none|0|factoid:page": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "factoid:page",
+"right": 1,
+"wrong": 0
+},
+"who|170|0|cube:read": {
+"shape": {
+"wh": "who",
+"rel": "170",
+"num": "0"
+},
+"route": "cube:read",
+"right": 1,
+"wrong": 0
+},
+"other|36|0|specialist:rel-countries-v2": {
+"shape": {
+"wh": "other",
+"rel": "36",
+"num": "0"
+},
+"route": "specialist:rel-countries-v2",
+"right": 1,
+"wrong": 0
+},
+"other|36|0|specialist:rel": {
+"shape": {
+"wh": "other",
+"rel": "36",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|verified:cube": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|op:roman_numeral": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "op:roman_numeral",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|compute:verified": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "compute:verified",
+"right": 1,
+"wrong": 0
+},
+"the|none|0|specialist:chemistry": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:chemistry",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|verified:cube": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|arb:act_provenance-": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "arb:act_provenance-",
+"right": 0,
+"wrong": 1
+},
+"which|none|0|specialist:linguistics": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:linguistics",
+"right": 1,
+"wrong": 1
+},
+"the|none|1|arb:list_n-": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "arb:list_n-",
+"right": 0,
+"wrong": 1
+},
+"other|17|0|organ:relation": {
+"shape": {
+"wh": "other",
+"rel": "17",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"other|17|0|specialist:rel": {
+"shape": {
+"wh": "other",
+"rel": "17",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"who|112|0|compose:comparison": {
+"shape": {
+"wh": "who",
+"rel": "112",
+"num": "0"
+},
+"route": "compose:comparison",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|specialist:literature": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:literature",
+"right": 1,
+"wrong": 0
+},
+"when|577|0|verified:weak": {
+"shape": {
+"wh": "when",
+"rel": "577",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 0,
+"wrong": 1
+},
+"who|22|0|specialist:worldhistory": {
+"shape": {
+"wh": "who",
+"rel": "22",
+"num": "0"
+},
+"route": "specialist:worldhistory",
+"right": 0,
+"wrong": 1
+},
+"other|none|1|specialist:government": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:government",
+"right": 0,
+"wrong": 1
+},
+"who|57|0|exact_router": {
+"shape": {
+"wh": "who",
+"rel": "57",
+"num": "0"
+},
+"route": "exact_router",
+"right": 1,
+"wrong": 0
+},
+"who|57|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "57",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"who|none|0|compose:comparison": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "compose:comparison",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:acoustics": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:acoustics",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|1|specialist:additive": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:additive",
+"right": 3,
+"wrong": 0
+},
+"which|none|0|specialist:anatomy": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:anatomy",
+"right": 2,
+"wrong": 0
+},
+"howmuch|none|1|specialist:bodies": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:bodies",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|0|specialist:botany": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:botany",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|1|specialist:carboncapture": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:carboncapture",
+"right": 2,
+"wrong": 0
+},
+"what|none|0|specialist:childdev": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:childdev",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|specialist:childdev": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:childdev",
+"right": 1,
+"wrong": 0
+},
+"who|none|0|specialist:childdev": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:childdev",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|1|specialist:climate": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:climate",
+"right": 3,
+"wrong": 0
+},
+"the|none|1|specialist:coldchain": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:coldchain",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|specialist:cooking": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:cooking",
+"right": 2,
+"wrong": 0
+},
+"what|none|0|specialist:crafts": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:crafts",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|1|specialist:crafts": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:crafts",
+"right": 2,
+"wrong": 0
+},
+"howmany|none|1|specialist:cyber": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:cyber",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|op:base_convert": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "op:base_convert",
+"right": 0,
+"wrong": 1
+},
+"what|none|1|specialist:decay": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:decay",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:densities": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:densities",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|1|specialist:electrical": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:electrical",
+"right": 1,
+"wrong": 0
+},
+"howmuch|none|1|specialist:electronics": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:electronics",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|1|specialist:embedded": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:embedded",
+"right": 3,
+"wrong": 0
+},
+"what|none|0|specialist:entomology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:entomology",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|specialist:etiquette": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:etiquette",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|specialist:firesafety": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:firesafety",
+"right": 3,
+"wrong": 0
+},
+"what|none|1|specialist:fleet": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:fleet",
+"right": 1,
+"wrong": 0
+},
+"other|none|0|specialist:fluids": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:fluids",
+"right": 4,
+"wrong": 0
+},
+"howmany|none|1|specialist:fuels": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:fuels",
+"right": 2,
+"wrong": 0
+},
+"other|none|1|specialist:geology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:geology",
+"right": 2,
+"wrong": 0
+},
+"other|none|0|specialist:git": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:git",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|0|specialist:government": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:government",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:iot": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:iot",
+"right": 2,
+"wrong": 0
+},
+"other|none|0|specialist:javascript": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:javascript",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|definitional_encyclopedic": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "definitional_encyclopedic",
+"right": 0,
+"wrong": 2
+},
+"which|none|0|specialist:law": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:law",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|deep_reach:definitional": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "deep_reach:definitional",
+"right": 1,
+"wrong": 1
+},
+"other|none|1|specialist:library": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:library",
+"right": 1,
+"wrong": 0
+},
+"which|none|1|specialist:linux": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:linux",
+"right": 1,
+"wrong": 0
+},
+"name|none|0|specialist:logic": {
+"shape": {
+"wh": "name",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:logic",
+"right": 3,
+"wrong": 0
+},
+"which|none|0|specialist:medicine": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:medicine",
+"right": 4,
+"wrong": 0
+},
+"howmany|none|1|specialist:microbiology": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:microbiology",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:music": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:music",
+"right": 4,
+"wrong": 0
+},
+"which|none|0|specialist:mycology": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:mycology",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:mycology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:mycology",
+"right": 2,
+"wrong": 0
+},
+"which|none|0|specialist:ornithology": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:ornithology",
+"right": 2,
+"wrong": 0
+},
+"what|none|0|specialist:ornithology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:ornithology",
+"right": 1,
+"wrong": 0
+},
+"howmany|none|0|specialist:pets": {
+"shape": {
+"wh": "howmany",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:pets",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:physics": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:physics",
+"right": 3,
+"wrong": 0
+},
+"who|50|0|specialist:poetry": {
+"shape": {
+"wh": "who",
+"rel": "50",
+"num": "0"
+},
+"route": "specialist:poetry",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:poetry": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:poetry",
+"right": 1,
+"wrong": 0
+},
+"the|none|1|specialist:printing": {
+"shape": {
+"wh": "the",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:printing",
+"right": 1,
+"wrong": 0
+},
+"who|none|0|specialist:psychology": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:psychology",
+"right": 3,
+"wrong": 0
+},
+"which|none|0|specialist:psychology": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:psychology",
+"right": 1,
+"wrong": 0
+},
+"what|none|0|specialist:psychology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:psychology",
+"right": 1,
+"wrong": 0
+},
+"which|264|0|verified:cube": {
+"shape": {
+"wh": "which",
+"rel": "264",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 0
+},
+"who|175|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "175",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"where|19|0|specialist:rel-architects": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-architects",
+"right": 1,
+"wrong": 0
+},
+"where|20|0|specialist:rel-astronauts": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-astronauts",
+"right": 1,
+"wrong": 0
+},
+"who|1027|0|verified:cube": {
+"shape": {
+"wh": "who",
+"rel": "1027",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-baseball": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-baseball",
+"right": 1,
+"wrong": 0
+},
+"where|20|0|specialist:rel-basketball": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-basketball",
+"right": 2,
+"wrong": 0
+},
+"when|569|0|specialist:rel-basketball": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-basketball",
+"right": 1,
+"wrong": 0
+},
+"when|569|0|cube:read": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "cube:read",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-boxers": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-boxers",
+"right": 1,
+"wrong": 0
+},
+"when|1619|0|specialist:rel-bridges": {
+"shape": {
+"wh": "when",
+"rel": "1619",
+"num": "0"
+},
+"route": "specialist:rel-bridges",
+"right": 1,
+"wrong": 0
+},
+"where|159|1|deliberation:where": {
+"shape": {
+"wh": "where",
+"rel": "159",
+"num": "1"
+},
+"route": "deliberation:where",
+"right": 0,
+"wrong": 1
+},
+"where|159|1|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "159",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"when|570|0|specialist:rel-chefs": {
+"shape": {
+"wh": "when",
+"rel": "570",
+"num": "0"
+},
+"route": "specialist:rel-chefs",
+"right": 1,
+"wrong": 0
+},
+"who|123|0|verified:cube": {
+"shape": {
+"wh": "who",
+"rel": "123",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-engineers": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-engineers",
+"right": 1,
+"wrong": 0
+},
+"which|none|1|cube:read": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "1"
+},
+"route": "cube:read",
+"right": 0,
+"wrong": 1
+},
+"other|30|0|specialist:rel": {
+"shape": {
+"wh": "other",
+"rel": "30",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"what|37|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "37",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"other|36|0|organ:relation": {
+"shape": {
+"wh": "other",
+"rel": "36",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 0,
+"wrong": 1
+},
+"where|19|0|specialist:rel-diplomats": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-diplomats",
+"right": 1,
+"wrong": 0
+},
+"what|828|1|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "828",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"where|19|0|specialist:rel-drivers": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-drivers",
+"right": 1,
+"wrong": 0
+},
+"when|569|0|specialist:rel-drivers": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-drivers",
+"right": 1,
+"wrong": 0
+},
+"where|20|0|specialist:rel-boxers": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-boxers",
+"right": 0,
+"wrong": 1
+},
+"when|569|0|specialist:rel-economists": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-economists",
+"right": 1,
+"wrong": 0
+},
+"who|57|0|organ:relation": {
+"shape": {
+"wh": "who",
+"rel": "57",
+"num": "0"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"where|840|0|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "840",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 5,
+"wrong": 0
+},
+"when|577|0|specialist:rel-songs": {
+"shape": {
+"wh": "when",
+"rel": "577",
+"num": "0"
+},
+"route": "specialist:rel-songs",
+"right": 1,
+"wrong": 1
+},
+"where|840|0|specialist:rel-novels": {
+"shape": {
+"wh": "where",
+"rel": "840",
+"num": "0"
+},
+"route": "specialist:rel-novels",
+"right": 2,
+"wrong": 1
+},
+"what|144|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "144",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 8,
+"wrong": 0
+},
+"when|571|0|specialist:rel-footballclubs": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "0"
+},
+"route": "specialist:rel-footballclubs",
+"right": 1,
+"wrong": 0
+},
+"when|569|0|specialist:rel-footballers": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-footballers",
+"right": 1,
+"wrong": 0
+},
+"which|59|1|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "59",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"when|570|0|specialist:rel-cricketers": {
+"shape": {
+"wh": "when",
+"rel": "570",
+"num": "0"
+},
+"route": "specialist:rel-cricketers",
+"right": 2,
+"wrong": 0
+},
+"where|20|0|specialist:rel-tennis": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-tennis",
+"right": 1,
+"wrong": 0
+},
+"other|837|0|factoid:page": {
+"shape": {
+"wh": "other",
+"rel": "837",
+"num": "0"
+},
+"route": "factoid:page",
+"right": 0,
+"wrong": 1
+},
+"other|837|0|compose:bridge": {
+"shape": {
+"wh": "other",
+"rel": "837",
+"num": "0"
+},
+"route": "compose:bridge",
+"right": 1,
+"wrong": 0
+},
+"when|569|0|specialist:rel-painters": {
+"shape": {
+"wh": "when",
+"rel": "569",
+"num": "0"
+},
+"route": "specialist:rel-painters",
+"right": 1,
+"wrong": 0
+},
+"which|17|1|organ:relation": {
+"shape": {
+"wh": "which",
+"rel": "17",
+"num": "1"
+},
+"route": "organ:relation",
+"right": 1,
+"wrong": 0
+},
+"which|17|1|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "17",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 3,
+"wrong": 0
+},
+"who|1366|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "1366",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"who|1365|0|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "1365",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"what|140|0|specialist:rel": {
+"shape": {
+"wh": "what",
+"rel": "140",
+"num": "0"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"who|84|0|verified:cube": {
+"shape": {
+"wh": "who",
+"rel": "84",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 0,
+"wrong": 1
+},
+"which|4552|0|verified:cube": {
+"shape": {
+"wh": "which",
+"rel": "4552",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 1,
+"wrong": 0
+},
+"who|84|0|specialist:rel-museums": {
+"shape": {
+"wh": "who",
+"rel": "84",
+"num": "0"
+},
+"route": "specialist:rel-museums",
+"right": 1,
+"wrong": 0
+},
+"when|577|0|specialist:rel-novels": {
+"shape": {
+"wh": "when",
+"rel": "577",
+"num": "0"
+},
+"route": "specialist:rel-novels",
+"right": 1,
+"wrong": 0
+},
+"where|20|0|specialist:rel-journalists": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-journalists",
+"right": 3,
+"wrong": 0
+},
+"who|50|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "50",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"where|20|0|specialist:rel-psychologists": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-psychologists",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-painters": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-painters",
+"right": 0,
+"wrong": 1
+},
+"when|571|0|specialist:rel-religions": {
+"shape": {
+"wh": "when",
+"rel": "571",
+"num": "0"
+},
+"route": "specialist:rel-religions",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-rugby": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-rugby",
+"right": 1,
+"wrong": 0
+},
+"where|20|0|specialist:rel-painters": {
+"shape": {
+"wh": "where",
+"rel": "20",
+"num": "0"
+},
+"route": "specialist:rel-painters",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-dancers": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-dancers",
+"right": 1,
+"wrong": 0
+},
+"when|1619|1|specialist:rel": {
+"shape": {
+"wh": "when",
+"rel": "1619",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"which|118|1|specialist:rel": {
+"shape": {
+"wh": "which",
+"rel": "118",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"which|59|0|verified:cube": {
+"shape": {
+"wh": "which",
+"rel": "59",
+"num": "0"
+},
+"route": "verified:cube",
+"right": 2,
+"wrong": 0
+},
+"where|19|1|specialist:rel-journalists": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "1"
+},
+"route": "specialist:rel-journalists",
+"right": 1,
+"wrong": 0
+},
+"where|19|1|specialist:rel": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 1,
+"wrong": 0
+},
+"where|19|0|specialist:rel-mathematicians": {
+"shape": {
+"wh": "where",
+"rel": "19",
+"num": "0"
+},
+"route": "specialist:rel-mathematicians",
+"right": 1,
+"wrong": 0
+},
+"who|178|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "178",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 4,
+"wrong": 0
+},
+"who|123|1|specialist:rel": {
+"shape": {
+"wh": "who",
+"rel": "123",
+"num": "1"
+},
+"route": "specialist:rel",
+"right": 2,
+"wrong": 0
+},
+"when|582|0|specialist:rel-wars": {
+"shape": {
+"wh": "when",
+"rel": "582",
+"num": "0"
+},
+"route": "specialist:rel-wars",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:seismology": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:seismology",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:seismology": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:seismology",
+"right": 1,
+"wrong": 0
+},
+"which|none|0|specialist:sociology": {
+"shape": {
+"wh": "which",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:sociology",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:spacecomms": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:spacecomms",
+"right": 2,
+"wrong": 0
+},
+"howmuch|none|1|specialist:spacecraft": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:spacecraft",
+"right": 1,
+"wrong": 0
+},
+"other|none|1|specialist:spacecraft": {
+"shape": {
+"wh": "other",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:spacecraft",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|specialist:spacecraft": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:spacecraft",
+"right": 2,
+"wrong": 0
+},
+"howmuch|none|1|op:unit_convert": {
+"shape": {
+"wh": "howmuch",
+"rel": "none",
+"num": "1"
+},
+"route": "op:unit_convert",
+"right": 0,
+"wrong": 1
+},
+"what|none|1|op:unit_convert": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "op:unit_convert",
+"right": 0,
+"wrong": 2
+},
+"what|none|1|specialist:wildlife": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "specialist:wildlife",
+"right": 1,
+"wrong": 0
+},
+"what|none|1|arb:definitional-": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "1"
+},
+"route": "arb:definitional-",
+"right": 0,
+"wrong": 1
+},
+"what|none|0|specialist:woodworking": {
+"shape": {
+"wh": "what",
+"rel": "none",
+"num": "0"
+},
+"route": "specialist:woodworking",
+"right": 1,
+"wrong": 0
+},
+"who|none|0|factoid:fts": {
+"shape": {
+"wh": "who",
+"rel": "none",
+"num": "0"
+},
+"route": "factoid:fts",
+"right": 0,
+"wrong": 1
+},
+"what|585|0|verified:weak": {
+"shape": {
+"wh": "what",
+"rel": "585",
+"num": "0"
+},
+"route": "verified:weak",
+"right": 1,
+"wrong": 0
+}
+}
+}

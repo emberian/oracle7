@@ -1,0 +1,8 @@
+{
+ "about": "dev: use as often as you like while you build. heldout: write it before the organ is finished, do not look at it while building, and run it once. At least 10 held-out items, at least 2 must-decline (valid: false).",
+ "dev": [
+  {"q": "Write a question your specialist should answer", "a": "the answer it should give", "valid": true, "kind": "fact"},
+  {"q": "Write a question in your domain it must decline (missing a value, false premise)", "a": "", "valid": false, "kind": "underspecified"}
+ ],
+ "heldout": []
+}

@@ -8,6 +8,51 @@ Live instance: **[prometheus7.com](https://prometheus7.com)** (the oracle7 desk)
 
 ---
 
+## Release: 14 October 2026
+
+The full release is on Hugging Face: **[psiloceyeben/oracle7](https://huggingface.co/psiloceyeben/oracle7)** and
+**[psiloceyeben/oracle7-slim](https://huggingface.co/psiloceyeben/oracle7-slim)** (stores included), with the community
+**[specialists dataset](https://huggingface.co/datasets/psiloceyeben/oracle7-specialists)**. This repository carries the
+code: the admitted fold chain up to head `oracle_release_runtime_w540` (317 folds), the Workbench, the launcher, the
+research files and the release hashes. The stores stay on Hugging Face.
+
+```bash
+pip install -U huggingface_hub
+huggingface-cli download psiloceyeben/oracle7 --local-dir oracle7 && cd oracle7
+pip install -r requirements.txt
+python oracle7.py "Who wrote Leaves of Grass?"
+python oracle7.py --workbench          # the local Workbench in your browser
+python oracle7.py verify --chain       # check this install against its published hashes and their Solana anchor
+```
+
+**Measured on the release as shipped** (each sealed test written and hashed before the head was built, run once):
+
+- Sealed test 19: **117 right, 3 wrong, 30 declined**; 1 false yes on the 30 questions that must be declined;
+  precision 97.8%; passed. Slim: 113 right, 1 wrong, 0 false yes, 98.8%.
+- Sealed test 18, on the previous candidate: 118 right, 5 wrong, 4 false yes; **failed**, published with its causes.
+- The general relation reader, held-out on 6,000 TriviaQA questions it was never developed on: 82 answered, 81 right
+  (98.8%). Two earlier held-out runs failed the 95% bar and are published in `research/coverage_reader/`.
+- 267 admitted specialists. On their exams they scored 15,478 right and 14 wrong; the main model on the same exams,
+  3,548 right and 643 wrong.
+- Standard benchmarks (n = 200 per set): it declines most questions; of those it answers, 100 right and 31 wrong.
+
+**The Workbench** (`workbench/`, `python oracle7.py --workbench`) runs on 127.0.0.1 and is the interface for the model:
+ask and trace every answer's path, build a specialist from your own files, a server, an MCP server or a sensor, give it
+its held-out exam, make films of answers, and share an admitted specialist. Conversations are kept on your computer and
+can become a temporary specialist.
+
+**Verification.** `RELEASE_HASHES.json` lists a SHA-256 for every shipped part (311 parts: 307 specialist folders, the
+admitted chain, the Workbench, the launcher and the store manifest) and a Merkle root. The roots of both releases were
+written to Solana mainnet in one memo transaction:
+[54PaqBXe...](https://explorer.solana.com/tx/54PaqBXeGLEH8UbrVC3UydKfMFxnqbPSrpy5gTeXFdSBfmNK9EUdzzBeWioX35oHqQgXynaWjuNo6VVcP2mUKP46).
+
+**Specialist registry.** Registering a specialist you built burns 1 $ORACLE7
+(`DU7Lhe2QtcRBJdor7KbpjfUDmLyA2kdhR49Li3czpump`) and writes the specialist's file hash, exam verdict and held-out score
+in a memo, in one transaction signed in your own wallet from the Workbench's Share tab. Anyone can check a specialist
+against its registration (`python oracle7.py registry <id>`). The Workbench never holds a key.
+
+---
+
 ## The Mission
 
 Modern AI has one dominant recipe: scale a statistical model until competence
@@ -129,8 +174,12 @@ and memory.
 ## Repository layout
 
 ```
-runtime/            the import closure of the serving chain (104 modules)
-  admitted/         the gate-admitted w-chain + HEAD_MANIFEST.json (ancestry truth)
+oracle7.py          the launcher (needs the stores from the Hugging Face release)
+RELEASE_HASHES.json one SHA-256 per shipped part, the Merkle root and its Solana anchor
+workbench/          the local Workbench: server, CLI, exams, sources, sensors, MCP, registry, verify
+research/           coverage reader, path memory and the full sealed-test history
+runtime/            the import closure of the serving chain (as of August)
+  admitted/         the gate-admitted w-chain up to w540 + HEAD_MANIFEST.json (ancestry truth)
 organs/             the loop: fold worker (authors), self-loop daemon (gates),
                     soul cognition server (serves the world), harness (shows)
 evaluation/         depth panels + sealed results
@@ -151,7 +200,7 @@ anything it cannot cite into them.
 
 ## Status
 
-Prepared 2026-08-25. The live instance — conversation, live world feed, the
+Code updated 2026-10-15 for the 14 October release (head w540); first prepared 2026-08-25. The live instance — conversation, live world feed, the
 loop's own narrated work, the art gallery, and the broadcast desk — runs at
 **prometheus7.com**, first tab.
 

@@ -1,0 +1,927 @@
+{
+ "summary": {
+  "runtime": "oracle_release_runtime_w533",
+  "turns": 88,
+  "handled": 63,
+  "handled_rate": 0.7159,
+  "right": 50,
+  "answered": 55,
+  "precision_on_answered": 0.9091,
+  "false_yes": 0,
+  "follow_rate": 0.5143,
+  "totals": {
+   "right": 50,
+   "handled": 7,
+   "missed": 20,
+   "kept": 6,
+   "wrong": 5
+  },
+  "by_kind": {
+   "fact": {
+    "right": 21,
+    "missed": 5
+   },
+   "follow": {
+    "right": 18,
+    "missed": 12,
+    "wrong": 5
+   },
+   "social": {
+    "handled": 7,
+    "missed": 1
+   },
+   "number": {
+    "right": 9,
+    "missed": 2
+   },
+   "decline": {
+    "kept": 6
+   },
+   "multi": {
+    "right": 2
+   }
+  }
+ },
+ "items": [
+  {
+   "d": 0,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who wrote The Old Man and the Sea?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Ernest Hemingway. The Old Man and the Sea is a 1952 novella by the American author Ernest Hemingway. [enwiki_772db42685b7e0fec40f5d7d] (typed relations: wd:Q26505 P50 wd:Q23434)"
+  },
+  {
+   "d": 0,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Oak Park. He grew up in Oak Park, Illinois, near the midwestern city of Chicago. [simplewiki_f31e71d85f84df31ad602ee6] (typed relations: wd:Q23434 P19 wd:Q331397)"
+  },
+  {
+   "d": 0,
+   "t": 2,
+   "kind": "follow",
+   "q": "When did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-journalists>journalists",
+   "reply": "2 July 1961. From the Wikidata relation store: Ernest Hemingway (Q23434) - year of death (P570) - 2 July 1961. [rel-journalists]"
+  },
+  {
+   "d": 0,
+   "t": 3,
+   "kind": "social",
+   "q": "Thanks!",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "act:acknowledge",
+   "reply": "Glad that helps. We were on Ernest Hemingway: I can go further into it, compare it with something, or move to a new topic."
+  },
+  {
+   "d": 1,
+   "t": 0,
+   "kind": "fact",
+   "q": "What is the capital of Ghana?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Accra. Thirty-one million people live there; its capital was once Cape Coast, but now it is Accra. [simplewiki_2b1e4a0d696580d04c5b5a91] (typed relations: wd:Q117 P36 wd:Q3761)"
+  },
+  {
+   "d": 1,
+   "t": 1,
+   "kind": "follow",
+   "q": "And its currency?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:currency>READ>FRAME>LINK>RELATE:fwd:P38>CHECK:P38>BIND>EXPAND>VERIFY",
+   "reply": "Ghana cedi. 1 Ghana Cedi is equal to 1000 Cedi."
+  },
+  {
+   "d": 1,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "Africa. Ghana, officially the Republic of Ghana, is a country in West Africa."
+  },
+  {
+   "d": 1,
+   "t": 3,
+   "kind": "follow",
+   "q": "What is its official language?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "English. From the Wikidata relation store: Ghana (Q117) - spoken in (P37) - English. [rel-countries-v2]"
+  },
+  {
+   "d": 2,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who painted The Starry Night?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:creator>READ>FRAME>LINK>RELATE:fwd:P170>CHECK:P170>BIND>EXPAND>VERIFY",
+   "reply": "Vincent van Gogh. The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh."
+  },
+  {
+   "d": 2,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 2,
+   "t": 2,
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 3,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet does Titan orbit?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify|vessel:reinforced",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. You have asked \"Which pl"
+  },
+  {
+   "d": 3,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who discovered it?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:resolved>act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who dis"
+  },
+  {
+   "d": 3,
+   "t": 2,
+   "kind": "follow",
+   "q": "In what year?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:resolved>act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what"
+  },
+  {
+   "d": 4,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who composed The Magic Flute?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Wolfgang Amadeus Mozart. The Magic Flute, K. 620, is an opera in two acts by Wolfgang Amadeus Mozart to a German libretto by Emanuel Schikaneder. [enwiki_3df9422f9798116c8196d4dc] (typed relations: wd:Q5064 P86 wd:Q254)"
+  },
+  {
+   "d": 4,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Salzburg. He was born in Salzburg (then a free archbishopric city within the Holy Roman Empire, now Austria). [simplewiki_601c96accc9e8b1f5e0315da] (typed relations: wd:Q254 P19 wd:Q34713)"
+  },
+  {
+   "d": 4,
+   "t": 2,
+   "kind": "follow",
+   "q": "Who was his father?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:father>READ>FRAME>LINK>RELATE:fwd:P22>CHECK:P22>BIND>EXPAND>VERIFY",
+   "reply": "Leopold Mozart. Wolfgang Amadeus Mozart (27 January 1756 – 5 December 1791) was a Classical composer and musician."
+  },
+  {
+   "d": 5,
+   "t": 0,
+   "kind": "social",
+   "q": "Hi there!",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands."
+  },
+  {
+   "d": 5,
+   "t": 1,
+   "kind": "fact",
+   "q": "Who founded Microsoft?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>PERSON|factoid:page",
+   "reply": "BASIC. Founded in 1975 by Bill Gates and Paul Allen to market BASIC interpreters for the Altair 8800, Microsoft rose to dominate the PC operating system market with MS-DOS in the mid-1980s, followed by Windows. [enwiki_2961765adf3c9efa8d80613e]"
+  },
+  {
+   "d": 5,
+   "t": 2,
+   "kind": "number",
+   "q": "What's 15% of 80?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 12. Read as percent of: 15% of 80. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives."
+  },
+  {
+   "d": 5,
+   "t": 3,
+   "kind": "social",
+   "q": "Thanks, that's all.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "arb:act_acknowledge->act:acknowledge",
+   "reply": "[ev:unknown] Noted. The session state is kept; ask on."
+  },
+  {
+   "d": 6,
+   "t": 0,
+   "kind": "decline",
+   "q": "Who is the current King of the United States?",
+   "verdict": "kept",
+   "status": "withheld",
+   "path": "unverified:factoid:fts",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"The first MD school in the United States opened in New York in 1754 (King’s College, current Columbia University), and the first M.D. degree was awarded there in 1770.\""
+  },
+  {
+   "d": 6,
+   "t": 1,
+   "kind": "fact",
+   "q": "Who was the first President of the United States?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"The American President is restricted by the written United States Constitution, which was written to make sure that the American executive never became as powerful as in the British system.\""
+  },
+  {
+   "d": 6,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 7,
+   "t": 0,
+   "kind": "number",
+   "q": "A 2 kW heater runs 5 hours a day. How many kWh does it use in 30 days?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 300 kwh. (path: core_math)"
+  },
+  {
+   "d": 7,
+   "t": 1,
+   "kind": "number",
+   "q": "At $0.20 per kWh, what does that cost?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>network>core_math",
+   "reply": "$60.00. The answer is $60.00. (path: core_math)"
+  },
+  {
+   "d": 8,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who wrote Frankenstein?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Mary Shelley. Frankenstein; or, The Modern Prometheus is an 1818 Gothic novel written by English author Mary Shelley. [enwiki_9bc2dfddec2d0c89bfdea608] (typed relations: wd:Q150827 P50 wd:Q47152)"
+  },
+  {
+   "d": 8,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who was her mother?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:mother>READ>FRAME>LINK>RELATE:fwd:P25>CHECK:P25>BIND>EXPAND>VERIFY",
+   "reply": "Mary Wollstonecraft. Mary Wollstonecraft Shelley (30 August 1797 – 1 February 1851) was an English novelist who wrote the Gothic novel Frankenstein; or, The Modern Prometheus (1818), which is considered an early example of science fiction."
+  },
+  {
+   "d": 8,
+   "t": 2,
+   "kind": "follow",
+   "q": "Who was she married to?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "chat:resolved>specialist_call>specialist:rel-historians>unverified",
+   "reply": "I can't verify the wives of Mary Wollstonecraft from my records, so I won't guess. [rel-historians]"
+  },
+  {
+   "d": 9,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed Jaws?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "exact_router>LINK>ROUTE:who|directed>RELATE:P57>AGREE>READ",
+   "reply": "[ev:direct] Steven Spielberg. From the Wikidata relation store: Jaws (Q189505) - movie director (P57) - Steven Spielberg."
+  },
+  {
+   "d": 9,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 9,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "chat:resolved>unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Roy Richard Scheider (November 10, 1932 – February 10, 2008) was an American actor.\""
+  },
+  {
+   "d": 10,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which country is Machu Picchu in?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "cube:read>frame>link>expand>bind>check>verify",
+   "reply": "[ev:direct] Peru. Machu Picchu is a 15th-century Inca citadel located in the Eastern Cordillera of southern Peru on a mountain ridge… [enwiki_2f20b6de05c8da10c62c1c81]"
+  },
+  {
+   "d": 10,
+   "t": 1,
+   "kind": "follow",
+   "q": "What's the capital of that country?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Lima. From the Wikidata relation store: Peru (Q419) - seat of government (P36) - Lima. [rel-countries-v2]"
+  },
+  {
+   "d": 10,
+   "t": 2,
+   "kind": "follow",
+   "q": "And the currency?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "chat:resolved>specialist_call>specialist:rel-countries-v2>unverified",
+   "reply": "I can't verify the used money of Peru from my records, so I won't guess. [rel-countries-v2]"
+  },
+  {
+   "d": 11,
+   "t": 0,
+   "kind": "number",
+   "q": "Solve for x: 3x + 4 = 19.",
+   "verdict": "right",
+   "status": "answered",
+   "path": "algebra:solved",
+   "reply": "x = 5. read it as 3x + 4 = 19; then collect x on the left: 3x = 15; then divide both sides by 3: x = 5; then check by substitution: left gives 19, right gives 19, equal."
+  },
+  {
+   "d": 11,
+   "t": 1,
+   "kind": "number",
+   "q": "What is x squared?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>compute:verified",
+   "reply": "25. In steps: 5 ^ 2 = 25. The answer is 25."
+  },
+  {
+   "d": 12,
+   "t": 0,
+   "kind": "number",
+   "q": "How long does a stone take to fall 20 m?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:physics-r2>fall_time",
+   "reply": "It takes about 2.02 s to fall 20 m (t = √(2h/g); no air resistance). [physics-r2]"
+  },
+  {
+   "d": 12,
+   "t": 1,
+   "kind": "number",
+   "q": "And on the Moon?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:bodies-v2>fall_time",
+   "reply": "It takes about 4.969 s to fall 20 m on the Moon (t = √(2h/g) = √(2·20/1.62); no air resistance). [bodies-v2]"
+  },
+  {
+   "d": 13,
+   "t": 0,
+   "kind": "decline",
+   "q": "What did I have for dinner last night?",
+   "verdict": "kept",
+   "status": "clarification",
+   "path": "act:clarify|vessel:reinforced",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. You have asked \"What did"
+  },
+  {
+   "d": 13,
+   "t": 1,
+   "kind": "fact",
+   "q": "What is the currency of Sweden?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:currency>READ>FRAME>LINK>RELATE:fwd:P38>CHECK:P38>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Swedish krona. The currency remains the Swedish krona (Swedish crown). [simplewiki_0e80d2a8ece8660091c32267] (typed relations: wd:Q34 P38 wd:Q122922)"
+  },
+  {
+   "d": 13,
+   "t": 2,
+   "kind": "follow",
+   "q": "And of Denmark?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:reinforced",
+   "reply": "No provenance-admitted material on of Denmark is available to summarize. You have asked \"And of Denmark?\" before. I hold it as an unnamed shape [vessel:v317955], weight 15.0, asked 3 times; the routes that tried and failed: capability:summarize. What I lack is what \"And of Denmark?\" counts as and wh"
+  },
+  {
+   "d": 14,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who wrote Crime and Punishment?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Fyodor Dostoyevsky. His most popular novels are Crime and Punishment, The Idiot and The Brothers Karamazov."
+  },
+  {
+   "d": 14,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_precedence>specialist:rel-historians>historians",
+   "reply": "Saint Petersburg. From the Wikidata relation store: Fyodor Dostoyevsky (Q991) - POD (P20) - Saint Petersburg. [rel-historians]"
+  },
+  {
+   "d": 14,
+   "t": 2,
+   "kind": "follow",
+   "q": "What nationality was he?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-historians>historians",
+   "reply": "Russian Empire. From the Wikidata relation store: Fyodor Dostoyevsky (Q991) - subject of (country) (P27) - Russian Empire. [rel-historians]"
+  },
+  {
+   "d": 15,
+   "t": 0,
+   "kind": "multi",
+   "q": "What is the capital of Austria and what is its currency?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:parts>2 of 2",
+   "reply": "[ev:direct] Vienna. It is a federation of nine states, of which the capital Vienna is the most populous city and state. [enwiki_93c83ce2422f77f9b1e8a864] (typed relations: wd:Q40 P36 wd:Q1741) [ev:direct] Euro. Austria, formally the Republic of Austria, is a landlocked country in Central Europe, lyi"
+  },
+  {
+   "d": 15,
+   "t": 1,
+   "kind": "social",
+   "q": "Great, thanks.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "r472:acknowledged|arb:act_acknowledge->act:acknowledge",
+   "reply": "Glad that helps. We were on Austria: I can go further into it, compare it with something, or move to a new topic."
+  },
+  {
+   "d": 16,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed Lawrence of Arabia?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "exact_router>LINK>ROUTE:who|directed>RELATE:P57>AGREE>READ",
+   "reply": "[ev:direct] David Lean. From the Wikidata relation store: Lawrence of Arabia (Q228186) - movie director (P57) - David Lean."
+  },
+  {
+   "d": 16,
+   "t": 1,
+   "kind": "follow",
+   "q": "And Doctor Zhivago?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "capability:summarize",
+   "reply": "[ev:direct] According to Doctor Zhivago, Doctor Zhivago is a 1965 epic romantic drama movie. [simplewiki_476959b1ba04070ea07ef020] The page for Doctor Zhivago records: The movie is about life in Russia before and during World War I and during the Russian Civil War from 1917 to 1922. [simplewiki_f26c"
+  },
+  {
+   "d": 16,
+   "t": 2,
+   "kind": "decline",
+   "q": "What was his favourite colour?",
+   "verdict": "kept",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"In history and politics, a favourite was the intimate companion of a ruler or other important person.\""
+  },
+  {
+   "d": 17,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet does Io orbit?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Jupiter. From the Wikidata relation store: Io (Q3123) - star (P397) - Jupiter. [rel-moons]"
+  },
+  {
+   "d": 17,
+   "t": 1,
+   "kind": "follow",
+   "q": "And Phobos?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "capability:summarize",
+   "reply": "[ev:direct] According to Phobos, Phobos (Greek for \"fear\", is the root word of phobia) is one of the sons of Ares and Aphrodite in Greek mythology and the twin brother of Deimos. [simplewiki_7dcb068d099d1c8d260d4f32] The page for Phobos records: He is known as the god of fear, panic, flight and batt"
+  },
+  {
+   "d": 17,
+   "t": 2,
+   "kind": "follow",
+   "q": "And Triton?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:reinforced",
+   "reply": "No provenance-admitted material on Triton is available to summarize. You have asked \"And Triton?\" before. I hold it as an unnamed shape [vessel:v317973], weight 15.0, asked 3 times; the routes that tried and failed: capability:summarize. What I lack is what \"And Triton?\" counts as and what it does n"
+  },
+  {
+   "d": 18,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who painted The Last Supper?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-painters>painters",
+   "reply": "Leonardo da Vinci. From the Wikidata relation store: Leonardo da Vinci (Q762) - wrote (P800) - The Last Supper (Q128910). [rel-painters]"
+  },
+  {
+   "d": 18,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_precedence>specialist:rel-architects>architects",
+   "reply": "Anchiano. From the Wikidata relation store: Leonardo da Vinci (Q762) - POB (P19) - Anchiano. [rel-architects]"
+  },
+  {
+   "d": 18,
+   "t": 2,
+   "kind": "follow",
+   "q": "When did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_precedence>specialist:rel-architects>architects",
+   "reply": "12 May 1519. From the Wikidata relation store: Leonardo da Vinci (Q762) - year of death (P570) - 12 May 1519. [rel-architects]"
+  },
+  {
+   "d": 19,
+   "t": 0,
+   "kind": "social",
+   "q": "Good morning!",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "organ:dialogue>social:greet",
+   "reply": "Hello. I'm Oracle7. Ask me about facts, mathematics or code, or just talk; I'll show you where each answer comes from."
+  },
+  {
+   "d": 19,
+   "t": 1,
+   "kind": "fact",
+   "q": "What is the capital of Kenya?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Nairobi. Its capital city is Nairobi, which is the 14th largest city in Africa (after Accra, Ghana)."
+  },
+  {
+   "d": 19,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which continent is Kenya on?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "Africa. Kenya, officially the Republic of Kenya, is a country located in East Africa."
+  },
+  {
+   "d": 19,
+   "t": 3,
+   "kind": "social",
+   "q": "Bye!",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "organ:dialogue>social:farewell",
+   "reply": "Goodbye. This conversation's record is kept for this session if you come back to it."
+  },
+  {
+   "d": 20,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who composed Swan Lake?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Pyotr Ilyich Tchaikovsky. Swan Lake is a ballet composed by Russian composer Pyotr Ilyich Tchaikovsky in 1875–76. [enwiki_d9398c619b997aa4e5432ba7] (typed relations: wd:Q199786 P86 wd:Q7315)"
+  },
+  {
+   "d": 20,
+   "t": 1,
+   "kind": "follow",
+   "q": "And The Nutcracker?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "capability:summarize",
+   "reply": "[ev:direct] According to Nutcracker, A nutcracker is a mechanical device for cracking open the shells of nuts. [simplewiki_a4c811870adda3b561f201d3] The page for Nutcracker records: Nutcrackers are usually made of a lever which squeezes the shell of a nut until it cracks open. [simplewiki_a5092d4bfc"
+  },
+  {
+   "d": 20,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 21,
+   "t": 0,
+   "kind": "number",
+   "q": "What is the area of a circle with radius 5 m?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "precision_guard:Q1_english_as_algebra|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess."
+  },
+  {
+   "d": 21,
+   "t": 1,
+   "kind": "number",
+   "q": "And with radius 10 m?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:reinforced",
+   "reply": "No provenance-admitted material on with radius 10 m is available to summarize. You have asked \"And with radius 10 m?\" before. I hold it as an unnamed shape [vessel:v317978], weight 15.0, asked 3 times; the routes that tried and failed: capability:summarize. What I lack is what \"And with radius 10 m?"
+  },
+  {
+   "d": 22,
+   "t": 0,
+   "kind": "decline",
+   "q": "Which team will win the next World Cup?",
+   "verdict": "kept",
+   "status": "clarification",
+   "path": "act:clarify|vessel:reinforced",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. You have asked \"Which te"
+  },
+  {
+   "d": 22,
+   "t": 1,
+   "kind": "fact",
+   "q": "Who won the 2014 FIFA World Cup?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-sportsevents>sportsevents",
+   "reply": "Germany men's national association football team. From the Wikidata relation store: 2014 FIFA World Cup (Q79859) - won by (P1346) - Germany men's national association football team. [rel-sportsevents]"
+  },
+  {
+   "d": 22,
+   "t": 2,
+   "kind": "fact",
+   "q": "Which city hosted the 2016 Summer Olympics?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "unverified:factoid:fts",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Rio de Janeiro was the host of the 2016 Summer Olympics and Paralympics, making the city the first South American and Portuguese-speaking city to host these events, and the third time that the Olympics were held in "
+  },
+  {
+   "d": 23,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who wrote Jane Eyre?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Charlotte Brontë. Jane Eyre (originally published as Jane Eyre: An Autobiography) is a novel by the English writer Charlotte Brontë. [enwiki_a6084c7f5e7c4b06f0edf4bd] (typed relations: wd:Q182961 P50 wd:Q127332)"
+  },
+  {
+   "d": 23,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was she born?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>deliberation:where",
+   "reply": "[ev:direct] In 1846, Charlotte encouraged her sisters to print Poems by Currer, Ellis, and Acton Bell. [simplewiki_e7a0b095f8c6b410cd4c335a]"
+  },
+  {
+   "d": 23,
+   "t": 2,
+   "kind": "follow",
+   "q": "When did she die?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>capability:when_did",
+   "reply": "[ev:direct] According to Charlotte Brontë, Maria Branwell Brontë died of cancer on 15 September 1821. [simplewiki_a324978b24b14dfd52afdd82] Charlotte Brontë also records: They died of tuberculosis in June 1825 soon after their father took them from the school on 1 June. [simplewiki_fdd1038c51b667589"
+  },
+  {
+   "d": 24,
+   "t": 0,
+   "kind": "number",
+   "q": "How much energy in MJ does burning 5 kg of coal release?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:fuels>energy",
+   "reply": "Burning 5 kg of coal releases about 129 MJ (35.83 kWh; m × NCV = 5 kg × 25.8 MJ/kg, IPCC 2006 default). [fuels]"
+  },
+  {
+   "d": 24,
+   "t": 1,
+   "kind": "number",
+   "q": "And how much CO2 does that emit, in kg?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:fuels>co2",
+   "reply": "12.2 kg. Burning 5 kg of coal emits about 12.2 kg of CO2 (mass × NCV × EF = 5 kg × 25.8 MJ/kg × 9.46e+04 kg CO2/TJ; IPCC 2006 defaults). [fuels]"
+  },
+  {
+   "d": 25,
+   "t": 0,
+   "kind": "fact",
+   "q": "What is the official language of Brazil?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Portuguese. From the Wikidata relation store: Brazil (Q155) - spoken in (P37) - Portuguese. [rel-countries-v2]"
+  },
+  {
+   "d": 25,
+   "t": 1,
+   "kind": "follow",
+   "q": "And of Mexico?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "document_runtime",
+   "reply": "[ev:unknown] This account examines mexico through 1 authenticated relations. Mexico has population 128613117 persons, within {\"year\": 2022} [C1]. These relations support the bounded description above; they do not license claims beyond the cited graph."
+  },
+  {
+   "d": 25,
+   "t": 2,
+   "kind": "decline",
+   "q": "What language will people speak there in 3000?",
+   "verdict": "kept",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:reinforced",
+   "reply": "No provenance-admitted material on official language of Brazil is available to summarize. You have asked \"What language will people speak there in 3000?\" before. I hold it as an unnamed shape [vessel:v317985], weight 15.0, asked 3 times; the routes that tried and failed: capability:summarize. What I"
+  },
+  {
+   "d": 26,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who discovered penicillin?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:discoverer>READ>FRAME>LINK>RELATE:fwd:P61>CHECK:P61>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Alexander Fleming. Penicillin was discovered in 1928 by the Scottish physician Alexander Fleming as a crude extract of P. rubens. [enwiki_67b508d6b051ef80f548f098] (typed relations: wd:Q12190 P61 wd:Q37064)"
+  },
+  {
+   "d": 26,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_precedence>specialist:rel-biologists>biologists",
+   "reply": "Lochfield. From the Wikidata relation store: Alexander Fleming (Q37064) - POB (P19) - Lochfield. [rel-biologists]"
+  },
+  {
+   "d": 26,
+   "t": 2,
+   "kind": "social",
+   "q": "Interesting, thank you.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "r472:acknowledged|arb:act_acknowledge->act:acknowledge",
+   "reply": "Glad that helps. We were on Alexander Fleming: I can go further into it, compare it with something, or move to a new topic."
+  },
+  {
+   "d": 27,
+   "t": 0,
+   "kind": "multi",
+   "q": "Who wrote Hamlet and who wrote Faust?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:parts>2 of 2",
+   "reply": "[ev:direct] William Shakespeare. The Tragedy of Hamlet, Prince of Denmark, often shortened to Hamlet, is a tragedy written by William Shakespeare sometime between 1599 and 1601. [enwiki_da2302265477cb2c8b89a367] (typed relations: wd:Q41567 P50 wd:Q692) Johann Wolfgang von Goethe. From the Wikidata r"
+  },
+  {
+   "d": 27,
+   "t": 1,
+   "kind": "fact",
+   "q": "Where was Goethe born?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "unverified:factoid:fts",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Goethe Oak (or Goethe s Oak), is a name given to a number of oak trees in Germany that are referred to in this way because they allegedly bear some sort of connection to the poet Johann Wolfgang von Goethe.\""
+  },
+  {
+   "d": 28,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which river flows through Cairo?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify|vessel:reinforced",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. You have asked \"Which ri"
+  },
+  {
+   "d": 28,
+   "t": 1,
+   "kind": "decline",
+   "q": "How many fish are in it right now?",
+   "verdict": "kept",
+   "status": "clarification",
+   "path": "chat:resolved>act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How man"
+  },
+  {
+   "d": 28,
+   "t": 2,
+   "kind": "fact",
+   "q": "What is the capital of Egypt?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Cairo. Cairo is the capital, largest city, and most important cultural center, while Alexandria is the second-largest city and an important hub of industry and tourism. [simplewiki_b9b063cdf0b5c0dcb712acd5] (typed relations: wd:Q79 P36 wd:Q85)"
+  },
+  {
+   "d": 29,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who is the author of The Hobbit?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author_of>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "J. R. R. Tolkien. Tolkien's use of runes, both as decorative devices and as magical signs within the story, has been cited as a major cause for the popularization of runes within \"New Age\" and esoteric literature, stemming from Tolkien's popularity with the elements of counter-culture in the 1970s."
+  },
+  {
+   "d": 29,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Bloemfontein. He was born in Bloemfontein, South Africa but his parents were both from England. [simplewiki_f134c76751879ce4b25c21dd] (typed relations: wd:Q892 P19 wd:Q37701)"
+  },
+  {
+   "d": 29,
+   "t": 2,
+   "kind": "follow",
+   "q": "When did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_precedence>specialist:rel-historians>historians",
+   "reply": "2 September 1973. From the Wikidata relation store: J. R. R. Tolkien (Q892) - year of death (P570) - 2 September 1973. [rel-historians]"
+  },
+  {
+   "d": 29,
+   "t": 3,
+   "kind": "social",
+   "q": "Cheers!",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "r472:acknowledged|arb:act_acknowledge->act:acknowledge",
+   "reply": "Glad that helps. We were on Cheers: I can go further into it, compare it with something, or move to a new topic."
+  }
+ ]
+}

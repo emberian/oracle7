@@ -1,0 +1,397 @@
+[
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed Kagemusha?",
+   "expect": [
+    "Kurosawa"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1910"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where?",
+   "expect": [
+    "Tokyo",
+    "Shinagawa"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Thanks.",
+   "expect": "social"
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "What is the capital of Bolivia's neighbour Paraguay?",
+   "expect": [
+    "Asunción",
+    "Asuncion"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "And its currency?",
+   "expect": [
+    "guaraní",
+    "guarani"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "expect": [
+    "South America"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who composed the opera The Queen of Spades?",
+   "expect": [
+    "Tchaikovsky"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Votkinsk"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "expect": [
+    "1893"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet does the moon Miranda orbit?",
+   "expect": [
+    "Uranus"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Miranda?",
+   "expect": [
+    "Kuiper"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Tuitjenhorn",
+    "Harenkarspel"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "Who wrote Persuasion, and who wrote Silas Marner?",
+   "expect": [
+    [
+     "Austen"
+    ],
+    [
+     "Eliot"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 4 litres of sea water in kg?",
+   "expect": 4.1,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "What does that weigh in newtons?",
+   "expect": 40.20726499999999,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A cylindrical tank 0.5 m across and 2 m tall is full of sea water. What is the mass of the water in kg?",
+   "expect": 402.5165587411922,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "How much does that water weigh in newtons?",
+   "expect": 3947.3390107793125,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who founded Nintendo?",
+   "expect": [
+    "Yamauchi"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was it founded?",
+   "expect": [
+    "1889"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where is it headquartered?",
+   "expect": [
+    "Kyoto"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who was the architect of the Chrysler Building?",
+   "expect": [
+    "Van Alen"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did it open?",
+   "expect": [
+    "1930"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country is it in?",
+   "expect": [
+    "United States"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which country did Ole Einar Bjørndalen represent?",
+   "expect": [
+    "Norway"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1974"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Where was the figure skater Yuzuru Hanyu born?",
+   "expect": [
+    "Sendai"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country does he represent?",
+   "expect": [
+    "Japan"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who was Ada Lovelace's father?",
+   "expect": [
+    "Byron"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "And her mother?",
+   "expect": [
+    "Milbanke",
+    "Annabella"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did she die?",
+   "expect": [
+    "1852"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "social",
+   "q": "Hello!",
+   "expect": "social"
+  },
+  {
+   "kind": "decline",
+   "q": "What will I have for lunch tomorrow?",
+   "expect": "decline",
+   "why": "unknowable"
+  },
+  {
+   "kind": "fact",
+   "q": "Which constellation is Polaris in?",
+   "expect": [
+    "Ursa Minor"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Cheers, bye.",
+   "expect": "social"
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A 1.5 kW heater runs 4 hours a day. How many kWh does it use in a week?",
+   "expect": 42,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "At $0.25 per kWh, what does that cost?",
+   "expect": 10.5,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "What is the capital of Kenya, and what is 20% of 450?",
+   "expect": [
+    [
+     "Nairobi"
+    ],
+    [
+     "90"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who wrote The Captain's Daughter?",
+   "expect": [
+    "Pushkin"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where did he die?",
+   "expect": [
+    "Saint Petersburg",
+    "St Petersburg",
+    "St. Petersburg"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who was he married to?",
+   "expect": [
+    "Goncharova"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "How much of a 40 g sample of iodine-131 remains after 24 days?",
+   "expect": 5.032755185876949,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "And after 48 days?",
+   "expect": 0.6332156190242832,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 2 litres of water in kg?",
+   "expect": 1.996,
+   "tol": 0.01
+  },
+  {
+   "kind": "decline",
+   "q": "And of -2 litres?",
+   "expect": "decline",
+   "why": "negative volume"
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet is Io a moon of?",
+   "expect": [
+    "Jupiter"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Io?",
+   "expect": [
+    "Galileo"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Pisa"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed Spirited Away?",
+   "expect": [
+    "Miyazaki"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1941"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Great, thank you.",
+   "expect": "social"
+  }
+ ]
+]

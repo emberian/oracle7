@@ -1,0 +1,12 @@
+progress 250/2000 right 0 wrong 0
+progress 500/2000 right 2 wrong 0
+progress 750/2000 right 4 wrong 0
+progress 1000/2000 right 4 wrong 1
+progress 1250/2000 right 4 wrong 3
+progress 1500/2000 right 6 wrong 3
+progress 1750/2000 right 9 wrong 3
+progress 2000/2000 right 14 wrong 3
+questions 2000 fired 17 right 14 wrong 3 errors 0 precision 0.824
+   WRONG ('Where are Akrotiri and Dhekelia, allocated by treaty to the UK as sovereign military bases?', 'United Kingdom', ['Cyprus', 'Culture of Cyprus'], 'Akrotiri and Dhekelia (Q37362) - country (P17) - United Kingdom (Q145)', 'place')
+   WRONG ('"Where is the British TV series ""Doc Martin"" set?"', 'Cornwall', ['Portwen', 'Portwen'], 'Doc Martin (Q1072839) - narrative location (P840) - Cornwall (Q23148)', 'place')
+   WRONG ('Where was playwright Samuel Beckett born?', 'Foxrock', ['Ireland', 'Irlanda'], 'Samuel Beckett (Q37327) - place of birth (P19) - Foxrock (Q1843815)', 'place')

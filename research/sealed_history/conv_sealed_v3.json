@@ -1,0 +1,384 @@
+[
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed Ugetsu?",
+   "expect": [
+    "Mizoguchi"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1898"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where?",
+   "expect": [
+    "Tokyo"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "What is the capital of Slovakia's neighbour Hungary?",
+   "expect": [
+    "Budapest"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "And its currency?",
+   "expect": [
+    "forint"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "expect": [
+    "Europe"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who composed the opera Werther?",
+   "expect": [
+    "Massenet"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Montaud",
+    "Saint-Étienne",
+    "Saint-Etienne"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "expect": [
+    "1912"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet does Umbriel orbit?",
+   "expect": [
+    "Uranus"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Umbriel?",
+   "expect": [
+    "Lassell"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Bolton"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "Who wrote Emma, and who wrote Little Women?",
+   "expect": [
+    [
+     "Austen"
+    ],
+    [
+     "Alcott"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 6 litres of sea water in kg?",
+   "expect": 6.15,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "What does that weigh in newtons?",
+   "expect": 60.3108975,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A cylindrical tank 0.4 m across and 1.5 m tall is full of water. What is the mass of the water in kg?",
+   "expect": 188.4955592153876,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "How much does that water weigh in newtons?",
+   "expect": 1848.5099757795806,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who founded Honda?",
+   "expect": [
+    "Soichiro Honda",
+    "Sōichirō Honda"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was it founded?",
+   "expect": [
+    "1948"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where is it headquartered?",
+   "expect": [
+    "Tokyo",
+    "Minato"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who was the architect of the Flatiron Building?",
+   "expect": [
+    "Burnham"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did it open?",
+   "expect": [
+    "1902"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country is it in?",
+   "expect": [
+    "United States"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which country did the biathlete Martin Fourcade represent?",
+   "expect": [
+    "France"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1988"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Where was the figure skater Javier Fernández born?",
+   "expect": [
+    "Madrid"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Which country does he represent?",
+   "expect": [
+    "Spain"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Where was Alan Turing born?",
+   "expect": [
+    "Maida Vale",
+    "London"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When did he die?",
+   "expect": [
+    "1954"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "social",
+   "q": "Hi!",
+   "expect": "social"
+  },
+  {
+   "kind": "decline",
+   "q": "What will I eat for dinner tonight?",
+   "expect": "decline",
+   "why": "unknowable"
+  },
+  {
+   "kind": "fact",
+   "q": "Which constellation is Sirius in?",
+   "expect": [
+    "Canis Major"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Thanks, bye.",
+   "expect": "social"
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "A 1.6 kW heater runs 4 hours a day. How many kWh does it use in a week?",
+   "expect": 44.8,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "At $0.20 per kWh, what does that cost?",
+   "expect": 8.96,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "multi",
+   "q": "What is the capital of Finland, and what is 15% of 640?",
+   "expect": [
+    [
+     "Helsinki"
+    ],
+    [
+     "96"
+    ]
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who wrote The Seagull?",
+   "expect": [
+    "Chekhov"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where was he born?",
+   "expect": [
+    "Taganrog"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who was he married to?",
+   "expect": [
+    "Knipper"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "How much of a 60 g sample of iodine-131 remains after 20 days?",
+   "expect": 10.664473722493085,
+   "tol": 0.01
+  },
+  {
+   "kind": "number",
+   "q": "And after 40 days?",
+   "expect": 1.8955166629624256,
+   "tol": 0.01
+  }
+ ],
+ [
+  {
+   "kind": "number",
+   "q": "What is the mass of 0.2 litres of mercury in kg?",
+   "expect": 2.707,
+   "tol": 0.01
+  },
+  {
+   "kind": "decline",
+   "q": "And of -0.2 litres?",
+   "expect": "decline",
+   "why": "negative volume"
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Which planet is Ganymede a moon of?",
+   "expect": [
+    "Jupiter"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Who discovered Ganymede?",
+   "expect": [
+    "Galileo"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "Where did he die?",
+   "expect": [
+    "Arcetri",
+    "Florence"
+   ]
+  }
+ ],
+ [
+  {
+   "kind": "fact",
+   "q": "Who directed My Neighbor Totoro?",
+   "expect": [
+    "Miyazaki"
+   ]
+  },
+  {
+   "kind": "follow",
+   "q": "When was he born?",
+   "expect": [
+    "1941"
+   ]
+  },
+  {
+   "kind": "social",
+   "q": "Great, thanks.",
+   "expect": "social"
+  }
+ ]
+]

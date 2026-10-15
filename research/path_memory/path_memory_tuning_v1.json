@@ -1,0 +1,20 @@
+{
+ "MODE": "swap_only",
+ "P_LOW": 0.8,
+ "P_HIGH": 0.6,
+ "MIN_N": 4,
+ "train_rows": 3839,
+ "held_rows": 965,
+ "held_fixed": {
+  "right": 470,
+  "wrong": 56,
+  "declined": 439
+ },
+ "held_memory": {
+  "right": 475,
+  "wrong": 51,
+  "declined": 439
+ },
+ "swaps": 12,
+ "withheld": 0
+}

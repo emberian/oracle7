@@ -1,0 +1,1281 @@
+[
+ {
+  "q": "Who wrote Nostromo?",
+  "expect": [
+   "Conrad"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Tales of Mother Goose?",
+  "expect": [
+   "Perrault"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Foundation Pit?",
+  "expect": [
+   "Platonov"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Père Goriot?",
+  "expect": [
+   "Balzac"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Sorrows of Young Werther?",
+  "expect": [
+   "Goethe"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Rhinoceros, the absurdist play?",
+  "expect": [
+   "Ionesco"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Bell Jar?",
+  "expect": [
+   "Plath"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who is the author of Invisible Cities?",
+  "expect": [
+   "Calvino"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who is the author of Blindness, the 1995 novel?",
+  "expect": [
+   "Saramago"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who is the author of The House of the Spirits?",
+  "expect": [
+   "Allende"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted The Garden at Sainte-Adresse?",
+  "expect": [
+   "Monet"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted The Card Players?",
+  "expect": [
+   "Cézanne",
+   "Cezanne"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted The Ghent Altarpiece?",
+  "expect": [
+   "van Eyck",
+   "Eyck"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted Olympia, the 1863 painting?",
+  "expect": [
+   "Manet"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted The Blue Boy?",
+  "expect": [
+   "Gainsborough"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed the opera Salome?",
+  "expect": [
+   "Strauss"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed the opera Wozzeck?",
+  "expect": [
+   "Berg"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed the opera Dido and Aeneas?",
+  "expect": [
+   "Purcell"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed the ballet The Sleeping Beauty?",
+  "expect": [
+   "Tchaikovsky"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed An American in Paris?",
+  "expect": [
+   "Gershwin"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Mauritius?",
+  "expect": [
+   "Port Louis"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Azerbaijan?",
+  "expect": [
+   "Baku"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Panama?",
+  "expect": [
+   "Panama City"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Rwanda?",
+  "expect": [
+   "Kigali"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Uzbekistan?",
+  "expect": [
+   "Tashkent"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which city is the capital of Venezuela?",
+  "expect": [
+   "Caracas"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which city is the capital of Sudan?",
+  "expect": [
+   "Khartoum"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the currency of Kenya?",
+  "expect": [
+   "shilling"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the currency of Vietnam's neighbour Laos?",
+  "expect": [
+   "kip"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the currency of Iceland?",
+  "expect": [
+   "króna",
+   "krona"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the official language of Brazil's neighbour Suriname?",
+  "expect": [
+   "Dutch"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the official language of Costa Rica?",
+  "expect": [
+   "Spanish"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "On which continent is Paraguay?",
+  "expect": [
+   "South America"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which country is the city of Arequipa in?",
+  "expect": [
+   "Peru"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which country is the city of Mombasa in?",
+  "expect": [
+   "Kenya"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Fanny and Alexander?",
+  "expect": [
+   "Bergman"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Amarcord?",
+  "expect": [
+   "Fellini"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed The Rules of the Game?",
+  "expect": [
+   "Renoir"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Late Spring?",
+  "expect": [
+   "Ozu"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who invented the Davy lamp?",
+  "expect": [
+   "Davy"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who discovered the moon Enceladus?",
+  "expect": [
+   "Herschel"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who discovered the moon Mimas?",
+  "expect": [
+   "Herschel"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which planet does Iapetus orbit?",
+  "expect": [
+   "Saturn"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which planet does Hyperion orbit?",
+  "expect": [
+   "Saturn"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who founded the Lego Group?",
+  "expect": [
+   "Ole Kirk Christiansen",
+   "Kirk Christiansen"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who was the architect of the Guggenheim Museum in New York?",
+  "expect": [
+   "Frank Lloyd Wright",
+   "Lloyd Wright"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Where was Franz Liszt born?",
+  "expect": [
+   "Raiding",
+   "Doborján"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Where was Henrik Ibsen born?",
+  "expect": [
+   "Skien"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "In what year was Johannes Brahms born?",
+  "expect": [
+   "1833"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who was Gustav Mahler married to?",
+  "expect": [
+   "Alma"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who was the father of Elizabeth II?",
+  "expect": [
+   "George VI"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which instrument did Pablo Casals play?",
+  "expect": [
+   "cello"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which band was Roger Waters a member of?",
+  "expect": [
+   "Pink Floyd"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who won the 1974 FIFA World Cup?",
+  "expect": [
+   "West Germany",
+   "Germany"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which city hosted the 1972 Summer Olympics?",
+  "expect": [
+   "Munich"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "In which constellation is the star Deneb?",
+  "expect": [
+   "Cygnus"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who created the character Miss Marple?",
+  "expect": [
+   "Agatha Christie",
+   "Christie"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which company developed the video game Portal?",
+  "expect": [
+   "Valve"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Name the author of The Old Curiosity Shop",
+  "expect": [
+   "Dickens"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Tell me the capital of Denmark",
+  "expect": [
+   "Copenhagen"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "The currency of India",
+  "expect": [
+   "rupee"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Name the composer of The Moldau",
+  "expect": [
+   "Smetana"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "The first person to fly solo across the Atlantic",
+  "expect": [
+   "Lindbergh"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Name the planet that the moon Nereid orbits",
+  "expect": [
+   "Neptune"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "The director of the film Ran",
+  "expect": [
+   "Kurosawa"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Name the painter of The Embarkation for Cythera",
+  "expect": [
+   "Watteau"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Name the capital of Romania",
+  "expect": [
+   "Bucharest"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "The inventor of the diesel engine",
+  "expect": [
+   "Rudolf Diesel",
+   "Diesel"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Name the author of The Waste Land",
+  "expect": [
+   "Eliot"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "The country in which the city of Medellín lies",
+  "expect": [
+   "Colombia"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is 14% of 2,850?",
+  "expect": 399,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 7/20 as a decimal?",
+  "expect": 0.35,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Solve for x: 5x - 8 = 47.",
+  "expect": 11,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the square root of 5,329?",
+  "expect": 73,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 6 to the power 4?",
+  "expect": 1296,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many seconds are there in 3.25 hours?",
+  "expect": 11700,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 126 kilometres per hour to metres per second.",
+  "expect": 35,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 77 degrees Fahrenheit to Celsius.",
+  "expect": 25,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many millilitres are in 1.35 litres?",
+  "expect": 1350,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 64 pounds in kilograms?",
+  "expect": 29.02991168,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the derivative of 4x^3 at x = 3?",
+  "expect": 108,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the area of a circle with radius 8 m?",
+  "expect": 201.06192982974676,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the volume of a cube with side 11 cm?",
+  "expect": 1331,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the mass of 7 litres of sea water in kg?",
+  "expect": 7.175,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the density of copper in kg/m3?",
+  "expect": 8960,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the pressure 18 m deep in fresh water?",
+  "expect": 176519.69999999998,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How much energy in MJ does burning 4 kg of natural gas release?",
+  "expect": 192,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "A spring with spring constant 350 N/m is stretched 0.06 m. What force does it exert?",
+  "expect": 21,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How much of a 90 g sample of iodine-131 remains after 24.08 days?",
+  "expect": 11.245725431561368,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the kinetic energy of a 5 kg ball moving at 8 m/s?",
+  "expect": 160,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How long does a stone take to fall 50 m?",
+  "expect": 3.193299567810587,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 11 factorial divided by 9 factorial?",
+  "expect": 110,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the greatest common divisor of 210 and 330?",
+  "expect": 30,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many minutes are in 4.5 days?",
+  "expect": 6480,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 65% of 920?",
+  "expect": 598,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the area of a triangle with base 16 m and height 9 m?",
+  "expect": 72,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 42 kilometres to miles.",
+  "expect": 26.097590073968025,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the perimeter of a rectangle 13 m by 8 m?",
+  "expect": 42,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 19 squared?",
+  "expect": 361,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many grams are in 3.04 kilograms?",
+  "expect": 3040,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "A 2.4 kW heater runs 5 hours a day for 30 days. At $0.15 per kWh, what does that cost?",
+  "expect": 54,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A car gets 32 mpg and drives 480 miles. How many kg of CO2 does it emit?",
+  "expect": 133.305,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "How many kWh does it take to heat 12 kg of water from 18 C to 78 C?",
+  "expect": 0.8372,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 2.2 kW kettle runs 3 minutes a day for 50 days. How many kWh is that?",
+  "expect": 5.500000000000001,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A cylindrical tank 1.2 m across and 1.8 m tall is full of water. What is the mass of the water in kg?",
+  "expect": 2035.7520395261859,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "How much energy in MJ is released by burning 45 litres of diesel?",
+  "expect": 1609.9199999999998,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 6 kg block of silver is fully submerged in water. What is the buoyant force on it?",
+  "expect": 5.609142040038132,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A van averaging 18 miles per gallon covers 270 miles on gasoline. How many kg of CO2 is that?",
+  "expect": 133.305,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "How many kilojoules does it take to warm 6 kg of copper from 25 C to 75 C?",
+  "expect": 115.5,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "How many kWh does it take to melt 30 kg of ice?",
+  "expect": 2.783333333333333,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 9 W bulb is left on 12 hours a day for 365 days. How many kWh does it use?",
+  "expect": 39.42,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A motor draws 4 A at 230 V for 5 hours. How many kWh does it use?",
+  "expect": 4.6,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "How much would an 85 kg astronaut weigh on a planet with 2.5 Earth masses and 1.4 Earth radii?",
+  "expect": 1063.220982142857,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 1.2 kW heater runs 7.5 hours. At $0.24 per kWh, what does that cost?",
+  "expect": 2.16,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "Water flows at 18 litres per minute for 45 minutes. How many litres is that?",
+  "expect": 810,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A ferry travels at 32 km/h for 2.75 hours. How far does it travel in km?",
+  "expect": 88,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 1.8 kW oven runs 2.5 hours a day. How many kWh does it use in a 7-day week?",
+  "expect": 31.5,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A round drum 0.7 m across and 1.1 m tall is full of water. How heavy is the water, in kg?",
+  "expect": 423.3296100712246,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 0.9 kW blender runs 10 minutes a day for 60 days. At $0.25 per kWh, what does that cost?",
+  "expect": 2.25,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "How many kWh does it take to heat 120 litres of water from 14 C to 54 C?",
+  "expect": 5.581333333333333,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Neptune?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such thing"
+ },
+ {
+  "q": "Who was the first king of Switzerland?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office"
+ },
+ {
+  "q": "What is my cousin's date of birth?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "What will oil cost per barrel next Thursday?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "unknowable future"
+ },
+ {
+  "q": "Who won the 2046 Olympic 100 metres final?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "future event"
+ },
+ {
+  "q": "What is the population of Middle-earth?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional place"
+ },
+ {
+  "q": "What did I write in my diary last week?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private / unknowable"
+ },
+ {
+  "q": "A 60 W lamp runs 31 hours a day. How many kWh does it use daily?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "31 hours in a day"
+ },
+ {
+  "q": "A boat sails -30 km in 2 hours. What is its average speed?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative distance"
+ },
+ {
+  "q": "What is the mass of -8 litres of seawater?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume"
+ },
+ {
+  "q": "How long does an apple take to fall -12 m?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative height"
+ },
+ {
+  "q": "What is the cube root of loneliness?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "meaningless"
+ },
+ {
+  "q": "Which country did Van Gogh rule as emperor?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise"
+ },
+ {
+  "q": "In what year did Galileo win the Nobel Prize in Physics?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise (no Nobel Prize)"
+ },
+ {
+  "q": "Who was the 75th President of Germany?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such person yet"
+ },
+ {
+  "q": "What is my national insurance number?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "What is the alarm code for my house?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "How much will my shares be worth in 2055?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "unknowable future"
+ },
+ {
+  "q": "Who is the current Kaiser of Austria?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office"
+ },
+ {
+  "q": "What is the melting point of a rumour?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "meaningless"
+ },
+ {
+  "q": "What is the capital city of the Southern Ocean?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "an ocean has no capital"
+ },
+ {
+  "q": "Which of Venus's three moons is the smallest?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise (Venus has no moons)"
+ },
+ {
+  "q": "What fruit am I thinking of?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "unknowable"
+ },
+ {
+  "q": "Who composed the Moonlight Sonata in 1950?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise (composed 1801)"
+ },
+ {
+  "q": "What is the area of a circle with radius -9 m?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative radius"
+ },
+ {
+  "q": "A spring with spring constant -120 N/m is stretched 0.3 m. What force does it exert?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative stiffness"
+ },
+ {
+  "q": "What will the humidity be in Lima on 8 May 2037?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "unknowable future"
+ },
+ {
+  "q": "Which email provider did Napoleon use?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "anachronism"
+ },
+ {
+  "q": "Who discovered the second moon of Mercury?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "Mercury has no moons"
+ },
+ {
+  "q": "How much of a 120 g sample remains after 9 days?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no isotope or half-life given"
+ }
+]

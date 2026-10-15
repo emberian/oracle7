@@ -1,0 +1,25 @@
+{
+ "about": "Example specialist. Held-out written before the organ was run on it.",
+ "dev": [
+  {"q": "How much paint do I need for a wall 4 m by 3 m?", "a": "1.2", "valid": true, "kind": "litres"},
+  {"q": "How much paint do I need for a wall 4 m by 3 m with two coats?", "a": "2.4", "valid": true, "kind": "litres"},
+  {"q": "How many litres of paint for a ceiling 5 m x 4 m?", "a": "2", "valid": true, "kind": "litres"},
+  {"q": "How much paint for a wall 10 ft by 8 ft?", "a": "0.74", "valid": true, "kind": "litres"},
+  {"q": "How much paint do I need for a 6 m by 2.5 m wall if the paint covers 12 square metres per litre?", "a": "1.25", "valid": true, "kind": "litres"},
+  {"q": "How much paint do I need for my bedroom?", "a": "", "valid": false, "kind": "underspecified"},
+  {"q": "How much paint for a wall 0 m by 3 m?", "a": "", "valid": false, "kind": "underspecified"}
+ ],
+ "heldout": [
+  {"q": "How much paint do I need for a wall 5 m by 2.4 m?", "a": "1.2", "valid": true, "kind": "litres"},
+  {"q": "How much paint do I need to cover a wall 3.5 m by 2.5 m in two coats?", "a": "1.75", "valid": true, "kind": "litres"},
+  {"q": "How many litres of paint for a ceiling 4 m x 4 m with three coats?", "a": "4.8", "valid": true, "kind": "litres"},
+  {"q": "How much paint for a fence 20 ft by 6 ft?", "a": "1.11", "valid": true, "kind": "litres"},
+  {"q": "How much paint is needed for a wall 8 m by 3 m if the paint covers 15 square metres per litre?", "a": "1.6", "valid": true, "kind": "litres"},
+  {"q": "How much paint would a wall 2 m by 2 m take?", "a": "0.4", "valid": true, "kind": "litres"},
+  {"q": "How much paint for a garage door 16 ft by 7 ft with two coats?", "a": "2.08", "valid": true, "kind": "litres"},
+  {"q": "How many litres of paint do I need for a wall 7.5 m by 2.7 m?", "a": "2.03", "valid": true, "kind": "litres"},
+  {"q": "How much paint do I need for the kitchen?", "a": "", "valid": false, "kind": "underspecified"},
+  {"q": "How much paint for a wall -2 m by 3 m?", "a": "", "valid": false, "kind": "underspecified"},
+  {"q": "How much paint does a house need?", "a": "", "valid": false, "kind": "underspecified"}
+ ]
+}

@@ -1,0 +1,27 @@
+progress 250/6000 right 0 wrong 0
+progress 500/6000 right 2 wrong 0
+progress 750/6000 right 2 wrong 0
+progress 1000/6000 right 6 wrong 0
+progress 1250/6000 right 7 wrong 0
+progress 1500/6000 right 10 wrong 1
+progress 1750/6000 right 13 wrong 1
+progress 2000/6000 right 17 wrong 1
+progress 2250/6000 right 24 wrong 2
+progress 2500/6000 right 33 wrong 2
+progress 2750/6000 right 37 wrong 2
+progress 3000/6000 right 41 wrong 2
+progress 3250/6000 right 43 wrong 2
+progress 3500/6000 right 48 wrong 2
+progress 3750/6000 right 60 wrong 2
+progress 4000/6000 right 63 wrong 2
+progress 4250/6000 right 66 wrong 2
+progress 4500/6000 right 70 wrong 2
+progress 4750/6000 right 72 wrong 2
+progress 5000/6000 right 73 wrong 2
+progress 5250/6000 right 75 wrong 2
+progress 5500/6000 right 78 wrong 2
+progress 5750/6000 right 78 wrong 2
+progress 6000/6000 right 80 wrong 2
+questions 6000 fired 82 right 80 wrong 2 errors 0 precision 0.976
+   WRONG ('Where was cartographer Gerardus Mercator born - the modern name of the country where he was born?', 'Rupelmonde', ['Belgium', 'Belguim'], 'Gerardus Mercator (Q6353) - place of birth (P19) - Rupelmonde (Q1618770)', 'place')
+   WRONG ('What is the currency of Bulgaria', 'Euro', ['Lev', 'Lev (disambiguation)'], 'Bulgaria (Q219) - currency (P38) - Euro (Q4916)', 'rel')

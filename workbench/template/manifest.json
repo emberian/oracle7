@@ -1,0 +1,15 @@
+{
+ "id": "__ID__",
+ "name": "__NAME__",
+ "sources": [
+  {"name": "Where each answer comes from (a standard, a table, a book, your own measurements)", "licence": "its licence", "url": ""}
+ ],
+ "organ": {"module": "__MODULE__", "class": "Organ", "init": {}},
+ "accept": {
+  "kinds": ["fact"],
+  "declines_in_domain": ["underspecified"],
+  "context_regex": "\\b(?:__CUE__)\\b"
+ },
+ "panel": {"path": "panel.json", "scorer_module": "scorer", "scorer_fn": "ok"},
+ "budgets": {"latency_p50_ms": 200}
+}

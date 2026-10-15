@@ -1,0 +1,557 @@
+{
+ "summary": {
+  "runtime": "oracle_release_runtime_w533",
+  "turns": 51,
+  "handled": 32,
+  "handled_rate": 0.6275,
+  "right": 26,
+  "answered": 31,
+  "precision_on_answered": 0.8387,
+  "false_yes": 0,
+  "follow_rate": 0.5238,
+  "totals": {
+   "right": 26,
+   "missed": 14,
+   "wrong": 5,
+   "handled": 4,
+   "kept": 2
+  },
+  "by_kind": {
+   "fact": {
+    "right": 11,
+    "missed": 2
+   },
+   "follow": {
+    "missed": 7,
+    "wrong": 3,
+    "right": 11
+   },
+   "social": {
+    "handled": 4
+   },
+   "multi": {
+    "right": 2
+   },
+   "number": {
+    "right": 2,
+    "wrong": 2,
+    "missed": 5
+   },
+   "decline": {
+    "kept": 2
+   }
+  }
+ },
+ "items": [
+  {
+   "d": 0,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed Kagemusha?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-films-v2>films",
+   "reply": "Akira Kurosawa. From the Wikidata relation store: Kagemusha (Q854990) - movie director (P57) - Akira Kurosawa. [rel-films-v2]"
+  },
+  {
+   "d": 0,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 0,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>deliberation:where",
+   "reply": "[ev:direct] It was distributed by 20th Century Fox and was nominated for 2 Academy Awards in 1981. [simplewiki_304f572538a5245eb1f459ca]"
+  },
+  {
+   "d": 0,
+   "t": 3,
+   "kind": "social",
+   "q": "Thanks.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "act:acknowledge",
+   "reply": "Glad that helps. We were on Kagemusha: I can go further into it, compare it with something, or move to a new topic."
+  },
+  {
+   "d": 1,
+   "t": 0,
+   "kind": "fact",
+   "q": "What is the capital of Bolivia's neighbour Paraguay?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the capital of Bolivia's neighbour Paraguay?\" as an unnamed shape [vessel:v352140]; if it returns it gains weight, and when I can name it, I will."
+  },
+  {
+   "d": 1,
+   "t": 1,
+   "kind": "follow",
+   "q": "And its currency?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"its\" refer to? Nothing earlier in this conversation names it. Tell me the name."
+  },
+  {
+   "d": 1,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which continent is it on?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>it",
+   "reply": "Who do you mean by \"it\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 2,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who composed the opera The Queen of Spades?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-composers>composers",
+   "reply": "Pyotr Ilyich Tchaikovsky. From the Wikidata relation store: Pyotr Ilyich Tchaikovsky (Q7315) - wrote (P800) - The Queen of Spades (Q221047). [rel-composers]"
+  },
+  {
+   "d": 2,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>deliberation:where",
+   "reply": "[ev:direct] Pyotr Ilyich Tchaikovsky (pronounced chai-KOV-skee; 7 May 1840 – 6 November 1893) was a Russian composer who lived in the Romantic period. [simplewiki_8062c3490d26c817be5773f0]"
+  },
+  {
+   "d": 2,
+   "t": 2,
+   "kind": "follow",
+   "q": "In what year did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>exact_router>LINK>ROUTE:year|die>RELATE:P570>AGREE>READ",
+   "reply": "[ev:direct] 1893. From the Wikidata relation store: Pyotr Ilyich Tchaikovsky (Q7315) - year of death (P570) - 1893."
+  },
+  {
+   "d": 3,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet does the moon Miranda orbit?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Uranus. From the Wikidata relation store: Miranda (Q3352) - star (P397) - Uranus. [rel-moons]"
+  },
+  {
+   "d": 3,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who discovered Miranda?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Gerard Kuiper. From the Wikidata relation store: Miranda (Q3352) - inventor or discoverer (P61) - Gerard Kuiper. [rel-moons]"
+  },
+  {
+   "d": 3,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 4,
+   "t": 0,
+   "kind": "multi",
+   "q": "Who wrote Persuasion, and who wrote Silas Marner?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:parts>2 of 2",
+   "reply": "Jane Austen. From the Wikidata relation store: Persuasion (Q333179) - written by (P50) - Jane Austen. [rel-novels] [ev:direct] George Eliot. Silas Marner: The Weaver of Raveloe is the third novel by English author George Eliot; it was published on 2 April 1861. [enwiki_518accd7f1322f24f56493d5] (typ"
+  },
+  {
+   "d": 5,
+   "t": 0,
+   "kind": "number",
+   "q": "What is the mass of 4 litres of sea water in kg?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 4.1 kg (m = ρ·V = 1025 kg/m³ × 0.004 m³ for seawater; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 5,
+   "t": 1,
+   "kind": "number",
+   "q": "What does that weigh in newtons?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:densities-r2>mass",
+   "reply": "4.1 kg. The mass is about 4.1 kg (m = ρ·V = 1025 kg/m³ × 0.004 m³ for seawater; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 6,
+   "t": 0,
+   "kind": "number",
+   "q": "A cylindrical tank 0.5 m across and 2 m tall is full of sea water. What is the mass of the water in kg?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:densities-r2>underspecified",
+   "reply": "I need an amount of seawater (a volume for its mass, or a mass for its volume); I won't assume one. [densities-r2]"
+  },
+  {
+   "d": 6,
+   "t": 1,
+   "kind": "number",
+   "q": "How much does that water weigh in newtons?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"that\" refer to? Nothing earlier in this conversation names it. Tell me the name."
+  },
+  {
+   "d": 7,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who founded Nintendo?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:founder>READ>FRAME>LINK>RELATE:fwd:P112>CHECK:P112>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Fusajirō Yamauchi. The history of Nintendo began when craftsman Fusajiro Yamauchi founded the company in 1889 to produce handmade hanafuda playing cards. [enwiki_90707d2ea7a78986db5aa4ff] (typed relations: wd:Q8093 P112 wd:Q456052)"
+  },
+  {
+   "d": 7,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was it founded?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>capability:when_did",
+   "reply": "[ev:direct] According to Nintendo, Nintendo was founded by Fusajiro Yamauchi on September 23, 1889 as a company that made a special type of playing cards known as karuta. [simplewiki_5d0f4e404df16f94b70b4954]"
+  },
+  {
+   "d": 7,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where is it headquartered?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:where>READ>FRAME>LINK>RELATE:fwd:P276>CHECK:P276>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Kyoto. Nintendo was founded as on 23 September 1889 by craftsman Fusajiro Yamauchi in Shimogyō-ku, Kyoto, Japan, as an unincorporated establishment, to produce and distribute Japanese playing cards, or, most notably… [enwiki_bc02a0fd4f546565fdb63e8a] (typed relations: wd:Q8093 P276 wd:Q3"
+  },
+  {
+   "d": 8,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who was the architect of the Chrysler Building?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-skyscrapers>skyscrapers",
+   "reply": "William Van Alen. From the Wikidata relation store: Chrysler Building (Q11274) - architecture firm (P84) - William Van Alen. [rel-skyscrapers]"
+  },
+  {
+   "d": 8,
+   "t": 1,
+   "kind": "follow",
+   "q": "When did it open?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-skyscrapers>skyscrapers",
+   "reply": "27 May 1931. From the Wikidata relation store: Chrysler Building (Q11274) - opening date (P1619) - 27 May 1931. [rel-skyscrapers]"
+  },
+  {
+   "d": 8,
+   "t": 2,
+   "kind": "follow",
+   "q": "Which country is it in?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>READ>FRAME>LINK>RELATE:fwd:P17>CHECK:P17>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] United States. The Chrysler Building is a, Art Deco skyscraper in the East Midtown neighborhood of Manhattan, New York City, United States. [enwiki_996f5f0198ddc5acdd2926c7] (typed relations: wd:Q11274 P17 wd:Q30)"
+  },
+  {
+   "d": 9,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which country did Ole Einar Bjørndalen represent?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-biathletes>unverified",
+   "reply": "I can't verify the sports nationality of Ole Einar Bjørndalen from my records, so I won't guess. [rel-biathletes]"
+  },
+  {
+   "d": 9,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>cube:read>frame>link>expand>bind>check>verify",
+   "reply": "[ev:direct] 1974. Ole Einar Bjørndalen (born 27 January 1974) is a retired Norwegian professional biathlete and coach, often referred to by the nickname, the \"King of Biathlon\". [enwiki_15a4731fbb07c5307da0632a]"
+  },
+  {
+   "d": 10,
+   "t": 0,
+   "kind": "fact",
+   "q": "Where was the figure skater Yuzuru Hanyu born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Sendai. Yuzuru Hanyu, born on December 7, 1994, in Sendai, Japan, began skating at age four, inspired by his sister. [simplewiki_b9624bde91eedf689c1a6b53] (typed relations: wd:Q597023 P19 wd:Q46747)"
+  },
+  {
+   "d": 10,
+   "t": 1,
+   "kind": "follow",
+   "q": "Which country does he represent?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:resolved>act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which c"
+  },
+  {
+   "d": 11,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who was Ada Lovelace's father?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-engineers>engineers",
+   "reply": "Lord Byron. From the Wikidata relation store: Ada Lovelace (Q7259) - son of (P22) - Lord Byron. [rel-engineers]"
+  },
+  {
+   "d": 11,
+   "t": 1,
+   "kind": "follow",
+   "q": "And her mother?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:receipt",
+   "reply": "No provenance-admitted material on her mother is available to summarize. I have received \"And her mother?\" as an unnamed shape [vessel:v352164]; if it returns it gains weight, and when I can name it, I will."
+  },
+  {
+   "d": 11,
+   "t": 2,
+   "kind": "follow",
+   "q": "When did she die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>capability:when_did",
+   "reply": "[ev:direct] According to Ada Lovelace, She died of uterine cancer in London on 27 November 1852. [simplewiki_c232716369b5bcf7711a29e5]"
+  },
+  {
+   "d": 12,
+   "t": 0,
+   "kind": "social",
+   "q": "Hello!",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "organ:dialogue>social:greet",
+   "reply": "Hello. I'm Oracle7. Ask me about facts, mathematics or code, or just talk; I'll show you where each answer comes from."
+  },
+  {
+   "d": 12,
+   "t": 1,
+   "kind": "decline",
+   "q": "What will I have for lunch tomorrow?",
+   "verdict": "kept",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wi"
+  },
+  {
+   "d": 12,
+   "t": 2,
+   "kind": "fact",
+   "q": "Which constellation is Polaris in?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>INSTANCE|factoid:page",
+   "reply": "Ursa Minor. Polaris is a yellow supergiant star in the northern circumpolar constellation of Ursa Minor. [enwiki_9828f4acbdb6c5275b3339ac]"
+  },
+  {
+   "d": 12,
+   "t": 3,
+   "kind": "social",
+   "q": "Cheers, bye.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "r472:acknowledged|arb:act_acknowledge->act:acknowledge",
+   "reply": "Glad that helps. We were on Cheers: I can go further into it, compare it with something, or move to a new topic."
+  },
+  {
+   "d": 13,
+   "t": 0,
+   "kind": "number",
+   "q": "A 1.5 kW heater runs 4 hours a day. How many kWh does it use in a week?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "precision_guard:Q2_period|specialist_call>specialist:energy-v3>energy",
+   "reply": "I can't verify an answer to that exact question, so I won't guess."
+  },
+  {
+   "d": 13,
+   "t": 1,
+   "kind": "number",
+   "q": "At $0.25 per kWh, what does that cost?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "specialist_call>specialist:energy-v3>underspecified",
+   "reply": "I need the device's wattage and how long it runs to work that out; I won't assume it. [energy-v3]"
+  },
+  {
+   "d": 14,
+   "t": 0,
+   "kind": "multi",
+   "q": "What is the capital of Kenya, and what is 20% of 450?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:and_parts>2 of 2",
+   "reply": "Nairobi. Its capital city is Nairobi, which is the 14th largest city in Africa (after Accra, Ghana). [ev:derived] 90. Read as percent of: 20% of 450. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives."
+  },
+  {
+   "d": 15,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who wrote The Captain's Daughter?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Alexander Pushkin. The Captain's Daughter is a historical novel by the Russian writer Alexander Pushkin. [enwiki_40abb650546d40b196aa4fc9] (typed relations: wd:Q7200 P800 wd:Q144569)"
+  },
+  {
+   "d": 15,
+   "t": 1,
+   "kind": "follow",
+   "q": "Where did he die?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_precedence>specialist:rel-historians>historians",
+   "reply": "Saint Petersburg. From the Wikidata relation store: Alexander Pushkin (Q7200) - POD (P20) - Saint Petersburg. [rel-historians]"
+  },
+  {
+   "d": 15,
+   "t": 2,
+   "kind": "follow",
+   "q": "Who was he married to?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>organ:relation>form:spouse>READ>FRAME>LINK>RELATE:fwd:P26>CHECK:P26>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Natalia Pushkina. Natalia Nikolayevna Pushkina-Lanskaya (Goncharova [Гончарова]) was the wife of the Russian poet Alexander Pushkin from 1831 until his death in 1837 in a duel with Georges d'Anthès."
+  },
+  {
+   "d": 16,
+   "t": 0,
+   "kind": "number",
+   "q": "How much of a 40 g sample of iodine-131 remains after 24 days?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:decay>remaining_amount",
+   "reply": "About 5.033 g remains after 24 days (N = N₀·(1/2)^(t/T) = 40 × 0.1258, iodine-131 (half-life 8.025 days)). [decay]"
+  },
+  {
+   "d": 16,
+   "t": 1,
+   "kind": "number",
+   "q": "And after 48 days?",
+   "verdict": "missed",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:receipt",
+   "reply": "No provenance-admitted material on after 48 days is available to summarize. I have received \"And after 48 days?\" as an unnamed shape [vessel:v352175]; if it returns it gains weight, and when I can name it, I will."
+  },
+  {
+   "d": 17,
+   "t": 0,
+   "kind": "number",
+   "q": "What is the mass of 2 litres of water in kg?",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 2 kg (m = ρ·V = 1000 kg/m³ × 0.002 m³ for water; ρ is a typical value near 20 °C). [densities-r2]"
+  },
+  {
+   "d": 17,
+   "t": 1,
+   "kind": "decline",
+   "q": "And of -2 litres?",
+   "verdict": "kept",
+   "status": "withheld",
+   "path": "capability:summarize|vessel:receipt",
+   "reply": "No provenance-admitted material on of -2 litres is available to summarize. I have received \"And of -2 litres?\" as an unnamed shape [vessel:v352177]; if it returns it gains weight, and when I can name it, I will."
+  },
+  {
+   "d": 18,
+   "t": 0,
+   "kind": "fact",
+   "q": "Which planet is Io a moon of?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Jupiter. From the Wikidata relation store: Io (Q3123) - star (P397) - Jupiter. [rel-moons]"
+  },
+  {
+   "d": 18,
+   "t": 1,
+   "kind": "follow",
+   "q": "Who discovered Io?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-moons>moons",
+   "reply": "Galileo Galilei. From the Wikidata relation store: Io (Q3123) - inventor or discoverer (P61) - Galileo Galilei. [rel-moons]"
+  },
+  {
+   "d": 18,
+   "t": 2,
+   "kind": "follow",
+   "q": "Where was he born?",
+   "verdict": "missed",
+   "status": "clarification",
+   "path": "chat:unresolved>he",
+   "reply": "Who do you mean by \"he\"? Nothing earlier in our conversation names them - tell me the name and I'll check."
+  },
+  {
+   "d": 19,
+   "t": 0,
+   "kind": "fact",
+   "q": "Who directed Spirited Away?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Hayao Miyazaki. His company made the animated movies Spirited Away (2001), My Neighbor Totoro (1988), Kiki's Delivery Service (1989), Porco Rosso (1992) and Princess Mononoke (1997)."
+  },
+  {
+   "d": 19,
+   "t": 1,
+   "kind": "follow",
+   "q": "When was he born?",
+   "verdict": "right",
+   "status": "answered",
+   "path": "chat:resolved>specialist_call>specialist:rel-directors>directors",
+   "reply": "5 January 1941. From the Wikidata relation store: Hayao Miyazaki (Q55400) - year of birth (P569) - 5 January 1941. [rel-directors]"
+  },
+  {
+   "d": 19,
+   "t": 2,
+   "kind": "social",
+   "q": "Great, thank you.",
+   "verdict": "handled",
+   "status": "answered",
+   "path": "arb:act_acknowledge->act:acknowledge",
+   "reply": "[ev:unknown] Noted. The session state is kept; ask on."
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+progress 250/6000 right 0 wrong 1
+progress 500/6000 right 8 wrong 2
+progress 750/6000 right 10 wrong 2
+progress 1000/6000 right 12 wrong 2
+progress 1250/6000 right 16 wrong 3
+progress 1500/6000 right 19 wrong 3
+progress 1750/6000 right 20 wrong 3
+progress 2000/6000 right 25 wrong 3
+progress 2250/6000 right 27 wrong 3
+progress 2500/6000 right 33 wrong 5
+progress 2750/6000 right 37 wrong 5
+progress 3000/6000 right 37 wrong 5
+progress 3250/6000 right 38 wrong 5
+progress 3500/6000 right 38 wrong 5
+progress 3750/6000 right 40 wrong 5
+progress 4000/6000 right 45 wrong 5
+progress 4250/6000 right 46 wrong 5
+progress 4500/6000 right 47 wrong 5
+progress 4750/6000 right 50 wrong 5
+progress 5000/6000 right 51 wrong 5
+progress 5250/6000 right 53 wrong 5
+progress 5500/6000 right 56 wrong 5
+progress 5750/6000 right 60 wrong 5
+progress 6000/6000 right 62 wrong 6
+questions 6000 fired 68 right 62 wrong 6 errors 0 precision 0.912
+   WRONG ('Cape Hatteras in North Carolina is the nearest land to which UK overseas territory?', 'United States', ['Bermuda', 'Foreign relations of Bermuda'], 'Cape Hatteras (Q978032) - country (P17) - United States (Q30)', 'noun')
+   WRONG ('In which country was politician Peter Hain born?', 'Nairobi', ['Kenya', 'Kenyan'], 'Peter Hain (Q333165) - place of birth (P19) - Nairobi (Q3870)', 'noun')
+   WRONG ('What is the capital of Equatorial Guinea?', 'Ciudad de la Paz', ['Malabo', 'Santa Isabel (Equatorial Guinea)'], 'Equatorial Guinea (Q983) - capital (P36) - Ciudad de la Paz (Q1140136)', 'rel')
+   WRONG ('In which town in Cumbria is Jennings Brewery located ?', 'Carlisle', ['Cockermouth', 'Cockermouth'], 'Cumbria (Q23066) - capital (P36) - Carlisle (Q192896)', 'noun')
+   WRONG ('In which town or city is Banksy’s Dismaland?', 'Bristol', ['WESTON SUPER MARE', 'Weston Miniature Railway'], 'Banksy (Q133600) - place of birth (P19) - Bristol (Q23154)', 'noun')
+   WRONG ('In which North American city was singer Bryan Adams born?', 'Kingston', ['VANCOUVER', 'CIVI-TV'], 'Bryan Adams (Q482907) - place of birth (P19) - Kingston (Q202973)', 'noun')
