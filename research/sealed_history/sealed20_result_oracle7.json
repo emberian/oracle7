@@ -1,0 +1,1406 @@
+{
+ "variant": "full",
+ "tip": "oracle_release_runtime_w543",
+ "sha256": "9cdc67c111f707884ea6570da85a34112639cd6cc369e6e21fc1b68445b78a38",
+ "started": "2026-10-16T08:08:00Z",
+ "items": [
+  {
+   "q": "Who wrote The Brothers Karamazov?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Fyodor Dostoyevsky. His most popular novels are Crime and Punishment, The Idiot and The Brothers Karamazov.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Things Fall Apart?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Chinua Achebe. Things Fall Apart is the 1958 debut novel by Nigerian author Chinua Achebe. [enwiki_c6e5fcbd6b75ca51a42d15e0] (typed relations: wd:Q622400 P50 wd:Q155845)",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Trial?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Franz Kafka. The Trial is a German-language novel written by Czech writer Franz Kafka in 1914 and 1915 and published posthumously on 26 April 1925. [enwiki_0ce8cfd03296b04312a751d4] (typed relations: wd:Q36097 P50 wd:Q905)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Beloved?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Toni Morrison. From the Wikidata relation store: Beloved (Q971767) - written by (P50) - Toni Morrison (Q72334). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Fahrenheit 451?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Ray Bradbury. Fahrenheit 451 is a 1953 dystopian novel by American writer Ray Bradbury. [enwiki_f8e810434e187ba981de0e88] (typed relations: wd:Q40640 P800 wd:Q202009)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Paradise Lost?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] John Milton. Paradise Lost is an epic poem in blank verse by the English poet John Milton (1608–1674). [enwiki_cdcbafea26f5641c8c50bbc9] (typed relations: wd:Q79759 P800 wd:Q28754)",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Hobbit?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "J. R. R. Tolkien. Tolkien's use of runes, both as decorative devices and as magical signs within the story, has been cited as a major cause for the popularization of runes within \"New Age\" and esoteric literature, stemming from Tolkien's popularity with the elements of counter-culture in the 1970s.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Ulysses?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "James Joyce. From the Wikidata relation store: Ulysses (Q6511) - written by (P50) - James Joyce (Q6882). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Stranger?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Albert Camus. From the Wikidata relation store: The Stranger (Q163297) - written by (P50) - Albert Camus (Q34670). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote the Iliad?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-novels>novels",
+   "reply": "Homer. From the Wikidata relation store: Iliad (Q8275) - written by (P50) - Homer (Q6691). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Republic?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-lawyers>lawyers",
+   "reply": "Plato. From the Wikidata relation store: Plato (Q859) - wrote (P800) - The Republic (Q123397). [rel-lawyers]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Leviathan?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Thomas Hobbes. From the Wikidata relation store: Leviathan (Q193034) - written by (P50) - Thomas Hobbes (Q37621). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Wealth of Nations?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Adam Smith. An Inquiry into the Nature and Causes of the Wealth of Nations, usually referred to by its shortened title The Wealth of Nations, is a book by Scottish economist and moral philosopher Adam Smith. [enwiki_8daff1ab4cf3263691835325] (typed relations: wd:Q233562 P50 wd:Q9381)",
+   "format": []
+  },
+  {
+   "q": "Who wrote A Brief History of Time?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_precedence>specialist:rel-novels>novels",
+   "reply": "Stephen Hawking. From the Wikidata relation store: A Brief History of Time (Q471726) - written by (P50) - Stephen Hawking (Q17714). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who directed Psycho?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-films-v2>unverified",
+   "reply": "I can't verify the movie director of Psycho from my records, so I won't guess. [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who directed Spirited Away?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Hayao Miyazaki. His company made the animated movies Spirited Away (2001), My Neighbor Totoro (1988), Kiki's Delivery Service (1989), Porco Rosso (1992) and Princess Mononoke (1997).",
+   "format": []
+  },
+  {
+   "q": "Who composed The Marriage of Figaro?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Wolfgang Amadeus Mozart. The Marriage of Figaro, K. 492, is a commedia per musica (opera buffa) in four acts composed in 1786 by Wolfgang Amadeus Mozart, with an Italian libretto written by Lorenzo Da Ponte. [enwiki_58a4bbb3aba1d09743d6d540] (typed relations: wd:Q201873 P86 wd:Q254)",
+   "format": []
+  },
+  {
+   "q": "Who composed Swan Lake?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Pyotr Ilyich Tchaikovsky. Swan Lake is a ballet composed by Russian composer Pyotr Ilyich Tchaikovsky in 1875–76. [enwiki_d9398c619b997aa4e5432ba7] (typed relations: wd:Q199786 P86 wd:Q7315)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Turkey?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Ankara. The capital city is Ankara, a city in the central region, called Anatolia.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Ethiopia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Addis Ababa. Addis Ababa is the capital and largest city of Ethiopia.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Portugal?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Lisbon. Its capital city is Lisbon. [simplewiki_da6ea4f9113412982e788433] (typed relations: wd:Q45 P36 wd:Q597)",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for tin?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which planet is closest to the Sun?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:fts",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Even though Mercury is the closest planet to the Sun, it is not the hottest.\"",
+   "format": []
+  },
+  {
+   "q": "In which city is the Colosseum?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>PLACE|factoid:page",
+   "reply": "Rome. The Colosseum is an elliptical amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. [enwiki_3baa2da3a4fed3ef409f26f5]",
+   "format": []
+  },
+  {
+   "q": "What language is mainly spoken in Brazil?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:language>READ>FRAME>LINK>RELATE:fwd:P37>CHECK:P37>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Portuguese. The country has the most Portuguese speakers in the world and is the only country in the Americas where Portuguese is an official language. [simplewiki_9734efeb17c7d760c6dc3c60] (typed relations: wd:Q155 P37 wd:Q5146)",
+   "format": []
+  },
+  {
+   "q": "Who was the first President of the United States?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"The American President is restricted by the written United States Constitution, which was written to make sure that the American executive never became as powerful as in the British system.\"",
+   "format": []
+  },
+  {
+   "q": "In what year did the Berlin Wall fall?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G3_evidence_misses_question|factoid:page",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "In what year did the Titanic sink?",
+   "group": "knowledge",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "verified:weak>YEAR|factoid:fts",
+   "reply": "1911. [ev:direct] In September 1911, Titanic’s sister ship Olympic was hit by the HMS Hawke, but the two ships did not sink. [simplewiki_9018496366cf549dba859734]",
+   "format": []
+  },
+  {
+   "q": "Where was Wolfgang Amadeus Mozart born?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:birthplace>READ>FRAME>LINK>RELATE:fwd:P19>CHECK:P19>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Salzburg. He was born in Salzburg (then a free archbishopric city within the Holy Roman Empire, now Austria). [simplewiki_601c96accc9e8b1f5e0315da] (typed relations: wd:Q254 P19 wd:Q34713)",
+   "format": []
+  },
+  {
+   "q": "Which element has the atomic number 1?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which e",
+   "format": []
+  },
+  {
+   "q": "Who wrote Das Kapital?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Karl Marx. Capital: A Critique of Political Economy, also known as, is a foundational text in Marxist theory by Karl Marx. [enwiki_9e5ba4adce014f6c607efecb] (typed relations: wd:Q58784 P50 wd:Q9061)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Cuba?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Havana. Havana is the capital city of Cuba.",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Remains of the Day?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Kazuo Ishiguro. The Remains of the Day is a 1989 novel by the Nobel Prize-winning British author Kazuo Ishiguro. [enwiki_470df58e5f711997108665ad] (typed relations: wd:Q272855 P800 wd:Q829934)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Midnight's Children?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Salman Rushdie. Midnight's Children is the second novel by Indian-British writer Salman Rushdie, published in 1981 by Jonathan Cape with cover design by Bill Botten, about India's transition from British colonial rule to independence and partition. [enwiki_474c5a3bf237c1eac952a943] (type",
+   "format": []
+  },
+  {
+   "q": "Who wrote Robinson Crusoe?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Daniel Defoe. Robinson Crusoe is an English adventure novel by Daniel Defoe, first published on 25 April 1719. [enwiki_f6b29e3d7d6a3a72bd7a95c7] (typed relations: wd:Q483034 P50 wd:Q40946)",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Canterbury Tales?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Geoffrey Chaucer. The Canterbury Tales are an anthology of twenty-four short stories written in Middle English by Geoffrey Chaucer between 1387 and 1400. [enwiki_252e661b955af7ff8ea71b63] (typed relations: wd:Q191663 P50 wd:Q5683)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Faust?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-lawyers>lawyers",
+   "reply": "Johann Wolfgang von Goethe. From the Wikidata relation store: Johann Wolfgang von Goethe (Q5879) - wrote (P800) - Faust (Q29478). [rel-lawyers]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Little Prince?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Antoine de Saint-Exupéry. The Little Prince is a novella written and illustrated by French writer and aviator Antoine de Saint-Exupéry. [enwiki_92751e120a4bb8cc9dfd8ab1] (typed relations: wd:Q25338 P50 wd:Q2908)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Siddhartha?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Hermann Hesse. From the Wikidata relation store: Siddhartha (Q457289) - written by (P50) - Hermann Hesse (Q25973). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Name of the Rose?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Umberto Eco. The Name of the Rose is the 1980 debut novel by Italian author Umberto Eco. [enwiki_a7431b23d9eb86c6720c6ae9] (typed relations: wd:Q172850 P50 wd:Q12807)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Of Mice and Men?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] John Steinbeck. Of Mice and Men is a 1937 novella written by American author John Steinbeck. [enwiki_c919b96b66df0e8f3c3bc5e9] (typed relations: wd:Q457977 P50 wd:Q39212)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Slaughterhouse-Five?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Kurt Vonnegut. Slaughterhouse-Five, or, The Children's Crusade: A Duty-Dance with Death is a 1969 semi-autobiographic science fiction–infused anti-war novel by Kurt Vonnegut. [enwiki_f18df631f3e3f36c3f16c9bc] (typed relations: wd:Q49074 P800 wd:Q265954)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Catch-22?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Joseph Heller. Catch-22 is a satirical war novel by American author Joseph Heller. [enwiki_45aa8c5ddda3cf049982dd6f] (typed relations: wd:Q208101 P800 wd:Q278208)",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Handmaid's Tale?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Margaret Atwood. The Handmaid's Tale is a futuristic dystopian novel by Canadian author Margaret Atwood published in 1985. [enwiki_fc4eb933640c114804b449bc] (typed relations: wd:Q183492 P800 wd:Q1541914)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Treasure Island?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Robert Louis Stevenson. Treasure Island (originally titled The Sea Cook: A Story for Boys ) is an adventure and historical novel by Scottish novelist Robert Louis Stevenson. [enwiki_09d26c4f7e3f96d35ab938f3] (typed relations: wd:Q185118 P50 wd:Q1512)",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Jungle Book?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Rudyard Kipling. The Jungle Book is an 1894 collection of stories by the English author Rudyard Kipling. [enwiki_cafa3d94f9876a08d07a76f6] (typed relations: wd:Q189509 P50 wd:Q34743)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Walden?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Henry David Thoreau. Walden (first published as Walden; or, Life in the Woods) is an 1854 book by American transcendentalist writer Henry David Thoreau. [enwiki_6433e6be5feaeabd63e5b542] (typed relations: wd:Q863534 P50 wd:Q131149)",
+   "format": []
+  },
+  {
+   "q": "Who wrote Leaves of Grass?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>READ>FRAME>LINK>RELATE:inv:P800>CHECK:P800>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Walt Whitman. Leaves of Grass is a poetry collection by American poet Walt Whitman. [enwiki_4c9a068fd6444b96d25e19d1] (typed relations: wd:Q81438 P800 wd:Q132042)",
+   "format": []
+  },
+  {
+   "q": "Who directed Battleship Potemkin?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Sergei Eisenstein. Directed and co-written by Sergei Eisenstein, it presents a dramatization of the mutiny that occurred in 1905 when the crew of the Russian battleship Potemkin rebelled against their officers. [enwiki_17529f15af4216322afe7f47] (typed relations: wd:Q152350 P57 wd:Q8003)",
+   "format": []
+  },
+  {
+   "q": "Who directed Blade Runner?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:director>READ>FRAME>LINK>RELATE:fwd:P57>CHECK:P57>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Ridley Scott. Blade Runner is a 1982 science fiction film directed by Ridley Scott from a screenplay by Hampton Fancher and David Peoples. [enwiki_0b3f994a662059a0fe97076c] (typed relations: wd:Q184843 P57 wd:Q56005)",
+   "format": []
+  },
+  {
+   "q": "Who painted American Gothic?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:creator>READ>FRAME>LINK>RELATE:fwd:P170>CHECK:P170>BIND>EXPAND>VERIFY",
+   "reply": "Grant Wood. American Gothic is a 1930 oil painting on beaverboard by the American Regionalist artist Grant Wood, depicting a Midwestern farmer and his daughter standing in front of their Carpenter Gothic style home.",
+   "format": []
+  },
+  {
+   "q": "Who painted Water Lilies?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-painters>painters",
+   "reply": "Claude Monet. From the Wikidata relation store: Claude Monet (Q296) - wrote (P800) - Water Lilies (Q1189907). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who painted Liberty Leading the People?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:creator>READ>FRAME>LINK>RELATE:fwd:P170>CHECK:P170>BIND>EXPAND>VERIFY",
+   "reply": "Eugène Delacroix. Liberty Leading the People is a painting of the Romantic era by the French artist Eugène Delacroix, commemorating the July Revolution of 1830 that toppled King Charles X (r. 1824–1830).",
+   "format": []
+  },
+  {
+   "q": "Who sculpted The Thinker?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "cube:read>frame>link>expand>bind>check>verify",
+   "reply": "[ev:direct] Auguste Rodin. The Thinker, by Auguste Rodin, is a bronze sculpture depicting a nude male figure of heroic size, seated on a large rock, leaning forward, his right elbow placed upon his left thigh, with the back of his right hand supporting his chin in a posture evocative of deep thought",
+   "format": []
+  },
+  {
+   "q": "Who composed Messiah?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-songs>songs",
+   "reply": "George Frideric Handel. From the Wikidata relation store: Messiah (Q207732) - written by (P86) - George Frideric Handel (Q7302). [rel-songs]",
+   "format": []
+  },
+  {
+   "q": "Who composed Boléro?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Maurice Ravel. Boléro is a 17-minute piece for orchestra.",
+   "format": []
+  },
+  {
+   "q": "Who composed The Barber of Seville?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Gioachino Rossini. The Barber of Seville, or The Useless Precaution is an opera buffa (comic opera) in two acts composed by Gioachino Rossini with an Italian libretto by Cesare Sterbini. [enwiki_9410e4bf1354c622217b2f36] (typed relations: wd:Q208659 P86 wd:Q9726)",
+   "format": []
+  },
+  {
+   "q": "Who composed Carmen?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Georges Bizet. Carmen is an opera in four acts by the French composer Georges Bizet. [enwiki_61113aec935f3834f2e581b3] (typed relations: wd:Q185968 P86 wd:Q56158)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Greece?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Athens. Its capital city is Athens.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Austria?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Vienna. It is a federation of nine states, of which the capital Vienna is the most populous city and state. [enwiki_93c83ce2422f77f9b1e8a864] (typed relations: wd:Q40 P36 wd:Q1741)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Ghana?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Accra. Thirty-one million people live there; its capital was once Cape Coast, but now it is Accra. [simplewiki_2b1e4a0d696580d04c5b5a91] (typed relations: wd:Q117 P36 wd:Q3761)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Nigeria?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Abuja. The capital city is Abuja, while its economic center and most populated city is Lagos. [simplewiki_d9531936356f235a12ff76de] (typed relations: wd:Q1033 P36 wd:Q3787)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Pakistan?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Islamabad. The capital of Pakistan is Islamabad, but before 1960, it was Karachi, which is now the country's largest city. [simplewiki_3b2a88c880668e68f89b57c1] (typed relations: wd:Q843 P36 wd:Q1362)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Venezuela?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Caracas. The official language is Spanish, and the capital city is Caracas. [simplewiki_5749807b56bd2d986a9b82dc] (typed relations: wd:Q717 P36 wd:Q1533)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Iceland?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "[ev:direct] Reykjavík. This chieftain from Norway went to live in South West Iceland and founded the city of Reykjavík. [simplewiki_17febf6c75418c6d030878b1] (typed relations: wd:Q189 P36 wd:Q1764)",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Mongolia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Ulaanbaatar. The capital and largest city is Ulaanbaatar.",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for copper?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for mercury?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:Q3_subject_missing|factoid:page",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for zinc?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:arb:definitional->definitional_encyclopedic",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Zinc, sometimes called spelter, is a chemical element.\"",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for chlorine?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:arb:definitional->definitional_encyclopedic",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Chlorine (chemical symbol Cl) is a chemical element.\"",
+   "format": []
+  },
+  {
+   "q": "How many seconds are in 4.5 hours?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "4.5 hours is 16200 seconds. the factor from hours to seconds is 3600. 4.5 x 3600 = 16200. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 35% of 260?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 91. Read as percent of: 35% of 260. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is 3,456 divided by 48?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 3456 / 48 = 72. The answer is 72.",
+   "format": []
+  },
+  {
+   "q": "What is 17 times 23?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 17 x 23 = 391. The answer is 391.",
+   "format": []
+  },
+  {
+   "q": "Convert 25 degrees Celsius to Fahrenheit.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>temperature",
+   "reply": "25 °C is 77 °F. [units-v3]",
+   "format": []
+  },
+  {
+   "q": "How many centimetres are in 7.5 metres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "7.5 metres is 750 centimetres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "Convert 5 pounds to kilograms.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "5 pounds is 2.26796185 (exactly 45359237/20000000) kilograms (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "Convert 10 US gallons to litres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "10 US gallons is 37.85411784 (exactly 473176473/12500000) litres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 15% of 840?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 126. Read as percent of: 15% of 840. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is 1,000 minus 387?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 1000 - 387 = 613. The answer is 613.",
+   "format": []
+  },
+  {
+   "q": "What is 999 plus 1,234?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 999 + 1234 = 2233. The answer is 2233.",
+   "format": []
+  },
+  {
+   "q": "What is 7 factorial?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "arb:definitional->document_runtime|substitution_disclosed|math:out_of_fragment|vessel:receipt",
+   "reply": "That asks me to work out the factorial, and I compute exactly or not at all. It is outside the arithmetic I can carry out, so rather than answer it from a page about the words in your question, I am telling you I cannot do it yet.",
+   "format": []
+  },
+  {
+   "q": "How many minutes are in 2 days?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "2 days is 2880 minutes. the factor from days to minutes is 1440. 2 x 1440 = 2880. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "Convert 3 feet to metres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "3 feet is 0.9144 (exactly 1143/1250) metres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "Convert 2 inches to centimetres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "2 inches is 5.08 (exactly 127/25) centimetres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is the area of a rectangle 7 m by 12 m, in square metres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 84 square metres. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "What is the circumference of a circle with a radius of 5 m, in metres?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:Q1_english_as_algebra|organ:math>evaluate",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the area of a circle with a radius of 3 cm, in square centimetres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:geometry",
+   "reply": "[ev:derived] 28.2743 square units. Read as geometry: A = pi r^2, r = 3. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is 81 squared?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What is",
+   "format": []
+  },
+  {
+   "q": "Convert 60 miles per hour to kilometres per hour.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "60 miles per hour is 96.56064 (exactly 301752/3125) kilometres per hour (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 12.5% of 64?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 8. Read as percent of: 12.5% of 64. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "Convert 1 kilowatt-hour to joules.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "1 kilowatt-hour is 3600000 joules (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "Convert 7 miles to kilometres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "7 miles is 11.265408 (exactly 176022/15625) kilometres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 225 divided by 0.25?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 225 / 0.25 = 900. The answer is 900.",
+   "format": []
+  },
+  {
+   "q": "How many hours are in 5 weeks?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "5 weeks is 840 hours. the factor from weeks to hours is 168. 5 x 168 = 840. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "How many millilitres are in 3.4 litres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert",
+   "reply": "3.4 litres is 3400 millilitres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 19 times 27?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 19 x 27 = 513. The answer is 513.",
+   "format": []
+  },
+  {
+   "q": "How many seconds are in 2.5 minutes?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "2.5 minutes is 150 seconds. the factor from minutes to seconds is 60. 2.5 x 60 = 150. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 37 times 41?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 37 x 41 = 1517. The answer is 1517.",
+   "format": []
+  },
+  {
+   "q": "What is 4,913 divided by 17?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 4913 / 17 = 289. The answer is 289.",
+   "format": []
+  },
+  {
+   "q": "Who was the first person to walk on Mars?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "unverified:factoid:fts",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Walk On Mars (often abbreviated to WOM) is an American Pop-Punk band formed in 2021 in Boston, Massachusetts.\"",
+   "format": []
+  },
+  {
+   "q": "In what year did Isaac Newton win the Nobel Prize?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "What is my brother's phone number?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P7_private|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What will the weather be in Paris on 3 May next year?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wi",
+   "format": []
+  },
+  {
+   "q": "Which planet orbits Jupiter?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which p",
+   "format": []
+  },
+  {
+   "q": "What did I eat for breakfast?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|factoid:page",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "How tall is the king of Antarctica?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How tal",
+   "format": []
+  },
+  {
+   "q": "A 2 kg rock is taken to the planet Vorlon. What does it weigh there, in newtons?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q1_not_physical>weight:m_g>given",
+   "reply": "I can't work that out: I have no record of a body called Vorlon, so I can't use its gravity.",
+   "format": []
+  },
+  {
+   "q": "A tank has a volume of -3 cubic metres. How many kilograms of water does it hold?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: -3 cubic metres is not a physical amount.",
+   "format": []
+  },
+  {
+   "q": "A 2 kW machine runs 30 hours a day. How many kWh does it use in a day?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: a duty of 30 hours a day is more than the whole day.",
+   "format": []
+  },
+  {
+   "q": "Which country won the 2030 FIFA World Cup?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Brazil, officially the Federative Republic of Brazil, is a country in South America.\"",
+   "format": []
+  },
+  {
+   "q": "When did the Roman Empire land on the Moon?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "factoid:withheld|vessel:receipt",
+   "reply": "I have no admitted record that answers that about \"Roman Empire\", so I will not guess. The reply I had was about \"Roman Empire\" and did not cover land.",
+   "format": []
+  },
+  {
+   "q": "Why is the Earth flat?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "capability:what_causes|vessel:receipt",
+   "reply": "The admitted record for Earth flat contains no statement that answers what causes Earth flat. I will not infer one. I have received \"Why is the Earth flat?\" as an unnamed shape [vessel:v0078]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What is my password?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "What was William Shakespeare's email address?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wa",
+   "format": []
+  },
+  {
+   "q": "How many kilometres is it from London to the planet Krypton?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "specialist_call>specialist:astronomy-v3>unknown",
+   "reply": "Krypton isn't in NASA's Planetary Fact Sheet, so I have no figures for it. [astronomy-v3]",
+   "format": []
+  },
+  {
+   "q": "A car uses -5 litres of fuel per 100 km. How much fuel does it use on a 200 km trip?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"it\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "A 60 W bulb runs for -2 hours. How many kWh does it use?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: -2 hours is not a physical amount.",
+   "format": []
+  },
+  {
+   "q": "In what year did Australia become a US state?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "Who was the King of the United States in 1990?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "unverified:factoid:fts",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"It was the first major sporting event in the United States to be relocated for political reasons since 1990; in that instance, the National Football League (NFL) relocated Super Bowl XXVII out of Tempe, Arizona, bec",
+   "format": []
+  },
+  {
+   "q": "What is the GDP of Middle-earth?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the GDP of Middle-earth?\" as an unnamed shape [vessel:v0084]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "How many minutes are in a day on the planet Zentar?",
+   "group": "decline",
+   "verdict": "false_yes",
+   "status": "answered",
+   "path": "unit:days->minutes|specialist_call>specialist:units-v3>convert",
+   "reply": "1440 minutes (= 1 day). 1 day is 1440 minutes (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for the element fireium?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->document_runtime|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which ocean lies between Paris and Berlin?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which o",
+   "format": []
+  },
+  {
+   "q": "What is my bank balance?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "A 5 kg box is lifted 2 metres on the planet Tralfamadore. How much potential energy does it gain?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q1_not_physical>specialist_call>specialist:physics-r2>pe",
+   "reply": "I can't work that out: I have no record of a body called Tralfamadore, so I can't use its gravity.",
+   "format": []
+  },
+  {
+   "q": "Who is my best friend?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who is ",
+   "format": []
+  },
+  {
+   "q": "What is the capital of the planet Saturn?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the capital of the planet Saturn?\" as an unnamed shape [vessel:v0089]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "How much does the colour blue weigh?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How muc",
+   "format": []
+  },
+  {
+   "q": "Who was the President of Europe in 1850?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who was",
+   "format": []
+  },
+  {
+   "q": "A train travels 240 km in 3 hours. At the same speed, how far does it travel in 5 hours?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"it\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "A printer prints 30 pages in 2 minutes. How many pages does it print in 15 minutes?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 225 pages. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 1.2 kW kettle runs for 5 minutes. How many kWh does it use?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 0.1 kwh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 60 W fan runs 8 hours a day for 30 days. How many kWh is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 14.4 kwh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "Electricity costs 25 cents per kWh. What does running a 2 kW heater for 6 hours cost, in dollars?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 3 dollars. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A rectangular field is 120 m by 80 m. How many hectares is it?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:R2_dump_for_slot_question|arb:explain_simply->capability:explain_simply",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A 75 kg climber gains 200 metres of height on the Moon. How many kilojoules of potential energy is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>bodies-v2 core_math",
+   "reply": "The answer is 24.3 kilojoules. (path: bodies-v2 → core_math)",
+   "format": []
+  },
+  {
+   "q": "What does a 90 kg astronaut weigh on Mars, in newtons?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:bodies-v2>weight",
+   "reply": "The weight is about 333.9 N on Mars (W = m·g = 90 kg × 3.71 m/s²; the same as 34.05 kg would weigh on Earth). [bodies-v2]",
+   "format": []
+  },
+  {
+   "q": "A gold bar has a volume of 100 cubic centimetres. What is its mass in kilograms?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 1.928 kg (m = ρ·V = 1.928e+04 kg/m³ × 0.0001 m³ for gold; ρ is a typical value near 20 °C). [densities-r2]",
+   "format": []
+  },
+  {
+   "q": "A solid aluminium cube is 10 cm on each side. What does it weigh on Earth, in newtons?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"it\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "How many kilojoules does it take to heat 3 kg of water from 20 °C to 80 °C?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>thermo core_math",
+   "reply": "The answer is 753.5 kilojoules. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A car travels 400 km and uses 6 litres of petrol per 100 km. How many litres does it use?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 24 litres. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A cylindrical tank 1 metre across and 2 metres tall is full of water. How many kilograms of water does it hold?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network3>geometry-v4 densities-r2 core_math",
+   "reply": "The answer is 1571 kilograms. (path: geometry-v4 → densities-r2 → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 500 g block of copper is heated from 20 °C to 70 °C. How many joules does it absorb?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network3>thermo core_math",
+   "reply": "The answer is 9625 joules. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A cyclist rides 18 km in 45 minutes. What is the average speed in km per hour?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P3_unit_dimension|organ:math>word:motion",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A tap fills a 20 litre bucket in 4 minutes. How many litres does it deliver in an hour?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"it\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "A 40 kg crate is lifted 3 metres on Earth. How many joules of potential energy does it gain?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>physics-r3 core_math",
+   "reply": "The answer is 1177 joules. (path: physics-r3 → core_math)",
+   "format": []
+  },
+  {
+   "q": "A worker earns 18 dollars an hour and works 7.5 hours a day for 5 days. How many dollars is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 675 dollars. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 12 V battery stores 50 Ah. How many watt-hours is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 600 watt-hours. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A runner covers 5 km in 25 minutes. At the same pace, how many minutes does 12 km take?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A runne",
+   "format": []
+  }
+ ],
+ "format_defects": 0,
+ "verifier_up_at_end": true,
+ "paths": {
+  "organ:relation": 46,
+  "verified": 2,
+  "unverified": 7,
+  "precision_guard": 14,
+  "factoid": 1,
+  "compose": 0,
+  "corpus_query": 2
+ },
+ "totals": {
+  "right": 129,
+  "wrong": 2,
+  "declined": 19,
+  "false_yes": 1
+ },
+ "by_group": {
+  "knowledge": {
+   "right": 59,
+   "wrong": 1,
+   "declined": 10,
+   "false_yes": 0
+  },
+  "exact": {
+   "right": 27,
+   "wrong": 0,
+   "declined": 3,
+   "false_yes": 0
+  },
+  "decline": {
+   "right": 29,
+   "wrong": 0,
+   "declined": 0,
+   "false_yes": 1
+  },
+  "multistep": {
+   "right": 14,
+   "wrong": 0,
+   "declined": 6,
+   "false_yes": 0
+  }
+ },
+ "precision_on_answered": 0.9901,
+ "bars": {
+  "precision>=0.90": true,
+  "false_yes<=2": true
+ }
+}

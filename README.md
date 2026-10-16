@@ -8,13 +8,24 @@ Live instance: **[prometheus7.com](https://prometheus7.com)** (the oracle7 desk)
 
 ---
 
-## Release: 14 October 2026
+## Release: 14 October 2026, patched 16 October
 
 The full release is on Hugging Face: **[psiloceyeben/oracle7](https://huggingface.co/psiloceyeben/oracle7)** and
 **[psiloceyeben/oracle7-slim](https://huggingface.co/psiloceyeben/oracle7-slim)** (stores included), with the community
 **[specialists dataset](https://huggingface.co/datasets/psiloceyeben/oracle7-specialists)**. This repository carries the
-code: the admitted fold chain up to head `oracle_release_runtime_w540` (317 folds), the Workbench, the launcher, the
-research files and the release hashes. The stores stay on Hugging Face.
+code: the admitted fold chain up to head `oracle_release_runtime_w543`, the Workbench, the launcher, the research files
+and the release hashes. The stores stay on Hugging Face.
+
+**Release patch 2 (16 October 2026).** Specialists pass each other checked quantities more safely. Specialist network v4
+(`runtime/network_v4.py`; in the release at `root/specialists/_gate/`) carries the place as a typed quantity (a question
+about the Moon or Mars uses that body's gravity, from the bodies specialist; an unknown planet is declined), reads cubic
+centimetres, kilonewtons, rates and temperature changes, and declines negative amounts (fold w542). New checks withhold a
+quantity answer of the wrong kind or one worked with Earth's gravity for another body (w541), and when two readers find
+two different people with one name, Oracle7 lists both and asks which you mean (w543). All three came from the research
+record at [prometheus7.com/research](https://prometheus7.com/research). Composition test C2, written after the code froze
+and run once (E-20261016-0008): 16 of 20 multi-step questions right, 1 wrong, 1 false yes (C1 before the patch: 6, 6, 2);
+by its pre-registered bars of zero wrong and zero false yes, not supported, with both causes published. Release patch 1
+(16 October) added two Wikidata stores the 14 October upload had left out.
 
 ```bash
 pip install huggingface_hub
@@ -29,8 +40,10 @@ One command per line, so it works the same in PowerShell, bash and zsh. For the 
 
 **Measured on the release as shipped** (each sealed test written and hashed before the head was built, run once):
 
-- Sealed test 19: **117 right, 3 wrong, 30 declined**; 1 false yes on the 30 questions that must be declined;
-  precision 97.8%; passed. Slim: 113 right, 1 wrong, 0 false yes, 98.8%.
+- Sealed test 20 (release patch 2, head w543): **129 right, 2 wrong, 19 declined**; 1 false yes on the 30 questions that
+  must be declined; precision 99.0%; passed. Slim: 128 right, 1 wrong, 1 false yes, 100% on valid questions.
+- Sealed test 19 (head w540): 117 right, 3 wrong, 30 declined; 1 false yes; precision 97.8%; passed. Slim: 113 right,
+  1 wrong, 0 false yes, 98.8%.
 - Sealed test 18, on the previous candidate: 118 right, 5 wrong, 4 false yes; **failed**, published with its causes.
 - The general relation reader, held-out on 6,000 TriviaQA questions it was never developed on: 82 answered, 81 right
   (98.8%). Two earlier held-out runs failed the 95% bar and are published in `research/coverage_reader/`.
@@ -45,7 +58,11 @@ can become a temporary specialist.
 
 **Verification.** `RELEASE_HASHES.json` lists a SHA-256 for every shipped part (311 parts: 307 specialist folders, the
 admitted chain, the Workbench, the launcher and the store manifest) and a Merkle root. The roots of both releases were
-written to Solana mainnet in one memo transaction:
+written to Solana mainnet in one memo transaction per release: patch 2
+[fkkTZyGnan3y...](https://explorer.solana.com/tx/fkkTZyGnan3yTcvKckP8qPngCpuCoctdppxZXvF92KkAgtf5k7jUXpSHrudU3ZrQKAWidryDgYtgUUMjJo54Rud)
+(roots `8f19dd67...` and `9ae1e7c4...`), superseding patch 1
+[asnaUESdvkWw...](https://explorer.solana.com/tx/asnaUESdvkWwCEp6vMUAx7rzT4BZVLA7haGwUgAXo3M63ytb6MUozd8iJZ5gSfDCundDH4V7FzLvVjkFumqXLU9)
+and the 14 October release
 [54PaqBXe...](https://explorer.solana.com/tx/54PaqBXeGLEH8UbrVC3UydKfMFxnqbPSrpy5gTeXFdSBfmNK9EUdzzBeWioX35oHqQgXynaWjuNo6VVcP2mUKP46).
 
 **Specialist registry.** Registering a specialist you built burns 1 $ORACLE7
