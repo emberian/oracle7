@@ -1,0 +1,245 @@
+{
+ "fitted": "2026-10-16",
+ "method": "Flesch-Kincaid grade per sentence; ProseFold voice measures of the running text",
+ "levels": {
+  "simple": {
+   "n": 19684,
+   "median": 9.09,
+   "p25": 6.42,
+   "p75": 12.25
+  },
+  "general": {
+   "n": 19966,
+   "median": 12.84,
+   "p25": 9.37,
+   "p75": 16.35
+  },
+  "technical": {
+   "n": 20000,
+   "median": 11.23,
+   "p25": 8.37,
+   "p75": 14.29
+  }
+ },
+ "voices": {
+  "simple": {
+   "params": {
+    "word_count": 61536,
+    "comma_density": 0.056,
+    "em_dash_density": 0.0002,
+    "sent_len_std": 7.9,
+    "max_sent_len": 58,
+    "snap_ratio": 54.21,
+    "connective_density_per_1k": 0.08,
+    "i_ratio": 0.475,
+    "slop_count": 2,
+    "profanity_per_1k": 0.02
+   },
+   "ranges": {
+    "comma_density": [
+     0.0448,
+     0.0672
+    ],
+    "em_dash_density": [
+     -0.0008,
+     0.0012
+    ],
+    "sent_len_std": [
+     6.32,
+     9.48
+    ],
+    "max_sent_len": [
+     34,
+     69
+    ],
+    "snap_ratio": [
+     54.06,
+     54.36
+    ],
+    "connective_density_per_1k": [
+     0.064,
+     0.096
+    ],
+    "slop_count": [
+     0,
+     0
+    ],
+    "i_ratio": [
+     0.38,
+     0.57
+    ],
+    "profanity_per_1k": [
+     0.016,
+     0.024
+    ]
+   }
+  },
+  "general": {
+   "params": {
+    "word_count": 88193,
+    "comma_density": 0.0704,
+    "em_dash_density": 0.0003,
+    "sent_len_std": 11.0,
+    "max_sent_len": 62,
+    "snap_ratio": 5.71,
+    "connective_density_per_1k": 0.31,
+    "i_ratio": 0.6667,
+    "slop_count": 14,
+    "profanity_per_1k": 0.01
+   },
+   "ranges": {
+    "comma_density": [
+     0.0563,
+     0.0845
+    ],
+    "em_dash_density": [
+     -0.0007,
+     0.0013
+    ],
+    "sent_len_std": [
+     8.8,
+     13.2
+    ],
+    "max_sent_len": [
+     37,
+     74
+    ],
+    "snap_ratio": [
+     5.56,
+     5.86
+    ],
+    "connective_density_per_1k": [
+     0.248,
+     0.372
+    ],
+    "slop_count": [
+     0,
+     0
+    ],
+    "i_ratio": [
+     0.57,
+     0.77
+    ],
+    "profanity_per_1k": [
+     0.008,
+     0.012
+    ]
+   }
+  },
+  "technical": {
+   "params": {
+    "word_count": 77156,
+    "comma_density": 0.0514,
+    "em_dash_density": 0.0014,
+    "sent_len_std": 9.2,
+    "max_sent_len": 134,
+    "snap_ratio": 14.79,
+    "connective_density_per_1k": 0.45,
+    "i_ratio": 0.0177,
+    "slop_count": 4,
+    "profanity_per_1k": 0.0
+   },
+   "ranges": {
+    "comma_density": [
+     0.0411,
+     0.0617
+    ],
+    "em_dash_density": [
+     0.0004,
+     0.0024
+    ],
+    "sent_len_std": [
+     7.36,
+     11.04
+    ],
+    "max_sent_len": [
+     80,
+     160
+    ],
+    "snap_ratio": [
+     14.64,
+     14.94
+    ],
+    "connective_density_per_1k": [
+     0.36,
+     0.54
+    ],
+    "slop_count": [
+     0,
+     0
+    ],
+    "i_ratio": [
+     0,
+     0.12
+    ],
+    "profanity_per_1k": [
+     -0.001,
+     0.001
+    ]
+   }
+  },
+  "prometheus7": {
+   "params": {
+    "word_count": 6907,
+    "comma_density": 0.0608,
+    "em_dash_density": 0.0003,
+    "sent_len_std": 11.9,
+    "max_sent_len": 98,
+    "snap_ratio": 10.38,
+    "connective_density_per_1k": 0.87,
+    "i_ratio": 0.0115,
+    "slop_count": 0,
+    "profanity_per_1k": 0.0
+   },
+   "ranges": {
+    "comma_density": [
+     0.0486,
+     0.073
+    ],
+    "em_dash_density": [
+     -0.0007,
+     0.0013
+    ],
+    "sent_len_std": [
+     9.52,
+     14.28
+    ],
+    "max_sent_len": [
+     58,
+     117
+    ],
+    "snap_ratio": [
+     10.23,
+     10.53
+    ],
+    "connective_density_per_1k": [
+     0.696,
+     1.044
+    ],
+    "slop_count": [
+     0,
+     0
+    ],
+    "i_ratio": [
+     0,
+     0.11
+    ],
+    "profanity_per_1k": [
+     -0.001,
+     0.001
+    ]
+   }
+  }
+ },
+ "sizes": {
+  "simple": 20000,
+  "general": 20000,
+  "technical": 20000
+ },
+ "voice_names": {
+  "simple": "Plain",
+  "general": "Encyclopedic",
+  "technical": "Textbook",
+  "prometheus7": "Prometheus7 (The Slow Fire)"
+ }
+}

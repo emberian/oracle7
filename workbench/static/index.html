@@ -53,6 +53,7 @@
       <button role="tab" data-tab="build">Build</button>
       <button role="tab" data-tab="gaps">Gaps</button>
       <button role="tab" data-tab="code">Code</button>
+      <button role="tab" data-tab="essay">Essay</button>
       <button role="tab" data-tab="film">Film</button>
       <button role="tab" data-tab="share">Share</button>
     </nav>
@@ -143,6 +144,19 @@
       <textarea id="c-tests" class="mono short" spellcheck="false" placeholder="# tests, e.g.  assert f('hello world') == 'Hello World'"></textarea>
       <div class="row"><button class="btn primary" id="c-run">Run tests</button><span class="progress" id="c-res"></span></div>
       <pre class="out" id="c-out-text" hidden></pre>
+    </div>
+    <div class="tab" id="t-essay">
+      <p class="lede">An essay on a topic, composed from this model's own records. Every sentence is a sentence from its sources, kept word for word with its number; ProseFold chooses which sentences to use and how to join them, to fit the length, reading level, depth and style you pick. Nothing is made up, and nothing leaves this computer. How well the essays read has not yet been measured by people.</p>
+      <div class="row"><input id="e-topic" placeholder="A topic, e.g. volcano, photosynthesis, democracy"><button class="btn primary" id="e-write">Write</button></div>
+      <div class="row">
+        <label>Length <select id="e-length"><option value="short">Short</option><option value="medium" selected>Medium</option><option value="long">Long</option><option value="full">Everything it has</option></select></label>
+        <label>Reading level <select id="e-level"><option value="young">Young readers</option><option value="general" selected>General</option><option value="advanced">Advanced</option></select></label>
+        <label>Depth <select id="e-depth"><option value="basic">Basic</option><option value="standard" selected>Standard</option><option value="technical">Technical</option></select></label>
+        <label>Style <select id="e-style"><option value="plain" selected>Plain</option><option value="encyclopedic">Encyclopedic</option><option value="textbook">Textbook</option><option value="prometheus7">Prometheus7</option><option value="custom">Your own writing…</option></select></label>
+      </div>
+      <textarea id="e-voice" class="short" hidden placeholder="Paste at least 150 words of writing whose voice the essay should follow (it stays on this computer)"></textarea>
+      <p class="progress" id="e-res"></p>
+      <div class="out" id="e-out" hidden></div>
     </div>
     <div class="tab" id="t-film">
       <p class="lede">Record answers as a film: the diagram tracing each path, the question, the answer and its receipt. Made in your browser as a .webm file; nothing is uploaded.</p>

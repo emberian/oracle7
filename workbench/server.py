@@ -831,6 +831,27 @@ class H(BaseHTTPRequestHandler):
                 return self._send(200, {"status": status, "response": str(r.get("response", "")), "path": str(r.get("path", "")),
                                         "trace": trace(r.get("path"), r.get("response"), status), "why": why, "why_kind": kind,
                                         "ms": int((time.time() - t) * 1000)})
+            if u.path == "/api/essay":
+                # ProseFold v2: an essay composed from this model's own cited records, with the chosen length, reading level,
+                # technical depth and style (profiles measured from the release's corpora); no language model
+                import prosefold.options as PO
+                topic = re.sub(r"\s+", " ", str(b.get("topic", ""))).strip()[:80]
+                if not topic:
+                    return self._send(400, {"error": "name a topic"})
+                pick = lambda k, allowed, d: b.get(k) if b.get(k) in allowed else d  # noqa: E731
+                voice_path = None
+                vt = str(b.get("voice_text", "") or "")
+                if b.get("style") == "custom" and len(vt.split()) >= 150:
+                    LOCAL.mkdir(parents=True, exist_ok=True)
+                    voice_path = LOCAL / "essay_voice.txt"
+                    voice_path.write_text(vt[:200000], encoding="utf-8")
+                elif b.get("style") == "custom":
+                    return self._send(400, {"error": "paste at least 150 words of the writing whose voice you want"})
+                t = time.time()
+                r = PO.write(WB.eng.chat, topic, length=pick("length", PO.LENGTHS, "medium"), level=pick("level", PO.LEVELS, "general"),
+                             depth=pick("depth", PO.DEPTHS, "standard"), style=pick("style", PO.STYLES, "plain"), voice_path=voice_path)
+                r["ms"] = int((time.time() - t) * 1000)
+                return self._send(200, r)
             if u.path == "/api/journal":
                 s = settings()
                 s["journal"] = bool(b.get("on"))

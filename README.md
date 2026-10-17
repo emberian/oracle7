@@ -8,13 +8,23 @@ Live instance: **[prometheus7.com](https://prometheus7.com)** (the oracle7 desk)
 
 ---
 
-## Release: 14 October 2026, patched 16 October
+## Release: 14 October 2026, patched 16-17 October
 
 The full release is on Hugging Face: **[psiloceyeben/oracle7](https://huggingface.co/psiloceyeben/oracle7)** and
 **[psiloceyeben/oracle7-slim](https://huggingface.co/psiloceyeben/oracle7-slim)** (stores included), with the community
 **[specialists dataset](https://huggingface.co/datasets/psiloceyeben/oracle7-specialists)**. This repository carries the
-code: the admitted fold chain up to head `oracle_release_runtime_w543`, the Workbench, the launcher, the research files
+code: the admitted fold chain up to head `oracle_release_runtime_w545`, the Workbench, the launcher, the research files
 and the release hashes. The stores stay on Hugging Face.
+
+**Release patch 3 (16-17 October 2026).** Specialist network v5 (`runtime/network_v5.py`, fold w545) reads the shapes the
+patch 2 retest found unread: a box "5 cm by 4 cm by 3 cm" or a cube "5 cm on each side" (the volume derived by core
+arithmetic and shown in the path), "500 cubic centimetres of ice", "the water in the pond", "in a day". Fold w544 checks the
+older v2 network route like the others and withholds a unit answer about a place with no record. Composition test C3, written
+after the code froze and run once (E-20261017-0001): **20 of 20 multi-step questions right, 0 wrong, 0 false yes** (C1 before
+patch 2: 6, 6, 2; C2 on patch 2: 16, 1, 1); supported by its pre-registered bars. The Workbench gains an Essay tab and
+`python oracle7.py essay <topic>` (ProseFold, `workbench/prosefold/`): an essay composed from the model's own records with a
+choice of length, reading level, technical depth and style; every sentence kept word for word with its source, no language
+model; their quality has not been measured by people yet.
 
 **Release patch 2 (16 October 2026).** Specialists pass each other checked quantities more safely. Specialist network v4
 (`runtime/network_v4.py`; in the release at `root/specialists/_gate/`) carries the place as a typed quantity (a question
@@ -40,6 +50,8 @@ One command per line, so it works the same in PowerShell, bash and zsh. For the 
 
 **Measured on the release as shipped** (each sealed test written and hashed before the head was built, run once):
 
+- Sealed test 21 (release patch 3, head w545): **131 right, 2 wrong, 17 declined, 0 false yes**; precision 98.1%; passed.
+  Slim: 130 right, 2 wrong, 0 false yes, 98.0%.
 - Sealed test 20 (release patch 2, head w543): **129 right, 2 wrong, 19 declined**; 1 false yes on the 30 questions that
   must be declined; precision 99.0%; passed. Slim: 128 right, 1 wrong, 1 false yes, 100% on valid questions.
 - Sealed test 19 (head w540): 117 right, 3 wrong, 30 declined; 1 false yes; precision 97.8%; passed. Slim: 113 right,
@@ -58,9 +70,11 @@ can become a temporary specialist.
 
 **Verification.** `RELEASE_HASHES.json` lists a SHA-256 for every shipped part (311 parts: 307 specialist folders, the
 admitted chain, the Workbench, the launcher and the store manifest) and a Merkle root. The roots of both releases were
-written to Solana mainnet in one memo transaction per release: patch 2
+written to Solana mainnet in one memo transaction per release: patch 3
+[WNEdPhKJZYCh...](https://explorer.solana.com/tx/WNEdPhKJZYCh3ZKe7X8zhVehuyskEnKuDbde86W1XdKdBC9izVAJTzbrewtSUQ8keQvT1rZUBumCGnGxjDXyVgU)
+(roots `0575c9b7...` and `d17a692f...`), superseding patch 2
 [fkkTZyGnan3y...](https://explorer.solana.com/tx/fkkTZyGnan3yTcvKckP8qPngCpuCoctdppxZXvF92KkAgtf5k7jUXpSHrudU3ZrQKAWidryDgYtgUUMjJo54Rud)
-(roots `8f19dd67...` and `9ae1e7c4...`), superseding patch 1
+(roots `8f19dd67...` and `9ae1e7c4...`), which superseded patch 1
 [asnaUESdvkWw...](https://explorer.solana.com/tx/asnaUESdvkWwCEp6vMUAx7rzT4BZVLA7haGwUgAXo3M63ytb6MUozd8iJZ5gSfDCundDH4V7FzLvVjkFumqXLU9)
 and the 14 October release
 [54PaqBXe...](https://explorer.solana.com/tx/54PaqBXeGLEH8UbrVC3UydKfMFxnqbPSrpy5gTeXFdSBfmNK9EUdzzBeWioX35oHqQgXynaWjuNo6VVcP2mUKP46).

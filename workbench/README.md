@@ -246,6 +246,29 @@ every decision, and held-out results run once.
 | **Vision** | sees with no trained weights; cites the stored examples behind every answer | MNIST 98.58%, Fashion-MNIST 90.46%, CIFAR-10 62.99% |
 | **Artist** | images by citation: every object is a real photographed instance, cited | GenEval-style 50.9% on 2,212 images (independent judge) |
 
+## Essays: ProseFold
+
+```bash
+python oracle7.py essay "volcano"
+python oracle7.py essay "volcano" --voice my_writing.md
+```
+
+`essay` writes a few paragraphs about a topic from this model's own cited answers, with no language model. It asks the
+model the questions a writer would (what it is, how it works, where it is used, its history), keeps only the sentences
+that came back with a record id, and arranges them. ProseFold chooses the arrangement: where sentences join with "and" or
+a semicolon, where a short sentence stands alone, where "it" replaces the subject. It searches those choices for the voice
+closest to a target text (by default Prometheus7's essay *The Slow Fire*; `--voice` takes any text of yours) on four
+measures a composition can change: comma rhythm, sentence-length spread, longest sentence and short "snap" sentences.
+
+What it does not do: change a word of what the record says, add a connective the record does not support, or write about
+anything the model has no record of. Every sentence keeps its source numbers, and every composed sentence is checked to
+carry the content words of its sources and nothing else (the output says how many passed). On the full release the
+topic's own page is read in order; slim works from the model's answers only, so its essays are shorter.
+
+Measured on 20 topics: 205 of 205 composed sentences faithful to their sources, a planted word change caught 20 of 20
+times, and the fold closer to the target voice than random legal choices on all 20. Whether the essays read well has not
+been measured: that needs blind human scoring, which has not been done.
+
 ## Commands
 
 ```

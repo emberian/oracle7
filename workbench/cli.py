@@ -15,6 +15,9 @@ so an answer here is the answer the page gives. `python oracle7.py help` lists t
   sensors                        your sensors: read each once now and print the newest values
   sensor-test <kind> <address>   read a sensor once and list the numbers found (kinds: http mqtt serial file simulated)
   history [id]                   saved conversations, or one conversation's turns
+  essay "topic" [options]        ProseFold: an essay composed from this model's own records, no language model; options
+                                 --length short|medium|long|full --level young|general|advanced --depth basic|standard|technical
+                                 --style plain|encyclopedic|textbook|prometheus7 --voice <your writing.txt>
   registry <id>                  a specialist's on-chain registrations and attestations, with each signer's $ORACLE7
   registry-memo <id> register|attest   the memo to sign (in the Workbench's Share tab, or any wallet that signs memos);
                                  then: registry-record <id> register|attest <signature>
@@ -33,7 +36,7 @@ sys.path.insert(0, str(HERE))
 STAGE = {"L0": "Intake", "L1": "Parse", "L2": "Route", "L3": "Conversation", "L4": "Speak & verify", "L5": "Self-model",
          "S": "Specialists", "E": "Engines", "V": "Knowledge vault"}
 COMMANDS = {"ask", "chat", "specialists", "card", "systems", "verify", "mine", "new", "example", "exam", "scan", "sensors",
-            "sensor-test", "history", "help", "registry", "registry-memo"}
+            "sensor-test", "history", "help", "registry", "registry-memo", "essay"}
 
 
 def out(obj, as_json, text):
@@ -213,6 +216,33 @@ def main(argv, engine_factory):
         return 0
     # the rest needs the core
     eng = engine_factory()
+    if cmd == "essay":
+        import prosefold.options as PO
+        opt = {"length": "medium", "level": "general", "depth": "standard", "style": "plain"}
+        voice = None
+        for flag in ("--length", "--level", "--depth", "--style", "--voice"):
+            if flag in rest:
+                i = rest.index(flag)
+                val = rest[i + 1] if i + 1 < len(rest) else ""
+                rest = rest[:i] + rest[i + 2:]
+                if flag == "--voice":
+                    voice = val
+                else:
+                    opt[flag[2:]] = val
+        allowed = {"length": PO.LENGTHS, "level": PO.LEVELS, "depth": PO.DEPTHS, "style": PO.STYLES}
+        bad = [k for k, v in opt.items() if v not in allowed[k]]
+        if not rest or bad:
+            print('usage: essay "topic" [--length short|medium|long|full] [--level young|general|advanced]\n'
+                  '                     [--depth basic|standard|technical] [--style plain|encyclopedic|textbook|prometheus7] [--voice file]')
+            return 2
+        r = PO.write(eng.chat, " ".join(rest), voice_path=voice, **opt)
+        if as_json:
+            return out(r, True, "") or 0
+        print(r["essay_md"])
+        print("[prosefold] %d sentences from %d records, %d of %d checked word for word against their sources; reading grade %s "
+              "(asked %s%s); no language model" % (r["sentences"], r["records_used"], r["faithful"], r["sentences"], r["reading_grade"],
+                                                  opt["level"], "" if r["level_reached"] else ", the record could not get closer"))
+        return 0 if r["sentences"] else 1
     sess = Session(eng)
     if cmd == "ask":
         if not rest:

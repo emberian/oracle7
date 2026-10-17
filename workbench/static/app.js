@@ -281,6 +281,23 @@
   $("g-clear").onclick = async () => { if (!confirm("Delete the gap journal from this machine?")) return; await api("/api/journal/clear", {}); log("journal", "deleted", "live"); loadGaps(); };
 
   // ------------------------------------------------------------------ code
+  $("e-style").onchange = () => { $("e-voice").hidden = $("e-style").value !== "custom"; };
+  $("e-write").onclick = async () => {
+    const topic = $("e-topic").value.trim();
+    if (!topic) { $("e-res").textContent = "name a topic"; return; }
+    const body = { topic, length: $("e-length").value, level: $("e-level").value, depth: $("e-depth").value, style: $("e-style").value,
+                   voice_text: $("e-style").value === "custom" ? $("e-voice").value : "" };
+    $("e-res").textContent = "composing from the record…"; $("e-out").hidden = true; log("essay", topic, "live");
+    try {
+      const r = await api("/api/essay", body);
+      if (r.error) { $("e-res").textContent = r.error; return; }
+      if (!r.sentences) { $("e-res").textContent = "no records about that topic, so no essay"; log("essay", "nothing on record: " + topic, "no"); return; }
+      const band = r.level_band[1] >= 30 ? `grade ${r.level_band[0]}+` : `grades ${r.level_band[0]}-${r.level_band[1]}`;
+      $("e-res").textContent = `${r.sentences} sentences from ${r.records_used} records · ${r.faithful} of ${r.sentences} checked word for word against their sources · reading grade ${r.reading_grade} (asked for ${band}${r.level_reached ? "" : "; the record could not get closer"}) · ${r.ms} ms · no language model`;
+      $("e-out").innerHTML = md(r.essay_md); $("e-out").hidden = false;
+      log("essay", `${topic}: ${r.sentences} sentences, grade ${r.reading_grade}, ${r.faithful}/${r.sentences} faithful`, "ok");
+    } catch (e) { $("e-res").textContent = e.message; }
+  };
   $("c-compose").onclick = async () => {
     const what = $("c-what").value.trim(), i = $("c-in").value.trim(), o = $("c-out").value.trim();
     const prompt = `Write a Python function${what ? " to " + what.replace(/^(to |that )/, "") : ""}${i && o ? ", so " + i + " becomes " + o : ""}`;
