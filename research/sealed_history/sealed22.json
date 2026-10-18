@@ -1,0 +1,1279 @@
+[
+ {
+  "q": "Who wrote Jane Eyre?",
+  "expect": [
+   "Charlotte Brontë",
+   "Charlotte Bronte",
+   "Brontë",
+   "Bronte"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Vertigo?",
+  "expect": [
+   "Hitchcock"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Metropolis?",
+  "expect": [
+   "Lang"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Jaws?",
+  "expect": [
+   "Spielberg"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted The Kiss?",
+  "expect": [
+   "Klimt"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed the Moonlight Sonata?",
+  "expect": [
+   "Beethoven"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed La traviata?",
+  "expect": [
+   "Verdi"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Bolivia?",
+  "expect": [
+   "Sucre",
+   "La Paz"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Indonesia?",
+  "expect": [
+   "Jakarta"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Iran?",
+  "expect": [
+   "Tehran"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for lead?",
+  "expect": [
+   "Pb"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for tungsten?",
+  "expect": [
+   "W"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Red and the Black?",
+  "expect": [
+   "Stendhal"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Blindness?",
+  "expect": [
+   "Saramago"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Ficciones?",
+  "expect": [
+   "Borges"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Hopscotch?",
+  "expect": [
+   "Cortázar",
+   "Cortazar"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Snow Country?",
+  "expect": [
+   "Kawabata"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Wide Sargasso Sea?",
+  "expect": [
+   "Rhys"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote A Passage to India?",
+  "expect": [
+   "Forster"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Under the Volcano?",
+  "expect": [
+   "Lowry"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Sea, the Sea?",
+  "expect": [
+   "Murdoch"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Gilead?",
+  "expect": [
+   "Robinson"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote White Noise?",
+  "expect": [
+   "DeLillo"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Infinite Jest?",
+  "expect": [
+   "Wallace"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Corrections?",
+  "expect": [
+   "Franzen"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Season of Migration to the North?",
+  "expect": [
+   "Salih"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Sound of Waves?",
+  "expect": [
+   "Mishima"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote The Good Soldier?",
+  "expect": [
+   "Ford"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote My Ántonia?",
+  "expect": [
+   "Cather"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Native Son?",
+  "expect": [
+   "Wright"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Their Eyes Were Watching God?",
+  "expect": [
+   "Hurston"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who wrote Rabbit, Run?",
+  "expect": [
+   "Updike"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Breathless?",
+  "expect": [
+   "Godard"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Stalker?",
+  "expect": [
+   "Tarkovsky"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Persona?",
+  "expect": [
+   "Bergman"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Nosferatu?",
+  "expect": [
+   "Murnau"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Aguirre, the Wrath of God?",
+  "expect": [
+   "Herzog"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Wings of Desire?",
+  "expect": [
+   "Wenders"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed In the Mood for Love?",
+  "expect": [
+   "Wong"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Pather Panchali?",
+  "expect": [
+   "Ray"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed L'Avventura?",
+  "expect": [
+   "Antonioni"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed The Battle of Algiers?",
+  "expect": [
+   "Pontecorvo"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who directed Sunset Boulevard?",
+  "expect": [
+   "Wilder"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted The Raft of the Medusa?",
+  "expect": [
+   "Géricault",
+   "Gericault"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who painted Olympia?",
+  "expect": [
+   "Manet"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed Madama Butterfly?",
+  "expect": [
+   "Puccini"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed The Creation?",
+  "expect": [
+   "Haydn"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed Symphonie fantastique?",
+  "expect": [
+   "Berlioz"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed Pomp and Circumstance?",
+  "expect": [
+   "Elgar"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed Appalachian Spring?",
+  "expect": [
+   "Copland"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed Ride of the Valkyries?",
+  "expect": [
+   "Wagner"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed Don Giovanni?",
+  "expect": [
+   "Mozart"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Who composed Aida?",
+  "expect": [
+   "Verdi"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Cambodia?",
+  "expect": [
+   "Phnom Penh"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Mali?",
+  "expect": [
+   "Bamako"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Niger?",
+  "expect": [
+   "Niamey"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Costa Rica?",
+  "expect": [
+   "San José",
+   "San Jose"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Fiji?",
+  "expect": [
+   "Suva"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the capital of Brunei?",
+  "expect": [
+   "Bandar Seri Begawan"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for silicon?",
+  "expect": [
+   "Si"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for argon?",
+  "expect": [
+   "Ar"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for bismuth?",
+  "expect": [
+   "Bi"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for cobalt?",
+  "expect": [
+   "Co"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for iodine?",
+  "expect": [
+   "I"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for uranium?",
+  "expect": [
+   "U"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for arsenic?",
+  "expect": [
+   "As"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the chemical symbol for barium?",
+  "expect": [
+   "Ba"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "What is the largest moon of Uranus?",
+  "expect": [
+   "Titania"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which planet has the moon Phobos?",
+  "expect": [
+   "Mars"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "Which planet has the moon Io?",
+  "expect": [
+   "Jupiter"
+  ],
+  "kind": "text",
+  "group": "knowledge",
+  "valid": true
+ },
+ {
+  "q": "How many seconds are in 9 minutes?",
+  "expect": 540,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 25 miles to kilometres.",
+  "expect": 40.2336,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 35% of 620?",
+  "expect": 217,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 7,056 divided by 84?",
+  "expect": 84,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 37 times 43?",
+  "expect": 1591,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many grams are in 3.75 kilograms?",
+  "expect": 3750,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many centimetres are in 4.6 metres?",
+  "expect": 460,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 20 pounds to kilograms.",
+  "expect": 9.071847400000001,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 5 US gallons to litres.",
+  "expect": 18.92705892,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 12% of 875?",
+  "expect": 105,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 8,000 minus 2,468?",
+  "expect": 5532,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 3,456 plus 6,789?",
+  "expect": 10245,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 360 divided by 0.6?",
+  "expect": 600,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 15 feet to metres.",
+  "expect": 4.572,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 9 inches to centimetres.",
+  "expect": 22.86,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the area of a rectangle 12 m by 17 m, in square metres?",
+  "expect": 204,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the circumference of a circle with a radius of 9 m, in metres?",
+  "expect": 56.548667764616276,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the area of a circle with a radius of 6 cm, in square centimetres?",
+  "expect": 113.09733552923255,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many days are in 13 weeks?",
+  "expect": 91,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 47 squared?",
+  "expect": 2209,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 80 kilometres per hour to miles per hour.",
+  "expect": 49.709695378986716,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "How many millilitres are in 2.4 litres?",
+  "expect": 2400,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 62.5% of 128?",
+  "expect": 80,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 3 kilowatt-hours to joules.",
+  "expect": 10800000.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 2,025 divided by 45?",
+  "expect": 45,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 19 times 53?",
+  "expect": 1007,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 16% of 450?",
+  "expect": 72,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Convert 12 ounces to grams.",
+  "expect": 340.1942775,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is the square root of 7,744?",
+  "expect": 88,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "What is 27 times 58?",
+  "expect": 1566,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true
+ },
+ {
+  "q": "Who was the first person to walk on Jupiter?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no one has"
+ },
+ {
+  "q": "What is the capital of the Atlantic Ocean?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such capital"
+ },
+ {
+  "q": "In what year did Queen Victoria visit the Moon?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise"
+ },
+ {
+  "q": "What will I eat for breakfast tomorrow?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "unknowable, private"
+ },
+ {
+  "q": "Which moon orbits the Sun directly?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise"
+ },
+ {
+  "q": "What is the name of my dog?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "How old is the king of the Sahara Desert?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office"
+ },
+ {
+  "q": "A 4 kg drum is taken to the planet Gethen. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such planet"
+ },
+ {
+  "q": "A 2 kW heater runs 30 hours a day. How many kWh does it use in a day?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "more than 24 hours in a day"
+ },
+ {
+  "q": "Who won the 2034 football World Cup final?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "future event"
+ },
+ {
+  "q": "When did Shakespeare land on Mars?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise"
+ },
+ {
+  "q": "Why is the Sun made of ice?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise"
+ },
+ {
+  "q": "What is my bank password?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "What was Isaac Newton's email address?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "anachronism"
+ },
+ {
+  "q": "How many kilometres is it from London to the planet Gallifrey?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet"
+ },
+ {
+  "q": "A truck uses -9 litres of fuel per 100 km. How much fuel does it use on a 200 km trip?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative fuel use"
+ },
+ {
+  "q": "A 60 W bulb runs for -3 hours. How many kWh does it use?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative duration"
+ },
+ {
+  "q": "In what year did Mexico become a Canadian province?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise"
+ },
+ {
+  "q": "Who was the Emperor of Switzerland in 1900?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office"
+ },
+ {
+  "q": "What is the GDP of Atlantis?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional place"
+ },
+ {
+  "q": "How many hours are in a day on the planet Tralfamadore?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet"
+ },
+ {
+  "q": "What is the chemical symbol for the element unobtainium?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such element"
+ },
+ {
+  "q": "Which sea lies between Madrid and Lisbon?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise"
+ },
+ {
+  "q": "A 9 kg crate is lifted 3 metres on the planet Pern. How much potential energy does it gain?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet"
+ },
+ {
+  "q": "What did my sister buy yesterday?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "Who was the first king of the Arctic Ocean?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office"
+ },
+ {
+  "q": "What is my house worth?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "How many moons does the planet Vulcan have?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet"
+ },
+ {
+  "q": "What is my grandmother's maiden name?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private"
+ },
+ {
+  "q": "In what year did the Roman Empire launch its first satellite?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "anachronism"
+ },
+ {
+  "q": "A coach travels 240 km in 3 hours. At the same speed, how far does it travel in 5 hours?",
+  "expect": 400,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A copier prints 45 pages in 3 minutes. How many pages does it print in 18 minutes?",
+  "expect": 270,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 2 kW kettle runs for 6 minutes. How many kWh does it use?",
+  "expect": 0.2,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 50 W lamp runs 8 hours a day for 30 days. How many kWh is that?",
+  "expect": 12,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "Electricity costs 25 cents per kWh. What does running a 2 kW heater for 3 hours cost, in dollars?",
+  "expect": 1.5,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A rectangular field is 400 m by 75 m. How many hectares is it?",
+  "expect": 3,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 60 kg hiker gains 200 metres of height on Mars. How many kilojoules of potential energy is that?",
+  "expect": 44.52,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "What does a 90 kg astronaut weigh on the Moon, in newtons?",
+  "expect": 145.8,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A gold nugget has a volume of 20 cubic centimetres. What is its mass in kilograms?",
+  "expect": 0.38639999999999997,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A solid iron cube is 4 cm on each side. What does it weigh on Earth, in newtons?",
+  "expect": 4.941923974399999,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "How many kilojoules does it take to heat 6 kg of water from 20 °C to 70 °C?",
+  "expect": 1255.2,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A car travels 420 km and uses 6 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 25.2,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 500 g block of copper is heated from 20 °C to 80 °C. How many joules does it absorb?",
+  "expect": 11550.0,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A runner covers 21 km in 1.75 hours. What is the average speed in km per hour?",
+  "expect": 12,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A pump fills a 120 litre tank in 4 minutes. How many litres does it deliver in an hour?",
+  "expect": 1800,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 40 kg sack is lifted 5 metres on Earth. How many joules of potential energy does it gain?",
+  "expect": 1961.33,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A courier earns 18 dollars an hour and works 7 hours a day for 5 days. How many dollars is that?",
+  "expect": 630,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 12 V battery stores 80 Ah. How many watt-hours is that?",
+  "expect": 960,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A walker covers 6 km in 72 minutes. At the same pace, how many minutes does 10 km take?",
+  "expect": 120,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ },
+ {
+  "q": "A 3 kg bag is lifted 2 metres on Earth. How many joules of potential energy does it gain?",
+  "expect": 58.8399,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "multistep",
+  "valid": true
+ }
+]

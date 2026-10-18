@@ -1081,7 +1081,7 @@ class H(BaseHTTPRequestHandler):
                     return self._send(400, {"error": "no such specialist"})
                 return self._send(200, registry.check(SPECS / sid))
             if u.path == "/api/example":
-                src = HERE / "examples" / "paint-coverage"
+                src = HERE / "examples" / "habitable-zone"
                 if (SPECS / src.name).exists():
                     return self._send(400, {"error": "the example is already in your specialists"})
                 shutil.copytree(src, SPECS / src.name, ignore=shutil.ignore_patterns("__pycache__", "verdict_*", "exam_log*"))

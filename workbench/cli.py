@@ -9,7 +9,7 @@ so an answer here is the answer the page gives. `python oracle7.py help` lists t
   verify [--chain]               check this install against RELEASE_HASHES.json (and the root against its Solana anchor)
   mine                           your specialists and their state
   new <id> [words...]            scaffold a specialist in workbench/local/specialists/<id>
-  example                        install the worked example (paint coverage)
+  example                        install the worked example (habitable zone)
   exam <id> dev|heldout          run its exam (held-out: once) and print the verdict
   scan                           read this computer (system, CPU, memory, disks, uptime, top processes)
   sensors                        your sensors: read each once now and print the newest values
@@ -150,12 +150,12 @@ def main(argv, engine_factory):
     if cmd == "example":
         import shutil
         import server
-        dst = server.SPECS / "paint-coverage"
+        dst = server.SPECS / "habitable-zone"
         if dst.exists():
             print("already installed: %s" % dst)
             return 0
-        shutil.copytree(HERE / "examples" / "paint-coverage", dst)
-        print("installed %s\nnext: exam paint-coverage dev, then exam paint-coverage heldout" % dst)
+        shutil.copytree(HERE / "examples" / "habitable-zone", dst)
+        print("installed %s\nnext: exam habitable-zone dev, then exam habitable-zone heldout" % dst)
         return 0
     if cmd == "scan":
         import sources

@@ -1,0 +1,12 @@
+{
+ "id": "habitable-zone",
+ "name": "Habitable zone (example)",
+ "sources": [
+  {"name": "Kopparapu, R. K. et al. 2013, Habitable zones around main-sequence stars: new estimates, ApJ 765, 131 (erratum values): stellar-flux limits as a polynomial in the star's effective temperature, valid 2600-7200 K", "licence": "fact", "url": "https://doi.org/10.1088/0004-637X/765/2/131"},
+  {"name": "Inverse-square law: flux relative to Earth = luminosity (solar) / distance (AU) squared", "licence": "fact", "url": ""}
+ ],
+ "organ": {"module": "organ_habitable_zone", "class": "Organ", "init": {}},
+ "accept": {"kinds": ["zone", "inside"], "declines_in_domain": ["underspecified", "out_of_range"], "context_regex": "\\bhabitable\\s+zone\\b"},
+ "panel": {"path": "panel.json", "scorer_module": "scorer", "scorer_fn": "ok"},
+ "budgets": {"latency_p50_ms": 200}
+}

@@ -1,0 +1,5627 @@
+{
+ "ops": [
+  {
+   "sid": "acoustics",
+   "q": "What is the wavelength of a 440 Hz sound in air?",
+   "parts": [
+    "What is the wavelength of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " Hz sound in air?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "what is the wavelength of a #(0, 0, -1, 0, 0, 0) hz sound in air?",
+   "checks": 4,
+   "context": [
+    "air",
+    "sound",
+    "wavelength"
+   ]
+  },
+  {
+   "sid": "acoustics",
+   "q": "A siren of 440 Hz is moving toward you at 20 m/s. What frequency do you hear?",
+   "parts": [
+    "A siren of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " Hz is moving toward you at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s. What frequency do you hear?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "Hz",
+   "skeleton": "a siren of #(0, 0, -1, 0, 0, 0) hz is moving toward you at #(1, 0, -1, 0, 0, 0) m/s. what frequency do you hear?",
+   "checks": 6,
+   "context": [
+    "frequency",
+    "hear",
+    "moving",
+    "siren"
+   ]
+  },
+  {
+   "sid": "acoustics",
+   "q": "What is the fundamental frequency of an open pipe 1.2 m long?",
+   "parts": [
+    "What is the fundamental frequency of an open pipe ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m long?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "Hz",
+   "skeleton": "what is the fundamental frequency of an open pipe #(1, 0, 0, 0, 0, 0) m long?",
+   "checks": 3,
+   "context": [
+    "frequency",
+    "fundamental",
+    "open",
+    "pipe"
+   ]
+  },
+  {
+   "sid": "acoustics",
+   "q": "What is the fundamental frequency of a closed pipe 1.2 m long?",
+   "parts": [
+    "What is the fundamental frequency of a closed pipe ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m long?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "Hz",
+   "skeleton": "what is the fundamental frequency of a closed pipe #(1, 0, 0, 0, 0, 0) m long?",
+   "checks": 3,
+   "context": [
+    "closed",
+    "frequency",
+    "fundamental",
+    "pipe"
+   ]
+  },
+  {
+   "sid": "acoustics",
+   "q": "A string 1.2 m long has a wave speed of 120 m/s. What is its fundamental frequency?",
+   "parts": [
+    "A string ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m long has a wave speed of ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s. What is its fundamental frequency?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "Hz",
+   "skeleton": "a string #(1, 0, 0, 0, 0, 0) m long has a wave speed of #(1, 0, -1, 0, 0, 0) m/s. what is its fundamental frequency?",
+   "checks": 5,
+   "context": [
+    "frequency",
+    "fundamental",
+    "has",
+    "speed",
+    "string",
+    "wave"
+   ]
+  },
+  {
+   "sid": "acoustics",
+   "q": "What is the wavelength of a 1000 Hz sound in air at 35 degrees C?",
+   "parts": [
+    "What is the wavelength of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " Hz sound in air at 35 degrees C?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "what is the wavelength of a #(0, 0, -1, 0, 0, 0) hz sound in air at 35 degrees c?",
+   "checks": 1,
+   "context": [
+    "35",
+    "air",
+    "degrees",
+    "sound",
+    "wavelength"
+   ]
+  },
+  {
+   "sid": "acoustics",
+   "q": "What is the wavelength of a 3150 Hz sound in air at -10 degrees C?",
+   "parts": [
+    "What is the wavelength of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " Hz sound in air at -10 degrees C?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "what is the wavelength of a #(0, 0, -1, 0, 0, 0) hz sound in air at -10 degrees c?",
+   "checks": 1,
+   "context": [
+    "10",
+    "air",
+    "degrees",
+    "sound",
+    "wavelength"
+   ]
+  },
+  {
+   "sid": "agriculture-v2",
+   "q": "To supply 150 lb of nitrogen per acre, how many pounds of 46-0-0 urea per acre?",
+   "parts": [
+    "To supply ",
+    {
+     "slot": 0,
+     "factor": 0.45359237,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " lb of nitrogen per acre, how many pounds of 46-0-0 urea per acre?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "lb",
+   "skeleton": "to supply #(0, 1, 0, 0, 0, 0) lb of nitrogen per acre, how many pounds of 46-0-0 urea per acre?",
+   "checks": 1,
+   "context": [
+    "0",
+    "46",
+    "acre",
+    "nitrogen",
+    "supply",
+    "urea"
+   ]
+  },
+  {
+   "sid": "bodies-v2",
+   "q": "A wrench slips and falls 1.2 m on Titan. How many seconds until it hits the ground?",
+   "parts": [
+    "A wrench slips and falls ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m on Titan. How many seconds until it hits the ground?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "s",
+   "skeleton": "a wrench slips and falls #(1, 0, 0, 0, 0, 0) m on titan. how many seconds until it hits the ground?",
+   "checks": 1,
+   "context": [
+    "falls",
+    "ground",
+    "hits",
+    "slips",
+    "titan",
+    "until",
+    "wrench"
+   ]
+  },
+  {
+   "sid": "bodies-v2",
+   "q": "A 0.8 m long pendulum swings on Titan. What is its period?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m long pendulum swings on Titan. What is its period?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "s",
+   "skeleton": "a #(1, 0, 0, 0, 0, 0) m long pendulum swings on titan. what is its period?",
+   "checks": 1,
+   "context": [
+    "pendulum",
+    "period",
+    "swings",
+    "titan"
+   ]
+  },
+  {
+   "sid": "bodies-v2",
+   "q": "A wrench slips and falls 1.2 m on Venus. How many seconds until it hits the ground?",
+   "parts": [
+    "A wrench slips and falls ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m on Venus. How many seconds until it hits the ground?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "s",
+   "skeleton": "a wrench slips and falls #(1, 0, 0, 0, 0, 0) m on venus. how many seconds until it hits the ground?",
+   "checks": 1,
+   "context": [
+    "falls",
+    "ground",
+    "hits",
+    "slips",
+    "until",
+    "venus",
+    "wrench"
+   ]
+  },
+  {
+   "sid": "bodies-v2",
+   "q": "A 3 m long pendulum swings on the Moon. What is its period?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m long pendulum swings on the Moon. What is its period?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "s",
+   "skeleton": "a #(1, 0, 0, 0, 0, 0) m long pendulum swings on the moon. what is its period?",
+   "checks": 1,
+   "context": [
+    "moon",
+    "pendulum",
+    "period",
+    "swings"
+   ]
+  },
+  {
+   "sid": "bodies-v2",
+   "q": "What is the weight of a 60 kg lander on Mars?",
+   "parts": [
+    "What is the weight of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg lander on Mars?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "what is the weight of a #(0, 1, 0, 0, 0, 0) kg lander on mars?",
+   "checks": 1,
+   "context": [
+    "lander",
+    "mars",
+    "weight"
+   ]
+  },
+  {
+   "sid": "carboncapture",
+   "q": "How much CO2 is produced when 2.5 tonnes of carbon are burned?",
+   "parts": [
+    "How much CO2 is produced when ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " tonnes of carbon are burned?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "tonnes",
+   "skeleton": "how much co2 is produced when #(0, 1, 0, 0, 0, 0) tonnes of carbon are burned?",
+   "checks": 1,
+   "context": [
+    "burned",
+    "carbon",
+    "co2",
+    "produced"
+   ]
+  },
+  {
+   "sid": "carboncapture",
+   "q": "How much carbon is in 1000 tonnes of CO2?",
+   "parts": [
+    "How much carbon is in ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " tonnes of CO2?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "tonnes",
+   "skeleton": "how much carbon is in #(0, 1, 0, 0, 0, 0) tonnes of co2?",
+   "checks": 1,
+   "context": [
+    "carbon",
+    "co2"
+   ]
+  },
+  {
+   "sid": "carboncapture",
+   "q": "How many grams of CO2 per mile does a gasoline car getting 40 mpg emit?",
+   "parts": [
+    "How many grams of CO2 per mile does a gasoline car getting ",
+    {
+     "slot": 0,
+     "factor": 425143.707430272,
+     "dim": [
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mpg emit?"
+   ],
+   "in": [
+    [
+     -2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "g",
+   "skeleton": "how many grams of co2 per mile does a gasoline car getting #(-2, 0, 0, 0, 0, 0) mpg emit?",
+   "checks": 1,
+   "context": [
+    "car",
+    "co2",
+    "emit",
+    "gasoline",
+    "getting"
+   ]
+  },
+  {
+   "sid": "decay",
+   "q": "A sample has 100 g of caesium-137. How much remains after 15.04 years?",
+   "parts": [
+    "A sample has ",
+    {
+     "slot": 0,
+     "factor": 0.001,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " g of caesium-137. How much remains after ",
+    {
+     "slot": 1,
+     "factor": 31536000,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " years?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "g",
+   "skeleton": "a sample has #(0, 1, 0, 0, 0, 0) g of caesium-137. how much remains after #(0, 0, 1, 0, 0, 0) years?",
+   "checks": 1,
+   "context": [
+    "137",
+    "caesium-137",
+    "has",
+    "remains",
+    "sample"
+   ]
+  },
+  {
+   "sid": "densities-r2",
+   "q": "What is the volume of 1200 kg of silver in cubic metres?",
+   "parts": [
+    "What is the volume of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg of silver in cubic metres?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m\u00b3",
+   "skeleton": "what is the volume of #(0, 1, 0, 0, 0, 0) kg of silver in cubic metres?",
+   "checks": 2,
+   "context": [
+    "cubic",
+    "silver",
+    "volume"
+   ]
+  },
+  {
+   "sid": "densities-r2",
+   "q": "What volume in litres does 75 kg of lead take up?",
+   "parts": [
+    "What volume in litres does ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg of lead take up?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "L",
+   "skeleton": "what volume in litres does #(0, 1, 0, 0, 0, 0) kg of lead take up?",
+   "checks": 1,
+   "context": [
+    "lead",
+    "volume"
+   ]
+  },
+  {
+   "sid": "electrical",
+   "q": "In a three-phase wye system with a phase voltage of 7200 V, what is the line voltage?",
+   "parts": [
+    "In a three-phase wye system with a phase voltage of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      -1,
+      0,
+      0
+     ]
+    },
+    " V, what is the line voltage?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -3,
+    -1,
+    0,
+    0
+   ],
+   "out_unit": "V",
+   "skeleton": "in a three-phase wye system with a phase voltage of #(2, 1, -3, -1, 0, 0) v, what is the line voltage?",
+   "checks": 1,
+   "context": [
+    "line",
+    "phase",
+    "system",
+    "three-phase",
+    "voltage",
+    "wye"
+   ]
+  },
+  {
+   "sid": "electrical",
+   "q": "In a three-phase delta load with a phase current of 10 A, what is the line current?",
+   "parts": [
+    "In a three-phase delta load with a phase current of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    " A, what is the line current?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "out_unit": "A",
+   "skeleton": "in a three-phase delta load with a phase current of #(0, 0, 0, 1, 0, 0) a, what is the line current?",
+   "checks": 1,
+   "context": [
+    "current",
+    "delta",
+    "line",
+    "load",
+    "phase",
+    "three-phase"
+   ]
+  },
+  {
+   "sid": "electrical",
+   "q": "How many kW is a 1 hp motor?",
+   "parts": [
+    "How many kW is a ",
+    {
+     "slot": 0,
+     "factor": 745.69987,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " hp motor?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -3,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kW",
+   "skeleton": "how many kw is a #(2, 1, -3, 0, 0, 0) hp motor?",
+   "checks": 1,
+   "context": [
+    "motor"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "A 60 W fan is on for 8 hours. How much energy does it use in kWh?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W fan is on for ",
+    {
+     "slot": 1,
+     "factor": 3600,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " hours. How much energy does it use in kWh?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "a #(2, 1, -3, 0, 0, 0) w fan is on for #(0, 0, 1, 0, 0, 0) hours. how much energy does it use in kwh?",
+   "checks": 1,
+   "context": [
+    "energy",
+    "fan"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "My 256 Wh battery powers a 60 W fan. How long will it last?",
+   "parts": [
+    "My ",
+    {
+     "slot": 0,
+     "factor": 3600,
+     "dim": [
+      2,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " Wh battery powers a ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W fan. How long will it last?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "hours",
+   "skeleton": "my #(2, 1, -2, 0, 0, 0) wh battery powers a #(2, 1, -3, 0, 0, 0) w fan. how long will it last?",
+   "checks": 1,
+   "context": [
+    "battery",
+    "fan",
+    "last",
+    "powers"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "How long can a 24 V 200 Ah battery run a 60 W fan?",
+   "parts": [
+    "How long can a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      -1,
+      0,
+      0
+     ]
+    },
+    " V ",
+    {
+     "slot": 1,
+     "factor": 3600,
+     "dim": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    " Ah battery run a ",
+    {
+     "slot": 2,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W fan?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "hours",
+   "skeleton": "how long can a #(2, 1, -3, -1, 0, 0) v #(0, 0, 1, 1, 0, 0) ah battery run a #(2, 1, -3, 0, 0, 0) w fan?",
+   "checks": 1,
+   "context": [
+    "battery",
+    "fan",
+    "run"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "My 6.6 kW panels get 6 peak sun hours. How much energy per day do they make?",
+   "parts": [
+    "My ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " kW panels get 6 peak sun hours. How much energy per day do they make?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "my #(2, 1, -3, 0, 0, 0) kw panels get 6 peak sun hours. how much energy per day do they make?",
+   "checks": 2,
+   "context": [
+    "6",
+    "energy",
+    "panels",
+    "peak",
+    "sun",
+    "they"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "It saves $1500 a year and costs $8000 up front. What is the payback period?",
+   "parts": [
+    "It saves $",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    " a year and costs $8000 up front. What is the payback period?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "years",
+   "skeleton": "it saves $#(0, 0, 0, 1, 0, 0) a year and costs $8000 up front. what is the payback period?",
+   "checks": 1,
+   "context": [
+    "8000",
+    "costs",
+    "front",
+    "payback",
+    "period",
+    "saves"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "A 15 W lamp is on for 2 hours. How much energy does it use in kWh?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W lamp is on for ",
+    {
+     "slot": 1,
+     "factor": 3600,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " hours. How much energy does it use in kWh?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "a #(2, 1, -3, 0, 0, 0) w lamp is on for #(0, 0, 1, 0, 0, 0) hours. how much energy does it use in kwh?",
+   "checks": 1,
+   "context": [
+    "energy",
+    "lamp"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "It saves $900 a year and costs $15000 up front. What is the payback period?",
+   "parts": [
+    "It saves $",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    " a year and costs $15000 up front. What is the payback period?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "years",
+   "skeleton": "it saves $#(0, 0, 0, 1, 0, 0) a year and costs $15000 up front. what is the payback period?",
+   "checks": 1,
+   "context": [
+    "15000",
+    "costs",
+    "front",
+    "payback",
+    "period",
+    "saves"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "A 1200 W fridge is on for 24 hours. How much energy does it use in kWh?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W fridge is on for ",
+    {
+     "slot": 1,
+     "factor": 3600,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " hours. How much energy does it use in kWh?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "a #(2, 1, -3, 0, 0, 0) w fridge is on for #(0, 0, 1, 0, 0, 0) hours. how much energy does it use in kwh?",
+   "checks": 1,
+   "context": [
+    "energy",
+    "fridge"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "My 500 Wh battery powers a 1200 W fridge. How long will it last?",
+   "parts": [
+    "My ",
+    {
+     "slot": 0,
+     "factor": 3600,
+     "dim": [
+      2,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " Wh battery powers a ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W fridge. How long will it last?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "hours",
+   "skeleton": "my #(2, 1, -2, 0, 0, 0) wh battery powers a #(2, 1, -3, 0, 0, 0) w fridge. how long will it last?",
+   "checks": 1,
+   "context": [
+    "battery",
+    "fridge",
+    "last",
+    "powers"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "3 kW of solar, 6 peak sun hours, 20% losses: how much energy per day?",
+   "parts": [
+    "",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " kW of solar, 6 peak sun hours, 20% losses: how much energy per day?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "#(2, 1, -3, 0, 0, 0) kw of solar, 6 peak sun hours, 20% losses: how much energy per day?",
+   "checks": 1,
+   "context": [
+    "20%",
+    "6",
+    "energy",
+    "losses",
+    "peak",
+    "solar",
+    "sun"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "A 60 W heater is on for 5 hours. How much energy does it use in kWh?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W heater is on for ",
+    {
+     "slot": 1,
+     "factor": 3600,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " hours. How much energy does it use in kWh?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "a #(2, 1, -3, 0, 0, 0) w heater is on for #(0, 0, 1, 0, 0, 0) hours. how much energy does it use in kwh?",
+   "checks": 1,
+   "context": [
+    "energy",
+    "heater"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "My 256 Wh battery powers a 60 W heater. How long will it last?",
+   "parts": [
+    "My ",
+    {
+     "slot": 0,
+     "factor": 3600,
+     "dim": [
+      2,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " Wh battery powers a ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W heater. How long will it last?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "hours",
+   "skeleton": "my #(2, 1, -2, 0, 0, 0) wh battery powers a #(2, 1, -3, 0, 0, 0) w heater. how long will it last?",
+   "checks": 1,
+   "context": [
+    "battery",
+    "heater",
+    "last",
+    "powers"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "How long can a 24 V 200 Ah battery run a 60 W heater?",
+   "parts": [
+    "How long can a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      -1,
+      0,
+      0
+     ]
+    },
+    " V ",
+    {
+     "slot": 1,
+     "factor": 3600,
+     "dim": [
+      0,
+      0,
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    " Ah battery run a ",
+    {
+     "slot": 2,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W heater?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     -1,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     1,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "hours",
+   "skeleton": "how long can a #(2, 1, -3, -1, 0, 0) v #(0, 0, 1, 1, 0, 0) ah battery run a #(2, 1, -3, 0, 0, 0) w heater?",
+   "checks": 1,
+   "context": [
+    "battery",
+    "heater",
+    "run"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "My 4.5 kW panels get 4.5 peak sun hours. How much energy per day do they make?",
+   "parts": [
+    "My ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " kW panels get 4.5 peak sun hours. How much energy per day do they make?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "my #(2, 1, -3, 0, 0, 0) kw panels get 4.5 peak sun hours. how much energy per day do they make?",
+   "checks": 1,
+   "context": [
+    "4.5",
+    "energy",
+    "panels",
+    "peak",
+    "sun",
+    "they"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "My 8 kW panels get 5 peak sun hours. How much energy per day do they make?",
+   "parts": [
+    "My ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " kW panels get 5 peak sun hours. How much energy per day do they make?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "my #(2, 1, -3, 0, 0, 0) kw panels get 5 peak sun hours. how much energy per day do they make?",
+   "checks": 1,
+   "context": [
+    "5",
+    "energy",
+    "panels",
+    "peak",
+    "sun",
+    "they"
+   ]
+  },
+  {
+   "sid": "energy-v3",
+   "q": "It saves $1200 a year and costs $12000 up front. What is the payback period?",
+   "parts": [
+    "It saves $",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    " a year and costs $12000 up front. What is the payback period?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "years",
+   "skeleton": "it saves $#(0, 0, 0, 1, 0, 0) a year and costs $12000 up front. what is the payback period?",
+   "checks": 1,
+   "context": [
+    "12000",
+    "costs",
+    "front",
+    "payback",
+    "period",
+    "saves"
+   ]
+  },
+  {
+   "sid": "fleet",
+   "q": "How many gallons of fuel does a 300 mile trip need at 30 mpg?",
+   "parts": [
+    "How many gallons of fuel does a ",
+    {
+     "slot": 0,
+     "factor": 1609.344,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mile trip need at ",
+    {
+     "slot": 1,
+     "factor": 425143.707430272,
+     "dim": [
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mpg?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     -2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "US gallons",
+   "skeleton": "how many gallons of fuel does a #(1, 0, 0, 0, 0, 0) mile trip need at #(-2, 0, 0, 0, 0, 0) mpg?",
+   "checks": 5,
+   "context": [
+    "fuel",
+    "need",
+    "trip"
+   ]
+  },
+  {
+   "sid": "fleet",
+   "q": "How much CO2 does a 300 mile trip at 30 mpg emit in a gasoline car?",
+   "parts": [
+    "How much CO2 does a ",
+    {
+     "slot": 0,
+     "factor": 1609.344,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mile trip at ",
+    {
+     "slot": 1,
+     "factor": 425143.707430272,
+     "dim": [
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mpg emit in a gasoline car?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     -2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kg",
+   "skeleton": "how much co2 does a #(1, 0, 0, 0, 0, 0) mile trip at #(-2, 0, 0, 0, 0, 0) mpg emit in a gasoline car?",
+   "checks": 5,
+   "context": [
+    "car",
+    "co2",
+    "emit",
+    "gasoline",
+    "trip"
+   ]
+  },
+  {
+   "sid": "fleet",
+   "q": "How much CO2 does a 300 mile trip at 30 mpg emit in a diesel truck?",
+   "parts": [
+    "How much CO2 does a ",
+    {
+     "slot": 0,
+     "factor": 1609.344,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mile trip at ",
+    {
+     "slot": 1,
+     "factor": 425143.707430272,
+     "dim": [
+      -2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mpg emit in a diesel truck?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     -2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kg",
+   "skeleton": "how much co2 does a #(1, 0, 0, 0, 0, 0) mile trip at #(-2, 0, 0, 0, 0, 0) mpg emit in a diesel truck?",
+   "checks": 5,
+   "context": [
+    "co2",
+    "diesel",
+    "emit",
+    "trip",
+    "truck"
+   ]
+  },
+  {
+   "sid": "fleet",
+   "q": "What is the stopping distance at 60 km/h with a reaction time of 2 s and a friction coefficient of 0.7?",
+   "parts": [
+    "What is the stopping distance at ",
+    {
+     "slot": 0,
+     "factor": 0.2777777777777778,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " km/h with a reaction time of ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s and a friction coefficient of 0.7?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "what is the stopping distance at #(1, 0, -1, 0, 0, 0) km/h with a reaction time of #(0, 0, 1, 0, 0, 0) s and a friction coefficient of 0.7?",
+   "checks": 2,
+   "context": [
+    "0.7",
+    "coefficient",
+    "distance",
+    "friction",
+    "reaction",
+    "stopping",
+    "time"
+   ]
+  },
+  {
+   "sid": "fleet",
+   "q": "What is the braking distance at 60 km/h with a friction coefficient of 0.7?",
+   "parts": [
+    "What is the braking distance at ",
+    {
+     "slot": 0,
+     "factor": 0.2777777777777778,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " km/h with a friction coefficient of 0.7?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "what is the braking distance at #(1, 0, -1, 0, 0, 0) km/h with a friction coefficient of 0.7?",
+   "checks": 1,
+   "context": [
+    "0.7",
+    "braking",
+    "coefficient",
+    "distance",
+    "friction"
+   ]
+  },
+  {
+   "sid": "forestry",
+   "q": "What is the basal area of a tree with a DBH of 8 inches?",
+   "parts": [
+    "What is the basal area of a tree with a DBH of ",
+    {
+     "slot": 0,
+     "factor": 0.0254,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " inches?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "sq ft",
+   "skeleton": "what is the basal area of a tree with a dbh of #(1, 0, 0, 0, 0, 0) inches?",
+   "checks": 1,
+   "context": [
+    "area",
+    "basal",
+    "dbh",
+    "tree"
+   ]
+  },
+  {
+   "sid": "fuels",
+   "q": "How many kWh of heat do you get from burning 2 kg of jet fuel?",
+   "parts": [
+    "How many kWh of heat do you get from burning ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg of jet fuel?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kWh",
+   "skeleton": "how many kwh of heat do you get from burning #(0, 1, 0, 0, 0, 0) kg of jet fuel?",
+   "checks": 1,
+   "context": [
+    "burning",
+    "fuel",
+    "heat",
+    "jet"
+   ]
+  },
+  {
+   "sid": "fuels",
+   "q": "How much carbon dioxide does burning 2 tonnes of jet fuel emit?",
+   "parts": [
+    "How much carbon dioxide does burning ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " tonnes of jet fuel emit?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kg",
+   "skeleton": "how much carbon dioxide does burning #(0, 1, 0, 0, 0, 0) tonnes of jet fuel emit?",
+   "checks": 1,
+   "context": [
+    "burning",
+    "carbon",
+    "dioxide",
+    "emit",
+    "fuel",
+    "jet"
+   ]
+  },
+  {
+   "sid": "fuels",
+   "q": "How much CO2 is emitted by burning 900 kg of wood?",
+   "parts": [
+    "How much CO2 is emitted by burning ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg of wood?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kg",
+   "skeleton": "how much co2 is emitted by burning #(0, 1, 0, 0, 0, 0) kg of wood?",
+   "checks": 1,
+   "context": [
+    "burning",
+    "co2",
+    "emitted",
+    "wood"
+   ]
+  },
+  {
+   "sid": "hydrology",
+   "q": "Using the rational method with a runoff coefficient of 0.7, a rainfall intensity of 40 mm/h and an area of 5 ha, what is the peak runoff?",
+   "parts": [
+    "Using the rational method with a runoff coefficient of 0.7, a rainfall intensity of ",
+    {
+     "slot": 0,
+     "factor": 0.001,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mm/h and an area of 5 ha, what is the peak runoff?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m\u00b3",
+   "skeleton": "using the rational method with a runoff coefficient of 0.7, a rainfall intensity of #(1, 0, 0, 0, 0, 0) mm/h and an area of 5 ha, what is the peak runoff?",
+   "checks": 1,
+   "context": [
+    "0.7",
+    "5",
+    "area",
+    "coefficient",
+    "ha",
+    "intensity",
+    "method",
+    "peak",
+    "rainfall",
+    "rational",
+    "runoff",
+    "using"
+   ]
+  },
+  {
+   "sid": "hydrology",
+   "q": "How many gallons can I harvest from 1 inches of rain on a 800 sq ft roof?",
+   "parts": [
+    "How many gallons can I harvest from ",
+    {
+     "slot": 0,
+     "factor": 0.0254,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " inches of rain on a ",
+    {
+     "slot": 1,
+     "factor": 0.09290304,
+     "dim": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " sq ft roof?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "US gallons",
+   "skeleton": "how many gallons can i harvest from #(1, 0, 0, 0, 0, 0) inches of rain on a #(2, 0, 0, 0, 0, 0) sq ft roof?",
+   "checks": 5,
+   "context": [
+    "harvest",
+    "rain",
+    "roof",
+    "sq"
+   ]
+  },
+  {
+   "sid": "hydrology",
+   "q": "How many litres of rain can I collect from 10 mm of rain on a 120 m2 roof?",
+   "parts": [
+    "How many litres of rain can I collect from ",
+    {
+     "slot": 0,
+     "factor": 0.001,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mm of rain on a ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m2 roof?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "litres",
+   "skeleton": "how many litres of rain can i collect from #(1, 0, 0, 0, 0, 0) mm of rain on a #(2, 0, 0, 0, 0, 0) m2 roof?",
+   "checks": 5,
+   "context": [
+    "collect",
+    "rain",
+    "roof"
+   ]
+  },
+  {
+   "sid": "hydrology",
+   "q": "What is the flow rate for a velocity of 0.5 m/s through an area of 12 m2?",
+   "parts": [
+    "What is the flow rate for a velocity of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s through an area of ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m2?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    3,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m\u00b3",
+   "skeleton": "what is the flow rate for a velocity of #(1, 0, -1, 0, 0, 0) m/s through an area of #(2, 0, 0, 0, 0, 0) m2?",
+   "checks": 5,
+   "context": [
+    "area",
+    "flow",
+    "rate",
+    "through",
+    "velocity"
+   ]
+  },
+  {
+   "sid": "iot",
+   "q": "What is the minimum sampling rate for a signal with a maximum frequency of 440 Hz (Nyquist)?",
+   "parts": [
+    "What is the minimum sampling rate for a signal with a maximum frequency of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " Hz (Nyquist)?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "Hz",
+   "skeleton": "what is the minimum sampling rate for a signal with a maximum frequency of #(0, 0, -1, 0, 0, 0) hz (nyquist)?",
+   "checks": 2,
+   "context": [
+    "frequency",
+    "maximum",
+    "minimum",
+    "nyquist",
+    "rate",
+    "sampling",
+    "signal"
+   ]
+  },
+  {
+   "sid": "labsolutions-r2",
+   "q": "How many grams of KCl do I need to make 50 mL of a 1 M solution?",
+   "parts": [
+    "How many grams of KCl do I need to make ",
+    {
+     "slot": 0,
+     "factor": 1e-06,
+     "dim": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mL of a ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " M solution?"
+   ],
+   "in": [
+    [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "g",
+   "skeleton": "how many grams of kcl do i need to make #(3, 0, 0, 0, 0, 0) ml of a #(1, 0, 0, 0, 0, 0) m solution?",
+   "checks": 1,
+   "context": [
+    "kcl",
+    "need",
+    "solution"
+   ]
+  },
+  {
+   "sid": "labsolutions-r2",
+   "q": "What is the molarity of a solution of 0.5 g of KCl in 50 mL?",
+   "parts": [
+    "What is the molarity of a solution of ",
+    {
+     "slot": 0,
+     "factor": 0.001,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " g of KCl in ",
+    {
+     "slot": 1,
+     "factor": 1e-06,
+     "dim": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mL?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "M",
+   "skeleton": "what is the molarity of a solution of #(0, 1, 0, 0, 0, 0) g of kcl in #(3, 0, 0, 0, 0, 0) ml?",
+   "checks": 1,
+   "context": [
+    "kcl",
+    "molarity",
+    "solution"
+   ]
+  },
+  {
+   "sid": "labsolutions-r2",
+   "q": "How many grams do I need for 50 mL of a 2% w/v solution?",
+   "parts": [
+    "How many grams do I need for ",
+    {
+     "slot": 0,
+     "factor": 1e-06,
+     "dim": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mL of a 2% w/v solution?"
+   ],
+   "in": [
+    [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "g",
+   "skeleton": "how many grams do i need for #(3, 0, 0, 0, 0, 0) ml of a 2% w/v solution?",
+   "checks": 1,
+   "context": [
+    "2%",
+    "need",
+    "solution"
+   ]
+  },
+  {
+   "sid": "labsolutions-r2",
+   "q": "How many grams do I need for 250 mL of a 5% w/v solution?",
+   "parts": [
+    "How many grams do I need for ",
+    {
+     "slot": 0,
+     "factor": 1e-06,
+     "dim": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mL of a 5% w/v solution?"
+   ],
+   "in": [
+    [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "g",
+   "skeleton": "how many grams do i need for #(3, 0, 0, 0, 0, 0) ml of a 5% w/v solution?",
+   "checks": 1,
+   "context": [
+    "5%",
+    "need",
+    "solution"
+   ]
+  },
+  {
+   "sid": "labsolutions-r2",
+   "q": "How many grams of NaCl do I need to make 500 mL of a 0.5 M solution?",
+   "parts": [
+    "How many grams of NaCl do I need to make ",
+    {
+     "slot": 0,
+     "factor": 1e-06,
+     "dim": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mL of a ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " M solution?"
+   ],
+   "in": [
+    [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "g",
+   "skeleton": "how many grams of nacl do i need to make #(3, 0, 0, 0, 0, 0) ml of a #(1, 0, 0, 0, 0, 0) m solution?",
+   "checks": 1,
+   "context": [
+    "nacl",
+    "need",
+    "solution"
+   ]
+  },
+  {
+   "sid": "labsolutions-r2",
+   "q": "What is the molarity of a solution of 0.5 g of NaCl in 500 mL?",
+   "parts": [
+    "What is the molarity of a solution of ",
+    {
+     "slot": 0,
+     "factor": 0.001,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " g of NaCl in ",
+    {
+     "slot": 1,
+     "factor": 1e-06,
+     "dim": [
+      3,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mL?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     3,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "M",
+   "skeleton": "what is the molarity of a solution of #(0, 1, 0, 0, 0, 0) g of nacl in #(3, 0, 0, 0, 0, 0) ml?",
+   "checks": 1,
+   "context": [
+    "molarity",
+    "nacl",
+    "solution"
+   ]
+  },
+  {
+   "sid": "mechanisms-v2",
+   "q": "Output torque when a 18-tooth gear delivering 12 N m drives a 54-tooth gear?",
+   "parts": [
+    "Output torque when a 18-tooth gear delivering ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N m drives a 54-tooth gear?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "output torque when a 18-tooth gear delivering #(1, 1, -2, 0, 0, 0) n m drives a 54-tooth gear?",
+   "checks": 1,
+   "context": [
+    "18",
+    "54",
+    "delivering",
+    "drives",
+    "gear",
+    "output",
+    "tooth",
+    "torque"
+   ]
+  },
+  {
+   "sid": "mechanisms-v2",
+   "q": "What torque does a 200 N force produce on a 0.3 m lever?",
+   "parts": [
+    "What torque does a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N force produce on a ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m lever?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "what torque does a #(1, 1, -2, 0, 0, 0) n force produce on a #(1, 0, 0, 0, 0, 0) m lever?",
+   "checks": 6,
+   "context": [
+    "force",
+    "lever",
+    "produce",
+    "torque"
+   ]
+  },
+  {
+   "sid": "mechanisms-v2",
+   "q": "Effort to lift 900 N with 3 supporting strands in a pulley system?",
+   "parts": [
+    "Effort to lift ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N with 3 supporting strands in a pulley system?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "effort to lift #(1, 1, -2, 0, 0, 0) n with 3 supporting strands in a pulley system?",
+   "checks": 2,
+   "context": [
+    "3",
+    "effort",
+    "lift",
+    "pulley",
+    "strands",
+    "supporting",
+    "system"
+   ]
+  },
+  {
+   "sid": "mechanisms-v2",
+   "q": "Shaft power at 1800 rpm and 20 N m of torque?",
+   "parts": [
+    "Shaft power at 1800 rpm and ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N m of torque?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -3,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "W",
+   "skeleton": "shaft power at 1800 rpm and #(1, 1, -2, 0, 0, 0) n m of torque?",
+   "checks": 2,
+   "context": [
+    "1800",
+    "power",
+    "rpm",
+    "shaft",
+    "torque"
+   ]
+  },
+  {
+   "sid": "mechanisms-v2",
+   "q": "Output torque when a 30-tooth gear delivering 10 N m drives a 12-tooth gear?",
+   "parts": [
+    "Output torque when a 30-tooth gear delivering ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N m drives a 12-tooth gear?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "output torque when a 30-tooth gear delivering #(1, 1, -2, 0, 0, 0) n m drives a 12-tooth gear?",
+   "checks": 1,
+   "context": [
+    "12",
+    "30",
+    "delivering",
+    "drives",
+    "gear",
+    "output",
+    "tooth",
+    "torque"
+   ]
+  },
+  {
+   "sid": "ocean",
+   "q": "How fast does a tsunami travel in water 1000 m deep?",
+   "parts": [
+    "How fast does a tsunami travel in water ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m deep?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m/s",
+   "skeleton": "how fast does a tsunami travel in water #(1, 0, 0, 0, 0, 0) m deep?",
+   "checks": 2,
+   "context": [
+    "deep",
+    "travel",
+    "tsunami",
+    "water"
+   ]
+  },
+  {
+   "sid": "ocean",
+   "q": "What is the speed of a deep-water wave with a period of 12 s?",
+   "parts": [
+    "What is the speed of a deep-water wave with a period of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m/s",
+   "skeleton": "what is the speed of a deep-water wave with a period of #(0, 0, 1, 0, 0, 0) s?",
+   "checks": 2,
+   "context": [
+    "deep-water",
+    "period",
+    "speed",
+    "wave"
+   ]
+  },
+  {
+   "sid": "ocean",
+   "q": "What is the wavelength of a deep-water wave with a period of 15 s?",
+   "parts": [
+    "What is the wavelength of a deep-water wave with a period of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "what is the wavelength of a deep-water wave with a period of #(0, 0, 1, 0, 0, 0) s?",
+   "checks": 2,
+   "context": [
+    "deep-water",
+    "period",
+    "wave",
+    "wavelength"
+   ]
+  },
+  {
+   "sid": "ocean",
+   "q": "A sonar ping returns after 2 s. How deep is the sea floor?",
+   "parts": [
+    "A sonar ping returns after ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s. How deep is the sea floor?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "a sonar ping returns after #(0, 0, 1, 0, 0, 0) s. how deep is the sea floor?",
+   "checks": 1,
+   "context": [
+    "deep",
+    "floor",
+    "ping",
+    "returns",
+    "sea",
+    "sonar"
+   ]
+  },
+  {
+   "sid": "ocean",
+   "q": "An echo sounder ping comes back in 2 s with sound traveling at 1480 m/s. What is the depth?",
+   "parts": [
+    "An echo sounder ping comes back in ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s with sound traveling at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s. What is the depth?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "an echo sounder ping comes back in #(0, 0, 1, 0, 0, 0) s with sound traveling at #(1, 0, -1, 0, 0, 0) m/s. what is the depth?",
+   "checks": 1,
+   "context": [
+    "back",
+    "comes",
+    "depth",
+    "echo",
+    "ping",
+    "sound",
+    "sounder",
+    "traveling"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "A car starts from rest and accelerates at 1 m/s^2 for 4 s. What is its final velocity?",
+   "parts": [
+    "A car starts from rest and accelerates at ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s^2 for ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s. What is its final velocity?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m/s",
+   "skeleton": "a car starts from rest and accelerates at #(1, 0, -2, 0, 0, 0) m/s^2 for #(0, 0, 1, 0, 0, 0) s. what is its final velocity?",
+   "checks": 11,
+   "context": [
+    "2",
+    "accelerates",
+    "car",
+    "final",
+    "rest",
+    "starts",
+    "velocity"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "A car starts from rest and accelerates at 1 m/s^2 for 4 s. How far does it travel?",
+   "parts": [
+    "A car starts from rest and accelerates at ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s^2 for ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s. How far does it travel?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "a car starts from rest and accelerates at #(1, 0, -2, 0, 0, 0) m/s^2 for #(0, 0, 1, 0, 0, 0) s. how far does it travel?",
+   "checks": 11,
+   "context": [
+    "2",
+    "accelerates",
+    "car",
+    "rest",
+    "starts",
+    "travel"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "A ball is dropped from 45 m. How long does it take to fall?",
+   "parts": [
+    "A ball is dropped from ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m. How long does it take to fall?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "s",
+   "skeleton": "a ball is dropped from #(1, 0, 0, 0, 0, 0) m. how long does it take to fall?",
+   "checks": 11,
+   "context": [
+    "ball",
+    "dropped",
+    "fall"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "A ball is dropped from 45 m. What speed does it hit the ground at?",
+   "parts": [
+    "A ball is dropped from ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m. What speed does it hit the ground at?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m/s",
+   "skeleton": "a ball is dropped from #(1, 0, 0, 0, 0, 0) m. what speed does it hit the ground at?",
+   "checks": 11,
+   "context": [
+    "ball",
+    "dropped",
+    "ground",
+    "hit",
+    "speed"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "What is the kinetic energy of a 0.15 kg ball moving at 5 m/s?",
+   "parts": [
+    "What is the kinetic energy of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg ball moving at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "J",
+   "skeleton": "what is the kinetic energy of a #(0, 1, 0, 0, 0, 0) kg ball moving at #(1, 0, -1, 0, 0, 0) m/s?",
+   "checks": 8,
+   "context": [
+    "ball",
+    "energy",
+    "kinetic",
+    "moving"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "What is the potential energy of a 0.15 kg box lifted 45 m?",
+   "parts": [
+    "What is the potential energy of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg box lifted ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "J",
+   "skeleton": "what is the potential energy of a #(0, 1, 0, 0, 0, 0) kg box lifted #(1, 0, 0, 0, 0, 0) m?",
+   "checks": 9,
+   "context": [
+    "box",
+    "energy",
+    "lifted",
+    "potential"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "What force accelerates a 0.15 kg car at 1 m/s^2?",
+   "parts": [
+    "What force accelerates a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg car at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s^2?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "what force accelerates a #(0, 1, 0, 0, 0, 0) kg car at #(1, 0, -2, 0, 0, 0) m/s^2?",
+   "checks": 10,
+   "context": [
+    "2",
+    "accelerates",
+    "car",
+    "force"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "What is the weight of a 0.15 kg person?",
+   "parts": [
+    "What is the weight of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg person?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "what is the weight of a #(0, 1, 0, 0, 0, 0) kg person?",
+   "checks": 9,
+   "context": [
+    "person",
+    "weight"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "What is the momentum of a 0.15 kg ball at 5 m/s?",
+   "parts": [
+    "What is the momentum of a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg ball at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kg",
+   "skeleton": "what is the momentum of a #(0, 1, 0, 0, 0, 0) kg ball at #(1, 0, -1, 0, 0, 0) m/s?",
+   "checks": 9,
+   "context": [
+    "ball",
+    "momentum"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "A projectile is launched at 30 m/s at 45 degrees. What is its range?",
+   "parts": [
+    "A projectile is launched at ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s at 45 degrees. What is its range?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "a projectile is launched at #(1, 0, -1, 0, 0, 0) m/s at 45 degrees. what is its range?",
+   "checks": 3,
+   "context": [
+    "45",
+    "degrees",
+    "launched",
+    "projectile",
+    "range"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "A projectile is launched at 40 m/s at 15 degrees. What is its range?",
+   "parts": [
+    "A projectile is launched at ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s at 15 degrees. What is its range?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "a projectile is launched at #(1, 0, -1, 0, 0, 0) m/s at 15 degrees. what is its range?",
+   "checks": 3,
+   "context": [
+    "15",
+    "degrees",
+    "launched",
+    "projectile",
+    "range"
+   ]
+  },
+  {
+   "sid": "physics-r3",
+   "q": "A projectile is launched at 10 m/s at 75 degrees. What is its range?",
+   "parts": [
+    "A projectile is launched at ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s at 75 degrees. What is its range?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "a projectile is launched at #(1, 0, -1, 0, 0, 0) m/s at 75 degrees. what is its range?",
+   "checks": 2,
+   "context": [
+    "75",
+    "degrees",
+    "launched",
+    "projectile",
+    "range"
+   ]
+  },
+  {
+   "sid": "printing-v2",
+   "q": "How long is 0.5 kg of 1.75 mm PLA filament?",
+   "parts": [
+    "How long is ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg of ",
+    {
+     "slot": 1,
+     "factor": 0.001,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " mm PLA filament?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m",
+   "skeleton": "how long is #(0, 1, 0, 0, 0, 0) kg of #(1, 0, 0, 0, 0, 0) mm pla filament?",
+   "checks": 3,
+   "context": [
+    "filament",
+    "pla"
+   ]
+  },
+  {
+   "sid": "safety",
+   "q": "How far from the wall should the base of a 8 ft ladder be?",
+   "parts": [
+    "How far from the wall should the base of a ",
+    {
+     "slot": 0,
+     "factor": 0.3048,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " ft ladder be?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "ft",
+   "skeleton": "how far from the wall should the base of a #(1, 0, 0, 0, 0, 0) ft ladder be?",
+   "checks": 3,
+   "context": [
+    "base",
+    "ladder",
+    "wall"
+   ]
+  },
+  {
+   "sid": "soil-r2",
+   "q": "What is the bulk density of a soil core with 145 g dry mass and a volume of 100 cm3?",
+   "parts": [
+    "What is the bulk density of a soil core with ",
+    {
+     "slot": 0,
+     "factor": 0.001,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " g dry mass and a volume of ",
+    {
+     "slot": 1,
+     "factor": 0.01,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " cm3?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "g",
+   "skeleton": "what is the bulk density of a soil core with #(0, 1, 0, 0, 0, 0) g dry mass and a volume of #(1, 0, 0, 0, 0, 0) cm3?",
+   "checks": 4,
+   "context": [
+    "bulk",
+    "cm3",
+    "core",
+    "density",
+    "dry",
+    "mass",
+    "soil",
+    "volume"
+   ]
+  },
+  {
+   "sid": "spacecraft",
+   "q": "How much propellant is needed for a delta-v of 3000 m/s with an Isp of 450 s and an initial mass of 20000 kg?",
+   "parts": [
+    "How much propellant is needed for a delta-v of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s with an Isp of ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s and an initial mass of ",
+    {
+     "slot": 2,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kg",
+   "skeleton": "how much propellant is needed for a delta-v of #(1, 0, -1, 0, 0, 0) m/s with an isp of #(0, 0, 1, 0, 0, 0) s and an initial mass of #(0, 1, 0, 0, 0, 0) kg?",
+   "checks": 2,
+   "context": [
+    "delta-v",
+    "initial",
+    "isp",
+    "mass",
+    "needed",
+    "propellant"
+   ]
+  },
+  {
+   "sid": "spacecraft",
+   "q": "How much propellant is required for a 3000 m/s burn with Isp 450 s if the dry mass is 5000 kg?",
+   "parts": [
+    "How much propellant is required for a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      -1,
+      0,
+      0,
+      0
+     ]
+    },
+    " m/s burn with Isp ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s if the dry mass is ",
+    {
+     "slot": 2,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     -1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "kg",
+   "skeleton": "how much propellant is required for a #(1, 0, -1, 0, 0, 0) m/s burn with isp #(0, 0, 1, 0, 0, 0) s if the dry mass is #(0, 1, 0, 0, 0, 0) kg?",
+   "checks": 2,
+   "context": [
+    "burn",
+    "dry",
+    "isp",
+    "mass",
+    "propellant",
+    "required"
+   ]
+  },
+  {
+   "sid": "spacecraft",
+   "q": "What is the exhaust velocity of an engine with a specific impulse of 311 s?",
+   "parts": [
+    "What is the exhaust velocity of an engine with a specific impulse of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    " s?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     1,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    -1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "m/s",
+   "skeleton": "what is the exhaust velocity of an engine with a specific impulse of #(0, 0, 1, 0, 0, 0) s?",
+   "checks": 1,
+   "context": [
+    "engine",
+    "exhaust",
+    "impulse",
+    "specific",
+    "velocity"
+   ]
+  },
+  {
+   "sid": "springs",
+   "q": "A spring with spring constant 2000 N/m is stretched 0.1 m. What force does it exert?",
+   "parts": [
+    "A spring with spring constant ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N/m is stretched ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m. What force does it exert?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "a spring with spring constant #(1, 1, -2, 0, 0, 0) n/m is stretched #(1, 0, 0, 0, 0, 0) m. what force does it exert?",
+   "checks": 7,
+   "context": [
+    "constant",
+    "exert",
+    "force",
+    "spring",
+    "stretched"
+   ]
+  },
+  {
+   "sid": "springs",
+   "q": "A 5 N force stretches a spring by 2 cm. What is the spring constant?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N force stretches a spring by ",
+    {
+     "slot": 1,
+     "factor": 0.01,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " cm. What is the spring constant?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "N",
+   "skeleton": "a #(1, 1, -2, 0, 0, 0) n force stretches a spring by #(1, 0, 0, 0, 0, 0) cm. what is the spring constant?",
+   "checks": 7,
+   "context": [
+    "constant",
+    "force",
+    "spring",
+    "stretches"
+   ]
+  },
+  {
+   "sid": "springs",
+   "q": "How much energy is stored in a spring of 2000 N/m compressed 0.1 m?",
+   "parts": [
+    "How much energy is stored in a spring of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N/m compressed ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m?"
+   ],
+   "in": [
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -2,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "J",
+   "skeleton": "how much energy is stored in a spring of #(1, 1, -2, 0, 0, 0) n/m compressed #(1, 0, 0, 0, 0, 0) m?",
+   "checks": 7,
+   "context": [
+    "compressed",
+    "energy",
+    "spring",
+    "stored"
+   ]
+  },
+  {
+   "sid": "springs",
+   "q": "A 1 kg mass hangs on a spring with spring constant 2000 N/m. What is the period of oscillation?",
+   "parts": [
+    "A ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      1,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " kg mass hangs on a spring with spring constant ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      1,
+      1,
+      -2,
+      0,
+      0,
+      0
+     ]
+    },
+    " N/m. What is the period of oscillation?"
+   ],
+   "in": [
+    [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     1,
+     1,
+     -2,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "s",
+   "skeleton": "a #(0, 1, 0, 0, 0, 0) kg mass hangs on a spring with spring constant #(1, 1, -2, 0, 0, 0) n/m. what is the period of oscillation?",
+   "checks": 7,
+   "context": [
+    "constant",
+    "hangs",
+    "mass",
+    "oscillation",
+    "period",
+    "spring"
+   ]
+  },
+  {
+   "sid": "thermo",
+   "q": "What power does a black body with a surface area of 1 m^2 at 300 K radiate (Stefan-Boltzmann)?",
+   "parts": [
+    "What power does a black body with a surface area of ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " m^2 at 300 K radiate (Stefan-Boltzmann)?"
+   ],
+   "in": [
+    [
+     2,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -3,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "W",
+   "skeleton": "what power does a black body with a surface area of #(2, 0, 0, 0, 0, 0) m^2 at 300 k radiate (stefan-boltzmann)?",
+   "checks": 2,
+   "context": [
+    "2",
+    "300",
+    "area",
+    "black",
+    "body",
+    "power",
+    "radiate",
+    "stefan-boltzmann",
+    "surface"
+   ]
+  },
+  {
+   "sid": "wiring",
+   "q": "How many amps does a 1000 W heater draw at 240 V?",
+   "parts": [
+    "How many amps does a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " W heater draw at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      -1,
+      0,
+      0
+     ]
+    },
+    " V?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "out_unit": "A",
+   "skeleton": "how many amps does a #(2, 1, -3, 0, 0, 0) w heater draw at #(2, 1, -3, -1, 0, 0) v?",
+   "checks": 2,
+   "context": [
+    "draw",
+    "heater"
+   ]
+  },
+  {
+   "sid": "wiring",
+   "q": "What current does a 30 kW three-phase load draw at 208 V with a power factor of 0.9?",
+   "parts": [
+    "What current does a ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " kW three-phase load draw at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      -1,
+      0,
+      0
+     ]
+    },
+    " V with a power factor of 0.9?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "out_unit": "A",
+   "skeleton": "what current does a #(2, 1, -3, 0, 0, 0) kw three-phase load draw at #(2, 1, -3, -1, 0, 0) v with a power factor of 0.9?",
+   "checks": 2,
+   "context": [
+    "0.9",
+    "current",
+    "draw",
+    "factor",
+    "load",
+    "power",
+    "three-phase"
+   ]
+  },
+  {
+   "sid": "wiring",
+   "q": "What is the maximum continuous load on a 40 A breaker?",
+   "parts": [
+    "What is the maximum continuous load on a ",
+    {
+     "slot": 0,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    " A breaker?"
+   ],
+   "in": [
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "out_unit": "A",
+   "skeleton": "what is the maximum continuous load on a #(0, 0, 0, 1, 0, 0) a breaker?",
+   "checks": 2,
+   "context": [
+    "breaker",
+    "continuous",
+    "load",
+    "maximum"
+   ]
+  },
+  {
+   "sid": "wiring",
+   "q": "What is the voltage drop on a 100 ft run of 8 AWG aluminum carrying 30 A?",
+   "parts": [
+    "What is the voltage drop on a ",
+    {
+     "slot": 0,
+     "factor": 0.3048,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " ft run of 8 AWG aluminum carrying ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0
+     ]
+    },
+    " A?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    [
+     0,
+     0,
+     0,
+     1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    2,
+    1,
+    -3,
+    -1,
+    0,
+    0
+   ],
+   "out_unit": "V",
+   "skeleton": "what is the voltage drop on a #(1, 0, 0, 0, 0, 0) ft run of 8 awg aluminum carrying #(0, 0, 0, 1, 0, 0) a?",
+   "checks": 1,
+   "context": [
+    "8",
+    "aluminum",
+    "awg",
+    "carrying",
+    "drop",
+    "run",
+    "voltage"
+   ]
+  },
+  {
+   "sid": "wiring",
+   "q": "What current does a 30 kW three-phase load draw at 400 V with a power factor of 0.8?",
+   "parts": [
+    "What current does a ",
+    {
+     "slot": 0,
+     "factor": 1000,
+     "dim": [
+      2,
+      1,
+      -3,
+      0,
+      0,
+      0
+     ]
+    },
+    " kW three-phase load draw at ",
+    {
+     "slot": 1,
+     "factor": 1,
+     "dim": [
+      2,
+      1,
+      -3,
+      -1,
+      0,
+      0
+     ]
+    },
+    " V with a power factor of 0.8?"
+   ],
+   "in": [
+    [
+     2,
+     1,
+     -3,
+     0,
+     0,
+     0
+    ],
+    [
+     2,
+     1,
+     -3,
+     -1,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0
+   ],
+   "out_unit": "A",
+   "skeleton": "what current does a #(2, 1, -3, 0, 0, 0) kw three-phase load draw at #(2, 1, -3, -1, 0, 0) v with a power factor of 0.8?",
+   "checks": 2,
+   "context": [
+    "0.8",
+    "current",
+    "draw",
+    "factor",
+    "load",
+    "power",
+    "three-phase"
+   ]
+  },
+  {
+   "sid": "woodworking",
+   "q": "What is the riser height for stairs with a total rise of 105 inches?",
+   "parts": [
+    "What is the riser height for stairs with a total rise of ",
+    {
+     "slot": 0,
+     "factor": 0.0254,
+     "dim": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    " inches?"
+   ],
+   "in": [
+    [
+     1,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   ],
+   "out_dim": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "out_unit": "in",
+   "skeleton": "what is the riser height for stairs with a total rise of #(1, 0, 0, 0, 0, 0) inches?",
+   "checks": 1,
+   "context": [
+    "height",
+    "rise",
+    "riser",
+    "stairs"
+   ]
+  }
+ ],
+ "stats": {
+  "candidates": 693,
+  "learned": 97,
+  "single (no cross-check)": 283,
+  "duplicate": 2,
+  "constant slot": 13,
+  "load error": 161,
+  "no panel": 1
+ }
+}

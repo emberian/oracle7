@@ -23,13 +23,13 @@ python oracle7.py chat                                 # a conversation; /path, 
 python oracle7.py specialists moons                    # find specialists, with held-out scores
 python oracle7.py card astronomy-v3                    # one specialist's card
 python oracle7.py verify --chain                       # this install against RELEASE_HASHES.json and the Solana anchor
-python oracle7.py example && python oracle7.py exam paint-coverage dev
+python oracle7.py example && python oracle7.py exam habitable-zone dev
 python oracle7.py new beekeeping hive bees honey       # scaffold your own specialist
 python oracle7.py scan                                 # read this computer
 python oracle7.py sensor-test http http://192.168.1.40/data
 python oracle7.py sensors                              # read every connected sensor once
 python oracle7.py history                              # saved conversations
-python oracle7.py registry paint-coverage               # its on-chain registration and attestations
+python oracle7.py registry habitable-zone               # its on-chain registration and attestations
 python oracle7.py help                                 # all of it
 ```
 
@@ -115,7 +115,7 @@ reading was rejected and why, and uses the last valid one.
 - `panel.json`: dev items and held-out items;
 - `scorer.py`.
 
-"Add the worked example" installs a complete one that works out paint coverage.
+"Add the worked example" installs a complete one built from a single published paper: the habitable zone of a star (Kopparapu et al. 2013), from its temperature and luminosity, declining stars outside the range the formulas were fitted on.
 
 - **Dev exam:** run it as often as you like.
 - **Held-out exam:** run it once. Its items are hashed and logged, and the same held-out set is refused a second time.
