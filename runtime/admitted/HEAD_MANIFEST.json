@@ -1,6 +1,9 @@
 {
- "built_ts": "2026-10-18T01:41:40Z",
+ "built_ts": "2026-10-18T07:52:13Z",
  "chain_tip_to_base": [
+  "oracle_release_runtime_w555",
+  "oracle_release_runtime_w554",
+  "oracle_release_runtime_w551",
   "oracle_release_runtime_w548",
   "oracle_release_runtime_w547",
   "oracle_release_runtime_w550",
@@ -351,5 +354,5 @@
   "oracle_release_runtime_w3"
  ],
  "schema_version": "oracle-head-manifest-v1",
- "tip": "oracle_release_runtime_w548"
+ "tip": "oracle_release_runtime_w555"
 }

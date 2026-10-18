@@ -184,8 +184,9 @@ def select(cands, length, level, depth):
     return sorted(chosen, key=lambda c: c["idx"])
 
 
-def write(ask, topic, length="medium", level="general", depth="standard", style="plain", voice_path=None):
-    """an essay with options -> the same result shape as core.essay, plus the options and the reading grade reached"""
+def write(ask, topic, length="medium", level="general", depth="standard", style="plain", voice_path=None, rewrite=False):
+    """an essay with options -> the same result shape as core.essay, plus the options and the reading grade reached.
+    rewrite=True (release 3.2): the fold may use a verified rewording of a record sentence (readback.py)."""
     t0 = time.time()
     if voice_path:
         toy = ProseFoldToy.from_corpus(Path(voice_path).read_text(encoding="utf-8"))
@@ -228,7 +229,7 @@ def write(ask, topic, length="medium", level="general", depth="standard", style=
             core.LOWER_SEEN.add(w)
     paras, titles = [], []
     for title, units in groups:
-        best, _, _tr = core.fold_paragraph(units, topic, target, paras)
+        best, _, _tr = core.fold_paragraph(units, topic, target, paras, rewrite)
         paras.append(best)
         titles.append(title)
     faithful, n_sent = 0, 0
@@ -247,6 +248,9 @@ def write(ask, topic, length="medium", level="general", depth="standard", style=
     for title, p in zip(titles, paras):
         text = " ".join("%s [%s]" % (s["text"], ",".join(str(num[x["claim"]]) for x in s["parts"])) for s in p)
         body.append(("## %s\n\n" % title if title else "") + text)
+    rewritten = [{"record": x["record_sentence"], "rewrite": x["sentence"], "moves": x["rewrite_moves"],
+                  "read_back": core.RB.verify(x["record_sentence"], x["sentence"], x["rewrite_moves"])}
+                 for p in paras for s in p for x in s["parts"] if x.get("record_sentence")]
     ref_of = {c["claim"]: c for c in cands}
     refs = ["%d. %s - %s (%s)" % (num[c], ref_of[c].get("title") or topic, ref_of[c].get("source") or "", c) for c in order]
     plain = core.render(paras)
@@ -261,5 +265,7 @@ def write(ask, topic, length="medium", level="general", depth="standard", style=
         "layers": {k: sum(1 for c in picked if c["layer"] == k) for k in ("simple", "general", "technical")},
         "voice_distance": round(core.distance(target, v), 3) if v else None,
         "essay_md": "# %s\n\n%s\n\n### Sources\n\n%s\n" % (topic[:1].upper() + topic[1:], "\n\n".join(body), "\n".join(refs)),
+        "rewrite": {"on": bool(rewrite), "wordnet": core.RB.available(), "rewritten": rewritten,
+                    "read_back_failures": sum(1 for x in rewritten if not x["read_back"])},
         "seconds": round(time.time() - t0, 1), "lm_calls": 0,
     }

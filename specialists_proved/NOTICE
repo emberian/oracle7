@@ -1,0 +1,3 @@
+veri7vn proved kernels - https://github.com/emberian/veri7vn (fork https://github.com/psiloceyeben/veri7vn), by ember arlynx, CC0-1.0.
+Built from commit 3bf43cff8eaa1c30db2659d186cdcffe9c4f6c61: Isabelle2026-RC1 sessions (proofs checked during the build), generated Standard ML linked statically with the MLton in Isabelle, Linux x86-64. chemistry and anatomyagri link the regex.sml their own families carried before it was removed upstream (restored from git history).
+Used by Oracle7 fold w551 as a cross-check; see PROVED.json.

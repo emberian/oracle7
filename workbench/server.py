@@ -849,7 +849,8 @@ class H(BaseHTTPRequestHandler):
                     return self._send(400, {"error": "paste at least 150 words of the writing whose voice you want"})
                 t = time.time()
                 r = PO.write(WB.eng.chat, topic, length=pick("length", PO.LENGTHS, "medium"), level=pick("level", PO.LEVELS, "general"),
-                             depth=pick("depth", PO.DEPTHS, "standard"), style=pick("style", PO.STYLES, "plain"), voice_path=voice_path)
+                             depth=pick("depth", PO.DEPTHS, "standard"), style=pick("style", PO.STYLES, "plain"), voice_path=voice_path,
+                             rewrite=bool(b.get("rewrite")))
                 r["ms"] = int((time.time() - t) * 1000)
                 return self._send(200, r)
             if u.path == "/api/journal":

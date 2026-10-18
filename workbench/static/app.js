@@ -286,7 +286,7 @@
     const topic = $("e-topic").value.trim();
     if (!topic) { $("e-res").textContent = "name a topic"; return; }
     const body = { topic, length: $("e-length").value, level: $("e-level").value, depth: $("e-depth").value, style: $("e-style").value,
-                   voice_text: $("e-style").value === "custom" ? $("e-voice").value : "" };
+                   voice_text: $("e-style").value === "custom" ? $("e-voice").value : "", rewrite: $("e-rewrite").checked };
     $("e-res").textContent = "composing from the record…"; $("e-out").hidden = true; log("essay", topic, "live");
     try {
       const r = await api("/api/essay", body);
@@ -294,7 +294,10 @@
       if (!r.sentences) { $("e-res").textContent = "no records about that topic, so no essay"; log("essay", "nothing on record: " + topic, "no"); return; }
       const band = r.level_band[1] >= 30 ? `grade ${r.level_band[0]}+` : `grades ${r.level_band[0]}-${r.level_band[1]}`;
       $("e-res").textContent = `${r.sentences} sentences from ${r.records_used} records · ${r.faithful} of ${r.sentences} checked word for word against their sources · reading grade ${r.reading_grade} (asked for ${band}${r.level_reached ? "" : "; the record could not get closer"}) · ${r.ms} ms · no language model`;
-      $("e-out").innerHTML = md(r.essay_md); $("e-out").hidden = false;
+      const rw = r.rewrite && r.rewrite.on ? (r.rewrite.wordnet ? ` · ${r.rewrite.rewritten.length} sentences reworded, ${r.rewrite.rewritten.length - r.rewrite.read_back_failures} read back to the same meaning` : " · rewording needs the WordNet store (full release)") : "";
+      $("e-res").textContent += rw;
+      $("e-out").innerHTML = md(r.essay_md) + (r.rewrite && r.rewrite.rewritten.length ? "<details><summary>Reworded sentences and their sources</summary>" + r.rewrite.rewritten.map(x => `<p><b>Source:</b> ${esc(x.record)}<br><b>Reworded:</b> ${esc(x.rewrite)}<br><small>${x.read_back ? "read back: same meaning" : "read back: DIFFERENT - not used"}</small></p>`).join("") + "</details>" : "");
+      $("e-out").hidden = false;
       log("essay", `${topic}: ${r.sentences} sentences, grade ${r.reading_grade}, ${r.faithful}/${r.sentences} faithful`, "ok");
     } catch (e) { $("e-res").textContent = e.message; }
   };

@@ -4,6 +4,9 @@ sentences (stop, pronoun, "and", semicolon), keeping the arrangement closest to 
 composition can move. Every word stays the record's; every sentence keeps its record id; every composed sentence must
 decompose into its parts. Built 2026-10-16 (Box C prosefold_v1: 20 topics, 205/205 faithful, fold beat random choices on
 20/20, a planted word change caught 20/20). Essay QUALITY is not claimed: it waits for blind human scoring.
+Release 3.2: essay(..., rewrite=True) lets the fold also choose a REWORDED form of a record sentence (readback.py): a
+same-sense synonym or a fronted closing phrase, kept only when reading it back gives the record sentence's meaning signature;
+every rewrite is read back again at the end and listed with its record sentence.
 
     from prosefold import essay;  r = essay(engine.chat, "vaccine")   ->  r["essay_md"], r["faithful"], r["distance"] ..."""
 from __future__ import annotations
@@ -15,6 +18,7 @@ import re
 import time
 from pathlib import Path
 
+from . import readback as RB
 from . import speaker as SP
 from .engine import similarity
 from .prose import ProseFoldToy
@@ -175,16 +179,26 @@ def render(paras):
     return "\n\n".join(" ".join(s["text"] for s in p) for p in paras)
 
 
-def fold_paragraph(units, topic, target, context_paras):
-    """beam search over boundary moves inside one paragraph; scored on the whole essay so far"""
-    first = dict(units[0], text=units[0]["sentence"], parts=[units[0]], moves=[])
-    beam = [([first], 0.0, [])]
-    for u in units[1:]:
+def variants(u, rewrite):
+    """a unit as the record has it, and (rewrite=True) each verified rewrite of it, carrying its record sentence"""
+    out = [u]
+    if rewrite:
+        for text, mv in RB.rewrites(u["sentence"], 4):
+            out.append(dict(u, sentence=text, record_sentence=u["sentence"], rewrite_moves=mv))
+    return out
+
+
+def fold_paragraph(units, topic, target, context_paras, rewrite=False):
+    """beam search over boundary moves (and, with rewrite, verified rewordings) inside one paragraph; scored on the whole
+    essay so far"""
+    beam = [([dict(v, text=v["sentence"], parts=[v], moves=[])], 0.0, []) for v in variants(units[0], rewrite)]
+    for u0 in units[1:]:
         nxt_beam = []
         for sents, _, trail in beam:
             prev = sents[-1]
             prev_topic = topic_subject(prev["parts"][-1]["sentence"], topic) is not None
-            for move, new_prev, appended in options(prev["text"], prev_topic, u["sentence"], topic):
+            for u, move, new_prev, appended in [(v,) + o for v in variants(u0, rewrite)
+                                                for o in options(prev["text"], prev_topic, v["sentence"], topic)]:
                 s2 = [dict(x) for x in sents]
                 if new_prev is not None:
                     s2[-1] = dict(prev, text=new_prev, parts=prev["parts"] + [u], moves=prev["moves"] + [move])
@@ -197,7 +211,7 @@ def fold_paragraph(units, topic, target, context_paras):
     return beam[0]
 
 
-def essay(ask, topic, voice_path=DEFAULT_VOICE, sid=None):
+def essay(ask, topic, voice_path=DEFAULT_VOICE, sid=None, rewrite=False):
     global TOY
     TOY = ProseFoldToy.from_corpus(Path(voice_path).read_text(encoding="utf-8"))
     t0 = time.time()
@@ -233,7 +247,7 @@ def essay(ask, topic, voice_path=DEFAULT_VOICE, sid=None):
     for title, units in groups:
         if not units:
             continue
-        best, _, tr = fold_paragraph(units, topic, target, paras)
+        best, _, tr = fold_paragraph(units, topic, target, paras, rewrite)
         paras.append(best)
         titles.append(title)
         trail += tr
@@ -247,6 +261,14 @@ def essay(ask, topic, voice_path=DEFAULT_VOICE, sid=None):
             faithful += ok
             if not ok:
                 bad.append({"text": s["text"], "extra": extra})
+    # read-back: every reworded sentence is checked again against its record sentence
+    rewritten = []
+    for p in paras:
+        for s in p:
+            for x in s["parts"]:
+                if x.get("record_sentence"):
+                    rewritten.append({"record": x["record_sentence"], "rewrite": x["sentence"], "moves": x["rewrite_moves"],
+                                      "read_back": RB.verify(x["record_sentence"], x["sentence"], x["rewrite_moves"])})
     # citations: one number per source claim, in order of first use
     order = []
     for p in paras:
@@ -298,6 +320,8 @@ def essay(ask, topic, voice_path=DEFAULT_VOICE, sid=None):
         "topic": topic, "ts": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()), "seconds": round(time.time() - t0, 1),
         "voice_corpus": str(voice_path), "claims_seen": len(claims), "sentences": n_sent, "paragraphs": len(paras),
         "faithful": faithful, "unfaithful": bad, "moves": moves_used,
+        "rewrite": {"on": bool(rewrite), "wordnet": RB.available(), "rewritten": rewritten,
+                    "read_back_failures": sum(1 for x in rewritten if not x["read_back"])},
         "distance": {"fold": round(distance(target, v_fold), 3), "echo": round(distance(target, v_echo), 3),
                      "random_mean": round(sum(rnd) / len(rnd), 3)},
         "planted_change_caught": planted,

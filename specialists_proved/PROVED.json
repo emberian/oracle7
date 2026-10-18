@@ -1,0 +1,806 @@
+{
+ "what": "veri7vn proved kernels standing in for Oracle7 specialists, used by fold w551 as a cross-check (a reply is marked proved when its kernel agrees, withheld when its kernel answers differently, unchanged otherwise).",
+ "source": "https://github.com/emberian/veri7vn (fork https://github.com/psiloceyeben/veri7vn)",
+ "commit": "3bf43cff8eaa1c30db2659d186cdcffe9c4f6c61",
+ "licence": "CC0-1.0",
+ "author": "ember arlynx",
+ "build": "Isabelle2026-RC1 sessions built (proofs checked) on the research box, generated Standard ML exported and linked statically with the MLton shipped in Isabelle (Linux x86-64).",
+ "parity": {
+  "heldout_questions": 7172,
+  "agree": 6036,
+  "organ_only": 1096,
+  "disagree": 40,
+  "note": "same held-out items; agree = same answer value (or both withheld); the disagreements measured were display rounding and ASCII vs Unicode working, not different answers"
+ },
+ "binaries": {
+  "acoustics": "4f22f4159849938674cbb4da325c7cde322f026b70306ea2f242bae05fd137b9",
+  "anatomyagri": "99df1f11b3920fc81f9462ffcf7e207f46da5309a9f96c3de3d9d371a8ba0fdd",
+  "chemistry": "e1292ae5a7fbc67ceeb94c38a0c9172379214a2ff7005ee1c9685e6ba460343c",
+  "climate": "15de19eb7a04447e23a7aa155ff05978c40f4ffb6d85163ddf7f9e143bcd5a92",
+  "computing": "52ff108928f06ee64ef41c34599027f0e98f1ac28964a4d227fa0d2b191e3f5c",
+  "discrete": "555718394b624bec0a90615ba3feef312c5fd0bb037ca05b155602a4e28e0a37",
+  "emoptics": "f013d847f239bed7f616fc9a007b3831c99cfb73a7a5030be1317d4d9cdfe071",
+  "energy": "df8449c8284dda0b63a0f6d40767e4721e3cdb59682344f6f30e0ea4c5580ea8",
+  "facts": "746bab8b08c15024bae763c9627b9874d3b21ba4623b0107d604bc6bd8fe0719",
+  "fusion": "0f765ab3ca5b4b6a405e6401ac8b3f6ea915d38992fbf1d176ed7837019ee969",
+  "geostats": "f92a48c4c941846bda06de9bec32bb9238f60edde022fd844334b7d73905680b",
+  "humanities": "3befad7a8d17c9bee411fd38e658866e93e8f6d2c325f641a08ce2acc5facd5e",
+  "life": "65748246c35730eeed5e733017ac0590193d4dfad5423125eb393461fc3fb0e2",
+  "materials": "6a548f83db9973f647fa43a16860c56bc933f6a40a2a53dfafb056d24ecdffe4",
+  "mechanics": "7c636d4ca6a1b8f66cfe11fc3b51dcc221efb252565828fe69056257c6aa1a25",
+  "quantity": "368849c4e9cee834ee609f4b6617f7afac2c85817a2bf664960f2e0cafdbc976",
+  "space": "725a57a7ec25a13f1a8f155183013520b3c1636c91cd3a90c4440e06a0c0552e",
+  "stores": "20ebbd038131be04642d80626dfa1fca6c03430f6e0bc7f6a8ca726633628e68",
+  "trades": "cb3f5063d873f68daeec59cc031d1492ef0cab7ac4a2fa9b5ab3db78fd3eaecf"
+ },
+ "specialists": {
+  "acoustics": {
+   "binary": "acoustics",
+   "flag": false,
+   "family": "acoustics",
+   "session": "Veri7vn_Acoustics"
+  },
+  "anatomy": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "anatomy-r2": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "agriculture-v2": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "gardening": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "nutrition-label-v2": {
+   "binary": "anatomyagri",
+   "flag": true,
+   "family": "anatomyagri",
+   "session": "Veri7vn_AnatomyAgri"
+  },
+  "chemistry": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "chemistry-v3": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "decay": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "labsolutions": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "labsolutions-r2": {
+   "binary": "chemistry",
+   "flag": true,
+   "family": "chemistry",
+   "session": "Veri7vn_Chemistry"
+  },
+  "carboncapture": {
+   "binary": "climate",
+   "flag": true,
+   "family": "climate",
+   "session": "Veri7vn_Climate"
+  },
+  "airquality": {
+   "binary": "climate",
+   "flag": true,
+   "family": "climate",
+   "session": "Veri7vn_Climate"
+  },
+  "climate": {
+   "binary": "climate",
+   "flag": true,
+   "family": "climate",
+   "session": "Veri7vn_Climate"
+  },
+  "carbonmat": {
+   "binary": "climate",
+   "flag": true,
+   "family": "climate",
+   "session": "Veri7vn_Climate"
+  },
+  "coldchain": {
+   "binary": "climate",
+   "flag": true,
+   "family": "climate",
+   "session": "Veri7vn_Climate"
+  },
+  "coldchain-v2": {
+   "binary": "climate",
+   "flag": true,
+   "family": "climate",
+   "session": "Veri7vn_Climate"
+  },
+  "networking": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "embedded": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "cyber": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "linux-v2": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "git": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "sql": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "python": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "python-r2": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "robotics-v2": {
+   "binary": "computing",
+   "flag": true,
+   "family": "computing",
+   "session": "Veri7vn_Computing"
+  },
+  "games-v3": {
+   "binary": "discrete",
+   "flag": true,
+   "family": "discrete",
+   "session": "Veri7vn_Discrete"
+  },
+  "logic-v3": {
+   "binary": "discrete",
+   "flag": true,
+   "family": "discrete",
+   "session": "Veri7vn_Discrete"
+  },
+  "dataformats": {
+   "binary": "discrete",
+   "flag": true,
+   "family": "discrete",
+   "session": "Veri7vn_Discrete"
+  },
+  "algorithms": {
+   "binary": "discrete",
+   "flag": true,
+   "family": "discrete",
+   "session": "Veri7vn_Discrete"
+  },
+  "calculus": {
+   "binary": "discrete",
+   "flag": true,
+   "family": "discrete",
+   "session": "Veri7vn_Discrete"
+  },
+  "electrical": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "electronics": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "electronics-r2": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "wiring": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "optics": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "optics-v2": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "optics-v3": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "optics-v5": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "optics-v5-r2": {
+   "binary": "emoptics",
+   "flag": true,
+   "family": "emoptics",
+   "session": "Veri7vn_Emoptics"
+  },
+  "thermo": {
+   "binary": "energy",
+   "flag": true,
+   "family": "energy",
+   "session": "Veri7vn_Energy"
+  },
+  "energy-v2": {
+   "binary": "energy",
+   "flag": true,
+   "family": "energy",
+   "session": "Veri7vn_Energy"
+  },
+  "energy-v3": {
+   "binary": "energy",
+   "flag": true,
+   "family": "energy",
+   "session": "Veri7vn_Energy"
+  },
+  "hvac": {
+   "binary": "energy",
+   "flag": true,
+   "family": "energy",
+   "session": "Veri7vn_Energy"
+  },
+  "renewables": {
+   "binary": "energy",
+   "flag": true,
+   "family": "energy",
+   "session": "Veri7vn_Energy"
+  },
+  "iot": {
+   "binary": "energy",
+   "flag": true,
+   "family": "energy",
+   "session": "Veri7vn_Energy"
+  },
+  "literature-v2": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "worldhistory": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "arthistory": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "medicine-r2": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "medicine": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "law": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "psychology": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "sociology": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "linguistics": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "poetry": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "botany": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "entomology": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "marinebio": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "ornithology": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "mycology": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "mycelial": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "pets": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "childdev": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "etiquette": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "firesafety-v2": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "firstaid": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "javascript": {
+   "binary": "facts",
+   "flag": true,
+   "family": "facts",
+   "session": "Veri7vn_Facts"
+  },
+  "geometry": {
+   "binary": "geostats",
+   "flag": true,
+   "family": "geostats",
+   "session": "Veri7vn_GeoStats"
+  },
+  "geometry-v3": {
+   "binary": "geostats",
+   "flag": true,
+   "family": "geostats",
+   "session": "Veri7vn_GeoStats"
+  },
+  "geometry-v4": {
+   "binary": "geostats",
+   "flag": true,
+   "family": "geostats",
+   "session": "Veri7vn_GeoStats"
+  },
+  "statistics": {
+   "binary": "geostats",
+   "flag": true,
+   "family": "geostats",
+   "session": "Veri7vn_GeoStats"
+  },
+  "statistics-v2": {
+   "binary": "geostats",
+   "flag": true,
+   "family": "geostats",
+   "session": "Veri7vn_GeoStats"
+  },
+  "statistics-v3": {
+   "binary": "geostats",
+   "flag": true,
+   "family": "geostats",
+   "session": "Veri7vn_GeoStats"
+  },
+  "music-v2-r2": {
+   "binary": "humanities",
+   "flag": true,
+   "family": "humanities",
+   "session": "Veri7vn_Humanities"
+  },
+  "music-v2": {
+   "binary": "humanities",
+   "flag": true,
+   "family": "humanities",
+   "session": "Veri7vn_Humanities"
+  },
+  "grammar": {
+   "binary": "humanities",
+   "flag": true,
+   "family": "humanities",
+   "session": "Veri7vn_Humanities"
+  },
+  "mythology": {
+   "binary": "humanities",
+   "flag": true,
+   "family": "humanities",
+   "session": "Veri7vn_Humanities"
+  },
+  "ushistory": {
+   "binary": "humanities",
+   "flag": true,
+   "family": "humanities",
+   "session": "Veri7vn_Humanities"
+  },
+  "library": {
+   "binary": "humanities",
+   "flag": true,
+   "family": "humanities",
+   "session": "Veri7vn_Humanities"
+  },
+  "government": {
+   "binary": "humanities",
+   "flag": true,
+   "family": "humanities",
+   "session": "Veri7vn_Humanities"
+  },
+  "genetics-v2": {
+   "binary": "life",
+   "flag": true,
+   "family": "life",
+   "session": "Veri7vn_Life"
+  },
+  "biology": {
+   "binary": "life",
+   "flag": true,
+   "family": "life",
+   "session": "Veri7vn_Life"
+  },
+  "ecology": {
+   "binary": "life",
+   "flag": true,
+   "family": "life",
+   "session": "Veri7vn_Life"
+  },
+  "forestry": {
+   "binary": "life",
+   "flag": true,
+   "family": "life",
+   "session": "Veri7vn_Life"
+  },
+  "wildlife": {
+   "binary": "life",
+   "flag": true,
+   "family": "life",
+   "session": "Veri7vn_Life"
+  },
+  "microbiology-v2": {
+   "binary": "life",
+   "flag": true,
+   "family": "life",
+   "session": "Veri7vn_Life"
+  },
+  "additive-v2": {
+   "binary": "materials",
+   "flag": true,
+   "family": "materials",
+   "session": "Veri7vn_Materials"
+  },
+  "materials-v2": {
+   "binary": "materials",
+   "flag": true,
+   "family": "materials",
+   "session": "Veri7vn_Materials"
+  },
+  "soil": {
+   "binary": "materials",
+   "flag": true,
+   "family": "materials",
+   "session": "Veri7vn_Materials"
+  },
+  "soil-r2": {
+   "binary": "materials",
+   "flag": true,
+   "family": "materials",
+   "session": "Veri7vn_Materials"
+  },
+  "water": {
+   "binary": "materials",
+   "flag": true,
+   "family": "materials",
+   "session": "Veri7vn_Materials"
+  },
+  "water-r3": {
+   "binary": "materials",
+   "flag": true,
+   "family": "materials",
+   "session": "Veri7vn_Materials"
+  },
+  "physics": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "physics-r2": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "physics-r3": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "mechanisms": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "mechanisms-v2": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "bodies-v2": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "sports": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "fleet": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "fluids-r2": {
+   "binary": "mechanics",
+   "flag": true,
+   "family": "mechanics",
+   "session": "Veri7vn_Mechanics"
+  },
+  "densities": {
+   "binary": "quantity",
+   "flag": true,
+   "family": "quantity",
+   "session": "Veri7vn_Quantity"
+  },
+  "units": {
+   "binary": "quantity",
+   "flag": true,
+   "family": "quantity",
+   "session": "Veri7vn_Quantity"
+  },
+  "units-v3": {
+   "binary": "quantity",
+   "flag": true,
+   "family": "quantity",
+   "session": "Veri7vn_Quantity"
+  },
+  "springs": {
+   "binary": "quantity",
+   "flag": true,
+   "family": "quantity",
+   "session": "Veri7vn_Quantity"
+  },
+  "fluids": {
+   "binary": "quantity",
+   "flag": true,
+   "family": "quantity",
+   "session": "Veri7vn_Quantity"
+  },
+  "fuels": {
+   "binary": "quantity",
+   "flag": true,
+   "family": "quantity",
+   "session": "Veri7vn_Quantity"
+  },
+  "orbits": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "planetary": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "spacecraft": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "spacecomms": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "astronomy": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "astronomy-v2": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "astronomy-v3": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "astronomy-v3-r2": {
+   "binary": "space",
+   "flag": true,
+   "family": "space",
+   "session": "Veri7vn_Space"
+  },
+  "cooking": {
+   "binary": "stores",
+   "flag": true,
+   "family": "stores",
+   "session": "Veri7vn_Stores"
+  },
+  "cooking-v2": {
+   "binary": "stores",
+   "flag": true,
+   "family": "stores",
+   "session": "Veri7vn_Stores"
+  },
+  "cooking-v3": {
+   "binary": "stores",
+   "flag": true,
+   "family": "stores",
+   "session": "Veri7vn_Stores"
+  },
+  "cooking-v3-r2": {
+   "binary": "stores",
+   "flag": true,
+   "family": "stores",
+   "session": "Veri7vn_Stores"
+  },
+  "warehouse": {
+   "binary": "stores",
+   "flag": true,
+   "family": "stores",
+   "session": "Veri7vn_Stores"
+  },
+  "warehouse-r2": {
+   "binary": "stores",
+   "flag": true,
+   "family": "stores",
+   "session": "Veri7vn_Stores"
+  },
+  "architecture": {
+   "binary": "trades",
+   "flag": true,
+   "family": "trades",
+   "session": "Veri7vn_Trades"
+  },
+  "printing": {
+   "binary": "trades",
+   "flag": true,
+   "family": "trades",
+   "session": "Veri7vn_Trades"
+  },
+  "printing-v2": {
+   "binary": "trades",
+   "flag": true,
+   "family": "trades",
+   "session": "Veri7vn_Trades"
+  },
+  "safety": {
+   "binary": "trades",
+   "flag": true,
+   "family": "trades",
+   "session": "Veri7vn_Trades"
+  },
+  "woodworking": {
+   "binary": "trades",
+   "flag": true,
+   "family": "trades",
+   "session": "Veri7vn_Trades"
+  },
+  "crafts": {
+   "binary": "trades",
+   "flag": true,
+   "family": "trades",
+   "session": "Veri7vn_Trades"
+  }
+ }
+}

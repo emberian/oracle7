@@ -1,0 +1,1520 @@
+{
+ "variant": "slim",
+ "tip": "oracle_release_runtime_w555",
+ "sha256": "70eef42b9169079565e24231ea7e815d915cb48f89d37c47ea23fcdb222cf0a1",
+ "started": "2026-10-18T07:57:24Z",
+ "items": [
+  {
+   "q": "Who wrote War and Peace?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Leo Tolstoy. War and Peace is a famous novel written by Leo Tolstoy, a Russian writer.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Frankenstein?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Mary Shelley. Frankenstein; or, The Modern Prometheus is a gothic novel written by Mary Shelley.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Great Expectations?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-novels>novels",
+   "reply": "Charles Dickens. From the Wikidata relation store: Great Expectations (Q219552) - written by (P50) - Charles Dickens (Q5686). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote To Kill a Mockingbird?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Harper Lee. To Kill a Mockingbird is an American novel written by Harper Lee.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Nineteen Eighty-Four?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "George Orwell. From the Wikidata relation store: Nineteen Eighty-Four (Q208460) - written by (P50) - George Orwell (Q3335). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Invisible Man?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Ralph Ellison. From the Wikidata relation store: Invisible Man (Q1784288) - written by (P50) - Ralph Ellison (Q299965). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Sun Also Rises?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Ernest Hemingway. From the Wikidata relation store: The Sun Also Rises (Q501351) - written by (P50) - Ernest Hemingway (Q23434). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Metamorphosis?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Franz Kafka. It is the longest work of fiction that Kafka thought was complete that was published during his lifetime.",
+   "format": []
+  },
+  {
+   "q": "Who directed Casablanca?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-films-v2>films",
+   "reply": "Michael Curtiz. From the Wikidata relation store: Casablanca (Q132689) - movie director (P57) - Michael Curtiz (Q51491). [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who directed The Shining?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-films-v2>films",
+   "reply": "Stanley Kubrick. From the Wikidata relation store: The Shining (Q186341) - movie director (P57) - Stanley Kubrick (Q2001). [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who directed Alien?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-films-v2>unverified",
+   "reply": "I can't verify the movie director of Alien from my records, so I won't guess. [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who painted the Mona Lisa?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:creator>READ>FRAME>LINK>RELATE:fwd:P170>CHECK:P170>BIND>EXPAND>VERIFY",
+   "reply": "Leonardo da Vinci. The Mona Lisa (also known as La Gioconda or La Joconde) is a 16th-century portrait, painted in oil by Leonardo da Vinci during the Renaissance in Florence, Italy.",
+   "format": []
+  },
+  {
+   "q": "Who painted Sunflowers?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-painters>painters",
+   "reply": "Vincent van Gogh. From the Wikidata relation store: Vincent van Gogh (Q5582) - wrote (P800) - Sunflowers (Q157541). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who painted Campbell's Soup Cans?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:arthistory>artist>proved:Veri7vn_Facts",
+   "reply": "It is by Andy Warhol. [arthistory]",
+   "format": []
+  },
+  {
+   "q": "Who composed Eine kleine Nachtmusik?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "Wolfgang Amadeus Mozart. 13 for strings in G major, K 525 by Wolfgang Amadeus Mozart.",
+   "format": []
+  },
+  {
+   "q": "Who composed the Peer Gynt suite?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "Edvard Grieg. Edvard Grieg composed the original music for the stage.",
+   "format": []
+  },
+  {
+   "q": "Who composed Tosca?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "Giacomo Puccini. Tosca is an Italian opera in three acts by Giacomo Puccini.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Brazil?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Brasília. Brazil's capital city is Brasília; its most populous city is São Paulo.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of South Korea?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Seoul. The capital city of South Korea is Seoul.",
+   "format": []
+  },
+  {
+   "q": "What is the capital of Denmark?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Copenhagen. The capital city of Denmark is Copenhagen, on the island of Zealand.",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for iron?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the largest moon of Saturn?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|corpus_query:property_of|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which planet has the moon Titan?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which p",
+   "format": []
+  },
+  {
+   "q": "Which planet has the moon Europa?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Jupiter is the largest planet in the Solar System.\"",
+   "format": []
+  },
+  {
+   "q": "Which planet has the moon Deimos?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>INSTANCE|compose:bridge",
+   "reply": "Mars'. Deimos, the smaller of Mars' two moons, is named after him. [simplewiki_63e0c8965f2272eed16e1c75]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Middlesex?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who wro",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Kite Runner?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Khaled Hosseini. The Kite Runner is a 2003 book written by Afghan-American Khaled Hosseini.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Blood Meridian?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Cormac McCarthy. From the Wikidata relation store: Blood Meridian (Q581426) - written by (P50) - Cormac McCarthy (Q272610). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote White Teeth?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Zadie Smith. From the Wikidata relation store: White Teeth (Q866980) - written by (P50) - Zadie Smith (Q140052). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Color Purple?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Alice Walker. From the Wikidata relation store: The Color Purple (Q1897870) - written by (P50) - Alice Walker (Q215868). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Song of Solomon?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"The Song of Songs is also known as the Song of Solomon or as Canticle of Canticles.\"",
+   "format": []
+  },
+  {
+   "q": "Who wrote A Clockwork Orange?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Anthony Burgess. From the Wikidata relation store: A Clockwork Orange (Q692557) - written by (P50) - Anthony Burgess (Q217619). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Lord of the Flies?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "William Golding. Lord of the Flies is a novel written by William Golding.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Foundation?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Isaac Asimov. From the Wikidata relation store: Foundation (Q753894) - written by (P50) - Isaac Asimov (Q34981). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote All Quiet on the Western Front?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Erich Maria Remarque. All Quiet on the Western Front (original German title: Im Westen nichts Neues, literally: \"Nothing New on the Western Front\") is a famous book by the German author Erich Maria Remarque.",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Plague?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Albert Camus. From the Wikidata relation store: The Plague (Q320372) - written by (P50) - Albert Camus (Q34670). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Nausea?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Jean-Paul Sartre. From the Wikidata relation store: Nausea (Q658288) - written by (P50) - Jean-Paul Sartre (Q9364). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Shadow of the Wind?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Carlos Ruiz Zafón. From the Wikidata relation store: The Shadow of the Wind (Q52910) - written by (P50) - Carlos Ruiz Zafón (Q296752). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Kafka on the Shore?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Haruki Murakami. From the Wikidata relation store: Kafka on the Shore (Q579744) - written by (P50) - Haruki Murakami (Q134798). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Unbearable Lightness of Being?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Milan Kundera. The Unbearable Lightness of Being is a 1984 novel by Milan Kundera, about two women, two men, a dog and their lives in the 1968 Prague Spring period of Czechoslovak history.",
+   "format": []
+  },
+  {
+   "q": "Who wrote The House of the Spirits?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Isabel Allende. From the Wikidata relation store: The House of the Spirits (Q1168267) - written by (P50) - Isabel Allende (Q83566). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Alchemist?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Paulo Coelho. From the Wikidata relation store: The Alchemist (Q179021) - written by (P50) - Paulo Coelho (Q12881). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Steppenwolf?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Hermann Hesse. From the Wikidata relation store: Steppenwolf (Q217073) - written by (P50) - Hermann Hesse (Q25973). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Brideshead Revisited?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Evelyn Waugh. Brideshead Revisited, The Sacred & Profane Memories of Captain Charles Ryder is a novel by the English writer Evelyn Waugh.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Howards End?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "E. M. Forster. Howards End is a novel by E. Forster, first published in 1910.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Northanger Abbey?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Jane Austen. Northanger Abbey was the first completed novel written by Jane Austen.",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Turn of the Screw?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Henry James. The Turn of the Screw is a horror novel by Henry James.",
+   "format": []
+  },
+  {
+   "q": "Who wrote East of Eden?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "John Steinbeck. From the Wikidata relation store: East of Eden (Q849701) - written by (P50) - John Steinbeck (Q39212). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Light in August?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "William Faulkner. From the Wikidata relation store: Light in August (Q1823273) - written by (P50) - William Faulkner (Q38392). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote As I Lay Dying?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "William Faulkner. From the Wikidata relation store: As I Lay Dying (Q1544119) - written by (P50) - William Faulkner (Q38392). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote On the Road?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Jack Kerouac. On the Road is a novel by American writer Jack Kerouac, written in April 1951, and published in 1957.",
+   "format": []
+  },
+  {
+   "q": "Who wrote Gone with the Wind?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Margaret Mitchell. From the Wikidata relation store: Gone with the Wind (Q2870) - written by (P50) - Margaret Mitchell (Q173540). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Little Women?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-novels>novels",
+   "reply": "Louisa May Alcott. From the Wikidata relation store: Little Women (Q523076) - written by (P50) - Louisa May Alcott (Q185696). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote Uncle Tom's Cabin?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-novels>novels",
+   "reply": "Harriet Beecher Stowe. From the Wikidata relation store: Uncle Tom's Cabin (Q2222) - written by (P50) - Harriet Beecher Stowe (Q102513). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Scarlet Letter?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-novels>novels",
+   "reply": "Nathaniel Hawthorne. From the Wikidata relation store: The Scarlet Letter (Q907568) - written by (P50) - Nathaniel Hawthorne (Q69339). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who directed Mulholland Drive?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "exact_router>LINK>ROUTE:who|directed>RELATE:P57>AGREE>READ",
+   "reply": "[ev:direct] David Lynch. From the Wikidata relation store: Mulholland Drive (Q272608) - movie director (P57) - David Lynch (Q2071).",
+   "format": []
+  },
+  {
+   "q": "Who directed Barry Lyndon?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-films-v2>films",
+   "reply": "Stanley Kubrick. From the Wikidata relation store: Barry Lyndon (Q471716) - movie director (P57) - Stanley Kubrick (Q2001). [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who directed City of God?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-films-v2>unverified",
+   "reply": "I can't verify the movie director of City of God from my records, so I won't guess. [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who directed No Country for Old Men?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-films-v2>unverified",
+   "reply": "I can't verify the movie director of No Country for Old Men from my records, so I won't guess. [rel-films-v2]",
+   "format": []
+  },
+  {
+   "q": "Who painted The Death of Marat?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-painters>painters",
+   "reply": "Jacques-Louis David. From the Wikidata relation store: Jacques-Louis David (Q83155) - wrote (P800) - The Death of Marat (Q636537). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who painted Luncheon of the Boating Party?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-painters>painters",
+   "reply": "Pierre-Auguste Renoir. From the Wikidata relation store: Pierre-Auguste Renoir (Q39931) - wrote (P800) - Luncheon of the Boating Party (Q1167907). [rel-painters]",
+   "format": []
+  },
+  {
+   "q": "Who painted Les Demoiselles d'Avignon?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:arthistory>artist>proved:Veri7vn_Facts",
+   "reply": "It is by Pablo Picasso. [arthistory]",
+   "format": []
+  },
+  {
+   "q": "Who painted The Treachery of Images?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:creator>READ>FRAME>LINK>RELATE:fwd:P170>CHECK:P170>BIND>EXPAND>VERIFY",
+   "reply": "René Magritte. The Treachery of Images is a painting by René Magritte, done in 1929.",
+   "format": []
+  },
+  {
+   "q": "Who composed Peter and the Wolf?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "Sergei Prokofiev. Peter and the Wolf is a composition by Sergei Prokofiev.",
+   "format": []
+  },
+  {
+   "q": "Who composed Scheherazade?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-songs>songs",
+   "reply": "Nikolai Rimsky-Korsakov. From the Wikidata relation store: Scheherazade (Q171405) - written by (P86) - Nikolai Rimsky-Korsakov (Q93227). [rel-songs]",
+   "format": []
+  },
+  {
+   "q": "Who composed Adagio for Strings?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:composer>READ>FRAME>LINK>RELATE:fwd:P86>CHECK:P86>BIND>EXPAND>VERIFY",
+   "reply": "Samuel Barber. Adagio for Strings is a work by Samuel Barber.",
+   "format": []
+  },
+  {
+   "q": "Who composed The Hebrides overture?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-composers>composers",
+   "reply": "Felix Mendelssohn. From the Wikidata relation store: Felix Mendelssohn (Q46096) - wrote (P800) - The Hebrides (Q946777). [rel-composers]",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for antimony?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the largest moon of Mars?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:corpus_query:property_of",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Mars has two small moons, called Phobos and Deimos.\"",
+   "format": []
+  },
+  {
+   "q": "Which planet has the moon Callisto?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Jupiter is the largest planet in the Solar System.\"",
+   "format": []
+  },
+  {
+   "q": "How many seconds are in 14 minutes?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "14 minutes is 840 seconds. the factor from minutes to seconds is 60. 14 x 60 = 840. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "Convert 40 miles to kilometres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "40 miles is 64.37376 (exactly 201168/3125) kilometres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 9,072 divided by 72?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 9072 / 72 = 126. The answer is 126.",
+   "format": []
+  },
+  {
+   "q": "What is 64 times 29?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 64 x 29 = 1856. The answer is 1856.",
+   "format": []
+  },
+  {
+   "q": "What is the square root of 5,184?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:integer_sqrt",
+   "reply": "The integer square root of 5184 is 72. estimate 2592. estimate 1297. estimate 650. estimate 328. 72 x 72 = 5184, and 5329 is not a square below it. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "Convert 35 degrees Celsius to Fahrenheit.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>temperature>proved:Veri7vn_Quantity",
+   "reply": "35 °C is 95 °F. [units-v3]",
+   "format": []
+  },
+  {
+   "q": "How many grams are in 6.2 kilograms?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:convert",
+   "reply": "[ev:derived] 6200 grams. Read as convert: 6.2 kilogram = 6.2 x 1000 / 1 gram. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "How many centimetres are in 2.85 metres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "2.85 metres is 285 centimetres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "Convert 50 pounds to kilograms.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "50 pounds is 22.6796185 (exactly 45359237/2000000) kilograms (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 10,000 minus 3,725?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 10000 - 3725 = 6275. The answer is 6275.",
+   "format": []
+  },
+  {
+   "q": "What is 450 divided by 0.9?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 450 / 0.9 = 500. The answer is 500.",
+   "format": []
+  },
+  {
+   "q": "Convert 22 feet to metres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "22 feet is 6.7056 (exactly 4191/625) metres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "Convert 14 inches to centimetres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "14 inches is 35.56 (exactly 889/25) centimetres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is the area of a rectangle 15 m by 23 m, in square metres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 345 square metres. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "What is the area of a circle with a radius of 5 cm, in square centimetres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:geometry",
+   "reply": "[ev:derived] 78.5398 square units. Read as geometry: A = pi r^2, r = 5. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "How many days are in 17 weeks?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "17 weeks is 119 days. the factor from weeks to days is 7. 17 x 7 = 119. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 53 squared?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What is",
+   "format": []
+  },
+  {
+   "q": "Convert 120 kilometres per hour to miles per hour.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "120 kilometres per hour is 74.56454307 (exactly 312500/4191) miles per hour (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "How many millilitres are in 3.6 litres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "3.6 litres is 3600 millilitres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 3,969 divided by 63?",
+   "group": "exact",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 3969 / 63 = 63. The answer is 63.",
+   "format": []
+  },
+  {
+   "q": "What is 2 to the power of 11?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 2 ^ 11 = 2048. The answer is 2048.",
+   "format": []
+  },
+  {
+   "q": "Convert 18 miles to kilometres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "18 miles is 28.968192 (exactly 452628/15625) kilometres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 24% of 375?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 90. Read as percent of: 24% of 375. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "Convert 8 ounces to grams.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "8 ounces is 226.796185 (exactly 45359237/200000) grams (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is the square root of 9,409?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:integer_sqrt",
+   "reply": "The integer square root of 9409 is 97. estimate 4705. estimate 2353. estimate 1178. estimate 592. 97 x 97 = 9409, and 9604 is not a square below it. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 34 times 61?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 34 x 61 = 2074. The answer is 2074.",
+   "format": []
+  },
+  {
+   "q": "How many minutes are in 4.25 hours?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "4.25 hours is 255 minutes. the factor from hours to minutes is 60. 4.25 x 60 = 255. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 72 times 18?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 72 x 18 = 1296. The answer is 1296.",
+   "format": []
+  },
+  {
+   "q": "Convert 7 feet to metres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "7 feet is 2.1336 (exactly 2667/1250) metres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 15% of 980?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 147. Read as percent of: 15% of 980. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "Who was the first person to swim across the Sun?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "factoid:withheld|vessel:receipt",
+   "reply": "I have no admitted record that answers who about \"Sun\", so I will not guess. A timeline of the topic is not that answer.",
+   "format": []
+  },
+  {
+   "q": "In what year did Napoleon visit Neptune?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "What is my neighbour's phone number?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P7_private|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What will I dream about tonight?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wi",
+   "format": []
+  },
+  {
+   "q": "How old is the president of Antarctica?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G3s_qualifier_dropped|specialist_call>specialist:government>fact_number",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A 6 kg box is taken to the planet Arrakis. What does it weigh there, in newtons?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q1_not_physical>weight:m_g>given",
+   "reply": "I can't work that out: I have no record of a body called Arrakis, so I can't use its gravity.",
+   "format": []
+  },
+  {
+   "q": "A pool has a volume of -40 cubic metres. How many litres of water does it hold?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: -40 cubic metres is not a physical amount.",
+   "format": []
+  },
+  {
+   "q": "A 1 kW fan runs 26 hours a day. How many kWh does it use in a day?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: a duty of 26 hours a day is more than the whole day.",
+   "format": []
+  },
+  {
+   "q": "Who won the 2038 Olympic marathon?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who won",
+   "format": []
+  },
+  {
+   "q": "When did Charles Darwin land on the Moon?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "factoid:withheld|vessel:receipt",
+   "reply": "I have no admitted record that answers that about \"Charles Darwin\", so I will not guess. The reply I had was about \"Charles Darwin\" and did not cover land.",
+   "format": []
+  },
+  {
+   "q": "Why is the ocean made of sand?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "capability:what_causes|vessel:receipt",
+   "reply": "The admitted record for ocean made of sand contains no statement that answers what causes ocean made of sand. I will not infer one. I have received \"Why is the ocean made of sand?\" as an unnamed shape [vessel:v0085]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What is my email password?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "How much does the number seven weigh?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How muc",
+   "format": []
+  },
+  {
+   "q": "How many kilometres is it from Paris to the planet Krypton?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "specialist_call>specialist:astronomy-v3>unknown",
+   "reply": "Krypton isn't in NASA's Planetary Fact Sheet, so I have no figures for it. [astronomy-v3]",
+   "format": []
+  },
+  {
+   "q": "A van uses -7 litres of fuel per 100 km. How much fuel does it use on a 300 km trip?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"it\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "A 100 W bulb runs for -5 hours. How many kWh does it use?",
+   "group": "decline",
+   "verdict": "false_yes",
+   "status": "answered",
+   "path": "owner_first>specialist_call>specialist:energy-v3>energy",
+   "reply": "It uses 0.5 kWh (100 W × 5 h = 500 Wh). [energy-v3]",
+   "format": []
+  },
+  {
+   "q": "In what year did Brazil become a French province?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "What is the chemical symbol for the element adamantium?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->document_runtime|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which sea lies between Berlin and Vienna?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which s",
+   "format": []
+  },
+  {
+   "q": "A 5 kg stone is lifted 2 metres on the planet Caladan. How much potential energy does it gain?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q1_not_physical>specialist_call>specialist:physics-r2>pe",
+   "reply": "I can't work that out: I have no record of a body called Caladan, so I can't use its gravity.",
+   "format": []
+  },
+  {
+   "q": "What did my brother eat for lunch?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What di",
+   "format": []
+  },
+  {
+   "q": "Who was the first king of the Indian Ocean?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "arb:timeline->capability:timeline|vessel:receipt",
+   "reply": "A timeline needs at least two dated statements; the admitted material on king contains 1. I have received \"Who was the first king of the Indian Ocean?\" as an unnamed shape [vessel:v0093]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What is my car worth?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What is",
+   "format": []
+  },
+  {
+   "q": "How many moons does the planet Krypton have?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "specialist_call>specialist:astronomy-v3>unknown",
+   "reply": "Krypton isn't in NASA's Planetary Fact Sheet, so I have no figures for it. [astronomy-v3]",
+   "format": []
+  },
+  {
+   "q": "What is my grandfather's middle name?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "In what year did the Aztec Empire open its first railway?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "factoid:withheld|vessel:receipt",
+   "reply": "I have no admitted record that answers that about \"Aztec Empire\", so I will not guess. The reply I had was about \"Aztec Empire\" and did not cover open, railway.",
+   "format": []
+  },
+  {
+   "q": "Who was the first person to walk on Venus?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "arb:timeline->capability:timeline|vessel:receipt",
+   "reply": "A timeline needs at least two dated statements; the admitted material on Venus contains 0. I have received \"Who was the first person to walk on Venus?\" as an unnamed shape [vessel:v0097]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "In what year did Einstein visit Saturn?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "What is the population of Gotham City?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the population of Gotham City?\" as an unnamed shape [vessel:v0099]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What will the weather be on my birthday in 2040?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wi",
+   "format": []
+  },
+  {
+   "q": "A printer prints 60 pages in 4 minutes. How many pages does it print in 22 minutes?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 330 pages. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 3 kW oven runs for 20 minutes. How many kWh does it use?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 1 kWh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 40 W lamp runs 6 hours a day for 25 days. How many kWh is that?",
+   "group": "multistep",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 6 kWh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "Electricity costs 20 cents per kWh. What does running a 1.5 kW heater for 4 hours cost, in dollars?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 1.2 dollars. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A rectangular field is 250 m by 120 m. How many hectares is it?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:R2_dump_for_slot_question|arb:explain_simply->capability:explain_simply",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A 70 kg climber gains 150 metres of height on Mars. How many kilojoules of potential energy is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>bodies-v2 core_math",
+   "reply": "The answer is 38.955 kilojoules. (path: bodies-v2 → core_math)",
+   "format": []
+  },
+  {
+   "q": "What does a 75 kg astronaut weigh on the Moon, in newtons?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:bodies-v2>weight>proved:Veri7vn_Mechanics",
+   "reply": "The weight is about 121.5 N on the Moon (W = m·g = 75 kg × 1.62 m/s²; the same as 12.39 kg would weigh on Earth). [bodies-v2]",
+   "format": []
+  },
+  {
+   "q": "A gold bar has a volume of 50 cubic centimetres. What is its mass in kilograms?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 0.9641 kg (m = ρ·V = 1.928e+04 kg/m³ × 5e-05 m³ for gold; ρ is a typical value near 20 °C). [densities-r2]",
+   "format": []
+  },
+  {
+   "q": "A solid iron cube is 5 cm on each side. What does it weigh on Earth, in newtons?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network5>core_math core_math densities-r2 core_math",
+   "reply": "The answer is 9.65269 newtons. (path: core_math → core_math → densities-r2 → core_math)",
+   "format": []
+  },
+  {
+   "q": "How many kilojoules does it take to heat 4 kg of water from 15 °C to 85 °C?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>thermo core_math",
+   "reply": "The answer is 1172 kilojoules. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 2 kg block of copper is heated from 25 °C to 75 °C. How many joules does it absorb?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network3>thermo core_math",
+   "reply": "The answer is 38500 joules. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A cyclist covers 45 km in 1.5 hours. What is the average speed in km per hour?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P3_unit_dimension|organ:math>word:motion",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A pump fills a 200 litre tank in 5 minutes. How many litres does it deliver in an hour?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"it\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "A 25 kg sack is lifted 4 metres on Earth. How many joules of potential energy does it gain?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>physics-r3 core_math",
+   "reply": "The answer is 980.7 joules. (path: physics-r3 → core_math)",
+   "format": []
+  },
+  {
+   "q": "A tutor earns 30 dollars an hour and works 5 hours a day for 4 days. How many dollars is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 600 dollars. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 24 V battery stores 50 Ah. How many watt-hours is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 1200 watt-hours. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A walker covers 5 km in 60 minutes. At the same pace, how many minutes does 8 km take?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A walke",
+   "format": []
+  },
+  {
+   "q": "A 2 kg bag is lifted 3 metres on Earth. How many joules of potential energy does it gain?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>physics-r3 core_math",
+   "reply": "The answer is 58.84 joules. (path: physics-r3 → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 2,000 W heater runs for 90 minutes. How many kWh is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 3 kWh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "What does a 50 kg crate weigh on Mars, in newtons?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:bodies-v2>weight>proved:Veri7vn_Mechanics",
+   "reply": "The weight is about 185.5 N on Mars (W = m·g = 50 kg × 3.71 m/s²; the same as 18.92 kg would weigh on Earth). [bodies-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the luminosity of a star with a radius of 0.5 solar radii and a temperature of 3,800 K?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:stars>lum",
+   "reply": "The star's luminosity is 0.04696 solar luminosities (L = R² (T / 5772 K)⁴ in solar units: R = 0.5 solar radii, T = 3800 K; Stefan-Boltzmann law). [stars]",
+   "format": []
+  },
+  {
+   "q": "A planet transits a star of 0.4 solar radii with a depth of 2,500 ppm. What is the planet's radius in Earth radii?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:transits>rp",
+   "reply": "The planet's radius is 2.182 Earth radii (R_p = R_star √depth: R_star = 0.4 solar radii = 43.63 Earth radii, depth 2500 ppm; limb darkening ignored). [transits]",
+   "format": []
+  },
+  {
+   "q": "What is the orbital period, in days, of a planet 0.05 AU from a star of 0.3 solar masses?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:exoorbits>period",
+   "reply": "The orbital period is 7.456 days (Kepler's third law, P = √(a³ / M) years: a = 0.05 AU, M = 0.3 solar masses; 1 year = 365.25 days, circular orbit, planet mass neglected). [exoorbits]",
+   "format": []
+  },
+  {
+   "q": "How much starlight does a planet 0.2 AU from a star of 0.04 solar luminosities receive, compared with Earth?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:exoorbits>flux",
+   "reply": "The planet receives 1 times the starlight Earth gets from the Sun (S = L / a²: L = 0.04 solar luminosities, a = 0.2 AU; inverse-square law). [exoorbits]",
+   "format": []
+  },
+  {
+   "q": "What is the transit probability, in percent, of a planet 0.1 AU from a star of 0.6 solar radii?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:transits>prob",
+   "reply": "The transit probability is 2.79% (p = R_star / a: R_star = 0.6 solar radii, a = 0.1 AU = 21.5 solar radii; circular orbit, random orientation). [transits]",
+   "format": []
+  },
+  {
+   "q": "What is the equilibrium temperature of a planet 0.1 AU from a star of 0.01 solar luminosities, with an albedo of 0.3?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:exoorbits>teq",
+   "reply": "The planet's equilibrium temperature is 254.6 K (T = 278.3 K × S^¼ × (1 − A)^¼: S = 1 times Earth's starlight (S = L / a²: L = 0.01 solar luminosities, a = 0.1 AU), albedo A = 0.3; no greenhouse warming). [exoorbits]",
+   "format": []
+  },
+  {
+   "q": "A sample has 40 g of caesium-137. How much remains after 30.08 years, in milligrams?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:decay-r2>remaining_amount",
+   "reply": "About 20,000 mg (20 g) remains after 30.08 years (N = N₀·(1/2)^(t/T) = 40 × 0.5, caesium-137 (half-life 30.08 years)). [decay-r2]",
+   "format": []
+  },
+  {
+   "q": "What is the effective temperature of a star with a luminosity of 0.09 solar luminosities and a radius of 0.6 solar radii?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:stars>teff",
+   "reply": "The star's effective temperature is 4081 K (T = 5772 K × (L / R²)^¼: L = 0.09 solar luminosities, R = 0.6 solar radii; Stefan-Boltzmann law). [stars]",
+   "format": []
+  },
+  {
+   "q": "Is a planet that receives 1.0 times Earth's sunlight from a 5,000 K star in the habitable zone?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:habzone>inside",
+   "reply": "Yes: it receives 1 times Earth's sunlight, inside the optimistic zone only. For a 5000 K star the optimistic zone runs from 1.669 to 0.2774 times Earth's sunlight, the conservative zone from 0.9604 to 0.3001 (Kopparapu et al. 2013). [habzone]",
+   "format": []
+  },
+  {
+   "q": "How deep is the transit, in ppm, of a planet of 1.2 Earth radii crossing a star of 0.3 solar radii?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:transits>depth",
+   "reply": "The transit depth is 1345 ppm (0.1345%; depth = (R_p / R_star)²: R_p = 1.2 Earth radii, R_star = 0.3 solar radii = 32.72 Earth radii; limb darkening ignored). [transits]",
+   "format": []
+  },
+  {
+   "q": "Where is the habitable zone of a 12,000 K star with 50 solar luminosities?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Where i",
+   "format": []
+  },
+  {
+   "q": "A planet transits a star with a depth of 900 ppm. What is the planet's radius?",
+   "group": "stars",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A plane",
+   "format": []
+  }
+ ],
+ "format_defects": 0,
+ "verifier_up_at_end": true,
+ "paths": {
+  "organ:relation": 23,
+  "verified": 1,
+  "unverified": 4,
+  "precision_guard": 12,
+  "factoid": 3,
+  "compose": 0,
+  "corpus_query": 1
+ },
+ "totals": {
+  "right": 142,
+  "wrong": 3,
+  "declined": 17,
+  "false_yes": 1
+ },
+ "by_group": {
+  "knowledge": {
+   "right": 58,
+   "wrong": 0,
+   "declined": 12,
+   "false_yes": 0
+  },
+  "exact": {
+   "right": 28,
+   "wrong": 1,
+   "declined": 1,
+   "false_yes": 0
+  },
+  "decline": {
+   "right": 29,
+   "wrong": 0,
+   "declined": 0,
+   "false_yes": 1
+  },
+  "multistep": {
+   "right": 15,
+   "wrong": 1,
+   "declined": 4,
+   "false_yes": 0
+  },
+  "stars": {
+   "right": 12,
+   "wrong": 0,
+   "declined": 0,
+   "false_yes": 0
+  }
+ },
+ "precision_on_answered": 0.9826,
+ "bars": {
+  "precision>=0.90": true,
+  "false_yes<=2": true
+ }
+}

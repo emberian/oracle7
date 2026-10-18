@@ -146,13 +146,14 @@
       <pre class="out" id="c-out-text" hidden></pre>
     </div>
     <div class="tab" id="t-essay">
-      <p class="lede">An essay on a topic, composed from this model's own records. Every sentence is a sentence from its sources, kept word for word with its number; ProseFold chooses which sentences to use and how to join them, to fit the length, reading level, depth and style you pick. Nothing is made up, and nothing leaves this computer. How well the essays read has not yet been measured by people.</p>
+      <p class="lede">An essay on a topic, composed from this model's own records. Every sentence is a sentence from its sources, kept word for word with its number, unless you turn on rewording: then a sentence may be reworded, and only when reading it back gives exactly its source's meaning (each one is listed with its source). ProseFold chooses which sentences to use and how to join them, to fit the length, reading level, depth and style you pick. Nothing is made up, and nothing leaves this computer. How well the essays read has not yet been measured by people.</p>
       <div class="row"><input id="e-topic" placeholder="A topic, e.g. volcano, photosynthesis, democracy"><button class="btn primary" id="e-write">Write</button></div>
       <div class="row">
         <label>Length <select id="e-length"><option value="short">Short</option><option value="medium" selected>Medium</option><option value="long">Long</option><option value="full">Everything it has</option></select></label>
         <label>Reading level <select id="e-level"><option value="young">Young readers</option><option value="general" selected>General</option><option value="advanced">Advanced</option></select></label>
         <label>Depth <select id="e-depth"><option value="basic">Basic</option><option value="standard" selected>Standard</option><option value="technical">Technical</option></select></label>
         <label>Style <select id="e-style"><option value="plain" selected>Plain</option><option value="encyclopedic">Encyclopedic</option><option value="textbook">Textbook</option><option value="prometheus7">Prometheus7</option><option value="custom">Your own writing…</option></select></label>
+        <label class="switch" title="Lets ProseFold reword a source sentence (a same-sense synonym, or a phrase moved to the front). Each rewording is read back and kept only if it means exactly what the source sentence says: same numbers, names, negations and word senses."><input type="checkbox" id="e-rewrite"> Reword, checked by reading back</label>
       </div>
       <textarea id="e-voice" class="short" hidden placeholder="Paste at least 150 words of writing whose voice the essay should follow (it stays on this computer)"></textarea>
       <p class="progress" id="e-res"></p>
