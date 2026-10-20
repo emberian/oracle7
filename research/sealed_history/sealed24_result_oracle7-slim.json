@@ -1,0 +1,1522 @@
+{
+ "variant": "slim",
+ "tip": "oracle_release_runtime_w556",
+ "sha256": "82a0f24474baf4937445e500e6995c17322f0936dcf387f661ecfb37ed42f432",
+ "started": "2026-10-19T09:18:34Z",
+ "items": [
+  {
+   "q": "Which currency is used in Switzerland?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Swiss franc. From the Wikidata relation store: Switzerland (Q39) - used money (P38) - Swiss franc (Q25344). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Marrakesh located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Marrakesh, or Marrakech is an important city in the African country of Morocco.\"",
+   "format": []
+  },
+  {
+   "q": "On which continent is Mongolia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "Asia. Mongolia is a landlocked country in East Asia.",
+   "format": []
+  },
+  {
+   "q": "Who invented the telephone?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who inv",
+   "format": []
+  },
+  {
+   "q": "What is the longest river in Africa?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->document_runtime|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which element has the atomic number 6?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which e",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in India?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Indian rupee. From the Wikidata relation store: India (Q668) - used money (P38) - Indian rupee (Q80524). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Iran?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Persian. From the Wikidata relation store: Iran (Q794) - spoken in (P37) - Persian (Q9168). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Kyoto located?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:country>READ>FRAME>LINK>RELATE:hop1:P131>VERIFY:cycle2(city=Kyoto Prefecture)>RELATE:fwd:P17>CHECK:P17>BIND>EXPAND>VERIFY",
+   "reply": "Japan. From the 7th century through the late-19th century, the city of Kyoto was the Imperial capital of Japan.",
+   "format": []
+  },
+  {
+   "q": "Who invented the phonograph?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:discoverer>READ>FRAME>LINK>RELATE:fwd:P61>CHECK:P61>BIND>EXPAND>VERIFY",
+   "reply": "Thomas Edison. It was invented by Thomas Edison, after other inventors had studied the idea.",
+   "format": []
+  },
+  {
+   "q": "What is the highest mountain in Africa?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->document_runtime|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which element has the atomic number 8?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which e",
+   "format": []
+  },
+  {
+   "q": "Who wrote The Waste Land?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "family_precedence>specialist_call>specialist:rel-novels>novels",
+   "reply": "T. S. Eliot. From the Wikidata relation store: The Waste Land (Q581458) - written by (P50) - T. S. Eliot (Q37767). [rel-novels]",
+   "format": []
+  },
+  {
+   "q": "Who designed the Statue of Liberty?",
+   "group": "knowledge",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "organ:relation>form:architect>READ>FRAME>LINK>RELATE:fwd:P84>CHECK:P84>BIND>EXPAND>VERIFY",
+   "reply": "Eugène Viollet-le-Duc. Eugène Viollet-le-Duc chose copper in the construction of the statue, and for the adoption of the repoussé construction technique, where a malleable metal is hammered on the reverse side.",
+   "format": []
+  },
+  {
+   "q": "In which city is the Acropolis?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"The word acropolis (Ancient Greek: ἀκρόπολις, akropolis; from akros (άκρος) or akron (άκρον), \"highest, topmost, outermost\", and polis (πόλις), \"city\"; plural in English: acropoles, acropoleis or acropolises) means ",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in Mexico?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "peso. From the Wikidata relation store: Mexico (Q96) - used money (P38) - peso (Q4730). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Ethiopia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Amharic. From the Wikidata relation store: Ethiopia (Q115) - spoken in (P37) - Amharic (Q28244). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Kraków located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Kraków located\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "On which continent is Madagascar?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "Africa. It is off of the East coast of Africa and its capital is Antananarivo.",
+   "format": []
+  },
+  {
+   "q": "Who invented the World Wide Web?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G3_evidence_misses_question|factoid:page",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "What is the largest ocean?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Who painted the ceiling of the Sistine Chapel?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G3_evidence_misses_question|factoid:page",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Who designed the Sydney Opera House?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Milan is the fashion capital of the world and its important influence on design, economics, opera, and the media make it amongst the world's top 18 Global cities, along with Moscow, Buenos Aires and Kuala Lumpur.\"",
+   "format": []
+  },
+  {
+   "q": "In which city is the Taj Mahal?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G3_evidence_misses_question|factoid:page",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in South Africa?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "rand. From the Wikidata relation store: South Africa (Q258) - used money (P38) - rand (Q181907). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Israel?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Hebrew. From the Wikidata relation store: Israel (Q801) - spoken in (P37) - Hebrew (Q9288). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Porto located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Porto located\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "On which continent is Iceland?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "Europe. It is culturally considered to be part of Europe.",
+   "format": []
+  },
+  {
+   "q": "Who invented dynamite?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:discoverer>READ>FRAME>LINK>RELATE:fwd:P61>CHECK:P61>BIND>EXPAND>VERIFY",
+   "reply": "Alfred Nobel. Dynamite is an explosive invented by Alfred Nobel, the creator of the Nobel Prize.",
+   "format": []
+  },
+  {
+   "q": "Which empire built Machu Picchu?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which e",
+   "format": []
+  },
+  {
+   "q": "Who designed Fallingwater?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:architect>READ>FRAME>LINK>RELATE:fwd:P84>CHECK:P84>BIND>EXPAND>VERIFY",
+   "reply": "Frank Lloyd Wright. Fallingwater is the name of the summer house Frank Lloyd Wright designed in 1935 for the Kaufmann family.",
+   "format": []
+  },
+  {
+   "q": "In which city is the Alhambra?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>PLACE|compose:bridge",
+   "reply": "Granada. In the Middle Ages the Alhambra was the residence of the Muslim rulers of Granada and their court, now it is one of Spain's major tourist attractions. [simplewiki_3dac7cd567cf8e6b73e27e3e]",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in Poland?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "złoty. From the Wikidata relation store: Poland (Q36) - used money (P38) - złoty (Q123213). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Seville located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"It is located near the Centro, or center of the city, across the street from Plaza de España and Parque Maria Luisa.\"",
+   "format": []
+  },
+  {
+   "q": "On which continent is Bolivia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:continent>READ>FRAME>LINK>RELATE:fwd:P30>CHECK:P30>BIND>EXPAND>VERIFY",
+   "reply": "South America. Bolivia, officially the Plurinational State of Bolivia, is a country in South America.",
+   "format": []
+  },
+  {
+   "q": "Who invented the printing press?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:discoverer>READ>FRAME>LINK>RELATE:fwd:P61>CHECK:P61>BIND>EXPAND>VERIFY",
+   "reply": "Johannes Gutenberg. In the 15th century Johannes Gutenberg improved the process.",
+   "format": []
+  },
+  {
+   "q": "Which city was the capital of the Byzantine Empire?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:capital>READ>FRAME>LINK>RELATE:fwd:P36>CHECK:P36>BIND>EXPAND>VERIFY",
+   "reply": "Constantinople. The empire had its capital at Constantinople, survived the fall of the Western Roman Empire in the 5th century AD and continued to exist until the fall of Constantinople to the Ottoman Empire in 1453.",
+   "format": []
+  },
+  {
+   "q": "Who designed the Guggenheim Museum Bilbao?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:architect>READ>FRAME>LINK>RELATE:fwd:P84>CHECK:P84>BIND>EXPAND>VERIFY",
+   "reply": "Frank Gehry. It is one of the several museums belonging to Solomon R. This museum was designed by the architect Frank Gehry.",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in Turkey?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Turkish lira. From the Wikidata relation store: Turkey (Q43) - used money (P38) - Turkish lira (Q172872). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Austria?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-countries-v2>unverified",
+   "reply": "I can't verify the spoken in of Austria from my records, so I won't guess. [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Mumbai located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Mumbai located\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "Who led the Salt March in 1930?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Jewish Passover - falls in the same week as Western Christianity's Holy Week, which is the week leading up to Easter.\"",
+   "format": []
+  },
+  {
+   "q": "Which country gave the Statue of Liberty to the United States?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"It was given to the United States by the people of France as a gift in 1886, to represent the friendship between the two countries established during the American Revolution.\"",
+   "format": []
+  },
+  {
+   "q": "In which city is the Golden Gate Bridge?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "verified:cube>PLACE|factoid:page",
+   "reply": "San Francisco. The Golden Gate Bridge is a suspension bridge that crosses over the San Francisco Bay, going from San Francisco to Marin County, in the U.S. [simplewiki_f73ed277f9e87ae68541afff]",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in South Korea?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "specialist_call>specialist:rel-countries-v2>unverified",
+   "reply": "I can't verify the used money of South Korea from my records, so I won't guess. [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Greece?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Greek. From the Wikidata relation store: Greece (Q41) - spoken in (P37) - Greek (Q9129). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Timbuktu located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Timbuktu located\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "Which strait separates Spain and Morocco?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which s",
+   "format": []
+  },
+  {
+   "q": "Who co-wrote The Communist Manifesto with Karl Marx?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"The Communist Manifesto, written by Karl Marx and Friedrich Engels in 1848, advocates for the overthrow of capitalist societies by the working class.\"",
+   "format": []
+  },
+  {
+   "q": "Who wrote Ivanhoe?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:author>READ>FRAME>LINK>RELATE:fwd:P50>CHECK:P50>BIND>EXPAND>VERIFY",
+   "reply": "Walter Scott. It was written by Scottish author Walter Scott.",
+   "format": []
+  },
+  {
+   "q": "In which city is Big Ben?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In whic",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in Brazil?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Brazilian real. From the Wikidata relation store: Brazil (Q155) - used money (P38) - Brazilian real (Q173117). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "What is the official language of Hungary?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Hungarian. From the Wikidata relation store: Hungary (Q28) - spoken in (P37) - Hungarian (Q9067). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Salzburg located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Salzburg located\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "What is the largest island in the Mediterranean Sea?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:P1_declines_in_words|arb:definitional->document_runtime|substitution_disclosed",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which planet is known as the Red Planet?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which p",
+   "format": []
+  },
+  {
+   "q": "Which ship sank in 1912 after hitting an iceberg?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which s",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in Sweden?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Swedish krona. From the Wikidata relation store: Sweden (Q34) - used money (P38) - Swedish krona (Q122922). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Antwerp located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Antwerp located\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "Who discovered the electron?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who dis",
+   "format": []
+  },
+  {
+   "q": "Which river flows through Vienna?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which r",
+   "format": []
+  },
+  {
+   "q": "Who was the Greek god of the sea?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:mythology>domain_god>proved:Veri7vn_Humanities",
+   "reply": "The Greek deity of sea is Poseidon. [mythology]",
+   "format": []
+  },
+  {
+   "q": "In which city is the Forbidden City?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:factoid:page",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"The Forbidden City, now known as the Palace Museum, is a large historical palace and an art museum in the historical center of Beijing, China.\"",
+   "format": []
+  },
+  {
+   "q": "Which planet has the moon Triton?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Neptune is the eighth and farthest planet from the Sun in the Solar System.\"",
+   "format": []
+  },
+  {
+   "q": "Which currency is used in Russia?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:rel-countries-v2>countries2",
+   "reply": "Russian ruble. From the Wikidata relation store: Russia (Q159) - used money (P38) - Russian ruble (Q41044). [rel-countries-v2]",
+   "format": []
+  },
+  {
+   "q": "In which country is the city of Valparaíso located?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"the city of Valparaíso located\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "Who discovered Pluto?",
+   "group": "knowledge",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:relation>form:discoverer>READ>FRAME>LINK>RELATE:fwd:P61>CHECK:P61>BIND>EXPAND:answer_page>VERIFY",
+   "reply": "Clyde Tombaugh. He discovered Pluto in 1930.",
+   "format": []
+  },
+  {
+   "q": "In which city is the Sagrada Família?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In whic",
+   "format": []
+  },
+  {
+   "q": "Which planet has the moon Miranda?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "unverified:compose:bridge",
+   "reply": "I found a passage that may be related, but I can't verify it answers your question: \"Uranus is the seventh planet from the Sun in our Solar System.\"",
+   "format": []
+  },
+  {
+   "q": "Who proposed the theory of evolution by natural selection?",
+   "group": "knowledge",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who pro",
+   "format": []
+  },
+  {
+   "q": "How many seconds are in 23 minutes?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "23 minutes is 1380 seconds. the factor from minutes to seconds is 60. 23 x 60 = 1380. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "Convert 65 miles to kilometres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "65 miles is 104.60736 (exactly 326898/3125) kilometres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 35% of 840?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 294. Read as percent of: 35% of 840. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is 7,776 divided by 96?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 7776 / 96 = 81. The answer is 81.",
+   "format": []
+  },
+  {
+   "q": "What is 58 times 37?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 58 x 37 = 2146. The answer is 2146.",
+   "format": []
+  },
+  {
+   "q": "Convert 80 pounds to kilograms.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "80 pounds is 36.2873896 (exactly 45359237/1250000) kilograms (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 12% of 950?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 114. Read as percent of: 12% of 950. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is 630 divided by 0.7?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 630 / 0.7 = 900. The answer is 900.",
+   "format": []
+  },
+  {
+   "q": "Convert 30 feet to metres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "30 feet is 9.144 (exactly 1143/125) metres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is the area of a rectangle 18 m by 26 m, in square metres?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 468 square metres. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "How many days are in 23 weeks?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "23 weeks is 161 days. the factor from weeks to days is 7. 23 x 7 = 161. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 67 squared?",
+   "group": "exact",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What is",
+   "format": []
+  },
+  {
+   "q": "Convert 90 kilometres per hour to miles per hour.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "90 kilometres per hour is 55.9234073 (exactly 78125/1397) miles per hour (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 43 times 59?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 43 x 59 = 2537. The answer is 2537.",
+   "format": []
+  },
+  {
+   "q": "What is 2 to the power of 13?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 2 ^ 13 = 8192. The answer is 8192.",
+   "format": []
+  },
+  {
+   "q": "What is the square root of 7,056?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:integer_sqrt",
+   "reply": "The integer square root of 7056 is 84. estimate 3528. estimate 1765. estimate 884. estimate 445. 84 x 84 = 7056, and 7225 is not a square below it. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "How many minutes are in 3.75 hours?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "3.75 hours is 225 minutes. the factor from hours to minutes is 60. 3.75 x 60 = 225. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "How many seconds are in 1.25 hours?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "1.25 hours is 4500 seconds. the factor from hours to seconds is 3600. 1.25 x 3600 = 4500. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 27 times 33?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 27 x 33 = 891. The answer is 891.",
+   "format": []
+  },
+  {
+   "q": "What is 1,000,000 divided by 125?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 1000000 / 125 = 8000. The answer is 8000.",
+   "format": []
+  },
+  {
+   "q": "Convert 15 kilometres to miles.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "15 kilometres is 9.320567884 (exactly 78125/8382) miles (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 48% of 250?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 120. Read as percent of: 48% of 250. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "How many seconds are in 37 minutes?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:unit_convert",
+   "reply": "37 minutes is 2220 seconds. the factor from minutes to seconds is 60. 37 x 60 = 2220. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "What is 46 times 52?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 46 x 52 = 2392. The answer is 2392.",
+   "format": []
+  },
+  {
+   "q": "What is 9% of 1,400?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "organ:math>word:percent_of",
+   "reply": "[ev:derived] 126. Read as percent of: 9% of 1400. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": []
+  },
+  {
+   "q": "What is 5,040 divided by 35?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 5040 / 35 = 144. The answer is 144.",
+   "format": []
+  },
+  {
+   "q": "What is 4 to the power of 6?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 4 ^ 6 = 4096. The answer is 4096.",
+   "format": []
+  },
+  {
+   "q": "What is the square root of 2,601?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "op:integer_sqrt",
+   "reply": "The integer square root of 2601 is 51. estimate 1301. estimate 651. estimate 327. estimate 167. 51 x 51 = 2601, and 2704 is not a square below it. I checked it by a second method that agrees.",
+   "format": []
+  },
+  {
+   "q": "Convert 26 miles to kilometres.",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:units-v3>convert>proved:Veri7vn_Quantity",
+   "reply": "26 miles is 41.842944 (exactly 653796/15625) kilometres (NIST exact factors). [units-v3]",
+   "format": []
+  },
+  {
+   "q": "What is 7,500 minus 4,875?",
+   "group": "exact",
+   "verdict": "right",
+   "status": "answered",
+   "path": "compute:verified",
+   "reply": "In steps: 7500 - 4875 = 2625. The answer is 2625.",
+   "format": []
+  },
+  {
+   "q": "In what year did Mozart visit Mars?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "What is the population of Wakanda?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "corpus_query:property_of|vessel:receipt",
+   "reply": "No provenance-admitted sentence in the abstracts corpus answers that. I have received \"What is the population of Wakanda?\" as an unnamed shape [vessel:v0074]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "A 60 W fan runs for -3 hours. How many kWh does it use?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q9_negative_amount>owner_first>specialist_call>specialist:energy-v3>energy",
+   "reply": "The question gives -3 hours, a negative amount of something that cannot be negative, so I won't compute an answer from it.",
+   "format": []
+  },
+  {
+   "q": "Who was the Emperor of Australia in 1990?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who was",
+   "format": []
+  },
+  {
+   "q": "In what year did Beethoven visit Venus?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "When did Shakespeare land on Jupiter?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:R4_no_year|arb:explain_simply->capability:explain_simply",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A recipe needs -200 grams of flour for 4 people. How much flour is needed for 6 people?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:P7_negative_given|arb:explain_simply->capability:explain_simply",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "Which sea lies between Paris and Prague?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Which s",
+   "format": []
+  },
+  {
+   "q": "Where did I park my car?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Where d",
+   "format": []
+  },
+  {
+   "q": "A 10 kg crate is taken to the planet Tatooine. What does it weigh there, in newtons?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q1_not_physical>weight:m_g>given",
+   "reply": "I can't work that out: I have no record of a body called Tatooine, so I can't use its gravity.",
+   "format": []
+  },
+  {
+   "q": "A tank holds -50 litres of water. How many millilitres is that?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: -50 litres is not a physical amount.",
+   "format": []
+  },
+  {
+   "q": "Who is the king of the Sahara Desert?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who is ",
+   "format": []
+  },
+  {
+   "q": "In what year did Canada become a Spanish colony?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "What is my doctor's name?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|factoid:page",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "How far is it from London to the planet Arrakis?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "specialist_call>specialist:astronomy-v3>unknown",
+   "reply": "Arrakis isn't in NASA's Planetary Fact Sheet, so I have no figures for it. [astronomy-v3]",
+   "format": []
+  },
+  {
+   "q": "A worker earns 20 dollars an hour for -8 hours. How many dollars is that?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: -8 hours is not a physical amount.",
+   "format": []
+  },
+  {
+   "q": "How tall is the president of the Arctic Ocean?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How tal",
+   "format": []
+  },
+  {
+   "q": "A 50 W radio plays for -6 hours. How many kWh does it use?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q9_negative_amount>owner_first>specialist_call>specialist:energy-v3>energy",
+   "reply": "The question gives -6 hours, a negative amount of something that cannot be negative, so I won't compute an answer from it.",
+   "format": []
+  },
+  {
+   "q": "Why is the Sun cold?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "capability:what_causes|vessel:receipt",
+   "reply": "The admitted record for Sun cold contains no statement that answers what causes Sun cold. I will not infer one. I have received \"Why is the Sun cold?\" as an unnamed shape [vessel:v0085]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "What did I have for breakfast?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|factoid:page",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "A heater runs 30 hours a day. How many hours does it run in a week?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: a duty of 30 hours a day is more than the whole day.",
+   "format": []
+  },
+  {
+   "q": "Who won the 2041 World Cup?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who won",
+   "format": []
+  },
+  {
+   "q": "Who was the first king of the Atlantic Ocean?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "arb:timeline->capability:timeline|vessel:receipt",
+   "reply": "A timeline needs at least two dated statements; the admitted material on king contains 1. I have received \"Who was the first king of the Atlantic Ocean?\" as an unnamed shape [vessel:v0088]; if it returns it gains weight, and when I can name it, I will.",
+   "format": []
+  },
+  {
+   "q": "Who was the first person to walk on Mercury?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"Who was",
+   "format": []
+  },
+  {
+   "q": "What is my wifi password?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:G2_private_state|arb:definitional->definitional_encyclopedic|substitution_disclosed",
+   "reply": "That depends on something only you know; my records can't tell me.",
+   "format": []
+  },
+  {
+   "q": "How many hours are in a day on the planet Gallifrey?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "specialist_call>specialist:astronomy-v3>unknown",
+   "reply": "Gallifrey isn't in NASA's Planetary Fact Sheet, so I have no figures for it. [astronomy-v3]",
+   "format": []
+  },
+  {
+   "q": "What was Cleopatra's email address?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wa",
+   "format": []
+  },
+  {
+   "q": "What was Napoleon's mobile phone number?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"What wa",
+   "format": []
+  },
+  {
+   "q": "In what year did Isaac Newton visit Uranus?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  },
+  {
+   "q": "How many legs does the number nine have?",
+   "group": "decline",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How man",
+   "format": []
+  },
+  {
+   "q": "A printer prints 45 pages in 3 minutes. How many pages does it print in 16 minutes?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 240 pages. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A 60 W lamp runs 5 hours a day for 30 days. How many kWh is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 9 kWh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A rectangular field is 400 m by 150 m. How many hectares is it?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:R2_dump_for_slot_question|arb:explain_simply->capability:explain_simply",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A 60 kg climber gains 200 metres of height on Earth. How many kilojoules of potential energy is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>physics-r3 core_math",
+   "reply": "The answer is 117.7 kilojoules. (path: physics-r3 → core_math)",
+   "format": []
+  },
+  {
+   "q": "A gold coin has a volume of 2 cubic centimetres. What is its mass in grams?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 38.56 g (m = ρ·V = 1.928e+04 kg/m³ × 2e-06 m³ for gold; ρ is a typical value near 20 °C). [densities-r2]",
+   "format": []
+  },
+  {
+   "q": "An iron block has a volume of 300 cubic centimetres. What is its mass in kilograms?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:densities-r2>mass",
+   "reply": "The mass is about 2.362 kg (m = ρ·V = 7874 kg/m³ × 0.0003 m³ for iron; ρ is a typical value near 20 °C). [densities-r2]",
+   "format": []
+  },
+  {
+   "q": "How many kilojoules does it take to heat 3 kg of water from 20 °C to 60 °C?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>thermo core_math",
+   "reply": "The answer is 502.3 kilojoules. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A 3 kg block of copper is heated from 20 °C to 50 °C. How many joules does it absorb?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network3>thermo core_math",
+   "reply": "The answer is 34650 joules. (path: thermo → core_math)",
+   "format": []
+  },
+  {
+   "q": "A pump fills a 300 litre tank in 6 minutes. How many litres does it deliver in an hour?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify_specific",
+   "reply": "What does \"it\" refer to? Nothing earlier in this conversation names it. Tell me the name.",
+   "format": []
+  },
+  {
+   "q": "A gardener earns 25 dollars an hour and works 6 hours a day for 3 days. How many dollars is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 450 dollars. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A cyclist covers 12 km in 40 minutes. At the same pace, how many minutes does 21 km take?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A cycli",
+   "format": []
+  },
+  {
+   "q": "A 1,500 W heater runs for 40 minutes. How many kWh is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 1 kWh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "An 800 W microwave runs for 9 minutes. How many kWh is that?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network>core_math",
+   "reply": "The answer is 0.12 kWh. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "What does a 120 kg crate weigh on the Moon, in newtons?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:bodies-v2>weight>proved:Veri7vn_Mechanics",
+   "reply": "The weight is about 194.4 N on the Moon (W = m·g = 120 kg × 1.62 m/s²; the same as 19.82 kg would weigh on Earth). [bodies-v2]",
+   "format": []
+  },
+  {
+   "q": "An athlete runs 100 m in 12.5 seconds. What is the speed in km per hour?",
+   "group": "multistep",
+   "verdict": "wrong",
+   "status": "answered",
+   "path": "organ:math>word:motion",
+   "reply": "[ev:derived] 28800 m/h. Read as motion: r = d / t = 100 / 0.00347222 h. Checked: every quantity the formula needs was found with its unit, and the question asks for what the formula gives.",
+   "format": [
+    "expression_reply"
+   ]
+  },
+  {
+   "q": "A swimmer covers 1,500 m in 25 minutes. At the same pace, how many minutes do 2,400 m take?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A swimm",
+   "format": []
+  },
+  {
+   "q": "A bakery sells 120 loaves a day at 5 dollars each. How many dollars does it take in over 7 days?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>core_math",
+   "reply": "The answer is 4200 dollars. (path: core_math)",
+   "format": []
+  },
+  {
+   "q": "A cube-shaped tank 20 cm on each side is full of water. How many kilograms of water does it hold?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "withheld",
+   "path": "precision_guard:G2_no_premises|deduce:premises_held",
+   "reply": "I can't verify an answer to that exact question, so I won't guess.",
+   "format": []
+  },
+  {
+   "q": "A 5 kg stone is lifted 10 metres on the Moon. How many joules of potential energy does it gain?",
+   "group": "multistep",
+   "verdict": "right",
+   "status": "answered",
+   "path": "network4>bodies-v2 core_math",
+   "reply": "The answer is 81 joules. (path: bodies-v2 → core_math)",
+   "format": []
+  },
+  {
+   "q": "A truck travels 90 km in 1.5 hours. At the same speed, how many hours does 300 km take?",
+   "group": "multistep",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A truck",
+   "format": []
+  },
+  {
+   "q": "What is the orbital period, in minutes, of a satellite in a circular orbit 500 km above Earth?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "answered",
+   "path": "owner_first>specialist_call>specialist:orbits>period",
+   "reply": "The orbital period is 94.62 minutes (2π√(r³/μ), r = 6878 km, μ = 398,600; circular orbit). [orbits]",
+   "format": []
+  },
+  {
+   "q": "What is the orbital speed, in km/s, of a satellite in a circular orbit 400 km above Earth?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "answered",
+   "path": "owner_first>specialist_call>specialist:orbits>orbit_speed",
+   "reply": "The orbital speed is 7.669 km/s (√(μ/r), r = 6778 km, μ = 398,600; circular orbit). [orbits]",
+   "format": []
+  },
+  {
+   "q": "What is the orbital period, in minutes, of a circular orbit 300 km above Mars?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "answered",
+   "path": "owner_first>specialist_call>specialist:orbits>period",
+   "reply": "The orbital period is 113.7 minutes (2π√(r³/μ), r = 3696 km, μ = 42,828; circular orbit). [orbits]",
+   "format": []
+  },
+  {
+   "q": "What is the luminosity of a star with a radius of 0.7 solar radii and a temperature of 4,500 K?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:stars>lum",
+   "reply": "The star's luminosity is 0.181 solar luminosities (L = R² (T / 5772 K)⁴ in solar units: R = 0.7 solar radii, T = 4500 K; Stefan-Boltzmann law). [stars]",
+   "format": []
+  },
+  {
+   "q": "A planet transits a star of 0.5 solar radii with a depth of 1,600 ppm. What is the planet's radius in Earth radii?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:transits>rp",
+   "reply": "The planet's radius is 2.182 Earth radii (R_p = R_star √depth: R_star = 0.5 solar radii = 54.54 Earth radii, depth 1600 ppm; limb darkening ignored). [transits]",
+   "format": []
+  },
+  {
+   "q": "A sample has 80 g of caesium-137. How much remains after 60.16 years, in milligrams?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "answered",
+   "path": "specialist_call>specialist:decay-r2>remaining_amount",
+   "reply": "About 20,000 mg (20 g) remains after 60.16 years (N = N₀·(1/2)^(t/T) = 80 × 0.25, caesium-137 (half-life 30.08 years)). [decay-r2]",
+   "format": []
+  },
+  {
+   "q": "A cyclist covers 15 km in 45 minutes. At the same pace, how many minutes does 25 km take?",
+   "group": "full32",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A cycli",
+   "format": []
+  },
+  {
+   "q": "A pump moves 40 litres in 8 minutes. At the same rate, how many minutes do 150 litres take?",
+   "group": "full32",
+   "verdict": "declined",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"A pump ",
+   "format": []
+  },
+  {
+   "q": "A 75 W lamp runs for -4 hours. How many kWh does it use?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "precision_guard:Q9_negative_amount>owner_first>specialist_call>specialist:energy-v3>energy",
+   "reply": "The question gives -4 hours, a negative amount of something that cannot be negative, so I won't compute an answer from it.",
+   "format": []
+  },
+  {
+   "q": "A truck carries -300 kg of sand. How many grams is that?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "withheld",
+   "path": "network>validity",
+   "reply": "I can't work that out as asked: -300 kg is not a physical amount.",
+   "format": []
+  },
+  {
+   "q": "How old is the queen of the Pacific Ocean?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"How old",
+   "format": []
+  },
+  {
+   "q": "In what year did Galileo visit Saturn?",
+   "group": "full32",
+   "verdict": "right",
+   "status": "clarification",
+   "path": "act:clarify|vessel:receipt",
+   "reply": "I didn't fully parse that, so I won't guess. I can summarize a topic, compare two things, list facts, give a timeline, explain something simply, define a term, reason about why and what-if, and discuss any document you teach me. A shorter, more direct phrasing usually lands. I have received \"In what",
+   "format": []
+  }
+ ],
+ "format_defects": 1,
+ "verifier_up_at_end": true,
+ "paths": {
+  "organ:relation": 14,
+  "verified": 2,
+  "unverified": 10,
+  "precision_guard": 18,
+  "factoid": 0,
+  "compose": 0,
+  "corpus_query": 1
+ },
+ "totals": {
+  "right": 113,
+  "wrong": 2,
+  "declined": 47,
+  "false_yes": 0
+ },
+ "by_group": {
+  "knowledge": {
+   "right": 31,
+   "wrong": 1,
+   "declined": 38,
+   "false_yes": 0
+  },
+  "exact": {
+   "right": 29,
+   "wrong": 0,
+   "declined": 1,
+   "false_yes": 0
+  },
+  "decline": {
+   "right": 30,
+   "wrong": 0,
+   "declined": 0,
+   "false_yes": 0
+  },
+  "multistep": {
+   "right": 13,
+   "wrong": 1,
+   "declined": 6,
+   "false_yes": 0
+  },
+  "full32": {
+   "right": 10,
+   "wrong": 0,
+   "declined": 2,
+   "false_yes": 0
+  }
+ },
+ "precision_on_answered": 0.9765,
+ "bars": {
+  "precision>=0.90": true,
+  "false_yes<=2": true
+ }
+}

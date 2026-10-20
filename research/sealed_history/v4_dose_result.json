@@ -1,0 +1,27 @@
+{
+ "questions": 162,
+ "settings": {
+  "off": {
+   "k_mean": 5.636,
+   "L_mean_ms": 637.3
+  },
+  "on_first": {
+   "k_mean": 5.636,
+   "L_mean_ms": 589.2
+  },
+  "on_recalled": {
+   "k_mean": 5.636,
+   "L_mean_ms": 529.5
+  }
+ },
+ "same_word_all_settings": 162,
+ "slope_k_per_ms": 0.0,
+ "slope_k_per_100ms": 0.0,
+ "ci95_k_per_100ms": [
+  -0.0,
+  0.0
+ ],
+ "recalled_walks": 161,
+ "F1_fires": false,
+ "equivalent_to_zero": true
+}

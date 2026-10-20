@@ -1,0 +1,1925 @@
+[
+ {
+  "q": "Who wrote Macbeth?",
+  "expect": [
+   "Shakespeare"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 0,
+  "turn": 1,
+  "session": "pi4b-followup1-0"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1564"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 0,
+  "turn": 2,
+  "session": "pi4b-followup2-0"
+ },
+ {
+  "q": "Who composed the Goldberg Variations?",
+  "expect": [
+   "Bach"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 1,
+  "turn": 1,
+  "session": "pi4b-followup1-1"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1685"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 1,
+  "turn": 2,
+  "session": "pi4b-followup2-1"
+ },
+ {
+  "q": "Who wrote A Farewell to Arms?",
+  "expect": [
+   "Hemingway"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 2,
+  "turn": 1,
+  "session": "pi4b-followup1-2"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1899"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 2,
+  "turn": 2,
+  "session": "pi4b-followup2-2"
+ },
+ {
+  "q": "Who wrote The Castle?",
+  "expect": [
+   "Kafka"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 3,
+  "turn": 1,
+  "session": "pi4b-followup1-3"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1883"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 3,
+  "turn": 2,
+  "session": "pi4b-followup2-3"
+ },
+ {
+  "q": "Who wrote To the Lighthouse?",
+  "expect": [
+   "Woolf"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 4,
+  "turn": 1,
+  "session": "pi4b-followup1-4"
+ },
+ {
+  "q": "When was she born?",
+  "expect": [
+   "1882"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 4,
+  "turn": 2,
+  "session": "pi4b-followup2-4"
+ },
+ {
+  "q": "Who composed Rigoletto?",
+  "expect": [
+   "Verdi"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 5,
+  "turn": 1,
+  "session": "pi4b-followup1-5"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1813"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 5,
+  "turn": 2,
+  "session": "pi4b-followup2-5"
+ },
+ {
+  "q": "Who developed the theory of relativity?",
+  "expect": [
+   "Einstein"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 6,
+  "turn": 1,
+  "session": "pi4b-followup1-6"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1879"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 6,
+  "turn": 2,
+  "session": "pi4b-followup2-6"
+ },
+ {
+  "q": "Who led the Indian independence movement through nonviolent resistance?",
+  "expect": [
+   "Gandhi"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 7,
+  "turn": 1,
+  "session": "pi4b-followup1-7"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1869"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 7,
+  "turn": 2,
+  "session": "pi4b-followup2-7"
+ },
+ {
+  "q": "Who painted The Creation of Adam?",
+  "expect": [
+   "Michelangelo"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 8,
+  "turn": 1,
+  "session": "pi4b-followup1-8"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1475"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 8,
+  "turn": 2,
+  "session": "pi4b-followup2-8"
+ },
+ {
+  "q": "Who painted The Elephants?",
+  "expect": [
+   "Dalí",
+   "Dali"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 9,
+  "turn": 1,
+  "session": "pi4b-followup1-9"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1904"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 9,
+  "turn": 2,
+  "session": "pi4b-followup2-9"
+ },
+ {
+  "q": "Who composed The Ring of the Nibelung?",
+  "expect": [
+   "Wagner"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 10,
+  "turn": 1,
+  "session": "pi4b-followup1-10"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1813"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 10,
+  "turn": 2,
+  "session": "pi4b-followup2-10"
+ },
+ {
+  "q": "Who composed Prelude to the Afternoon of a Faun?",
+  "expect": [
+   "Debussy"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 11,
+  "turn": 1,
+  "session": "pi4b-followup1-11"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1862"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 11,
+  "turn": 2,
+  "session": "pi4b-followup2-11"
+ },
+ {
+  "q": "Who directed North by Northwest?",
+  "expect": [
+   "Hitchcock"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 12,
+  "turn": 1,
+  "session": "pi4b-followup1-12"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1899"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 12,
+  "turn": 2,
+  "session": "pi4b-followup2-12"
+ },
+ {
+  "q": "Who directed 8½?",
+  "expect": [
+   "Fellini"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 13,
+  "turn": 1,
+  "session": "pi4b-followup1-13"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1920"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 13,
+  "turn": 2,
+  "session": "pi4b-followup2-13"
+ },
+ {
+  "q": "Who wrote The Hunchback of Notre-Dame?",
+  "expect": [
+   "Hugo"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 14,
+  "turn": 1,
+  "session": "pi4b-followup1-14"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1802"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 14,
+  "turn": 2,
+  "session": "pi4b-followup2-14"
+ },
+ {
+  "q": "Who wrote Adventures of Huckleberry Finn?",
+  "expect": [
+   "Twain"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 15,
+  "turn": 1,
+  "session": "pi4b-followup1-15"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1835"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 15,
+  "turn": 2,
+  "session": "pi4b-followup2-15"
+ },
+ {
+  "q": "Who composed the Four Last Songs?",
+  "expect": [
+   "Strauss"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 16,
+  "turn": 1,
+  "session": "pi4b-followup1-16"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1864"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 16,
+  "turn": 2,
+  "session": "pi4b-followup2-16"
+ },
+ {
+  "q": "Who wrote The Raven?",
+  "expect": [
+   "Poe"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 17,
+  "turn": 1,
+  "session": "pi4b-followup1-17"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1809"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 17,
+  "turn": 2,
+  "session": "pi4b-followup2-17"
+ },
+ {
+  "q": "Who wrote Pygmalion?",
+  "expect": [
+   "Shaw"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 18,
+  "turn": 1,
+  "session": "pi4b-followup1-18"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1856"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 18,
+  "turn": 2,
+  "session": "pi4b-followup2-18"
+ },
+ {
+  "q": "Who wrote The Second Sex?",
+  "expect": [
+   "Beauvoir"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 19,
+  "turn": 1,
+  "session": "pi4b-followup1-19"
+ },
+ {
+  "q": "When was she born?",
+  "expect": [
+   "1908"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 19,
+  "turn": 2,
+  "session": "pi4b-followup2-19"
+ },
+ {
+  "q": "Who wrote Hamlet?",
+  "expect": [
+   "Shakespeare"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 20,
+  "turn": 1,
+  "session": "pi4b-followup1-20"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1564"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 20,
+  "turn": 2,
+  "session": "pi4b-followup2-20"
+ },
+ {
+  "q": "Who wrote The Time Machine?",
+  "expect": [
+   "Wells"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 21,
+  "turn": 1,
+  "session": "pi4b-followup1-21"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1866"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 21,
+  "turn": 2,
+  "session": "pi4b-followup2-21"
+ },
+ {
+  "q": "Who wrote The Three Musketeers?",
+  "expect": [
+   "Dumas"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 22,
+  "turn": 1,
+  "session": "pi4b-followup1-22"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1802"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 22,
+  "turn": 2,
+  "session": "pi4b-followup2-22"
+ },
+ {
+  "q": "Who wrote The Social Contract?",
+  "expect": [
+   "Rousseau"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 23,
+  "turn": 1,
+  "session": "pi4b-followup1-23"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1712"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 23,
+  "turn": 2,
+  "session": "pi4b-followup2-23"
+ },
+ {
+  "q": "Who wrote Thus Spoke Zarathustra?",
+  "expect": [
+   "Nietzsche"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 24,
+  "turn": 1,
+  "session": "pi4b-followup1-24"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1844"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 24,
+  "turn": 2,
+  "session": "pi4b-followup2-24"
+ },
+ {
+  "q": "Who wrote The Feminine Mystique?",
+  "expect": [
+   "Friedan"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 25,
+  "turn": 1,
+  "session": "pi4b-followup1-25"
+ },
+ {
+  "q": "When was she born?",
+  "expect": [
+   "1921"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 25,
+  "turn": 2,
+  "session": "pi4b-followup2-25"
+ },
+ {
+  "q": "Who composed the Symphonie fantastique?",
+  "expect": [
+   "Berlioz"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 26,
+  "turn": 1,
+  "session": "pi4b-followup1-26"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1803"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 26,
+  "turn": 2,
+  "session": "pi4b-followup2-26"
+ },
+ {
+  "q": "Who directed Modern Times?",
+  "expect": [
+   "Chaplin"
+  ],
+  "kind": "text",
+  "group": "followup1",
+  "valid": true,
+  "pair": 27,
+  "turn": 1,
+  "session": "pi4b-followup1-27"
+ },
+ {
+  "q": "When was he born?",
+  "expect": [
+   "1889"
+  ],
+  "kind": "text",
+  "group": "followup2",
+  "valid": true,
+  "pair": 27,
+  "turn": 2,
+  "session": "pi4b-followup2-27"
+ },
+ {
+  "q": "What is 27 times 9?",
+  "expect": 243,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-56"
+ },
+ {
+  "q": "What is 17% of 60?",
+  "expect": 10.2,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-57"
+ },
+ {
+  "q": "How many seconds are in 17 minutes?",
+  "expect": 1020,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-58"
+ },
+ {
+  "q": "What is 43 squared?",
+  "expect": 1849,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-59"
+ },
+ {
+  "q": "Convert 64 miles to kilometres.",
+  "expect": 102.998016,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-60"
+ },
+ {
+  "q": "How many grams are in 12.5 kilograms?",
+  "expect": 12500.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-61"
+ },
+ {
+  "q": "What is 924 divided by 22?",
+  "expect": 42,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-62"
+ },
+ {
+  "q": "Convert 17 inches to centimetres.",
+  "expect": 43.18,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-63"
+ },
+ {
+  "q": "How many days are in 35 weeks?",
+  "expect": 245,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-64"
+ },
+ {
+  "q": "Convert 90 degrees Celsius to Fahrenheit.",
+  "expect": 194.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-65"
+ },
+ {
+  "q": "What is 32 times 9?",
+  "expect": 288,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-66"
+ },
+ {
+  "q": "What is 30% of 140?",
+  "expect": 42.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-67"
+ },
+ {
+  "q": "How many seconds are in 32 minutes?",
+  "expect": 1920,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-68"
+ },
+ {
+  "q": "What is 45 squared?",
+  "expect": 2025,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-69"
+ },
+ {
+  "q": "Convert 38 miles to kilometres.",
+  "expect": 61.155072,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-70"
+ },
+ {
+  "q": "How many grams are in 35.5 kilograms?",
+  "expect": 35500.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-71"
+ },
+ {
+  "q": "What is 2331 divided by 37?",
+  "expect": 63,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-72"
+ },
+ {
+  "q": "Convert 19 inches to centimetres.",
+  "expect": 48.26,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-73"
+ },
+ {
+  "q": "How many days are in 37 weeks?",
+  "expect": 259,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-74"
+ },
+ {
+  "q": "Convert 195 degrees Celsius to Fahrenheit.",
+  "expect": 383.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-75"
+ },
+ {
+  "q": "What is 3 times 7?",
+  "expect": 21,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-76"
+ },
+ {
+  "q": "What is 17% of 140?",
+  "expect": 23.8,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-77"
+ },
+ {
+  "q": "How many seconds are in 13 minutes?",
+  "expect": 780,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-78"
+ },
+ {
+  "q": "What is 52 squared?",
+  "expect": 2704,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-79"
+ },
+ {
+  "q": "Convert 45 miles to kilometres.",
+  "expect": 72.42048,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-80"
+ },
+ {
+  "q": "How many grams are in 15.2 kilograms?",
+  "expect": 15200.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-81"
+ },
+ {
+  "q": "What is 245 divided by 5?",
+  "expect": 49,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-82"
+ },
+ {
+  "q": "Convert 26 inches to centimetres.",
+  "expect": 66.04,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-83"
+ },
+ {
+  "q": "How many days are in 31 weeks?",
+  "expect": 217,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-84"
+ },
+ {
+  "q": "Convert 40 degrees Celsius to Fahrenheit.",
+  "expect": 104.0,
+  "kind": "number",
+  "tol": 0.01,
+  "group": "exact",
+  "valid": true,
+  "session": "pi4b-85"
+ },
+ {
+  "q": "A train travels 40 km in 4 hours. At the same speed, how far does it travel in 14 hours?",
+  "expect": 140,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-86"
+ },
+ {
+  "q": "A printer prints 48 pages in 4 minutes. How many pages does it print in 5 minutes?",
+  "expect": 60,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-87"
+ },
+ {
+  "q": "A 40 W lamp runs 4 hours a day for 8 days. How many kWh is that?",
+  "expect": 1.28,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-88"
+ },
+ {
+  "q": "A 35 kg climber gains 350 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 19.845,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-89"
+ },
+ {
+  "q": "What does a 89 kg crate weigh on Mars, in newtons?",
+  "expect": 330.19,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-90"
+ },
+ {
+  "q": "A pump fills a 75 litre tank in 5 minutes. How many litres does it deliver in an hour?",
+  "expect": 900,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-91"
+ },
+ {
+  "q": "A worker earns 19 dollars an hour and works 5 hours a day for 13 days. How many dollars is that?",
+  "expect": 1235,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-92"
+ },
+ {
+  "q": "A 20 V battery stores 30 Ah. How many watt-hours is that?",
+  "expect": 600,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-93"
+ },
+ {
+  "q": "How many kilojoules does it take to heat 3 kg of water from 19 °C to 44 °C?",
+  "expect": 313.8,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-94"
+ },
+ {
+  "q": "A car travels 550 km and uses 7 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 38.5,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-95"
+ },
+ {
+  "q": "A train travels 49 km in 7 hours. At the same speed, how far does it travel in 4 hours?",
+  "expect": 28,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-96"
+ },
+ {
+  "q": "A printer prints 88 pages in 8 minutes. How many pages does it print in 6 minutes?",
+  "expect": 66,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-97"
+ },
+ {
+  "q": "A 90 W lamp runs 3 hours a day for 13 days. How many kWh is that?",
+  "expect": 3.51,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-98"
+ },
+ {
+  "q": "A 10 kg climber gains 150 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 2.43,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-99"
+ },
+ {
+  "q": "What does a 46 kg crate weigh on Mars, in newtons?",
+  "expect": 170.66,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-100"
+ },
+ {
+  "q": "A pump fills a 240 litre tank in 8 minutes. How many litres does it deliver in an hour?",
+  "expect": 1800,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-101"
+ },
+ {
+  "q": "A worker earns 13 dollars an hour and works 9 hours a day for 11 days. How many dollars is that?",
+  "expect": 1287,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-102"
+ },
+ {
+  "q": "A 22 V battery stores 20 Ah. How many watt-hours is that?",
+  "expect": 440,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-103"
+ },
+ {
+  "q": "How many kilojoules does it take to heat 10 kg of water from 12 °C to 47 °C?",
+  "expect": 1464.4,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-104"
+ },
+ {
+  "q": "A car travels 150 km and uses 11 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 16.5,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-105"
+ },
+ {
+  "q": "A train travels 72 km in 6 hours. At the same speed, how far does it travel in 5 hours?",
+  "expect": 60,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-106"
+ },
+ {
+  "q": "A printer prints 12 pages in 2 minutes. How many pages does it print in 4 minutes?",
+  "expect": 24,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-107"
+ },
+ {
+  "q": "A 100 W lamp runs 3 hours a day for 5 days. How many kWh is that?",
+  "expect": 1.5,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-108"
+ },
+ {
+  "q": "A 45 kg climber gains 250 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 18.225,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-109"
+ },
+ {
+  "q": "What does a 19 kg crate weigh on Mars, in newtons?",
+  "expect": 70.49,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-110"
+ },
+ {
+  "q": "A pump fills a 280 litre tank in 7 minutes. How many litres does it deliver in an hour?",
+  "expect": 2400,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-111"
+ },
+ {
+  "q": "A worker earns 21 dollars an hour and works 6 hours a day for 4 days. How many dollars is that?",
+  "expect": 504,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-112"
+ },
+ {
+  "q": "A 18 V battery stores 30 Ah. How many watt-hours is that?",
+  "expect": 540,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-113"
+ },
+ {
+  "q": "How many kilojoules does it take to heat 3 kg of water from 14 °C to 54 °C?",
+  "expect": 502.08,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-114"
+ },
+ {
+  "q": "A car travels 500 km and uses 11 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 55.0,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "multistep",
+  "valid": true,
+  "session": "pi4b-115"
+ },
+ {
+  "q": "A pump fills a 40 litre tank in 4 minutes. How many litres does it deliver in an hour?",
+  "expect": 600,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 0,
+  "turn": 1,
+  "session": "pi4b-116"
+ },
+ {
+  "q": "A pump fills a 50 litre tank in 2 minutes. How many litres does it deliver in an hour?",
+  "expect": 1500,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 0,
+  "turn": 2,
+  "session": "pi4b-117"
+ },
+ {
+  "q": "A 45 kg climber gains 400 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 29.16,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 1,
+  "turn": 1,
+  "session": "pi4b-118"
+ },
+ {
+  "q": "A 60 kg climber gains 450 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 43.74,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 1,
+  "turn": 2,
+  "session": "pi4b-119"
+ },
+ {
+  "q": "A 40 kg climber gains 400 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 25.92,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 2,
+  "turn": 1,
+  "session": "pi4b-120"
+ },
+ {
+  "q": "A 25 kg climber gains 300 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 12.15,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 2,
+  "turn": 2,
+  "session": "pi4b-121"
+ },
+ {
+  "q": "A car travels 450 km and uses 11 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 49.5,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 3,
+  "turn": 1,
+  "session": "pi4b-122"
+ },
+ {
+  "q": "A car travels 250 km and uses 13 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 32.5,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 3,
+  "turn": 2,
+  "session": "pi4b-123"
+ },
+ {
+  "q": "A pump fills a 270 litre tank in 6 minutes. How many litres does it deliver in an hour?",
+  "expect": 2700,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 4,
+  "turn": 1,
+  "session": "pi4b-124"
+ },
+ {
+  "q": "A pump fills a 225 litre tank in 9 minutes. How many litres does it deliver in an hour?",
+  "expect": 1500,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 4,
+  "turn": 2,
+  "session": "pi4b-125"
+ },
+ {
+  "q": "A pump fills a 385 litre tank in 7 minutes. How many litres does it deliver in an hour?",
+  "expect": 3300,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 5,
+  "turn": 1,
+  "session": "pi4b-126"
+ },
+ {
+  "q": "A pump fills a 120 litre tank in 8 minutes. How many litres does it deliver in an hour?",
+  "expect": 900,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 5,
+  "turn": 2,
+  "session": "pi4b-127"
+ },
+ {
+  "q": "A car travels 550 km and uses 11 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 60.5,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 6,
+  "turn": 1,
+  "session": "pi4b-128"
+ },
+ {
+  "q": "A car travels 600 km and uses 11 litres of petrol per 100 km. How many litres does it use?",
+  "expect": 66.0,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 6,
+  "turn": 2,
+  "session": "pi4b-129"
+ },
+ {
+  "q": "A 12 V battery stores 70 Ah. How many watt-hours is that?",
+  "expect": 840,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 7,
+  "turn": 1,
+  "session": "pi4b-130"
+ },
+ {
+  "q": "A 22 V battery stores 60 Ah. How many watt-hours is that?",
+  "expect": 1320,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 7,
+  "turn": 2,
+  "session": "pi4b-131"
+ },
+ {
+  "q": "A printer prints 20 pages in 2 minutes. How many pages does it print in 9 minutes?",
+  "expect": 90,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 8,
+  "turn": 1,
+  "session": "pi4b-132"
+ },
+ {
+  "q": "A printer prints 80 pages in 8 minutes. How many pages does it print in 4 minutes?",
+  "expect": 40,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 8,
+  "turn": 2,
+  "session": "pi4b-133"
+ },
+ {
+  "q": "A 40 W lamp runs 5 hours a day for 8 days. How many kWh is that?",
+  "expect": 1.6,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 9,
+  "turn": 1,
+  "session": "pi4b-134"
+ },
+ {
+  "q": "A 30 W lamp runs 8 hours a day for 4 days. How many kWh is that?",
+  "expect": 0.96,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 9,
+  "turn": 2,
+  "session": "pi4b-135"
+ },
+ {
+  "q": "How many kilojoules does it take to heat 3 kg of water from 12 °C to 47 °C?",
+  "expect": 439.32,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 10,
+  "turn": 1,
+  "session": "pi4b-136"
+ },
+ {
+  "q": "How many kilojoules does it take to heat 10 kg of water from 15 °C to 52 °C?",
+  "expect": 1548.08,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 10,
+  "turn": 2,
+  "session": "pi4b-137"
+ },
+ {
+  "q": "A worker earns 16 dollars an hour and works 9 hours a day for 4 days. How many dollars is that?",
+  "expect": 576,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 11,
+  "turn": 1,
+  "session": "pi4b-138"
+ },
+ {
+  "q": "A worker earns 22 dollars an hour and works 3 hours a day for 11 days. How many dollars is that?",
+  "expect": 726,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 11,
+  "turn": 2,
+  "session": "pi4b-139"
+ },
+ {
+  "q": "A worker earns 12 dollars an hour and works 7 hours a day for 9 days. How many dollars is that?",
+  "expect": 756,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 12,
+  "turn": 1,
+  "session": "pi4b-140"
+ },
+ {
+  "q": "A worker earns 14 dollars an hour and works 2 hours a day for 15 days. How many dollars is that?",
+  "expect": 420,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 12,
+  "turn": 2,
+  "session": "pi4b-141"
+ },
+ {
+  "q": "How many kilojoules does it take to heat 10 kg of water from 18 °C to 52 °C?",
+  "expect": 1422.56,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 13,
+  "turn": 1,
+  "session": "pi4b-142"
+ },
+ {
+  "q": "How many kilojoules does it take to heat 6 kg of water from 15 °C to 43 °C?",
+  "expect": 702.912,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 13,
+  "turn": 2,
+  "session": "pi4b-143"
+ },
+ {
+  "q": "A 35 kg climber gains 150 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 8.505,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 14,
+  "turn": 1,
+  "session": "pi4b-144"
+ },
+ {
+  "q": "A 15 kg climber gains 350 metres of height on the Moon. How many kilojoules of potential energy is that?",
+  "expect": 8.505,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 14,
+  "turn": 2,
+  "session": "pi4b-145"
+ },
+ {
+  "q": "A 50 W lamp runs 2 hours a day for 6 days. How many kWh is that?",
+  "expect": 0.6,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 15,
+  "turn": 1,
+  "session": "pi4b-146"
+ },
+ {
+  "q": "A 70 W lamp runs 2 hours a day for 12 days. How many kWh is that?",
+  "expect": 1.68,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 15,
+  "turn": 2,
+  "session": "pi4b-147"
+ },
+ {
+  "q": "A 14 V battery stores 40 Ah. How many watt-hours is that?",
+  "expect": 560,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 16,
+  "turn": 1,
+  "session": "pi4b-148"
+ },
+ {
+  "q": "A 16 V battery stores 80 Ah. How many watt-hours is that?",
+  "expect": 1280,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 16,
+  "turn": 2,
+  "session": "pi4b-149"
+ },
+ {
+  "q": "What does a 65 kg crate weigh on Mars, in newtons?",
+  "expect": 241.15,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 17,
+  "turn": 1,
+  "session": "pi4b-150"
+ },
+ {
+  "q": "What does a 82 kg crate weigh on Mars, in newtons?",
+  "expect": 304.22,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 17,
+  "turn": 2,
+  "session": "pi4b-151"
+ },
+ {
+  "q": "What does a 32 kg crate weigh on Mars, in newtons?",
+  "expect": 118.72,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 18,
+  "turn": 1,
+  "session": "pi4b-152"
+ },
+ {
+  "q": "What does a 38 kg crate weigh on Mars, in newtons?",
+  "expect": 140.98,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 18,
+  "turn": 2,
+  "session": "pi4b-153"
+ },
+ {
+  "q": "A train travels 20 km in 2 hours. At the same speed, how far does it travel in 9 hours?",
+  "expect": 90,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 19,
+  "turn": 1,
+  "session": "pi4b-154"
+ },
+ {
+  "q": "A train travels 22 km in 2 hours. At the same speed, how far does it travel in 15 hours?",
+  "expect": 165,
+  "kind": "number",
+  "tol": 0.02,
+  "group": "recurring",
+  "valid": true,
+  "pair": 19,
+  "turn": 2,
+  "session": "pi4b-155"
+ },
+ {
+  "q": "A 150 W heater runs for -6 hours. How many kWh does it use?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative duration",
+  "session": "pi4b-156"
+ },
+ {
+  "q": "A 4 kg box is taken to the planet Vulcan. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet",
+  "session": "pi4b-157"
+ },
+ {
+  "q": "How much money is in my wallet?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "private",
+  "session": "pi4b-158"
+ },
+ {
+  "q": "In what year did Abraham Lincoln visit Neptune?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise",
+  "session": "pi4b-159"
+ },
+ {
+  "q": "How old is the prime minister of the Sahara?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office",
+  "session": "pi4b-160"
+ },
+ {
+  "q": "A tank holds -14 litres of water. How many millilitres is that?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume",
+  "session": "pi4b-161"
+ },
+ {
+  "q": "A 100 W heater runs for -4 hours. How many kWh does it use?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative duration",
+  "session": "pi4b-162"
+ },
+ {
+  "q": "A 18 kg box is taken to the planet Ringworld. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet",
+  "session": "pi4b-163"
+ },
+ {
+  "q": "In what year did Cleopatra visit Jupiter?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise",
+  "session": "pi4b-164"
+ },
+ {
+  "q": "How old is the king of the Gobi Desert?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office",
+  "session": "pi4b-165"
+ },
+ {
+  "q": "A tank holds -44 litres of water. How many millilitres is that?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume",
+  "session": "pi4b-166"
+ },
+ {
+  "q": "A 100 W heater runs for -9 hours. How many kWh does it use?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative duration",
+  "session": "pi4b-167"
+ },
+ {
+  "q": "A 20 kg box is taken to the planet Pandora. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet",
+  "session": "pi4b-168"
+ },
+ {
+  "q": "In what year did Confucius visit Mars?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise",
+  "session": "pi4b-169"
+ },
+ {
+  "q": "How old is the president of the Sahara?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office",
+  "session": "pi4b-170"
+ },
+ {
+  "q": "A tank holds -74 litres of water. How many millilitres is that?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume",
+  "session": "pi4b-171"
+ },
+ {
+  "q": "A 150 W heater runs for -7 hours. How many kWh does it use?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative duration",
+  "session": "pi4b-172"
+ },
+ {
+  "q": "A 37 kg box is taken to the planet Zentar. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet",
+  "session": "pi4b-173"
+ },
+ {
+  "q": "How old is the prime minister of the Gobi Desert?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office",
+  "session": "pi4b-174"
+ },
+ {
+  "q": "A tank holds -39 litres of water. How many millilitres is that?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume",
+  "session": "pi4b-175"
+ },
+ {
+  "q": "A 24 kg box is taken to the planet Kobol. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet",
+  "session": "pi4b-176"
+ },
+ {
+  "q": "In what year did Cleopatra visit Venus?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise",
+  "session": "pi4b-177"
+ },
+ {
+  "q": "A tank holds -77 litres of water. How many millilitres is that?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume",
+  "session": "pi4b-178"
+ },
+ {
+  "q": "A 9 kg box is taken to the planet Vulcan. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet",
+  "session": "pi4b-179"
+ },
+ {
+  "q": "In what year did Confucius visit Uranus?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "false premise",
+  "session": "pi4b-180"
+ },
+ {
+  "q": "How old is the president of the Gobi Desert?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "no such office",
+  "session": "pi4b-181"
+ },
+ {
+  "q": "A tank holds -61 litres of water. How many millilitres is that?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume",
+  "session": "pi4b-182"
+ },
+ {
+  "q": "A 75 W heater runs for -2 hours. How many kWh does it use?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative duration",
+  "session": "pi4b-183"
+ },
+ {
+  "q": "A 35 kg box is taken to the planet Ringworld. What does it weigh there, in newtons?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "fictional planet",
+  "session": "pi4b-184"
+ },
+ {
+  "q": "A tank holds -56 litres of water. How many millilitres is that?",
+  "expect": "decline",
+  "kind": "decline",
+  "group": "decline",
+  "valid": false,
+  "why": "negative volume",
+  "session": "pi4b-185"
+ }
+]

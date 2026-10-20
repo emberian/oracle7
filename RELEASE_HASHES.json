@@ -1,16 +1,20 @@
 {
  "format": "oracle7-release-hashes/1",
  "release": "oracle7",
- "head": "oracle_release_runtime_w548",
- "merkle_root": "c4c1edb342b54fe5faf7fdf775d27bf72d351ea0481d246c648a2e92b5269050",
+ "head": "oracle_release_runtime_w558",
+ "merkle_root": "350cd86e190f5e451faa78e7d12f6d923bcc7cdcf46a556c70c8ac8211f5e4d4",
  "parts": {
   "specialists/_cards": {
    "sha256": "619ae757757de886c389cf953924f090d0f71ecff02447171381287f9553a2cf",
    "files": 142
   },
   "specialists/_gate": {
-   "sha256": "958a79ab626cb7b826b8e3eb9e6decd0ca5491bc3120cf64a3b6f9f774b3ce2a",
-   "files": 20
+   "sha256": "aba52f21aeffe5ed8829cfc0294dbb3e88a09131d040599d312f011e2b4bf82e",
+   "files": 23
+  },
+  "specialists/_proved": {
+   "sha256": "4ef644bab853b5f3f7883862aad58c55ca0682ba97b12f95664887d795ee6df9",
+   "files": 23
   },
   "specialists/acoustics": {
    "sha256": "b1f834fac69da0bcb7fb3a0463559d622e1e842457d2f36aa2a821ce69dff84d",
@@ -144,6 +148,10 @@
    "sha256": "11ba66e2158cf17ea81814f8365350a73ee5fa531a2e61d094c93c1dc8e9b650",
    "files": 8
   },
+  "specialists/decay-r2": {
+   "sha256": "8ce57db1b27f7f4f03aa288a6936e0c15d29e6d22805422f2da076fab20345ba",
+   "files": 10
+  },
   "specialists/densities": {
    "sha256": "d694151f731a175b784d756e84996ae32151c50314e49e46e30a72a5c1a211dc",
    "files": 8
@@ -191,6 +199,10 @@
   "specialists/etiquette": {
    "sha256": "ae8ee5a60711c2a49ec2f0ebf9baf119e0f1511e14cf530b2c8b6cd0d8ea7837",
    "files": 10
+  },
+  "specialists/exoorbits": {
+   "sha256": "63b6596341c7d07280829f1311adb8724fa66b9d63633b0a8394fa0c3efe26ca",
+   "files": 8
   },
   "specialists/finance": {
    "sha256": "ab5cb2ac863d2a679816e4c68b54dc55cce783bbc52b83069938397166c888c6",
@@ -283,6 +295,10 @@
   "specialists/greenhouse-r2": {
    "sha256": "f49eeef1a0310637ebd9320e55897f2cbd987577a9c76d99c4b4112f62ca73bc",
    "files": 7
+  },
+  "specialists/habzone": {
+   "sha256": "8594d61f3df4c88fba4fedf42b9a2a92b2e5b674ec4b1fb8e7bf9173ff7f9493",
+   "files": 8
   },
   "specialists/hvac": {
    "sha256": "7b98d4af07c2ae6ac5f31db2b275c48c891db332150e323ea374bf668e16e464",
@@ -1164,6 +1180,10 @@
    "sha256": "ff5aa630476ab4c3523737c54952b94b2007c943fe7b90648107a8e162aee1bd",
    "files": 6
   },
+  "specialists/stars": {
+   "sha256": "8821d0ab890365a15043d4bce3afa028f98848623445080168281001322e46d9",
+   "files": 10
+  },
   "specialists/statistics": {
    "sha256": "5448df943eaa687ec381deca697e3907d1910ceaa770cc30a8c02fb72d8e0913",
    "files": 7
@@ -1179,6 +1199,10 @@
   "specialists/thermo": {
    "sha256": "b92ad90fb4bca6d3e8eee4a36c3bb3d3499ab1c2ef84061f4783029f966a6602",
    "files": 6
+  },
+  "specialists/transits": {
+   "sha256": "50f36df2bf3a8dafd419a8e2324fb95a89d0920deadbdf59e52ce0d98070001a",
+   "files": 8
   },
   "specialists/units": {
    "sha256": "20140ff7585313840468cdf3eca54355fab59d5c1313ae14ec37b21f8ae9fad4",
@@ -1233,12 +1257,12 @@
    "files": 9
   },
   "core/admitted": {
-   "sha256": "7771dbeabd010f8bc664ff367dc6b51015a8e3b20870fd1790f04f3a46098585",
-   "files": 341
+   "sha256": "5229e122a10bab42c0184826d29e0787debfb4b48a3c3100fe95ad0f0b4f03dd",
+   "files": 349
   },
   "workbench": {
-   "sha256": "c9c21bebfb4ecf34fa0b598eb411b2a20d735f1b0e6277381fbf018f4b38c75f",
-   "files": 150
+   "sha256": "d43f5a9d1607da526e3dd89c20ea2e51f98bfc950c496680d85f207592163e70",
+   "files": 151
   },
   "oracle7.py": {
    "sha256": "9d68865540b23122e0020c0b8ee52471a71a3dfa8e3572b23b961ea4b3bf920e",
@@ -1253,15 +1277,15 @@
  "anchor": {
   "chain": "solana-mainnet",
   "program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
-  "memo": "Oracle7 release w548 3.1, 2026-10-17. oracle7 merkle c4c1edb342b54fe5faf7fdf775d27bf72d351ea0481d246c648a2e92b5269050. oracle7-slim merkle 732358ed179adc00f0404dc7ecb1fe7e11484699559f6c772a1c578b002288da. Recipe: RELEASE_HASHES.json in each repository.",
-  "signature": "4kW4S5V4kHsFKGcxWBn37jPD73nGP17aF8eF9yPv8dEkwzTbWksvYaej2VkiUPMQ9PVdN92mmve4tAqgsr6RZ7s3",
-  "block_time_utc": "2026-10-18T02:51:28Z",
-  "slot": 458275075,
-  "explorer": "https://explorer.solana.com/tx/4kW4S5V4kHsFKGcxWBn37jPD73nGP17aF8eF9yPv8dEkwzTbWksvYaej2VkiUPMQ9PVdN92mmve4tAqgsr6RZ7s3"
+  "memo": "Oracle7 release 4.0 (w558), full and slim. oracle7 merkle 350cd86e190f5e451faa78e7d12f6d923bcc7cdcf46a556c70c8ac8211f5e4d4. oracle7-slim merkle d72ed426cffd99861bec539e0776127351f4d7955d20e73583da5b931a2b55a5. Release test PI4-B, run once per variant. Recipe: RELEASE_HASHES.json in each repository.",
+  "signature": "4vJ57qaJxvzZteEm3vL9sAsmsRmeeLg3X8ESk61zN29ZpGwqsCz3xcGMhoqWXy8TyqEQH9HT7Tn4c2FxoiGuvosH",
+  "block_time_utc": "2026-10-20T00:57:16Z",
+  "slot": 459039726,
+  "explorer": "https://explorer.solana.com/tx/4vJ57qaJxvzZteEm3vL9sAsmsRmeeLg3X8ESk61zN29ZpGwqsCz3xcGMhoqWXy8TyqEQH9HT7Tn4c2FxoiGuvosH"
  },
  "supersedes": {
-  "merkle_root": "0575c9b78f6dcc0a48ee57e6dc63d3e1a46afc13d2c9d9d4503db6c784564ed2",
-  "anchor_signature": "WNEdPhKJZYCh3ZKe7X8zhVehuyskEnKuDbde86W1XdKdBC9izVAJTzbrewtSUQ8keQvT1rZUBumCGnGxjDXyVgU",
-  "reason": "release 3.1 (17 October 2026): fold composition - specialist network v6 composes operations learned from the specialists' own exams (w549); the specialist answers after a check stops a route that could not know (w548); 3.1 correctness rules from the research record's re-examination and composition rounds (w547); the Workbench's worked example is the habitable-zone specialist; release gate: sealed test 22."
+  "merkle_root": "c4c1edb342b54fe5faf7fdf775d27bf72d351ea0481d246c648a2e92b5269050",
+  "anchor_signature": "4kW4S5V4kHsFKGcxWBn37jPD73nGP17aF8eF9yPv8dEkwzTbWksvYaej2VkiUPMQ9PVdN92mmve4tAqgsr6RZ7s3",
+  "reason": "release 4.0 (2026): the law, built from an invocation Ben wrote (w557): every answer's path spelled over the twenty-two paths of the three-tree runtime and counted before release; a hash-chained residue ledger of what did not form, typed by where on the Tree it stopped; an answer with nothing under it does not become conversation state; walks recalled, not re-walked; a pronoun the chain cannot resolve re-enters the previous cited answer, said aloud (w558). On the full 3.2 head (w556: owner-first needs givens; negative amounts withheld; arithmetic is not read from a sentence). Release test: PI4-B."
  }
 }

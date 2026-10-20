@@ -1,8 +1,8 @@
 {
  "format": "oracle7-release-hashes/1",
  "release": "oracle7-slim",
- "head": "oracle_release_runtime_w555",
- "merkle_root": "0a9bb1c0b4c4b85bf879b54405fb8107c5ecb3bce3663ee5da3a93b3d52696d8",
+ "head": "oracle_release_runtime_w558",
+ "merkle_root": "d72ed426cffd99861bec539e0776127351f4d7955d20e73583da5b931a2b55a5",
  "parts": {
   "specialists/_cards": {
    "sha256": "619ae757757de886c389cf953924f090d0f71ecff02447171381287f9553a2cf",
@@ -1257,8 +1257,8 @@
    "files": 9
   },
   "core/admitted": {
-   "sha256": "f19b47e5944b8daf9757a1a2c85877ef7b509f827d14ff2671cf264ec89110cc",
-   "files": 344
+   "sha256": "5229e122a10bab42c0184826d29e0787debfb4b48a3c3100fe95ad0f0b4f03dd",
+   "files": 349
   },
   "workbench": {
    "sha256": "d43f5a9d1607da526e3dd89c20ea2e51f98bfc950c496680d85f207592163e70",
@@ -1277,15 +1277,15 @@
  "anchor": {
   "chain": "solana-mainnet",
   "program": "MemoSq4gqABAXKb96qnH8TysNcWxMyWCqXgDLGmfcHr",
-  "memo": "Oracle7 release w555 3.2 (slim), 2026-10-18. oracle7-slim merkle 0a9bb1c0b4c4b85bf879b54405fb8107c5ecb3bce3663ee5da3a93b3d52696d8. The full release is held: it missed sealed test 23's false-yes bar. Recipe: RELEASE_HASHES.json in the repository.",
-  "signature": "3ZUmd7FTw4uNLWUrZa3HMB8UCGLMneiQbDP2kXc3Sf1TFKPkczZntpBbTgtzDnXxCWeA8YFtTG22T9ZH53w3TsW2",
-  "block_time_utc": "2026-10-18T08:26:08Z",
-  "slot": 458367687,
-  "explorer": "https://explorer.solana.com/tx/3ZUmd7FTw4uNLWUrZa3HMB8UCGLMneiQbDP2kXc3Sf1TFKPkczZntpBbTgtzDnXxCWeA8YFtTG22T9ZH53w3TsW2"
+  "memo": "Oracle7 release 4.0 (w558), full and slim. oracle7 merkle 350cd86e190f5e451faa78e7d12f6d923bcc7cdcf46a556c70c8ac8211f5e4d4. oracle7-slim merkle d72ed426cffd99861bec539e0776127351f4d7955d20e73583da5b931a2b55a5. Release test PI4-B, run once per variant. Recipe: RELEASE_HASHES.json in each repository.",
+  "signature": "4vJ57qaJxvzZteEm3vL9sAsmsRmeeLg3X8ESk61zN29ZpGwqsCz3xcGMhoqWXy8TyqEQH9HT7Tn4c2FxoiGuvosH",
+  "block_time_utc": "2026-10-20T00:57:16Z",
+  "slot": 459039726,
+  "explorer": "https://explorer.solana.com/tx/4vJ57qaJxvzZteEm3vL9sAsmsRmeeLg3X8ESk61zN29ZpGwqsCz3xcGMhoqWXy8TyqEQH9HT7Tn4c2FxoiGuvosH"
  },
  "supersedes": {
-  "merkle_root": "732358ed179adc00f0404dc7ecb1fe7e11484699559f6c772a1c578b002288da",
-  "anchor_signature": "4kW4S5V4kHsFKGcxWBn37jPD73nGP17aF8eF9yPv8dEkwzTbWksvYaej2VkiUPMQ9PVdN92mmve4tAqgsr6RZ7s3",
-  "reason": "release 3.2 (18 October 2026): the proved cross-check - veri7vn kernels (Isabelle/HOL, CC0, ember arlynx) stand in for 118 specialists; a reply its kernel agrees with is marked proved, one it contradicts is withheld (w551); four star specialists (#214 stars, #215 habzone, #216 exoorbits, #217 transits) asked when the head does not answer (w552); owner-first, kept only when every given number moves the answer (w554, narrowed by w555); decay-r2 gives an amount in the mass unit asked; read-back writing in the Workbench; release gate: sealed test 23."
+  "merkle_root": "0a9bb1c0b4c4b85bf879b54405fb8107c5ecb3bce3663ee5da3a93b3d52696d8",
+  "anchor_signature": "3ZUmd7FTw4uNLWUrZa3HMB8UCGLMneiQbDP2kXc3Sf1TFKPkczZntpBbTgtzDnXxCWeA8YFtTG22T9ZH53w3TsW2",
+  "reason": "release 4.0 (2026): the law, built from an invocation Ben wrote (w557): every answer's path spelled over the twenty-two paths of the three-tree runtime and counted before release; a hash-chained residue ledger of what did not form, typed by where on the Tree it stopped; an answer with nothing under it does not become conversation state; walks recalled, not re-walked; a pronoun the chain cannot resolve re-enters the previous cited answer, said aloud (w558). On the full 3.2 head (w556: owner-first needs givens; negative amounts withheld; arithmetic is not read from a sentence). Release test: PI4-B."
  }
 }
